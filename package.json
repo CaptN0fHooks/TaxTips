@@ -1,0 +1,17 @@
+{
+  "name": "taxtips-platform",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "eslint . --ext .ts,.js --max-warnings=0",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "8.18.0",
+    "eslint": "8.57.1",
+    "eslint-plugin-taxtips-guardrails": "file:tools/eslint-rules",
+    "typescript": "5.5.4",
+    "vitest": "^4.1.9"
+  }
+}
