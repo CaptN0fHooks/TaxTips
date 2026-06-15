@@ -1,0 +1,165 @@
+pack: us-federal/2023
+tax_year: 2023
+jurisdiction: us-federal
+authority: "IRC §1(j); Rev. Proc. 2022-38"
+
+# All currency values are integer USD (cents granularity not required for bracket thresholds).
+# Rates are decimal fractions (0.10 = 10%).
+# Each bracket ceiling is the top of the taxable income range at that rate.
+# The top bracket (37%) has no ceiling — it applies above the 35% ceiling.
+# MFS brackets are identical to Single brackets at all rates per Rev. Proc. 2022-38.
+# QSS brackets are identical to MFJ brackets at all rates.
+
+brackets:
+  single:
+    - rate: 0.10
+      income_floor: 0
+      income_ceiling: 11000
+      citation: "CTR/A.4/2023/rate-10-single-ceiling"
+    - rate: 0.12
+      income_floor: 11001
+      income_ceiling: 44725
+      citation: "CTR/A.4/2023/rate-12-single-ceiling"
+    - rate: 0.22
+      income_floor: 44726
+      income_ceiling: 95375
+      citation: "CTR/A.4/2023/rate-22-single-ceiling"
+    - rate: 0.24
+      income_floor: 95376
+      income_ceiling: 182100
+      citation: "CTR/A.4/2023/rate-24-single-ceiling"
+    - rate: 0.32
+      income_floor: 182101
+      income_ceiling: 231250
+      citation: "CTR/A.4/2023/rate-32-single-ceiling"
+    - rate: 0.35
+      income_floor: 231251
+      income_ceiling: 578125
+      citation: "CTR/A.4/2023/rate-35-single-ceiling"
+    - rate: 0.37
+      income_floor: 578126
+      income_ceiling: null
+      citation: "CTR/A.4/2023/rate-37-single"
+
+  mfs:
+    # MFS brackets are identical to Single per Rev. Proc. 2022-38
+    - rate: 0.10
+      income_floor: 0
+      income_ceiling: 11000
+      citation: "CTR/A.4/2023/mfs-equals-single"
+    - rate: 0.12
+      income_floor: 11001
+      income_ceiling: 44725
+      citation: "CTR/A.4/2023/mfs-equals-single"
+    - rate: 0.22
+      income_floor: 44726
+      income_ceiling: 95375
+      citation: "CTR/A.4/2023/mfs-equals-single"
+    - rate: 0.24
+      income_floor: 95376
+      income_ceiling: 182100
+      citation: "CTR/A.4/2023/mfs-equals-single"
+    - rate: 0.32
+      income_floor: 182101
+      income_ceiling: 231250
+      citation: "CTR/A.4/2023/mfs-equals-single"
+    - rate: 0.35
+      income_floor: 231251
+      income_ceiling: 578125
+      citation: "CTR/A.4/2023/mfs-equals-single"
+    - rate: 0.37
+      income_floor: 578126
+      income_ceiling: null
+      citation: "CTR/A.4/2023/mfs-equals-single"
+
+  mfj:
+    - rate: 0.10
+      income_floor: 0
+      income_ceiling: 22000
+      citation: "CTR/A.4/2023/rate-10-mfj-ceiling"
+    - rate: 0.12
+      income_floor: 22001
+      income_ceiling: 89450
+      citation: "CTR/A.4/2023/rate-12-mfj-ceiling"
+    - rate: 0.22
+      income_floor: 89451
+      income_ceiling: 190750
+      citation: "CTR/A.4/2023/rate-22-mfj-ceiling"
+    - rate: 0.24
+      income_floor: 190751
+      income_ceiling: 364200
+      citation: "CTR/A.4/2023/rate-24-mfj-ceiling"
+    - rate: 0.32
+      income_floor: 364201
+      income_ceiling: 462500
+      citation: "CTR/A.4/2023/rate-32-mfj-ceiling"
+    - rate: 0.35
+      income_floor: 462501
+      income_ceiling: 693750
+      citation: "CTR/A.4/2023/rate-35-mfj-ceiling"
+    - rate: 0.37
+      income_floor: 693751
+      income_ceiling: null
+      citation: "CTR/A.4/2023/rate-37-mfj"
+
+  qss:
+    # QSS brackets are identical to MFJ per IRC §1(a)
+    - rate: 0.10
+      income_floor: 0
+      income_ceiling: 22000
+      citation: "CTR/A.4/2023/rate-10-mfj-ceiling"
+    - rate: 0.12
+      income_floor: 22001
+      income_ceiling: 89450
+      citation: "CTR/A.4/2023/rate-12-mfj-ceiling"
+    - rate: 0.22
+      income_floor: 89451
+      income_ceiling: 190750
+      citation: "CTR/A.4/2023/rate-22-mfj-ceiling"
+    - rate: 0.24
+      income_floor: 190751
+      income_ceiling: 364200
+      citation: "CTR/A.4/2023/rate-24-mfj-ceiling"
+    - rate: 0.32
+      income_floor: 364201
+      income_ceiling: 462500
+      citation: "CTR/A.4/2023/rate-32-mfj-ceiling"
+    - rate: 0.35
+      income_floor: 462501
+      income_ceiling: 693750
+      citation: "CTR/A.4/2023/rate-35-mfj-ceiling"
+    - rate: 0.37
+      income_floor: 693751
+      income_ceiling: null
+      citation: "CTR/A.4/2023/rate-37-mfj"
+
+  hoh:
+    # HoH brackets per Rev. Proc. 2022-38 — between Single and MFJ
+    - rate: 0.10
+      income_floor: 0
+      income_ceiling: 15700
+      citation: "CTR/A.4/2023/rate-10-single-ceiling"
+    - rate: 0.12
+      income_floor: 15701
+      income_ceiling: 59850
+      citation: "CTR/A.4/2023/rate-12-single-ceiling"
+    - rate: 0.22
+      income_floor: 59851
+      income_ceiling: 95350
+      citation: "CTR/A.4/2023/rate-22-single-ceiling"
+    - rate: 0.24
+      income_floor: 95351
+      income_ceiling: 182150
+      citation: "CTR/A.4/2023/rate-24-single-ceiling"
+    - rate: 0.32
+      income_floor: 182151
+      income_ceiling: 231250
+      citation: "CTR/A.4/2023/rate-32-single-ceiling"
+    - rate: 0.35
+      income_floor: 231251
+      income_ceiling: 578100
+      citation: "CTR/A.4/2023/rate-35-single-ceiling"
+    - rate: 0.37
+      income_floor: 578101
+      income_ceiling: null
+      citation: "CTR/A.4/2023/rate-37-single"
