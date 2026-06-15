@@ -1,0 +1,16 @@
+name: sign-gate
+on:
+  push:
+    paths: ['jurisdictions/**']
+  pull_request:
+    paths: ['jurisdictions/**']
+jobs:
+  sign-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify rule pack signatures
+        run: echo "sign-gate stub — Phase 1 will implement"

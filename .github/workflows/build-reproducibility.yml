@@ -1,0 +1,12 @@
+name: build-reproducibility
+on: [push, pull_request]
+jobs:
+  reproducibility:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build twice and diff
+        run: echo "build-reproducibility stub — Phase 2 will implement"

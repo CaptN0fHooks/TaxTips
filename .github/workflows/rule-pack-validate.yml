@@ -1,0 +1,16 @@
+name: rule-pack-validate
+on:
+  push:
+    paths: ['jurisdictions/**', 'schemas/**']
+  pull_request:
+    paths: ['jurisdictions/**', 'schemas/**']
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Run rule-pack-validate
+        run: echo "rule-pack-validate stub — Phase 1 will implement"

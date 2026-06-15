@@ -1,0 +1,16 @@
+name: rule-pack-test
+on:
+  push:
+    paths: ['jurisdictions/**', 'tools/rule-pack-test/**']
+  pull_request:
+    paths: ['jurisdictions/**', 'tools/rule-pack-test/**']
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Run rule-pack-test
+        run: echo "rule-pack-test stub — Phase 1 will implement"

@@ -1,0 +1,16 @@
+name: citation-drift
+on:
+  push:
+    paths: ['jurisdictions/**', 'schemas/citation-registry.yaml']
+  pull_request:
+    paths: ['jurisdictions/**', 'schemas/citation-registry.yaml']
+jobs:
+  citation-drift:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check citation drift
+        run: echo "citation-drift stub — Phase 1 will implement"
