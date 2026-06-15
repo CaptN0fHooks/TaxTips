@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://taxtips.local/schemas/v1.0.0/manifest.schema.json",
+  "title": "Rule Pack Manifest",
+  "description": "SPEC.md §6.1 — manifest.yaml schema",
+  "type": "object",
+  "required": ["pack_id","version","spec_version","tax_year","jurisdiction","effective_date","controlling_report_version","files"],
+  "additionalProperties": false,
+  "properties": {
+    "pack_id": {"type":"string","pattern":"^(us-federal|california)/20(2[3-6])$"},
+    "version": {"type":"string","pattern":"^\\d+\\.\\d+\\.\\d+$","description":"Pure SemVer per §16.2"},
+    "spec_version": {"type":"string","const":"1.0.0"},
+    "tax_year": {"type":"integer","enum":[2023,2024,2025,2026]},
+    "jurisdiction": {"type":"string","enum":["us-federal","california"]},
+    "effective_date": {"type":"string","format":"date"},
+    "controlling_report_version": {"type":"string"},
+    "files": {
+      "type":"array",
+      "minItems":1,
+      "items": {
+        "type":"object",
+        "required":["path","sha256"],
+        "properties": {
+          "path": {"type":"string"},
+          "sha256": {"type":"string","pattern":"^[a-f0-9]{64}$"}
+        }
+      }
+    },
+    "sign_off_log": {
+      "type":"array",
+      "items": {
+        "type":"object",
+        "required":["role","name","date","signature_file"],
+        "properties": {
+          "role": {"type":"string","enum":["federal_specialist","california_specialist","tax_director"]},
+          "name": {"type":"string"},
+          "date": {"type":"string","format":"date"},
+          "signature_file": {"type":"string"}
+        }
+      }
+    },
+    "ambiguity_count": {"type":"integer","minimum":0},
+    "citation_count": {"type":"integer","minimum":0}
+  }
+}

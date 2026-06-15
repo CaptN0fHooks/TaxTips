@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://taxtips.local/schemas/v1.0.0/brackets.schema.json",
+  "title": "Tax Brackets",
+  "description": "SPEC.md §6.2 — brackets.yaml schema",
+  "type": "object",
+  "required": ["pack","ordinary_income"],
+  "properties": {
+    "pack": {"type":"string"},
+    "ordinary_income": {
+      "type":"object",
+      "required":["single","mfj","mfs","hoh","qss"],
+      "properties": {
+        "single": {"$ref":"#/$defs/bracketArray"},
+        "mfj":    {"$ref":"#/$defs/bracketArray"},
+        "mfs":    {"$ref":"#/$defs/bracketArray"},
+        "hoh":    {"$ref":"#/$defs/bracketArray"},
+        "qss":    {"$ref":"#/$defs/bracketArray"}
+      }
+    },
+    "capital_gains": {
+      "type":"object",
+      "properties": {
+        "single": {"$ref":"#/$defs/bracketArray"},
+        "mfj":    {"$ref":"#/$defs/bracketArray"},
+        "mfs":    {"$ref":"#/$defs/bracketArray"},
+        "hoh":    {"$ref":"#/$defs/bracketArray"},
+        "qss":    {"$ref":"#/$defs/bracketArray"}
+      }
+    },
+    "amt": {
+      "type":"object",
+      "properties": {
+        "exemption": {"type":"object"},
+        "phase_out": {"type":"object"},
+        "rate": {"type":"number"}
+      }
+    }
+  },
+  "$defs": {
+    "bracketArray": {
+      "type":"array",
+      "minItems":1,
+      "items": {
+        "type":"object",
+        "required":["up_to","rate","citation"],
+        "properties": {
+          "up_to": {"oneOf":[{"type":"number","minimum":0},{"type":"null"}]},
+          "rate": {"type":"number","minimum":0,"maximum":1},
+          "citation": {"type":"string","pattern":"^CTR/"}
+        }
+      }
+    }
+  }
+}
