@@ -1,0 +1,48 @@
+pack: us-federal/2023
+tax_year: 2023
+jurisdiction: us-federal
+authority: "IRC §63(c)(f); Rev. Proc. 2022-38"
+
+# All amounts are integer USD.
+# Additional deductions (age 65+, blind) are PER CONDITION PER PERSON —
+# a single filer who is both 65+ AND blind gets $1,850 x 2 = $3,700 additional.
+# senior_bonus_obbba is OMITTED — does not exist pre-2025 (OBBBA P.L. 119-21).
+
+base:
+  single:
+    amount: 13850
+    citation: "CTR/A.2/2023/single"
+  mfs:
+    amount: 13850
+    citation: "CTR/A.2/2023/mfs"
+  hoh:
+    amount: 20800
+    citation: "CTR/A.2/2023/hoh"
+  mfj:
+    amount: 27700
+    citation: "CTR/A.2/2023/mfj"
+  qss:
+    amount: 27700
+    citation: "CTR/A.2/2023/qss"
+
+additional:
+  age_65_plus:
+    single_or_hoh:
+      amount: 1850
+      citation: "CTR/A.2/2023/add-65-single"
+    mfj_mfs_qss:
+      amount: 1500
+      citation: "CTR/A.2/2023/add-65-mfj"
+  blind:
+    single_or_hoh:
+      amount: 1850
+      citation: "CTR/A.2/2023/add-blind-single"
+    mfj_mfs_qss:
+      amount: 1500
+      citation: "CTR/A.2/2023/add-blind-mfj"
+
+dependent_floor:
+  amount: 1300
+  earned_income_plus: 450
+  capped_at: "regular_standard_deduction"
+  citation: "CTR/A.2/2023/dependent"
