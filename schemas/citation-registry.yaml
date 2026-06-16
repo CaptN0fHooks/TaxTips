@@ -2499,3 +2499,419 @@ citations:
     ctr_anchor: ptc-ambiguity
     primary_authority: "IRC §36B; CTR Part F (2026 mid-year changes tracker)"
     description: "2026 PTC ESCALATE/AMBIGUITY — ARPA/IRA cliff repeal expired; pre-expansion §36B parameters apply absent legislation; AMB-2026-FED-PTC flagged"
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART C.2 — CALIFORNIA STANDARD DEDUCTION (all years)
+  # Authority: R&TC §17073.5; FTB indexed amounts
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/C.2/2023/single"
+    ctr_part: C
+    ctr_section: 2
+    ctr_year: 2023
+    ctr_anchor: single
+    primary_authority: "R&TC §17073.5; FTB 2023 Form 540 booklet"
+    description: "2023 CA standard deduction — Single / MFS ($5,363)"
+  - citation: "CTR/C.2/2023/mfj"
+    ctr_part: C
+    ctr_section: 2
+    ctr_year: 2023
+    ctr_anchor: mfj
+    primary_authority: "R&TC §17073.5; FTB 2023 Form 540 booklet"
+    description: "2023 CA standard deduction — MFJ / HoH / QSS ($10,726)"
+  - citation: "CTR/C.2/2024/single"
+    ctr_part: C
+    ctr_section: 2
+    ctr_year: 2024
+    ctr_anchor: single
+    primary_authority: "R&TC §17073.5; FTB 2024 Form 540 booklet"
+    description: "2024 CA standard deduction — Single / MFS ($5,540)"
+  - citation: "CTR/C.2/2024/mfj"
+    ctr_part: C
+    ctr_section: 2
+    ctr_year: 2024
+    ctr_anchor: mfj
+    primary_authority: "R&TC §17073.5; FTB 2024 Form 540 booklet"
+    description: "2024 CA standard deduction — MFJ / HoH / QSS ($11,080)"
+  - citation: "CTR/C.2/2025/single"
+    ctr_part: C
+    ctr_section: 2
+    ctr_year: 2025
+    ctr_anchor: single
+    primary_authority: "R&TC §17073.5; FTB 2025 indexed amounts"
+    description: "2025 CA standard deduction — Single / MFS ($5,706)"
+  - citation: "CTR/C.2/2025/mfj"
+    ctr_part: C
+    ctr_section: 2
+    ctr_year: 2025
+    ctr_anchor: mfj
+    primary_authority: "R&TC §17073.5; FTB 2025 indexed amounts"
+    description: "2025 CA standard deduction — MFJ / HoH / QSS ($11,412)"
+  - citation: "CTR/C.2/2026/single"
+    ctr_part: C
+    ctr_section: 2
+    ctr_year: 2026
+    ctr_anchor: single
+    primary_authority: "R&TC §17073.5; FTB 2026 indexed amounts [PROJECTED]"
+    description: "2026 CA standard deduction — Single / MFS (~$5,870 PROJECTED)"
+  - citation: "CTR/C.2/2026/mfj"
+    ctr_part: C
+    ctr_section: 2
+    ctr_year: 2026
+    ctr_anchor: mfj
+    primary_authority: "R&TC §17073.5; FTB 2026 indexed amounts [PROJECTED]"
+    description: "2026 CA standard deduction — MFJ / HoH / QSS (~$11,740 PROJECTED)"
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART C.2 — CALIFORNIA PERSONAL EXEMPTION CREDITS
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/C.2/2025/exemption-single"
+    ctr_part: C
+    ctr_section: 2
+    ctr_year: 2025
+    ctr_anchor: exemption-single
+    primary_authority: "R&TC §17054; FTB 2025 indexed amounts"
+    description: "2025 CA personal exemption credit — Single $153 / MFJ $307 / dependent $475"
+  - citation: "CTR/C.2/2026/exemption-single"
+    ctr_part: C
+    ctr_section: 2
+    ctr_year: 2026
+    ctr_anchor: exemption-single
+    primary_authority: "R&TC §17054; FTB 2026 indexed amounts [PROJECTED]"
+    description: "2026 CA personal exemption credit — PROJECTED: Single ~$157 / MFJ ~$315 / dependent ~$489"
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART C.3 — CALIFORNIA ITEMIZED DEDUCTION NONCONFORMITY
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/C.3/all/salt-no-cap"
+    ctr_part: C
+    ctr_section: 3
+    ctr_year: 2023
+    ctr_anchor: salt-no-cap
+    primary_authority: "R&TC §17201; Schedule CA (540) instructions"
+    description: "CA does NOT conform to federal SALT cap — state income tax not deductible on CA return; property tax fully deductible on Schedule CA (540)"
+  - citation: "CTR/C.3/all/mortgage-pre-tcja"
+    ctr_part: C
+    ctr_section: 3
+    ctr_year: 2023
+    ctr_anchor: mortgage-pre-tcja
+    primary_authority: "R&TC §17202"
+    description: "CA mortgage interest — pre-TCJA ceiling: $1,000,000 acquisition / $100,000 home-equity (any purpose); CA does NOT conform to federal $750K cap"
+  - citation: "CTR/C.3/all/misc-2pct-conforms"
+    ctr_part: C
+    ctr_section: 3
+    ctr_year: 2023
+    ctr_anchor: misc-2pct-conforms
+    primary_authority: "R&TC §17072; FTB Schedule CA (540) Part II; FTB Pub. 1001"
+    description: "CA DOES NOT conform to TCJA §67(g) suspension — unreimbursed employee expenses (UEBE) remain deductible on Schedule CA (540) Part II Line 19, subject to 2% CA-AGI floor"
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART C.4 — CALIFORNIA TAX BRACKETS
+  # Authority: R&TC §17041; FTB indexed amounts
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/C.4/2025/brackets-single"
+    ctr_part: C
+    ctr_section: 4
+    ctr_year: 2025
+    ctr_anchor: brackets-single
+    primary_authority: "R&TC §17041; FTB 2025 indexed amounts"
+    description: "2025 CA brackets Single/MFS: 1%→$11,079; 2%→$26,264; 4%→$41,449; 6%→$57,544; 8%→$72,728; 9.3%→$371,476; 10.3%→$445,772; 11.3%→$742,953; 12.3%+ BHST on $1M+"
+  - citation: "CTR/C.4/2025/brackets-mfj"
+    ctr_part: C
+    ctr_section: 4
+    ctr_year: 2025
+    ctr_anchor: brackets-mfj
+    primary_authority: "R&TC §17041; FTB 2025 indexed amounts"
+    description: "2025 CA brackets MFJ/QSS: double the single thresholds at each rate"
+  - citation: "CTR/C.4/2026/brackets-projected"
+    ctr_part: C
+    ctr_section: 4
+    ctr_year: 2026
+    ctr_anchor: brackets-projected
+    primary_authority: "R&TC §17041; FTB 2026 indexed amounts [PROJECTED ~2.9% increase]"
+    description: "2026 CA brackets — PROJECTED ~2.9% CPI increase from 2025; FTB to publish final late summer 2026"
+  - citation: "CTR/C.4/all/bhst"
+    ctr_part: C
+    ctr_section: 4
+    ctr_year: 2025
+    ctr_anchor: bhst
+    primary_authority: "R&TC §17043; Prop. 1 (March 2024)"
+    description: "Behavioral Health Services Tax (formerly Mental Health Services Tax) — 1% surcharge on CA taxable income above $1,000,000; renamed by Prop. 1 effective TY2025"
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART C.6 — CALIFORNIA EITC (CalEITC)
+  # Authority: R&TC §17052; FTB Form 3514
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/C.6/2023/caleitc"
+    ctr_part: C
+    ctr_section: 6
+    ctr_year: 2023
+    ctr_anchor: caleitc
+    primary_authority: "R&TC §17052; FTB 2023 Form 3514"
+    description: "2023 CalEITC — earned income cap $30,950; max credit $3,529; investment income cap $4,525; ITIN eligible (AB 1876)"
+  - citation: "CTR/C.6/2024/caleitc"
+    ctr_part: C
+    ctr_section: 6
+    ctr_year: 2024
+    ctr_anchor: caleitc
+    primary_authority: "R&TC §17052; FTB 2024 Form 3514"
+    description: "2024 CalEITC — earned income cap $31,950; max credit $3,644; investment income cap $4,674"
+  - citation: "CTR/C.6/2025/caleitc"
+    ctr_part: C
+    ctr_section: 6
+    ctr_year: 2025
+    ctr_anchor: caleitc
+    primary_authority: "R&TC §17052; FTB 2025 Form 3514"
+    description: "2025 CalEITC — earned income cap $32,901; max credit $3,756; investment income cap $4,814"
+  - citation: "CTR/C.6/2026/caleitc"
+    ctr_part: C
+    ctr_section: 6
+    ctr_year: 2026
+    ctr_anchor: caleitc
+    primary_authority: "R&TC §17052; FTB 2026 [PROJECTED]"
+    description: "2026 CalEITC — PROJECTED: earned income cap ~$33,857; max credit ~$3,866; investment income cap ~$4,955"
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART C.7 — YOUNG CHILD TAX CREDIT (YCTC)
+  # Authority: R&TC §17052.1; FTB Form 3514
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/C.7/2023/yctc"
+    ctr_part: C
+    ctr_section: 7
+    ctr_year: 2023
+    ctr_anchor: yctc
+    primary_authority: "R&TC §17052.1; FTB 2023 Form 3514"
+    description: "2023 YCTC — max $1,117; qualifying child under age 6; phase-out starts at earned income $25,775"
+  - citation: "CTR/C.7/2024/yctc"
+    ctr_part: C
+    ctr_section: 7
+    ctr_year: 2024
+    ctr_anchor: yctc
+    primary_authority: "R&TC §17052.1; FTB 2024 Form 3514"
+    description: "2024 YCTC — max $1,154; phase-out starts at earned income $26,626"
+  - citation: "CTR/C.7/2025/yctc"
+    ctr_part: C
+    ctr_section: 7
+    ctr_year: 2025
+    ctr_anchor: yctc
+    primary_authority: "R&TC §17052.1; FTB 2025 Form 3514"
+    description: "2025 YCTC — max $1,189; phase-out starts at earned income $27,425; fully phased out at $32,901"
+  - citation: "CTR/C.7/2026/yctc"
+    ctr_part: C
+    ctr_section: 7
+    ctr_year: 2026
+    ctr_anchor: yctc
+    primary_authority: "R&TC §17052.1; FTB 2026 [PROJECTED]"
+    description: "2026 YCTC — PROJECTED: max ~$1,224"
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART C.8 — FOSTER YOUTH TAX CREDIT (FYTC)
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/C.8/2025/fytc"
+    ctr_part: C
+    ctr_section: 8
+    ctr_year: 2025
+    ctr_anchor: fytc
+    primary_authority: "R&TC §17052.2; FTB 2025 Form 3514 Part IX"
+    description: "2025 FYTC — max $1,189 per qualifying taxpayer (same as YCTC); ages 18-25; CA foster care at age 13+"
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART C.9 — RENTER'S CREDIT
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/C.9/2023/renters-credit"
+    ctr_part: C
+    ctr_section: 9
+    ctr_year: 2023
+    ctr_anchor: renters-credit
+    primary_authority: "R&TC §17053.5; FTB 2023 Form 540"
+    description: "2023 CA Renter's Credit — nonrefundable; $60 single / $120 MFJ; AGI threshold ~$49,220 single / ~$98,440 MFJ"
+  - citation: "CTR/C.9/2025/renters-credit"
+    ctr_part: C
+    ctr_section: 9
+    ctr_year: 2025
+    ctr_anchor: renters-credit
+    primary_authority: "R&TC §17053.5; FTB 2025 Form 540"
+    description: "2025 CA Renter's Credit — nonrefundable; $60 single / $120 MFJ; income threshold indexed annually"
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART C.12 — CALIFORNIA SDI
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/C.12/2023/sdi"
+    ctr_part: C
+    ctr_section: 12
+    ctr_year: 2023
+    ctr_anchor: sdi
+    primary_authority: "CA UI Code §984; EDD"
+    description: "2023 CA SDI — rate 0.9%; wage base $153,164; max withholding ~$1,378.48"
+  - citation: "CTR/C.12/2024/sdi"
+    ctr_part: C
+    ctr_section: 12
+    ctr_year: 2024
+    ctr_anchor: sdi
+    primary_authority: "CA UI Code §984; SB 951; EDD"
+    description: "2024 CA SDI — rate 1.1%; NO WAGE CAP (SB 951 effective Jan 1 2024); SDI applies to all wages/tips"
+  - citation: "CTR/C.12/2025/sdi"
+    ctr_part: C
+    ctr_section: 12
+    ctr_year: 2025
+    ctr_anchor: sdi
+    primary_authority: "CA UI Code §984; SB 951; EDD"
+    description: "2025 CA SDI — rate 1.1%; no wage cap; applies to all wages and tips"
+  - citation: "CTR/C.12/2026/sdi"
+    ctr_part: C
+    ctr_section: 12
+    ctr_year: 2026
+    ctr_anchor: sdi
+    primary_authority: "CA UI Code §984; EDD"
+    description: "2026 CA SDI — rate 1.1%; no wage cap; applies to all wages and tips [PROJECTED — rate subject to EDD adjustment]"
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART C.13 — CALIFORNIA FORMS INVENTORY
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/C.13/2023/form-540"
+    ctr_part: C
+    ctr_section: 13
+    ctr_year: 2023
+    ctr_anchor: form-540
+    primary_authority: "FTB Form 540 (2023)"
+    description: "2023 CA Form 540 — California Resident Income Tax Return"
+  - citation: "CTR/C.13/2023/schedule-ca"
+    ctr_part: C
+    ctr_section: 13
+    ctr_year: 2023
+    ctr_anchor: schedule-ca
+    primary_authority: "FTB Schedule CA (540) (2023)"
+    description: "2023 Schedule CA (540) — California Adjustments — Residents"
+  - citation: "CTR/C.13/2023/form-3514"
+    ctr_part: C
+    ctr_section: 13
+    ctr_year: 2023
+    ctr_anchor: form-3514
+    primary_authority: "FTB Form 3514 (2023)"
+    description: "2023 FTB Form 3514 — California Earned Income Tax Credit (CalEITC / YCTC / FYTC)"
+  - citation: "CTR/C.13/2023/mailing-address-ca-resident"
+    ctr_part: C
+    ctr_section: 13
+    ctr_year: 2023
+    ctr_anchor: mailing-address-ca-resident
+    primary_authority: "FTB 2023 Form 540 instructions, Where to File"
+    description: "2023 CA Form 540 mailing addresses for California residents"
+  - citation: "CTR/C.13/2025/form-540"
+    ctr_part: C
+    ctr_section: 13
+    ctr_year: 2025
+    ctr_anchor: form-540
+    primary_authority: "FTB Form 540 (2025)"
+    description: "2025 CA Form 540 — California Resident Income Tax Return"
+  - citation: "CTR/C.13/2025/schedule-ca"
+    ctr_part: C
+    ctr_section: 13
+    ctr_year: 2025
+    ctr_anchor: schedule-ca
+    primary_authority: "FTB Schedule CA (540) (2025)"
+    description: "2025 Schedule CA (540) — Part I Section C Line 24z is the §224 addback line (CA non-conformity to OBBBA)"
+  - citation: "CTR/C.13/2025/mailing-address-ca-resident"
+    ctr_part: C
+    ctr_section: 13
+    ctr_year: 2025
+    ctr_anchor: mailing-address-ca-resident
+    primary_authority: "FTB 2025 Form 540 instructions, Where to Mail"
+    description: "2025 CA Form 540 mailing addresses"
+  - citation: "CTR/C.13/2026/schedule-ca"
+    ctr_part: C
+    ctr_section: 13
+    ctr_year: 2026
+    ctr_anchor: schedule-ca
+    primary_authority: "FTB Schedule CA (540) (2026) [PROJECTED]"
+    description: "2026 Schedule CA (540) — Line 24z §224 addback continues; AMB-2026-CA-CONFORMITY applies"
+  - citation: "CTR/C.13/2026/mailing-address-ca-resident"
+    ctr_part: C
+    ctr_section: 13
+    ctr_year: 2026
+    ctr_anchor: mailing-address-ca-resident
+    primary_authority: "FTB 2026 Form 540 instructions [PROJECTED]"
+    description: "2026 CA Form 540 mailing addresses [PROJECTED]"
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART D — CA TIPPED-WAGE PARAMETERS (all years)
+  # Authority: R&TC §§17072, 17072(a); FTB Pub. 1001; Schedule CA (540)
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/D.1/all/uebe-uniforms"
+    ctr_part: D
+    ctr_section: 1
+    ctr_year: 2023
+    ctr_anchor: uebe-uniforms
+    primary_authority: "R&TC §17072; Pevsner v. Commissioner; FTB Schedule CA (540) Part II Line 19"
+    description: "CA UEBE — uniforms deductible: employer-required, not adaptable to general street wear; Schedule CA (540) Part II Line 19"
+  - citation: "CTR/D.1/all/uebe-shoes"
+    ctr_part: D
+    ctr_section: 1
+    ctr_year: 2023
+    ctr_anchor: uebe-shoes
+    primary_authority: "R&TC §17072; Pevsner v. Commissioner"
+    description: "CA UEBE — non-slip work shoes: employer-required; not adaptable to general wear; deductible on Schedule CA"
+  - citation: "CTR/D.1/all/uebe-tools"
+    ctr_part: D
+    ctr_section: 1
+    ctr_year: 2023
+    ctr_anchor: uebe-tools
+    primary_authority: "R&TC §17072; FTB Pub. 1001"
+    description: "CA UEBE — required tools (chef knives, bartender tools, hairstylist shears): deductible if employer-required and not reimbursed"
+  - citation: "CTR/D.1/all/uebe-union-dues"
+    ctr_part: D
+    ctr_section: 1
+    ctr_year: 2023
+    ctr_anchor: uebe-union-dues
+    primary_authority: "R&TC §17072; FTB Schedule CA (540)"
+    description: "CA UEBE — union dues and professional dues: deductible on Schedule CA (540) Part II Line 19"
+  - citation: "CTR/D.1/all/uebe-licensing"
+    ctr_part: D
+    ctr_section: 1
+    ctr_year: 2023
+    ctr_anchor: uebe-licensing
+    primary_authority: "R&TC §17072; FTB Pub. 1001"
+    description: "CA UEBE — required licensing fees: food handler card, RBS certification, cosmetology license; deductible if required for employment"
+  - citation: "CTR/D.1/all/uebe-mileage-2023"
+    ctr_part: D
+    ctr_section: 1
+    ctr_year: 2023
+    ctr_anchor: uebe-mileage-2023
+    primary_authority: "R&TC §17072; IRS Notice 2023-03 (CA adopts federal rate)"
+    description: "CA UEBE — mileage between job sites 2023: 65.5 cents per mile (federal rate adopted by CA)"
+  - citation: "CTR/D.1/all/uebe-mileage-2024"
+    ctr_part: D
+    ctr_section: 1
+    ctr_year: 2024
+    ctr_anchor: uebe-mileage-2024
+    primary_authority: "R&TC §17072; IRS Notice 2024-08"
+    description: "CA UEBE — mileage between job sites 2024: 67 cents per mile"
+  - citation: "CTR/D.1/all/uebe-mileage-2025"
+    ctr_part: D
+    ctr_section: 1
+    ctr_year: 2025
+    ctr_anchor: uebe-mileage-2025
+    primary_authority: "R&TC §17072; IRS Notice 2025-5"
+    description: "CA UEBE — mileage between job sites 2025: 70 cents per mile"
+  - citation: "CTR/D.1/all/uebe-mileage-2026"
+    ctr_part: D
+    ctr_section: 1
+    ctr_year: 2026
+    ctr_anchor: uebe-mileage-2026
+    primary_authority: "R&TC §17072; IRS Notice 2026-10"
+    description: "CA UEBE — mileage between job sites 2026: 72.5 cents per mile"
+  - citation: "CTR/D.1/all/uebe-2pct-floor"
+    ctr_part: D
+    ctr_section: 1
+    ctr_year: 2023
+    ctr_anchor: uebe-2pct-floor
+    primary_authority: "R&TC §17072; IRC §67(a) as incorporated by R&TC"
+    description: "CA UEBE 2% floor — total UEBE deductible only to extent exceeding 2% of CA AGI; Schedule CA (540) Part II Line 24 computation"
+  - citation: "CTR/D.3/2025/section-224-addback"
+    ctr_part: D
+    ctr_section: 3
+    ctr_year: 2025
+    ctr_anchor: section-224-addback
+    primary_authority: "R&TC §17024.5; SB 711 (Oct. 1, 2025); FTB Schedule CA (540) Part I Section C Line 24z"
+    description: "CA §224 addback DEFAULT-ON — CA does not conform to OBBBA §224; federal §224 deduction must be added back on Schedule CA (540) Part I Section C Line 24z for TY2025 and 2026"
+  - citation: "CTR/D.3/2025/sb711-conformity"
+    ctr_part: D
+    ctr_section: 3
+    ctr_year: 2025
+    ctr_anchor: sb711-conformity
+    primary_authority: "SB 711 (CA, enacted Oct. 1, 2025); R&TC §17024.5"
+    description: "SB 711 advanced CA IRC conformity date to January 1, 2025 — explicitly does NOT pick up OBBBA (enacted July 4, 2025); CA non-conformity to §224 is the result"
+  - citation: "CTR/D.3/2026/section-224-addback"
+    ctr_part: D
+    ctr_section: 3
+    ctr_year: 2026
+    ctr_anchor: section-224-addback
+    primary_authority: "R&TC §17024.5; FTB Schedule CA (540) Part I Section C Line 24z"
+    description: "CA §224 addback DEFAULT-ON for 2026 — same authority as 2025; AMB-2026-CA-CONFORMITY applies if CA enacts OBBBA conformity"
