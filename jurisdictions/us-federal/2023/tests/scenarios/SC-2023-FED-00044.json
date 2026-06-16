@@ -1,0 +1,84 @@
+{
+  "scenario_id": "SC-2023-FED-00044",
+  "title": "MFJ both age 68 - W-2 65000 - standard plus two additional age 65 amounts",
+  "tax_year": 2023,
+  "jurisdictions": [
+    "us-federal"
+  ],
+  "inputs": {
+    "filing_status": "mfj",
+    "dependents": [],
+    "w2s": [
+      {
+        "w2_id": "w2-1",
+        "employer": "Non-tipped W-2 (spouse A)",
+        "box1": 65000,
+        "box2": 14300,
+        "box3": 65000,
+        "box4": 4030,
+        "box5": 65000,
+        "box6": 942.5,
+        "box7": 0,
+        "box8": 0,
+        "box12_codes": [],
+        "box14b_ttoc": null,
+        "box16": 0,
+        "box17": 0,
+        "box19": 0,
+        "tipped_toggle": false,
+        "ttoc_code": null
+      }
+    ],
+    "tipped_overlay": {},
+    "interview": {
+      "marketplace_coverage": false,
+      "advance_ptc_received": 0,
+      "hsa_contribution": 0,
+      "student_loan_interest": 0,
+      "charitable_cash": 0,
+      "retirement_contribution": 0,
+      "aotc_student_expenses": 0,
+      "ca_renter": false,
+      "ca_foster_youth": false,
+      "investment_income": 0,
+      "taxpayer_age": 68,
+      "spouse_age": 68,
+      "dependent_status": false,
+      "allocated_tip_records_amount": null,
+      "itemized_deductions": {
+        "medical": 0,
+        "salt": 0,
+        "mortgage_interest": 0,
+        "charitable_cash": 0,
+        "misc": 0
+      }
+    }
+  },
+  "expected_outputs": {
+    "us-1040-2023/line-11": "SPECIALIST_MUST_AUTHOR",
+    "us-1040-2023/line-15": "SPECIALIST_MUST_AUTHOR",
+    "us-1040-2023/line-24": "SPECIALIST_MUST_AUTHOR",
+    "us-1040-2023/line-35a": "SPECIALIST_MUST_AUTHOR",
+    "summary.federal_refund_or_owe": "SPECIALIST_MUST_AUTHOR"
+  },
+  "expected_optimization_choices": {
+    "filing_status": "SPECIALIST_MUST_AUTHOR",
+    "federal_deduction_choice": "SPECIALIST_MUST_AUTHOR"
+  },
+  "expected_ambiguity_dispositions": {},
+  "controlling_report_anchors": [
+    "CTR/A.2/2023/mfj",
+    "CTR/A.4/2023/rate-22-mfj-ceiling",
+    "CTR/A.2/2023/add-65-mfj"
+  ],
+  "source_authority_citations": [
+    "IRC §1",
+    "Rev. Proc. 2022-38",
+    "IRC §63"
+  ],
+  "commercial_differential": null,
+  "tax_director_signoff": {
+    "name": "",
+    "date": ""
+  }
+}

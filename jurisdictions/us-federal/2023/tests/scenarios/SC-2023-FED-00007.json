@@ -1,0 +1,103 @@
+{
+  "scenario_id": "SC-2023-FED-00007",
+  "title": "MFJ - W-2 85000 - standard clearly optimal with minimal deductions",
+  "tax_year": 2023,
+  "jurisdictions": [
+    "us-federal"
+  ],
+  "inputs": {
+    "filing_status": "mfj",
+    "dependents": [],
+    "w2s": [
+      {
+        "w2_id": "w2-1",
+        "employer": "Non-tipped W-2 (spouse A)",
+        "box1": 50000,
+        "box2": 11000,
+        "box3": 50000,
+        "box4": 3100,
+        "box5": 50000,
+        "box6": 725,
+        "box7": 0,
+        "box8": 0,
+        "box12_codes": [],
+        "box14b_ttoc": null,
+        "box16": 0,
+        "box17": 0,
+        "box19": 0,
+        "tipped_toggle": false,
+        "ttoc_code": null
+      },
+      {
+        "w2_id": "w2-2",
+        "employer": "Non-tipped W-2 (spouse B)",
+        "box1": 35000,
+        "box2": 7700,
+        "box3": 35000,
+        "box4": 2170,
+        "box5": 35000,
+        "box6": 507.5,
+        "box7": 0,
+        "box8": 0,
+        "box12_codes": [],
+        "box14b_ttoc": null,
+        "box16": 0,
+        "box17": 0,
+        "box19": 0,
+        "tipped_toggle": false,
+        "ttoc_code": null
+      }
+    ],
+    "tipped_overlay": {},
+    "interview": {
+      "marketplace_coverage": false,
+      "advance_ptc_received": 0,
+      "hsa_contribution": 0,
+      "student_loan_interest": 0,
+      "charitable_cash": 200,
+      "retirement_contribution": 0,
+      "aotc_student_expenses": 0,
+      "ca_renter": false,
+      "ca_foster_youth": false,
+      "investment_income": 0,
+      "taxpayer_age": 35,
+      "spouse_age": 34,
+      "dependent_status": false,
+      "allocated_tip_records_amount": null,
+      "itemized_deductions": {
+        "medical": 0,
+        "salt": 1200,
+        "mortgage_interest": 0,
+        "charitable_cash": 200,
+        "misc": 0
+      }
+    }
+  },
+  "expected_outputs": {
+    "us-1040-2023/line-11": "SPECIALIST_MUST_AUTHOR",
+    "us-1040-2023/line-15": "SPECIALIST_MUST_AUTHOR",
+    "us-1040-2023/line-24": "SPECIALIST_MUST_AUTHOR",
+    "us-1040-2023/line-35a": "SPECIALIST_MUST_AUTHOR",
+    "summary.federal_refund_or_owe": "SPECIALIST_MUST_AUTHOR"
+  },
+  "expected_optimization_choices": {
+    "filing_status": "SPECIALIST_MUST_AUTHOR",
+    "federal_deduction_choice": "SPECIALIST_MUST_AUTHOR"
+  },
+  "expected_ambiguity_dispositions": {},
+  "controlling_report_anchors": [
+    "CTR/A.2/2023/mfj",
+    "CTR/A.4/2023/rate-22-mfj-ceiling",
+    "CTR/A.3/2023/salt"
+  ],
+  "source_authority_citations": [
+    "IRC §1",
+    "Rev. Proc. 2022-38",
+    "IRC §63"
+  ],
+  "commercial_differential": null,
+  "tax_director_signoff": {
+    "name": "",
+    "date": ""
+  }
+}
