@@ -1,0 +1,151 @@
+{
+  "scenario_id": "SC-2025-FED-00040",
+  "title": "MFJ - one tipped W-2 plus one non-tipped W-2 - section 224 from tipped W-2 only",
+  "tax_year": 2025,
+  "jurisdictions": [
+    "us-federal"
+  ],
+  "inputs": {
+    "filing_status": "mfj",
+    "dependents": [
+      {
+        "relationship": "child",
+        "age": 9,
+        "ssn_present": true
+      },
+      {
+        "relationship": "child",
+        "age": 11,
+        "ssn_present": true
+      }
+    ],
+    "w2s": [
+      {
+        "w2_id": "w2-1",
+        "employer": "Restaurant A (tipped)",
+        "box1": 45000,
+        "box2": 5200,
+        "box3": 45000,
+        "box4": 2790,
+        "box5": 45000,
+        "box6": 653,
+        "box7": 15000,
+        "box8": 0,
+        "box12_codes": [],
+        "box14b_ttoc": null,
+        "box16": 0,
+        "box17": 0,
+        "box19": 0,
+        "tipped_toggle": true,
+        "ttoc_code": 102
+      },
+      {
+        "w2_id": "w2-2",
+        "employer": "Non-tipped W-2 (retail)",
+        "box1": 42000,
+        "box2": 4800,
+        "box3": 42000,
+        "box4": 2604,
+        "box5": 42000,
+        "box6": 609,
+        "box7": 0,
+        "box8": 0,
+        "box12_codes": [],
+        "box14b_ttoc": null,
+        "box16": 0,
+        "box17": 0,
+        "box19": 0,
+        "tipped_toggle": false,
+        "ttoc_code": null
+      }
+    ],
+    "tipped_overlay": {
+      "w2-1": {
+        "occupation": 102,
+        "unreported_cash_tips": 0,
+        "tip_pool": true,
+        "owns_pct_of_employer": 0,
+        "non_slip_shoes_cost": 0,
+        "uniforms_cost": 0,
+        "required_tools_cost": 0,
+        "union_dues": 0,
+        "licensing_fees": 0,
+        "mileage_between_jobs": 0
+      }
+    },
+    "interview": {
+      "marketplace_coverage": false,
+      "advance_ptc_received": 0,
+      "hsa_contribution": 0,
+      "student_loan_interest": 0,
+      "charitable_cash": 0,
+      "retirement_contribution": 0,
+      "aotc_student_expenses": 0,
+      "ca_renter": false,
+      "ca_foster_youth": false,
+      "investment_income": 0,
+      "taxpayer_age": 35,
+      "spouse_age": 35,
+      "dependent_status": false,
+      "allocated_tip_records_amount": null,
+      "itemized_deductions": {
+        "medical": 0,
+        "salt": 0,
+        "mortgage_interest": 0,
+        "charitable_cash": 0,
+        "misc": 0
+      }
+    }
+  },
+  "expected_outputs": {
+    "us-1040-2025/line-11": 72000,
+    "us-1040-2025/line-12": 31500,
+    "us-1040-2025/line-15": 40500,
+    "us-1040-2025/line-16": 4383,
+    "us-1040-2025/line-24": 0,
+    "us-1040-2025/line-25a": 10000,
+    "us-1040-2025/line-34": 13400,
+    "summary.federal_refund_or_owe": 13400,
+    "us-1040-2025/line-35a": 13400,
+    "us-1040-2025/line-37": 0,
+    "us-1040-2025/line-13b": 15000,
+    "us-1040-s1a-2025/line-38": 15000,
+    "us-1040-s1a-2025/part-2/line-7": 15000,
+    "us-1040-s1a-2025/part-2/line-13": 15000,
+    "us-1040-2025/line-28": 7783
+  },
+  "expected_optimization_choices": {
+    "filing_status": "mfj",
+    "federal_deduction_choice": "standard"
+  },
+  "expected_ambiguity_dispositions": {
+    "AMB-2025-FED-SSTB": "not_applicable - employer is not an SSTB; no SSTB ambiguity"
+  },
+  "controlling_report_anchors": [
+    "CTR/A.2/2025/mfj",
+    "CTR/A.4/2025/rate-22-mfj-ceiling",
+    "CTR/A.13/2025/form-1040-schedule-1a",
+    "CTR/B.1/2025/section-224-cap",
+    "CTR/B.1/2025/section-224-phaseout-single",
+    "CTR/B.1/2025/section-224-phaseout-mfj",
+    "CTR/B.4/2025/schedule-1a-line-13",
+    "CTR/B.1/2025/section-224-eitc-unchanged",
+    "CTR/A.9/2025/eitc-table",
+    "CTR/A.9/2025/eitc-earned-income",
+    "CTR/A.9/2025/ctc-amount",
+    "CTR/A.9/2025/ctc-actc-refundable-cap",
+    "CTR/A.9/2025/ctc-phase-out"
+  ],
+  "source_authority_citations": [
+    "IRC section 1",
+    "IRC section 63",
+    "Rev. Proc. 2024-40",
+    "IRC section 224",
+    "IRC section 24"
+  ],
+  "commercial_differential": null,
+  "tax_director_signoff": {
+    "name": "Tax Director",
+    "date": "2026-06-16"
+  }
+}

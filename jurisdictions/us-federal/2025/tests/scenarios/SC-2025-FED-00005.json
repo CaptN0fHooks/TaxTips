@@ -1,0 +1,102 @@
+{
+  "scenario_id": "SC-2025-FED-00005",
+  "title": "QSS - 68000 W-2 - one qualifying child - CTC 2200",
+  "tax_year": 2025,
+  "jurisdictions": [
+    "us-federal"
+  ],
+  "inputs": {
+    "filing_status": "qss",
+    "dependents": [
+      {
+        "relationship": "child",
+        "age": 8,
+        "ssn_present": true
+      }
+    ],
+    "w2s": [
+      {
+        "w2_id": "w2-1",
+        "employer": "Non-tipped W-2 (school)",
+        "box1": 68000,
+        "box2": 8000,
+        "box3": 68000,
+        "box4": 4216,
+        "box5": 68000,
+        "box6": 986,
+        "box7": 0,
+        "box8": 0,
+        "box12_codes": [],
+        "box14b_ttoc": null,
+        "box16": 0,
+        "box17": 0,
+        "box19": 0,
+        "tipped_toggle": false,
+        "ttoc_code": null
+      }
+    ],
+    "tipped_overlay": {},
+    "interview": {
+      "marketplace_coverage": false,
+      "advance_ptc_received": 0,
+      "hsa_contribution": 0,
+      "student_loan_interest": 0,
+      "charitable_cash": 0,
+      "retirement_contribution": 0,
+      "aotc_student_expenses": 0,
+      "ca_renter": false,
+      "ca_foster_youth": false,
+      "investment_income": 0,
+      "taxpayer_age": 35,
+      "spouse_age": null,
+      "dependent_status": false,
+      "allocated_tip_records_amount": null,
+      "itemized_deductions": {
+        "medical": 0,
+        "salt": 0,
+        "mortgage_interest": 0,
+        "charitable_cash": 0,
+        "misc": 0
+      }
+    }
+  },
+  "expected_outputs": {
+    "us-1040-2025/line-11": 68000,
+    "us-1040-2025/line-12": 31500,
+    "us-1040-2025/line-15": 36500,
+    "us-1040-2025/line-16": 3903,
+    "us-1040-2025/line-24": 1703,
+    "us-1040-2025/line-25a": 8000,
+    "us-1040-2025/line-34": 8000,
+    "summary.federal_refund_or_owe": 6297,
+    "us-1040-2025/line-35a": 6297,
+    "us-1040-2025/line-37": 0,
+    "us-1040-2025/line-28": 2200
+  },
+  "expected_optimization_choices": {
+    "filing_status": "qss",
+    "federal_deduction_choice": "standard"
+  },
+  "expected_ambiguity_dispositions": {
+    "AMB-2025-FED-SSTB": "not_applicable - employer is not an SSTB; no SSTB ambiguity"
+  },
+  "controlling_report_anchors": [
+    "CTR/A.2/2025/qss",
+    "CTR/A.4/2025/rate-22-mfj-ceiling",
+    "CTR/A.9/2025/eitc-table",
+    "CTR/A.9/2025/eitc-earned-income",
+    "CTR/A.9/2025/ctc-amount",
+    "CTR/A.9/2025/ctc-actc-refundable-cap",
+    "CTR/A.9/2025/ctc-phase-out"
+  ],
+  "source_authority_citations": [
+    "IRC section 1",
+    "IRC section 63",
+    "Rev. Proc. 2024-40"
+  ],
+  "commercial_differential": null,
+  "tax_director_signoff": {
+    "name": "Tax Director",
+    "date": "2026-06-16"
+  }
+}

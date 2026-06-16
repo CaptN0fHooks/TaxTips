@@ -1,0 +1,105 @@
+{
+  "scenario_id": "SC-2025-FED-00003",
+  "title": "MFS - 35000 W-2 - standard deduction - EITC and section 224 barred",
+  "tax_year": 2025,
+  "jurisdictions": [
+    "us-federal"
+  ],
+  "inputs": {
+    "filing_status": "mfs",
+    "dependents": [],
+    "w2s": [
+      {
+        "w2_id": "w2-1",
+        "employer": "Non-tipped W-2 (retail)",
+        "box1": 35000,
+        "box2": 3800,
+        "box3": 35000,
+        "box4": 2170,
+        "box5": 35000,
+        "box6": 508,
+        "box7": 0,
+        "box8": 0,
+        "box12_codes": [],
+        "box14b_ttoc": null,
+        "box16": 0,
+        "box17": 0,
+        "box19": 0,
+        "tipped_toggle": false,
+        "ttoc_code": null
+      }
+    ],
+    "tipped_overlay": {},
+    "interview": {
+      "marketplace_coverage": false,
+      "advance_ptc_received": 0,
+      "hsa_contribution": 0,
+      "student_loan_interest": 0,
+      "charitable_cash": 0,
+      "retirement_contribution": 0,
+      "aotc_student_expenses": 0,
+      "ca_renter": false,
+      "ca_foster_youth": false,
+      "investment_income": 0,
+      "taxpayer_age": 35,
+      "spouse_age": null,
+      "dependent_status": false,
+      "allocated_tip_records_amount": null,
+      "itemized_deductions": {
+        "medical": 0,
+        "salt": 0,
+        "mortgage_interest": 0,
+        "charitable_cash": 0,
+        "misc": 0
+      }
+    }
+  },
+  "expected_outputs": {
+    "us-1040-2025/line-11": 35000,
+    "us-1040-2025/line-12": 15750,
+    "us-1040-2025/line-15": 19250,
+    "us-1040-2025/line-16": 2072,
+    "us-1040-2025/line-24": 2072,
+    "us-1040-2025/line-25a": 3800,
+    "us-1040-2025/line-34": 3800,
+    "summary.federal_refund_or_owe": 1728,
+    "us-1040-2025/line-35a": 1728,
+    "us-1040-2025/line-37": 0,
+    "us-1040-2025/line-13b": 0,
+    "us-1040-s1a-2025/line-38": 0,
+    "us-1040-s1a-2025/part-2/line-7": 0,
+    "us-1040-s1a-2025/part-2/line-13": 0,
+    "us-1040-2025/line-27": 0
+  },
+  "expected_optimization_choices": {
+    "filing_status": "mfs",
+    "federal_deduction_choice": "standard"
+  },
+  "expected_ambiguity_dispositions": {
+    "AMB-2025-FED-SSTB": "not_applicable - employer is not an SSTB; no SSTB ambiguity"
+  },
+  "controlling_report_anchors": [
+    "CTR/A.2/2025/mfs",
+    "CTR/A.4/2025/mfs-equals-single",
+    "CTR/A.13/2025/form-1040-schedule-1a",
+    "CTR/B.1/2025/section-224-cap",
+    "CTR/B.1/2025/section-224-phaseout-single",
+    "CTR/B.1/2025/section-224-phaseout-mfj",
+    "CTR/B.4/2025/schedule-1a-line-13",
+    "CTR/B.1/2025/section-224-eitc-unchanged",
+    "CTR/B.1/2025/section-224-mfs-bar",
+    "CTR/A.9/2025/eitc-mfs-bar",
+    "CTR/A.9/2025/eitc-table",
+    "CTR/A.9/2025/eitc-earned-income"
+  ],
+  "source_authority_citations": [
+    "IRC section 1",
+    "IRC section 63",
+    "Rev. Proc. 2024-40"
+  ],
+  "commercial_differential": null,
+  "tax_director_signoff": {
+    "name": "Tax Director",
+    "date": "2026-06-16"
+  }
+}
