@@ -1,0 +1,60 @@
+pack: california/2026
+tax_year: 2026
+jurisdiction: california
+projected: true
+
+ambiguities:
+  - ambiguity_id: AMB-2026-CA-INDEXED-AMOUNTS
+    applicable: true
+    description: >
+      California 2026 indexed amounts (standard deduction, CalEITC, YCTC, FYTC,
+      exemption credits, Renter's Credit thresholds, bracket thresholds) are projected
+      based on ~2.9% CPI increase. FTB typically publishes final 2026 indexed amounts
+      in late summer 2026. All 2026 CA amounts must be treated as estimated until
+      FTB issues final indexed-amount notice.
+    interpretations:
+      most_defensible:
+        description: "Use projected amounts with PROVISIONAL labels; update when FTB issues final 2026 indexed amounts"
+        recommended_default: true
+        forbidden: false
+      conservative:
+        description: "Use 2025 amounts as floor; apply no inflation increase until FTB confirms"
+        recommended_default: false
+        forbidden: false
+      aggressive:
+        description: "Use projected amounts without PROVISIONAL labels as if final"
+        recommended_default: false
+        forbidden: true
+    reevaluation_trigger: "FTB issues final 2026 indexed amounts notice (expected late summer 2026)"
+    tax_director_signoff:
+      name: "Tax Director"
+      date: "2026-06-15"
+      confirmed: true
+
+  - ambiguity_id: AMB-2026-CA-CONFORMITY
+    applicable: true
+    description: >
+      Whether California will enact OBBBA conformity legislation for 2026.
+      As of May 2, 2026, no California OBBBA conformity bill has been enacted.
+      SB 711 conformity date is January 1, 2025. OBBBA (enacted July 4, 2025)
+      is NOT adopted by California. The §224 addback remains required DEFAULT-ON.
+      If California enacts conformity legislation, the addback would be eliminated
+      retroactively for affected years. Monitor FTB.ca.gov and CA legislature.
+    interpretations:
+      most_defensible:
+        description: "Apply §224 addback DEFAULT-ON on Schedule CA Part I Section C Line 24z; no CA conformity assumed"
+        recommended_default: true
+        forbidden: false
+      conservative:
+        description: "Same as most_defensible"
+        recommended_default: false
+        forbidden: false
+      aggressive:
+        description: "Assume CA will conform to OBBBA and omit §224 addback"
+        recommended_default: false
+        forbidden: true
+    reevaluation_trigger: "California enacts OBBBA conformity legislation; FTB issues guidance on §224 treatment"
+    tax_director_signoff:
+      name: "Tax Director"
+      date: "2026-06-15"
+      confirmed: true

@@ -1,0 +1,25 @@
+pack: california/2024
+verification_date: "2026-06-15"
+verification_source: "https://www.ftb.ca.gov/file/ways-to-file/mail/index.html"
+
+destinations:
+  - destination_id: "ca-resident-with-payment"
+    condition: "California resident enclosing check or money order"
+    citation: "CTR/C.13/2023/mailing-address-ca-resident"
+    address:
+      recipient: "Franchise Tax Board"
+      street: "PO Box 942867"
+      city: "Sacramento"
+      state: "CA"
+      zip: "94267-0001"
+
+  - destination_id: "ca-resident-without-payment"
+    condition: "California resident with refund or no balance due"
+    citation: "CTR/C.13/2023/mailing-address-ca-resident"
+    address:
+      recipient: "Franchise Tax Board"
+      street: "PO Box 942840"
+      city: "Sacramento"
+      state: "CA"
+      zip: "94240-0001"
+

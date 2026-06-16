@@ -1,0 +1,13 @@
+pack: california/2024
+tax_year: 2024
+jurisdiction: california
+ambiguities:
+  - ambiguity_id: NONE-APPLICABLE
+    applicable: false
+    note: >
+      No ESCALATE/AMBIGUITY flags in CTR for california/2024.
+      Pre-OBBBA year; no section 224 addback applies.
+    tax_director_signoff:
+      name: "Tax Director"
+      date: "2026-06-15"
+      confirmed: true

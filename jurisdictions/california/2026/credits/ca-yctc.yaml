@@ -1,0 +1,14 @@
+pack: california/2026
+tax_year: 2026
+jurisdiction: california
+credit_type: ca-yctc
+authority: "R&TC §17052.1; FTB Form 3514"
+
+yctc:
+  max_credit: 1224
+  qualifying_child_age_limit: 6
+  phase_out_start: 28250
+  phase_out_complete: 33857
+  requires_caleitc_eligibility: true
+  citation: "CTR/C.7/2026/yctc"
+

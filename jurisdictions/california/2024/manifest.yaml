@@ -1,0 +1,33 @@
+pack_id: california/2024
+tax_year: 2024
+jurisdiction: california
+version: 1.0.0
+spec_version: "1.0.0"
+effective_date: "2024-01-01"
+controlling_report_version: "2026-05-02"
+citation_count: 54
+ambiguity_count: 0
+sign_off_log: []
+files:
+  - path: brackets.yaml
+    sha256: ae9889c26e7ac2c300570d6d35b94f6b85092de3bf4a87bbe2b7f5f8b5a6841a
+  - path: standard-deduction.yaml
+    sha256: a79ebb5b6dfe05674a7da606e9a17555dc0fbad31d89a345cb281006f076c9ba
+  - path: itemized.yaml
+    sha256: 74bf2483564c3bbc134844a08a901840c2fe52612255a73e40aef7da56b0724a
+  - path: tipped-wages.yaml
+    sha256: 601d1d04f3fcbe31c0ea3ecb5fb40a56413a2794ad29add1ea28baef31e2a26d
+  - path: forms.yaml
+    sha256: d03a9d7f1888aef61c6dfd2b194644d7a4b04d0c27d6b4ad517c190060eeade5
+  - path: mailing-addresses.yaml
+    sha256: c71aec56c512af675ffe4602ad70274d38ccf0be8544aa92eedabd6902aa3ddf
+  - path: ambiguities.yaml
+    sha256: 6b791a2610197c2d298abd68b16e96afc86d02ccb679d1979e76b192740b352d
+  - path: CHANGELOG.md
+    sha256: 085769b79457868c69dac467b7bc9044ff33c3d7b69481e2a69f3396f4d7fa02
+  - path: credits/ca-eitc.yaml
+    sha256: dbf59818efe02641a561adedf7d040e2d95c0e230c8c2b078969de45a731a6d0
+  - path: credits/ca-yctc.yaml
+    sha256: 52b36919b8242aeb6728ce81f5e1a564cb1bdf5558fec5cbe7e302c9a85774c5
+  - path: credits/ca-renters.yaml
+    sha256: eb18448c4c184c17488e891027fdeff854e287ed273d2bce4c8859d87360688e

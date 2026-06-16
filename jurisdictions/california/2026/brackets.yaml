@@ -1,0 +1,66 @@
+pack: california/2026
+tax_year: 2026
+jurisdiction: california
+authority: "R&TC §17041; FTB 2024 Form 540 booklet"
+
+# CA 9-bracket system; thresholds indexed annually by CA CPI.
+# MFJ/QSS: double the Single/MFS thresholds at each rate.
+# BHST (1% surcharge above $1M) was Mental Health Services Tax in 2023.
+
+brackets:
+  single:
+    - rate: 0.01
+      income_floor: 0
+      income_ceiling: 10412
+      citation: "CTR/C.4/2025/brackets-single"
+    - rate: 0.02
+      income_floor: 10413
+      income_ceiling: 24684
+      citation: "CTR/C.4/2025/brackets-single"
+    - rate: 0.04
+      income_floor: 24685
+      income_ceiling: 38959
+      citation: "CTR/C.4/2025/brackets-single"
+    - rate: 0.06
+      income_floor: 38960
+      income_ceiling: 54081
+      citation: "CTR/C.4/2025/brackets-single"
+    - rate: 0.08
+      income_floor: 54082
+      income_ceiling: 68350
+      citation: "CTR/C.4/2025/brackets-single"
+    - rate: 0.093
+      income_floor: 68351
+      income_ceiling: 349137
+      citation: "CTR/C.4/2025/brackets-single"
+    - rate: 0.103
+      income_floor: 349138
+      income_ceiling: 418961
+      citation: "CTR/C.4/2025/brackets-single"
+    - rate: 0.113
+      income_floor: 418962
+      income_ceiling: 698274
+      citation: "CTR/C.4/2025/brackets-single"
+    - rate: 0.123
+      income_floor: 698275
+      income_ceiling: null
+      citation: "CTR/C.4/2025/brackets-single"
+  mfs:
+    note: "MFS same as Single in CA"
+    same_as: single
+  mfj:
+    note: "MFJ/QSS double the Single thresholds"
+    multiplier: 2
+    citation: "CTR/C.4/2025/brackets-mfj"
+  qss:
+    note: "QSS same as MFJ"
+    same_as: mfj
+  hoh:
+    note: "HoH thresholds separately indexed; slightly above Single"
+    same_as: single
+  bhst:
+    rate: 0.01
+    threshold: 1000000
+    citation: "CTR/C.4/2025/bhst"
+    name: "Mental Health Services Tax (2023)"
+

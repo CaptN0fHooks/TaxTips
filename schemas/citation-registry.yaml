@@ -2579,21 +2579,21 @@ citations:
   # ─────────────────────────────────────────────────────────────────────────
   # CTR PART C.3 — CALIFORNIA ITEMIZED DEDUCTION NONCONFORMITY
   # ─────────────────────────────────────────────────────────────────────────
-  - citation: "CTR/C.3/all/salt-no-cap"
+  - citation: "CTR/C.3/2023/salt-no-cap"
     ctr_part: C
     ctr_section: 3
     ctr_year: 2023
     ctr_anchor: salt-no-cap
     primary_authority: "R&TC §17201; Schedule CA (540) instructions"
     description: "CA does NOT conform to federal SALT cap — state income tax not deductible on CA return; property tax fully deductible on Schedule CA (540)"
-  - citation: "CTR/C.3/all/mortgage-pre-tcja"
+  - citation: "CTR/C.3/2023/mortgage-pre-tcja"
     ctr_part: C
     ctr_section: 3
     ctr_year: 2023
     ctr_anchor: mortgage-pre-tcja
     primary_authority: "R&TC §17202"
     description: "CA mortgage interest — pre-TCJA ceiling: $1,000,000 acquisition / $100,000 home-equity (any purpose); CA does NOT conform to federal $750K cap"
-  - citation: "CTR/C.3/all/misc-2pct-conforms"
+  - citation: "CTR/C.3/2023/misc-2pct-conforms"
     ctr_part: C
     ctr_section: 3
     ctr_year: 2023
@@ -2625,7 +2625,7 @@ citations:
     ctr_anchor: brackets-projected
     primary_authority: "R&TC §17041; FTB 2026 indexed amounts [PROJECTED ~2.9% increase]"
     description: "2026 CA brackets — PROJECTED ~2.9% CPI increase from 2025; FTB to publish final late summer 2026"
-  - citation: "CTR/C.4/all/bhst"
+  - citation: "CTR/C.4/2025/bhst"
     ctr_part: C
     ctr_section: 4
     ctr_year: 2025
@@ -2824,70 +2824,70 @@ citations:
   # CTR PART D — CA TIPPED-WAGE PARAMETERS (all years)
   # Authority: R&TC §§17072, 17072(a); FTB Pub. 1001; Schedule CA (540)
   # ─────────────────────────────────────────────────────────────────────────
-  - citation: "CTR/D.1/all/uebe-uniforms"
+  - citation: "CTR/D.1/2023/uebe-uniforms"
     ctr_part: D
     ctr_section: 1
     ctr_year: 2023
     ctr_anchor: uebe-uniforms
     primary_authority: "R&TC §17072; Pevsner v. Commissioner; FTB Schedule CA (540) Part II Line 19"
     description: "CA UEBE — uniforms deductible: employer-required, not adaptable to general street wear; Schedule CA (540) Part II Line 19"
-  - citation: "CTR/D.1/all/uebe-shoes"
+  - citation: "CTR/D.1/2023/uebe-shoes"
     ctr_part: D
     ctr_section: 1
     ctr_year: 2023
     ctr_anchor: uebe-shoes
     primary_authority: "R&TC §17072; Pevsner v. Commissioner"
     description: "CA UEBE — non-slip work shoes: employer-required; not adaptable to general wear; deductible on Schedule CA"
-  - citation: "CTR/D.1/all/uebe-tools"
+  - citation: "CTR/D.1/2023/uebe-tools"
     ctr_part: D
     ctr_section: 1
     ctr_year: 2023
     ctr_anchor: uebe-tools
     primary_authority: "R&TC §17072; FTB Pub. 1001"
     description: "CA UEBE — required tools (chef knives, bartender tools, hairstylist shears): deductible if employer-required and not reimbursed"
-  - citation: "CTR/D.1/all/uebe-union-dues"
+  - citation: "CTR/D.1/2023/uebe-union-dues"
     ctr_part: D
     ctr_section: 1
     ctr_year: 2023
     ctr_anchor: uebe-union-dues
     primary_authority: "R&TC §17072; FTB Schedule CA (540)"
     description: "CA UEBE — union dues and professional dues: deductible on Schedule CA (540) Part II Line 19"
-  - citation: "CTR/D.1/all/uebe-licensing"
+  - citation: "CTR/D.1/2023/uebe-licensing"
     ctr_part: D
     ctr_section: 1
     ctr_year: 2023
     ctr_anchor: uebe-licensing
     primary_authority: "R&TC §17072; FTB Pub. 1001"
     description: "CA UEBE — required licensing fees: food handler card, RBS certification, cosmetology license; deductible if required for employment"
-  - citation: "CTR/D.1/all/uebe-mileage-2023"
+  - citation: "CTR/D.1/2023/uebe-mileage-2023"
     ctr_part: D
     ctr_section: 1
     ctr_year: 2023
     ctr_anchor: uebe-mileage-2023
     primary_authority: "R&TC §17072; IRS Notice 2023-03 (CA adopts federal rate)"
     description: "CA UEBE — mileage between job sites 2023: 65.5 cents per mile (federal rate adopted by CA)"
-  - citation: "CTR/D.1/all/uebe-mileage-2024"
+  - citation: "CTR/D.1/2024/uebe-mileage-2024"
     ctr_part: D
     ctr_section: 1
     ctr_year: 2024
     ctr_anchor: uebe-mileage-2024
     primary_authority: "R&TC §17072; IRS Notice 2024-08"
     description: "CA UEBE — mileage between job sites 2024: 67 cents per mile"
-  - citation: "CTR/D.1/all/uebe-mileage-2025"
+  - citation: "CTR/D.1/2025/uebe-mileage-2025"
     ctr_part: D
     ctr_section: 1
     ctr_year: 2025
     ctr_anchor: uebe-mileage-2025
     primary_authority: "R&TC §17072; IRS Notice 2025-5"
     description: "CA UEBE — mileage between job sites 2025: 70 cents per mile"
-  - citation: "CTR/D.1/all/uebe-mileage-2026"
+  - citation: "CTR/D.1/2026/uebe-mileage-2026"
     ctr_part: D
     ctr_section: 1
     ctr_year: 2026
     ctr_anchor: uebe-mileage-2026
     primary_authority: "R&TC §17072; IRS Notice 2026-10"
     description: "CA UEBE — mileage between job sites 2026: 72.5 cents per mile"
-  - citation: "CTR/D.1/all/uebe-2pct-floor"
+  - citation: "CTR/D.1/2023/uebe-2pct-floor"
     ctr_part: D
     ctr_section: 1
     ctr_year: 2023

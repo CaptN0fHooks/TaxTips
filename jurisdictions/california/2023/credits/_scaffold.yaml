@@ -1,0 +1,4 @@
+pack: california/2023
+credit_id: scaffold
+refundable: false
+# Scaffold only. Human Specialists replace with one YAML file per credit.

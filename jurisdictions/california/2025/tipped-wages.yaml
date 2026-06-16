@@ -1,0 +1,47 @@
+pack: california/2025
+tax_year: 2025
+jurisdiction: california
+authority: "R&TC §§17072,17024.5; SB 711 (Oct 1 2025); FTB Schedule CA (540) Part I Section C Line 24z"
+
+ca_uebe:
+  available: true
+  schedule_line: "Schedule CA (540) Part II Line 19"
+  floor_pct: 0.02
+  floor_citation: "CTR/D.1/2023/uebe-2pct-floor"
+  prompts:
+    - type: uniforms
+      citation: "CTR/D.1/2023/uebe-uniforms"
+    - type: non_slip_shoes
+      citation: "CTR/D.1/2023/uebe-shoes"
+    - type: required_tools
+      citation: "CTR/D.1/2023/uebe-tools"
+    - type: union_dues
+      citation: "CTR/D.1/2023/uebe-union-dues"
+    - type: required_licensing
+      citation: "CTR/D.1/2023/uebe-licensing"
+    - type: mileage_between_job_sites
+      rate_per_mile: 0.70
+      citation: "CTR/D.1/2025/uebe-mileage-2025"
+
+ca_section_224_addback:
+  default_on: true
+  schedule_ca_line: "Part I Section C Line 24z"
+  citation: "CTR/D.3/2025/section-224-addback"
+  conformity_citation: "CTR/D.3/2025/sb711-conformity"
+  ambiguity_id: "AMB-2025-CA-224-LINE-PLACEMENT"
+  note: "CA does NOT conform to OBBBA §224. Federal §224 deduction must be added back. Default ON per SB 711 non-conformity."
+
+sdi:
+  rate: 0.011
+  wage_base: null
+  wage_cap_eliminated: true
+  citation: "CTR/C.12/2025/sdi"
+
+section_224:
+  available_federal: true
+  ca_conforms: false
+  ca_addback_required: true
+  ca_addback_default_on: true
+  ca_addback_line: "Schedule CA (540) Part I Section C Line 24z"
+  ca_addback_citation: "CTR/D.3/2025/section-224-addback"
+  note: "Federal §224 deduction applies but CA does NOT conform per SB 711. Addback DEFAULT-ON."
