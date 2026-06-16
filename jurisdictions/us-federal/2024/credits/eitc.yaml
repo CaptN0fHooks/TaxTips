@@ -1,0 +1,50 @@
+pack: us-federal/2024
+tax_year: 2024
+jurisdiction: us-federal
+credit_type: eitc
+authority: "IRC §32; Rev. Proc. 2023-34"
+
+earned_income_definition:
+  includes_wages: true
+  includes_tips: true
+  includes_self_employment_net: true
+  qualified_tips_reduce_eitc_base: false
+  citation: "CTR/A.9/2024/eitc-earned-income"
+
+mfs_bar: true
+mfs_bar_citation: "CTR/A.9/2024/eitc-mfs-bar"
+
+investment_income_cap: 11600
+investment_income_cap_citation: "CTR/A.9/2024/eitc-investment-cap"
+
+table:
+  citation: "CTR/A.9/2024/eitc-table"
+  children_0:
+    max_credit: 632
+    max_earned_income: 8260
+    phase_out_start_single: 10330
+    phase_out_start_mfj: 17250
+    phase_out_complete_single: 18591
+    phase_out_complete_mfj: 25511
+  children_1:
+    max_credit: 4213
+    max_earned_income: 12380
+    phase_out_start_single: 22720
+    phase_out_start_mfj: 29640
+    phase_out_complete_single: 49084
+    phase_out_complete_mfj: 56004
+  children_2:
+    max_credit: 6960
+    max_earned_income: 17400
+    phase_out_start_single: 22720
+    phase_out_start_mfj: 29640
+    phase_out_complete_single: 55768
+    phase_out_complete_mfj: 62688
+  children_3_plus:
+    max_credit: 7830
+    max_earned_income: 17400
+    phase_out_start_single: 22720
+    phase_out_start_mfj: 29640
+    phase_out_complete_single: 59899
+    phase_out_complete_mfj: 66819
+

@@ -1,0 +1,44 @@
+pack: us-federal/2024
+tax_year: 2024
+jurisdiction: us-federal
+authority: "IRC §63(c)(f); Rev. Proc. 2023-34"
+
+base:
+  single:
+    amount: 14600
+    citation: "CTR/A.2/2024/single"
+  mfs:
+    amount: 14600
+    citation: "CTR/A.2/2024/mfs"
+  hoh:
+    amount: 21900
+    citation: "CTR/A.2/2024/hoh"
+  mfj:
+    amount: 29200
+    citation: "CTR/A.2/2024/mfj"
+  qss:
+    amount: 29200
+    citation: "CTR/A.2/2024/qss"
+
+additional:
+  age_65_plus:
+    single_or_hoh:
+      amount: 1950
+      citation: "CTR/A.2/2024/add-65-single"
+    mfj_mfs_qss:
+      amount: 1550
+      citation: "CTR/A.2/2024/add-65-mfj"
+  blind:
+    single_or_hoh:
+      amount: 1950
+      citation: "CTR/A.2/2024/add-blind-single"
+    mfj_mfs_qss:
+      amount: 1550
+      citation: "CTR/A.2/2024/add-blind-mfj"
+
+dependent_floor:
+  amount: 1300
+  earned_income_plus: 450
+  capped_at: "regular_standard_deduction"
+  citation: "CTR/A.2/2024/dependent"
+

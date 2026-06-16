@@ -1,0 +1,41 @@
+pack: us-federal/2024
+tax_year: 2024
+jurisdiction: us-federal
+authority: "IRC §§61(a)(7),3101,3111,3121; IRS Pub. 531"
+
+# Pre-OBBBA year: NO §224 block. NO TTOC block.
+# SB 951 (CA): SDI wage cap eliminated effective January 1, 2024 — affects CA pack only.
+
+tip_reporting:
+  all_tips_includible_in_income: true
+  cash_tips_reporting_threshold_per_month: 20
+  employer_allocated_tips:
+    box: "W-2 Box 8"
+    taxable: true
+    note: "Allocated tips in Box 8 are included in income unless employee proves actual tips were less (Form 4137 worksheet)."
+  form_4137:
+    name: "Social Security and Medicare Tax on Unreported Tip Income"
+    citation: "CTR/A.13/2024/form-4137"
+    lines:
+      - line: 1
+        description: "Total tips received during year (including allocated)"
+      - line: 2
+        description: "Tips reported to employer"
+      - line: 6
+        description: "Unreported tips subject to SS/Medicare"
+      - line: 9
+        description: "Social Security tax on unreported tips"
+      - line: 10
+        description: "Medicare tax on unreported tips"
+      - line: 13
+        description: "Total taxes — carries to Schedule 2 Line 17b"
+
+excess_social_security_tax:
+  applies: true
+  ss_wage_base: 168600
+  ss_rate: 0.062
+  max_ss_tax: 10453.20
+  schedule_3_line: 11
+  ss_wage_base_citation: "CTR/A.11/2024/ss-wage-base"
+  max_ss_tax_citation: "CTR/A.11/2024/max-ss-tax"
+

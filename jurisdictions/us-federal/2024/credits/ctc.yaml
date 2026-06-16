@@ -1,0 +1,26 @@
+pack: us-federal/2024
+tax_year: 2024
+jurisdiction: us-federal
+credit_type: ctc
+authority: "IRC §24; Rev. Proc. 2023-34"
+
+ctc:
+  amount_per_qualifying_child: 2000
+  child_age_limit: 17
+  citation: "CTR/A.9/2024/ctc-amount"
+  phase_out:
+    threshold_single: 200000
+    threshold_mfj: 400000
+    reduction_per_1000: 50
+    citation: "CTR/A.9/2024/ctc-phase-out"
+
+actc:
+  refundable_cap: 1700
+  earned_income_floor: 2500
+  earned_income_percentage: 0.15
+  citation: "CTR/A.9/2024/ctc-actc-refundable-cap"
+
+odc:
+  amount_per_qualifying_dependent: 500
+  citation: "CTR/A.9/2024/odc"
+
