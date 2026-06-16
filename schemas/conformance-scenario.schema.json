@@ -85,7 +85,9 @@
         },
         "tipped_overlay": {
           "type": "object",
-          "additionalProperties": false
+          "additionalProperties": {
+            "$ref": "#/$defs/tipped_overlay"
+          }
         },
         "interview": {
           "$ref": "#/$defs/interview",
@@ -114,7 +116,7 @@
         "filing_status",
         "federal_deduction_choice"
       ],
-      "additionalProperties": true,
+      "additionalProperties": false,
       "properties": {
         "filing_status": {
           "type": "string"
@@ -174,14 +176,37 @@
               "type": "string"
             },
             "verified_date": {
-              "type": "string",
-              "format": "date"
+              "oneOf": [
+                {
+                  "type": "string",
+                  "format": "date"
+                },
+                {
+                  "type": "string",
+                  "const": ""
+                },
+                {
+                  "type": "string",
+                  "const": "SPECIALIST_MUST_AUTHOR"
+                }
+              ]
             },
             "commercial_result": {
               "type": "object"
             },
             "discrepancy_amount": {
-              "type": "number"
+              "oneOf": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "string",
+                  "const": "SPECIALIST_MUST_AUTHOR"
+                }
+              ]
             },
             "reconciliation_note": {
               "type": [
@@ -202,14 +227,17 @@
       "additionalProperties": false,
       "properties": {
         "name": {
-          "type": "string",
-          "minLength": 1
+          "type": "string"
         },
         "date": {
           "oneOf": [
             {
               "type": "string",
               "format": "date"
+            },
+            {
+              "type": "string",
+              "const": ""
             },
             {
               "type": "string",
@@ -360,6 +388,96 @@
         },
         "ca_foster_youth": {
           "type": "boolean"
+        },
+        "investment_income": {
+          "type": "number"
+        },
+        "taxpayer_age": {
+          "type": "integer"
+        },
+        "spouse_age": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "dependent_status": {
+          "type": "boolean"
+        },
+        "allocated_tip_records_amount": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "itemized_deductions": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "medical": {
+              "type": "number"
+            },
+            "salt": {
+              "type": "number"
+            },
+            "mortgage_interest": {
+              "type": "number"
+            },
+            "charitable_cash": {
+              "type": "number"
+            },
+            "misc": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    "tipped_overlay": {
+      "type": "object",
+      "required": [
+        "occupation",
+        "unreported_cash_tips",
+        "tip_pool",
+        "owns_pct_of_employer",
+        "non_slip_shoes_cost",
+        "uniforms_cost",
+        "required_tools_cost",
+        "union_dues",
+        "licensing_fees",
+        "mileage_between_jobs"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "occupation": {
+          "type": "integer"
+        },
+        "unreported_cash_tips": {
+          "type": "number"
+        },
+        "tip_pool": {
+          "type": "boolean"
+        },
+        "owns_pct_of_employer": {
+          "type": "number"
+        },
+        "non_slip_shoes_cost": {
+          "type": "number"
+        },
+        "uniforms_cost": {
+          "type": "number"
+        },
+        "required_tools_cost": {
+          "type": "number"
+        },
+        "union_dues": {
+          "type": "number"
+        },
+        "licensing_fees": {
+          "type": "number"
+        },
+        "mileage_between_jobs": {
+          "type": "number"
         }
       }
     }

@@ -1,0 +1,105 @@
+{
+  "scenario_id": "SC-2024-FED-00032",
+  "title": "Single - Box 8 4000 allocated tips - no records - accept allocation",
+  "tax_year": 2024,
+  "jurisdictions": [
+    "us-federal"
+  ],
+  "inputs": {
+    "filing_status": "single",
+    "dependents": [],
+    "w2s": [
+      {
+        "w2_id": "w2-1",
+        "employer": "Restaurant A (tipped, TTOC-102)",
+        "box1": 44000,
+        "box2": 4400,
+        "box3": 44000,
+        "box4": 2728,
+        "box5": 44000,
+        "box6": 638,
+        "box7": 0,
+        "box8": 4000,
+        "box12_codes": [],
+        "box14b_ttoc": null,
+        "box16": 0,
+        "box17": 0,
+        "box19": 0,
+        "tipped_toggle": true,
+        "ttoc_code": 102
+      }
+    ],
+    "tipped_overlay": {
+      "w2-1": {
+        "occupation": 102,
+        "unreported_cash_tips": 0,
+        "tip_pool": false,
+        "owns_pct_of_employer": 0,
+        "non_slip_shoes_cost": 0,
+        "uniforms_cost": 0,
+        "required_tools_cost": 0,
+        "union_dues": 0,
+        "licensing_fees": 0,
+        "mileage_between_jobs": 0
+      }
+    },
+    "interview": {
+      "marketplace_coverage": false,
+      "advance_ptc_received": 0,
+      "hsa_contribution": 0,
+      "student_loan_interest": 0,
+      "charitable_cash": 0,
+      "retirement_contribution": 0,
+      "aotc_student_expenses": 0,
+      "ca_renter": false,
+      "ca_foster_youth": false,
+      "investment_income": 0,
+      "taxpayer_age": 35,
+      "spouse_age": null,
+      "dependent_status": false,
+      "allocated_tip_records_amount": null,
+      "itemized_deductions": {
+        "medical": 0,
+        "salt": 0,
+        "mortgage_interest": 0,
+        "charitable_cash": 0,
+        "misc": 0
+      }
+    }
+  },
+  "expected_outputs": {
+    "us-1040-2024/line-11": 48000,
+    "us-1040-2024/line-12": 14600,
+    "us-1040-2024/line-15": 33400,
+    "us-1040-2024/line-16": 3776,
+    "us-1040-2024/line-24": 4082,
+    "us-1040-2024/line-25a": 4400,
+    "us-1040-2024/line-34": 4400,
+    "summary.federal_refund_or_owe": 318,
+    "us-1040-2024/line-35a": 318,
+    "us-1040-2024/line-1c": 4000,
+    "us-form-4137-2024/line-6": 4000,
+    "us-form-4137-2024/line-13": 306
+  },
+  "expected_optimization_choices": {
+    "filing_status": "single",
+    "federal_deduction_choice": "standard"
+  },
+  "expected_ambiguity_dispositions": {},
+  "controlling_report_anchors": [
+    "CTR/A.2/2024/single",
+    "CTR/A.4/2024/rate-22-single-ceiling",
+    "CTR/A.13/2024/form-4137"
+  ],
+  "source_authority_citations": [
+    "IRC §1",
+    "Rev. Proc. 2023-34",
+    "IRC §3121(q)",
+    "Form 4137 instructions"
+  ],
+  "commercial_differential": null,
+  "tax_director_signoff": {
+    "name": "",
+    "date": ""
+  }
+}

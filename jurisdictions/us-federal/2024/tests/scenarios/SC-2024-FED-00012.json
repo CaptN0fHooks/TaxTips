@@ -1,0 +1,121 @@
+{
+  "scenario_id": "SC-2024-FED-00012",
+  "title": "MFJ - one tipped W-2 and one non-tipped W-2",
+  "tax_year": 2024,
+  "jurisdictions": [
+    "us-federal"
+  ],
+  "inputs": {
+    "filing_status": "mfj",
+    "dependents": [],
+    "w2s": [
+      {
+        "w2_id": "w2-1",
+        "employer": "Restaurant A (tipped, TTOC-102)",
+        "box1": 38000,
+        "box2": 4200,
+        "box3": 38000,
+        "box4": 2356,
+        "box5": 38000,
+        "box6": 551,
+        "box7": 9000,
+        "box8": 0,
+        "box12_codes": [],
+        "box14b_ttoc": null,
+        "box16": 0,
+        "box17": 0,
+        "box19": 0,
+        "tipped_toggle": true,
+        "ttoc_code": 102
+      },
+      {
+        "w2_id": "w2-2",
+        "employer": "Non-tipped W-2 (retail)",
+        "box1": 45000,
+        "box2": 5500,
+        "box3": 45000,
+        "box4": 2790,
+        "box5": 45000,
+        "box6": 652.5,
+        "box7": 0,
+        "box8": 0,
+        "box12_codes": [],
+        "box14b_ttoc": null,
+        "box16": 0,
+        "box17": 0,
+        "box19": 0,
+        "tipped_toggle": false,
+        "ttoc_code": null
+      }
+    ],
+    "tipped_overlay": {
+      "w2-1": {
+        "occupation": 102,
+        "unreported_cash_tips": 0,
+        "tip_pool": false,
+        "owns_pct_of_employer": 0,
+        "non_slip_shoes_cost": 0,
+        "uniforms_cost": 0,
+        "required_tools_cost": 0,
+        "union_dues": 0,
+        "licensing_fees": 0,
+        "mileage_between_jobs": 0
+      }
+    },
+    "interview": {
+      "marketplace_coverage": false,
+      "advance_ptc_received": 0,
+      "hsa_contribution": 0,
+      "student_loan_interest": 0,
+      "charitable_cash": 0,
+      "retirement_contribution": 0,
+      "aotc_student_expenses": 0,
+      "ca_renter": false,
+      "ca_foster_youth": false,
+      "investment_income": 0,
+      "taxpayer_age": 35,
+      "spouse_age": 34,
+      "dependent_status": false,
+      "allocated_tip_records_amount": null,
+      "itemized_deductions": {
+        "medical": 0,
+        "salt": 0,
+        "mortgage_interest": 0,
+        "charitable_cash": 0,
+        "misc": 0
+      }
+    }
+  },
+  "expected_outputs": {
+    "us-1040-2024/line-11": 83000,
+    "us-1040-2024/line-12": 29200,
+    "us-1040-2024/line-15": 53800,
+    "us-1040-2024/line-16": 5992,
+    "us-1040-2024/line-24": 5992,
+    "us-1040-2024/line-25a": 9700,
+    "us-1040-2024/line-34": 9700,
+    "summary.federal_refund_or_owe": 3708,
+    "us-1040-2024/line-35a": 3708
+  },
+  "expected_optimization_choices": {
+    "filing_status": "mfj",
+    "federal_deduction_choice": "standard"
+  },
+  "expected_ambiguity_dispositions": {},
+  "controlling_report_anchors": [
+    "CTR/A.2/2024/mfj",
+    "CTR/A.4/2024/rate-22-mfj-ceiling",
+    "CTR/A.13/2024/form-4137"
+  ],
+  "source_authority_citations": [
+    "IRC §1",
+    "Rev. Proc. 2023-34",
+    "IRC §3121(q)",
+    "Form 4137 instructions"
+  ],
+  "commercial_differential": null,
+  "tax_director_signoff": {
+    "name": "",
+    "date": ""
+  }
+}
