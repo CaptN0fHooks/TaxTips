@@ -1,0 +1,147 @@
+{
+  "scenario_id": "SC-2023-FED-00041",
+  "title": "MFJ both tipped - combined tips - standard deduction - CTC",
+  "tax_year": 2023,
+  "jurisdictions": [
+    "us-federal"
+  ],
+  "inputs": {
+    "filing_status": "mfj",
+    "dependents": [
+      {
+        "relationship": "child",
+        "age": 9,
+        "ssn_present": true
+      }
+    ],
+    "w2s": [
+      {
+        "w2_id": "w2-1",
+        "employer": "Restaurant A (tipped, TTOC-102)",
+        "box1": 36000,
+        "box2": 7920,
+        "box3": 36000,
+        "box4": 2232,
+        "box5": 36000,
+        "box6": 522,
+        "box7": 6000,
+        "box8": 0,
+        "box12_codes": [],
+        "box14b_ttoc": null,
+        "box16": 0,
+        "box17": 0,
+        "box19": 0,
+        "tipped_toggle": true,
+        "ttoc_code": 102
+      },
+      {
+        "w2_id": "w2-2",
+        "employer": "Hotel B (tipped, TTOC-101)",
+        "box1": 34000,
+        "box2": 7480,
+        "box3": 34000,
+        "box4": 2108,
+        "box5": 34000,
+        "box6": 493,
+        "box7": 5000,
+        "box8": 0,
+        "box12_codes": [],
+        "box14b_ttoc": null,
+        "box16": 0,
+        "box17": 0,
+        "box19": 0,
+        "tipped_toggle": true,
+        "ttoc_code": 101
+      }
+    ],
+    "tipped_overlay": {
+      "w2-1": {
+        "occupation": 102,
+        "unreported_cash_tips": 0,
+        "tip_pool": false,
+        "owns_pct_of_employer": 0,
+        "non_slip_shoes_cost": 0,
+        "uniforms_cost": 0,
+        "required_tools_cost": 0,
+        "union_dues": 0,
+        "licensing_fees": 0,
+        "mileage_between_jobs": 0
+      },
+      "w2-2": {
+        "occupation": 101,
+        "unreported_cash_tips": 0,
+        "tip_pool": false,
+        "owns_pct_of_employer": 0,
+        "non_slip_shoes_cost": 0,
+        "uniforms_cost": 0,
+        "required_tools_cost": 0,
+        "union_dues": 0,
+        "licensing_fees": 0,
+        "mileage_between_jobs": 0
+      }
+    },
+    "interview": {
+      "marketplace_coverage": false,
+      "advance_ptc_received": 0,
+      "hsa_contribution": 0,
+      "student_loan_interest": 0,
+      "charitable_cash": 0,
+      "retirement_contribution": 0,
+      "aotc_student_expenses": 0,
+      "ca_renter": false,
+      "ca_foster_youth": false,
+      "investment_income": 0,
+      "taxpayer_age": 35,
+      "spouse_age": 36,
+      "dependent_status": false,
+      "allocated_tip_records_amount": null,
+      "itemized_deductions": {
+        "medical": 0,
+        "salt": 0,
+        "mortgage_interest": 0,
+        "charitable_cash": 0,
+        "misc": 0
+      }
+    }
+  },
+  "expected_outputs": {
+    "us-1040-2023/line-11": 70000,
+    "us-1040-2023/line-12": 27700,
+    "us-1040-2023/line-15": 42300,
+    "us-1040-2023/line-16": 4636,
+    "us-1040-2023/line-24": 2636,
+    "us-1040-2023/line-25a": 15400,
+    "us-1040-2023/line-34": 17000,
+    "summary.federal_refund_or_owe": 14364,
+    "us-1040-2023/line-35a": 14364,
+    "us-1040-2023/line-28": 3600,
+    "us-1040-2023/line-1c": 0,
+    "us-form-4137-2023/line-6": 0,
+    "us-form-4137-2023/line-13": 0
+  },
+  "expected_optimization_choices": {
+    "filing_status": "mfj",
+    "federal_deduction_choice": "standard"
+  },
+  "expected_ambiguity_dispositions": {},
+  "controlling_report_anchors": [
+    "CTR/A.2/2023/mfj",
+    "CTR/A.4/2023/rate-22-mfj-ceiling",
+    "CTR/A.9/2023/ctc-amount",
+    "CTR/A.9/2023/ctc-actc-refundable-cap",
+    "CTR/A.9/2023/ctc-phase-out",
+    "CTR/A.13/2023/form-4137"
+  ],
+  "source_authority_citations": [
+    "IRC §1",
+    "Rev. Proc. 2022-38",
+    "IRC §24",
+    "IRC §3121(q)",
+    "Form 4137 instructions"
+  ],
+  "commercial_differential": null,
+  "tax_director_signoff": {
+    "name": "Tax Director",
+    "date": "2026-06-16"
+  }
+}

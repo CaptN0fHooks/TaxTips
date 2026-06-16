@@ -1,0 +1,102 @@
+{
+  "scenario_id": "SC-2023-FED-00022",
+  "title": "Single - wages 55000 - two qualifying children - EITC disqualified",
+  "tax_year": 2023,
+  "jurisdictions": [
+    "us-federal"
+  ],
+  "inputs": {
+    "filing_status": "single",
+    "dependents": [
+      {
+        "relationship": "child",
+        "age": 6,
+        "ssn_present": true
+      },
+      {
+        "relationship": "child",
+        "age": 9,
+        "ssn_present": true
+      }
+    ],
+    "w2s": [
+      {
+        "w2_id": "w2-1",
+        "employer": "Non-tipped W-2 (caregiver)",
+        "box1": 55000,
+        "box2": 12100,
+        "box3": 55000,
+        "box4": 3410,
+        "box5": 55000,
+        "box6": 797.5,
+        "box7": 0,
+        "box8": 0,
+        "box12_codes": [],
+        "box14b_ttoc": null,
+        "box16": 0,
+        "box17": 0,
+        "box19": 0,
+        "tipped_toggle": false,
+        "ttoc_code": null
+      }
+    ],
+    "tipped_overlay": {},
+    "interview": {
+      "marketplace_coverage": false,
+      "advance_ptc_received": 0,
+      "hsa_contribution": 0,
+      "student_loan_interest": 0,
+      "charitable_cash": 0,
+      "retirement_contribution": 0,
+      "aotc_student_expenses": 0,
+      "ca_renter": false,
+      "ca_foster_youth": false,
+      "investment_income": 0,
+      "taxpayer_age": 35,
+      "spouse_age": null,
+      "dependent_status": false,
+      "allocated_tip_records_amount": null,
+      "itemized_deductions": {
+        "medical": 0,
+        "salt": 0,
+        "mortgage_interest": 0,
+        "charitable_cash": 0,
+        "misc": 0
+      }
+    }
+  },
+  "expected_outputs": {
+    "us-1040-2023/line-11": 55000,
+    "us-1040-2023/line-12": 13850,
+    "us-1040-2023/line-15": 41150,
+    "us-1040-2023/line-16": 4718,
+    "us-1040-2023/line-24": 718,
+    "us-1040-2023/line-25a": 12100,
+    "us-1040-2023/line-34": 15300,
+    "summary.federal_refund_or_owe": 14582,
+    "us-1040-2023/line-35a": 14582,
+    "us-1040-2023/line-27": 0,
+    "us-1040-2023/line-28": 7200
+  },
+  "expected_optimization_choices": {
+    "filing_status": "single",
+    "federal_deduction_choice": "standard"
+  },
+  "expected_ambiguity_dispositions": {},
+  "controlling_report_anchors": [
+    "CTR/A.2/2023/single",
+    "CTR/A.4/2023/rate-22-single-ceiling",
+    "CTR/A.9/2023/eitc-table",
+    "CTR/A.9/2023/eitc-earned-income"
+  ],
+  "source_authority_citations": [
+    "IRC §1",
+    "Rev. Proc. 2022-38",
+    "IRC §32"
+  ],
+  "commercial_differential": null,
+  "tax_director_signoff": {
+    "name": "Tax Director",
+    "date": "2026-06-16"
+  }
+}

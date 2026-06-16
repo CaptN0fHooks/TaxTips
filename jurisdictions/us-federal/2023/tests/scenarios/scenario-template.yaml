@@ -1,3 +1,7 @@
+# SUPERSEDED: Directive 7 canonical scenario format is JSON.
+# Use scenario-template.json for all new D7 scenarios.
+# This YAML file is retained only for audit continuity from the earlier scaffold.
+#
 # Scenario Template — us-federal/2023
 # Copy this file, rename it to your test_id, and fill in all FILL_IN fields.
 # Delete this comment block before committing.

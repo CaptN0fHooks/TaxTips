@@ -1,0 +1,136 @@
+{
+  "scenario_id": "SC-2023-FED-00049",
+  "title": "TaxAct 2023 verified - Single - excess SS tax from two employers - 95000 and 80000 wages - Schedule 3 Line 11 credit",
+  "tax_year": 2023,
+  "jurisdictions": [
+    "us-federal"
+  ],
+  "inputs": {
+    "filing_status": "single",
+    "dependents": [],
+    "w2s": [
+      {
+        "w2_id": "w2-1",
+        "employer": "Restaurant A (tipped, TTOC-102)",
+        "box1": 95000,
+        "box2": 18000,
+        "box3": 95000,
+        "box4": 5890,
+        "box5": 95000,
+        "box6": 1377.5,
+        "box7": 7000,
+        "box8": 0,
+        "box12_codes": [],
+        "box14b_ttoc": null,
+        "box16": 0,
+        "box17": 0,
+        "box19": 0,
+        "tipped_toggle": true,
+        "ttoc_code": 102
+      },
+      {
+        "w2_id": "w2-2",
+        "employer": "Employer B (non-tipped)",
+        "box1": 80000,
+        "box2": 14000,
+        "box3": 80000,
+        "box4": 4960,
+        "box5": 80000,
+        "box6": 1160,
+        "box7": 0,
+        "box8": 0,
+        "box12_codes": [],
+        "box14b_ttoc": null,
+        "box16": 0,
+        "box17": 0,
+        "box19": 0,
+        "tipped_toggle": false,
+        "ttoc_code": null
+      }
+    ],
+    "tipped_overlay": {
+      "w2-1": {
+        "occupation": 102,
+        "unreported_cash_tips": 0,
+        "tip_pool": false,
+        "owns_pct_of_employer": 0,
+        "non_slip_shoes_cost": 0,
+        "uniforms_cost": 0,
+        "required_tools_cost": 0,
+        "union_dues": 0,
+        "licensing_fees": 0,
+        "mileage_between_jobs": 0
+      }
+    },
+    "interview": {
+      "marketplace_coverage": false,
+      "advance_ptc_received": 0,
+      "hsa_contribution": 0,
+      "student_loan_interest": 0,
+      "charitable_cash": 0,
+      "retirement_contribution": 0,
+      "aotc_student_expenses": 0,
+      "ca_renter": false,
+      "ca_foster_youth": false,
+      "investment_income": 0,
+      "taxpayer_age": 35,
+      "spouse_age": null,
+      "dependent_status": false,
+      "allocated_tip_records_amount": null,
+      "itemized_deductions": {
+        "medical": 0,
+        "salt": 0,
+        "mortgage_interest": 0,
+        "charitable_cash": 0,
+        "misc": 0
+      }
+    }
+  },
+  "expected_outputs": {
+    "us-1040-2023/line-11": 175000,
+    "us-1040-2023/line-12": 13850,
+    "us-1040-2023/line-15": 161150,
+    "us-1040-2023/line-16": 32076,
+    "us-1040-2023/line-24": 32076,
+    "us-1040-2023/line-25a": 32000,
+    "us-1040-2023/line-34": 32918,
+    "summary.federal_refund_or_owe": 842,
+    "us-1040-2023/line-35a": 842,
+    "us-1040-2023/line-1c": 0,
+    "us-form-4137-2023/line-6": 0,
+    "us-form-4137-2023/line-13": 0,
+    "us-1040-s3-2023/line-11": 918
+  },
+  "expected_optimization_choices": {
+    "filing_status": "single",
+    "federal_deduction_choice": "standard"
+  },
+  "expected_ambiguity_dispositions": {},
+  "controlling_report_anchors": [
+    "CTR/A.2/2023/single",
+    "CTR/A.4/2023/rate-22-single-ceiling",
+    "CTR/A.11/2023/ss-wage-base",
+    "CTR/A.11/2023/max-ss-tax",
+    "CTR/A.13/2023/form-4137"
+  ],
+  "source_authority_citations": [
+    "IRC §1",
+    "Rev. Proc. 2022-38",
+    "IRC §3101",
+    "Social Security Administration 2023 wage base",
+    "IRC §3121(q)",
+    "Form 4137 instructions"
+  ],
+  "commercial_differential": {
+    "product": "TaxAct 2023",
+    "verified_by": "",
+    "verified_date": "",
+    "commercial_result": {},
+    "discrepancy_amount": null,
+    "reconciliation_note": null
+  },
+  "tax_director_signoff": {
+    "name": "Tax Director",
+    "date": "2026-06-16"
+  }
+}
