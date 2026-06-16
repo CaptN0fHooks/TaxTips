@@ -1,0 +1,127 @@
+{
+  "scenario_id": "SC-2025-FED-00037",
+  "title": "MFJ - 85000 wages - two children - CTC 4400 non-refundable",
+  "tax_year": 2025,
+  "jurisdictions": [
+    "us-federal"
+  ],
+  "inputs": {
+    "filing_status": "mfj",
+    "dependents": [
+      {
+        "relationship": "child",
+        "age": 8,
+        "ssn_present": true
+      },
+      {
+        "relationship": "child",
+        "age": 12,
+        "ssn_present": true
+      }
+    ],
+    "w2s": [
+      {
+        "w2_id": "w2-1",
+        "employer": "Taxpayer W-2",
+        "box1": 50000,
+        "box2": 6000,
+        "box3": 50000,
+        "box4": 3100,
+        "box5": 50000,
+        "box6": 725,
+        "box7": 0,
+        "box8": 0,
+        "box12_codes": [],
+        "box14b_ttoc": null,
+        "box16": 0,
+        "box17": 0,
+        "box19": 0,
+        "tipped_toggle": false,
+        "ttoc_code": null
+      },
+      {
+        "w2_id": "w2-2",
+        "employer": "Spouse W-2",
+        "box1": 35000,
+        "box2": 4000,
+        "box3": 35000,
+        "box4": 2170,
+        "box5": 35000,
+        "box6": 508,
+        "box7": 0,
+        "box8": 0,
+        "box12_codes": [],
+        "box14b_ttoc": null,
+        "box16": 0,
+        "box17": 0,
+        "box19": 0,
+        "tipped_toggle": false,
+        "ttoc_code": null
+      }
+    ],
+    "tipped_overlay": {},
+    "interview": {
+      "marketplace_coverage": false,
+      "advance_ptc_received": 0,
+      "hsa_contribution": 0,
+      "student_loan_interest": 0,
+      "charitable_cash": 0,
+      "retirement_contribution": 0,
+      "aotc_student_expenses": 0,
+      "ca_renter": false,
+      "ca_foster_youth": false,
+      "investment_income": 0,
+      "taxpayer_age": 35,
+      "spouse_age": 35,
+      "dependent_status": false,
+      "allocated_tip_records_amount": null,
+      "itemized_deductions": {
+        "medical": 0,
+        "salt": 0,
+        "mortgage_interest": 0,
+        "charitable_cash": 0,
+        "misc": 0
+      }
+    }
+  },
+  "expected_outputs": {
+    "us-1040-2025/line-11": 85000,
+    "us-1040-2025/line-12": 31500,
+    "us-1040-2025/line-15": 53500,
+    "us-1040-2025/line-16": 5943,
+    "us-1040-2025/line-24": 1543,
+    "us-1040-2025/line-25a": 10000,
+    "us-1040-2025/line-34": 10000,
+    "summary.federal_refund_or_owe": 8457,
+    "us-1040-2025/line-35a": 8457,
+    "us-1040-2025/line-37": 0,
+    "us-1040-2025/line-28": 4400
+  },
+  "expected_optimization_choices": {
+    "filing_status": "mfj",
+    "federal_deduction_choice": "standard"
+  },
+  "expected_ambiguity_dispositions": {
+    "AMB-2025-FED-SSTB": "not_applicable - employer is not an SSTB; no SSTB ambiguity"
+  },
+  "controlling_report_anchors": [
+    "CTR/A.2/2025/mfj",
+    "CTR/A.4/2025/rate-22-mfj-ceiling",
+    "CTR/A.9/2025/eitc-table",
+    "CTR/A.9/2025/eitc-earned-income",
+    "CTR/A.9/2025/ctc-amount",
+    "CTR/A.9/2025/ctc-actc-refundable-cap",
+    "CTR/A.9/2025/ctc-phase-out"
+  ],
+  "source_authority_citations": [
+    "IRC section 1",
+    "IRC section 63",
+    "Rev. Proc. 2024-40",
+    "IRC section 24"
+  ],
+  "commercial_differential": null,
+  "tax_director_signoff": {
+    "name": "",
+    "date": ""
+  }
+}

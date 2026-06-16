@@ -1,0 +1,118 @@
+{
+  "scenario_id": "SC-2025-FED-00016",
+  "title": "Single - section 224 plus EITC non-reduction - no qualifying children",
+  "tax_year": 2025,
+  "jurisdictions": [
+    "us-federal"
+  ],
+  "inputs": {
+    "filing_status": "single",
+    "dependents": [],
+    "w2s": [
+      {
+        "w2_id": "w2-1",
+        "employer": "Restaurant A (tipped)",
+        "box1": 36000,
+        "box2": 3800,
+        "box3": 36000,
+        "box4": 2232,
+        "box5": 36000,
+        "box6": 522,
+        "box7": 8000,
+        "box8": 0,
+        "box12_codes": [],
+        "box14b_ttoc": null,
+        "box16": 0,
+        "box17": 0,
+        "box19": 0,
+        "tipped_toggle": true,
+        "ttoc_code": 102
+      }
+    ],
+    "tipped_overlay": {
+      "w2-1": {
+        "occupation": 102,
+        "unreported_cash_tips": 0,
+        "tip_pool": true,
+        "owns_pct_of_employer": 0,
+        "non_slip_shoes_cost": 0,
+        "uniforms_cost": 0,
+        "required_tools_cost": 0,
+        "union_dues": 0,
+        "licensing_fees": 0,
+        "mileage_between_jobs": 0
+      }
+    },
+    "interview": {
+      "marketplace_coverage": false,
+      "advance_ptc_received": 0,
+      "hsa_contribution": 0,
+      "student_loan_interest": 0,
+      "charitable_cash": 0,
+      "retirement_contribution": 0,
+      "aotc_student_expenses": 0,
+      "ca_renter": false,
+      "ca_foster_youth": false,
+      "investment_income": 0,
+      "taxpayer_age": 35,
+      "spouse_age": null,
+      "dependent_status": false,
+      "allocated_tip_records_amount": null,
+      "itemized_deductions": {
+        "medical": 0,
+        "salt": 0,
+        "mortgage_interest": 0,
+        "charitable_cash": 0,
+        "misc": 0
+      }
+    }
+  },
+  "expected_outputs": {
+    "us-1040-2025/line-11": 28000,
+    "us-1040-2025/line-12": 15750,
+    "us-1040-2025/line-15": 12250,
+    "us-1040-2025/line-16": 1232,
+    "us-1040-2025/line-24": 1232,
+    "us-1040-2025/line-25a": 3800,
+    "us-1040-2025/line-34": 3800,
+    "summary.federal_refund_or_owe": 2568,
+    "us-1040-2025/line-35a": 2568,
+    "us-1040-2025/line-37": 0,
+    "us-1040-2025/line-13b": 8000,
+    "us-1040-s1a-2025/line-38": 8000,
+    "us-1040-s1a-2025/part-2/line-7": 8000,
+    "us-1040-s1a-2025/part-2/line-13": 8000,
+    "us-1040-2025/line-27": 0
+  },
+  "expected_optimization_choices": {
+    "filing_status": "single",
+    "federal_deduction_choice": "standard"
+  },
+  "expected_ambiguity_dispositions": {
+    "AMB-2025-FED-SSTB": "not_applicable - employer is not an SSTB; no SSTB ambiguity"
+  },
+  "controlling_report_anchors": [
+    "CTR/A.2/2025/single",
+    "CTR/A.4/2025/rate-22-single-ceiling",
+    "CTR/A.13/2025/form-1040-schedule-1a",
+    "CTR/B.1/2025/section-224-cap",
+    "CTR/B.1/2025/section-224-phaseout-single",
+    "CTR/B.1/2025/section-224-phaseout-mfj",
+    "CTR/B.4/2025/schedule-1a-line-13",
+    "CTR/B.1/2025/section-224-eitc-unchanged",
+    "CTR/A.9/2025/eitc-table",
+    "CTR/A.9/2025/eitc-earned-income"
+  ],
+  "source_authority_citations": [
+    "IRC section 1",
+    "IRC section 63",
+    "Rev. Proc. 2024-40",
+    "IRC section 224",
+    "IRC section 32"
+  ],
+  "commercial_differential": null,
+  "tax_director_signoff": {
+    "name": "",
+    "date": ""
+  }
+}

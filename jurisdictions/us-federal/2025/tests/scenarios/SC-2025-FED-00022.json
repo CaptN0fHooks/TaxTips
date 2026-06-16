@@ -1,0 +1,158 @@
+{
+  "scenario_id": "SC-2025-FED-00022",
+  "title": "MFJ - both spouses tipped - shared 25000 section 224 cap per return",
+  "tax_year": 2025,
+  "jurisdictions": [
+    "us-federal"
+  ],
+  "inputs": {
+    "filing_status": "mfj",
+    "dependents": [
+      {
+        "relationship": "child",
+        "age": 10,
+        "ssn_present": true
+      }
+    ],
+    "w2s": [
+      {
+        "w2_id": "w2-1",
+        "employer": "Restaurant A (taxpayer tipped)",
+        "box1": 50000,
+        "box2": 6000,
+        "box3": 50000,
+        "box4": 3100,
+        "box5": 50000,
+        "box6": 725,
+        "box7": 18000,
+        "box8": 0,
+        "box12_codes": [],
+        "box14b_ttoc": null,
+        "box16": 0,
+        "box17": 0,
+        "box19": 0,
+        "tipped_toggle": true,
+        "ttoc_code": 102
+      },
+      {
+        "w2_id": "w2-2",
+        "employer": "Hotel B (spouse tipped)",
+        "box1": 45000,
+        "box2": 5500,
+        "box3": 45000,
+        "box4": 2790,
+        "box5": 45000,
+        "box6": 653,
+        "box7": 12000,
+        "box8": 0,
+        "box12_codes": [],
+        "box14b_ttoc": null,
+        "box16": 0,
+        "box17": 0,
+        "box19": 0,
+        "tipped_toggle": true,
+        "ttoc_code": 101
+      }
+    ],
+    "tipped_overlay": {
+      "w2-1": {
+        "occupation": 102,
+        "unreported_cash_tips": 0,
+        "tip_pool": true,
+        "owns_pct_of_employer": 0,
+        "non_slip_shoes_cost": 0,
+        "uniforms_cost": 0,
+        "required_tools_cost": 0,
+        "union_dues": 0,
+        "licensing_fees": 0,
+        "mileage_between_jobs": 0
+      },
+      "w2-2": {
+        "occupation": 101,
+        "unreported_cash_tips": 0,
+        "tip_pool": true,
+        "owns_pct_of_employer": 0,
+        "non_slip_shoes_cost": 0,
+        "uniforms_cost": 0,
+        "required_tools_cost": 0,
+        "union_dues": 0,
+        "licensing_fees": 0,
+        "mileage_between_jobs": 0
+      }
+    },
+    "interview": {
+      "marketplace_coverage": false,
+      "advance_ptc_received": 0,
+      "hsa_contribution": 0,
+      "student_loan_interest": 0,
+      "charitable_cash": 0,
+      "retirement_contribution": 0,
+      "aotc_student_expenses": 0,
+      "ca_renter": false,
+      "ca_foster_youth": false,
+      "investment_income": 0,
+      "taxpayer_age": 35,
+      "spouse_age": 35,
+      "dependent_status": false,
+      "allocated_tip_records_amount": null,
+      "itemized_deductions": {
+        "medical": 0,
+        "salt": 0,
+        "mortgage_interest": 0,
+        "charitable_cash": 0,
+        "misc": 0
+      }
+    }
+  },
+  "expected_outputs": {
+    "us-1040-2025/line-11": 70000,
+    "us-1040-2025/line-12": 31500,
+    "us-1040-2025/line-15": 38500,
+    "us-1040-2025/line-16": 4143,
+    "us-1040-2025/line-24": 1943,
+    "us-1040-2025/line-25a": 11500,
+    "us-1040-2025/line-34": 11500,
+    "summary.federal_refund_or_owe": 9557,
+    "us-1040-2025/line-35a": 9557,
+    "us-1040-2025/line-37": 0,
+    "us-1040-2025/line-13b": 25000,
+    "us-1040-s1a-2025/line-38": 25000,
+    "us-1040-s1a-2025/part-2/line-7": 30000,
+    "us-1040-s1a-2025/part-2/line-13": 25000,
+    "us-1040-2025/line-28": 2200
+  },
+  "expected_optimization_choices": {
+    "filing_status": "mfj",
+    "federal_deduction_choice": "standard"
+  },
+  "expected_ambiguity_dispositions": {
+    "AMB-2025-FED-SSTB": "not_applicable - employer is not an SSTB; no SSTB ambiguity"
+  },
+  "controlling_report_anchors": [
+    "CTR/A.2/2025/mfj",
+    "CTR/A.4/2025/rate-22-mfj-ceiling",
+    "CTR/A.13/2025/form-1040-schedule-1a",
+    "CTR/B.1/2025/section-224-cap",
+    "CTR/B.1/2025/section-224-phaseout-single",
+    "CTR/B.1/2025/section-224-phaseout-mfj",
+    "CTR/B.4/2025/schedule-1a-line-13",
+    "CTR/B.1/2025/section-224-eitc-unchanged",
+    "CTR/A.9/2025/eitc-table",
+    "CTR/A.9/2025/eitc-earned-income",
+    "CTR/A.9/2025/ctc-amount",
+    "CTR/A.9/2025/ctc-actc-refundable-cap",
+    "CTR/A.9/2025/ctc-phase-out"
+  ],
+  "source_authority_citations": [
+    "IRC section 1",
+    "IRC section 63",
+    "Rev. Proc. 2024-40",
+    "IRC section 224",
+    "IRC section 24"
+  ],
+  "commercial_differential": null,
+  "tax_director_signoff": {
+    "name": "",
+    "date": ""
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "scenario_id": "SC-2025-FED-00002",
+  "title": "MFJ - 75000 combined W-2 - standard deduction - no credits",
+  "tax_year": 2025,
+  "jurisdictions": [
+    "us-federal"
+  ],
+  "inputs": {
+    "filing_status": "mfj",
+    "dependents": [],
+    "w2s": [
+      {
+        "w2_id": "w2-1",
+        "employer": "Taxpayer W-2",
+        "box1": 45000,
+        "box2": 5500,
+        "box3": 45000,
+        "box4": 2790,
+        "box5": 45000,
+        "box6": 653,
+        "box7": 0,
+        "box8": 0,
+        "box12_codes": [],
+        "box14b_ttoc": null,
+        "box16": 0,
+        "box17": 0,
+        "box19": 0,
+        "tipped_toggle": false,
+        "ttoc_code": null
+      },
+      {
+        "w2_id": "w2-2",
+        "employer": "Spouse W-2",
+        "box1": 30000,
+        "box2": 3000,
+        "box3": 30000,
+        "box4": 1860,
+        "box5": 30000,
+        "box6": 435,
+        "box7": 0,
+        "box8": 0,
+        "box12_codes": [],
+        "box14b_ttoc": null,
+        "box16": 0,
+        "box17": 0,
+        "box19": 0,
+        "tipped_toggle": false,
+        "ttoc_code": null
+      }
+    ],
+    "tipped_overlay": {},
+    "interview": {
+      "marketplace_coverage": false,
+      "advance_ptc_received": 0,
+      "hsa_contribution": 0,
+      "student_loan_interest": 0,
+      "charitable_cash": 0,
+      "retirement_contribution": 0,
+      "aotc_student_expenses": 0,
+      "ca_renter": false,
+      "ca_foster_youth": false,
+      "investment_income": 0,
+      "taxpayer_age": 35,
+      "spouse_age": 35,
+      "dependent_status": false,
+      "allocated_tip_records_amount": null,
+      "itemized_deductions": {
+        "medical": 0,
+        "salt": 0,
+        "mortgage_interest": 0,
+        "charitable_cash": 0,
+        "misc": 0
+      }
+    }
+  },
+  "expected_outputs": {
+    "us-1040-2025/line-11": 75000,
+    "us-1040-2025/line-12": 31500,
+    "us-1040-2025/line-15": 43500,
+    "us-1040-2025/line-16": 4743,
+    "us-1040-2025/line-24": 4743,
+    "us-1040-2025/line-25a": 8500,
+    "us-1040-2025/line-34": 8500,
+    "summary.federal_refund_or_owe": 3757,
+    "us-1040-2025/line-35a": 3757,
+    "us-1040-2025/line-37": 0
+  },
+  "expected_optimization_choices": {
+    "filing_status": "mfj",
+    "federal_deduction_choice": "standard"
+  },
+  "expected_ambiguity_dispositions": {
+    "AMB-2025-FED-SSTB": "not_applicable - employer is not an SSTB; no SSTB ambiguity"
+  },
+  "controlling_report_anchors": [
+    "CTR/A.2/2025/mfj",
+    "CTR/A.4/2025/rate-22-mfj-ceiling"
+  ],
+  "source_authority_citations": [
+    "IRC section 1",
+    "IRC section 63",
+    "Rev. Proc. 2024-40"
+  ],
+  "commercial_differential": null,
+  "tax_director_signoff": {
+    "name": "",
+    "date": ""
+  }
+}

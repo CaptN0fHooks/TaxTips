@@ -8,20 +8,20 @@ Scenario expected outputs are Tax Specialist content. Codex tracks structure, va
 |---|---:|---:|---:|---:|---:|---|
 | `us-federal/2023` | 50 | 50 | 0 | 0 | 0 / 3+ | PENDING TAX DIRECTOR SIGN-OFF |
 | `us-federal/2024` | 50 | 50 | 0 | 0 | 0 / 3+ | PENDING TAX DIRECTOR SIGN-OFF |
-| `us-federal/2025` | 0 | 0 | 0 | 0 | 0 / 3+ | NOT MET |
+| `us-federal/2025` | 50 | 50 | 0 | 0 | 0 / 3+ | PENDING TAX DIRECTOR SIGN-OFF |
 | `us-federal/2026` | 0 | 0 | 0 | 0 | 0 / 3+ | NOT MET |
 | `california/2023` | 0 | 0 | 0 | 0 | 0 / 3+ | NOT MET |
 | `california/2024` | 0 | 0 | 0 | 0 | 0 / 3+ | NOT MET |
 | `california/2025` | 0 | 0 | 0 | 0 | 0 / 3+ | NOT MET |
 | `california/2026` | 0 | 0 | 0 | 0 | 0 / 3+ | NOT MET |
-| **TOTAL** | **100** | **100** | **0** | **0** | **0 / 24+** | **100 / 400+** |
+| **TOTAL** | **150** | **150** | **0** | **0** | **0 / 24+** | **150 / 400+** |
 
 ## Current Gate State
 
-- D7-COUNT: PARTIAL — 100 / 400+ complete scenarios.
-- D7-PASS: PARTIAL — `us-federal/2023` and `us-federal/2024` pass; remaining 6 packs have no authored scenarios.
+- D7-COUNT: PARTIAL — 150 / 400+ complete scenarios.
+- D7-PASS: PARTIAL — `us-federal/2023`, `us-federal/2024`, and `us-federal/2025` pass; remaining 5 packs have no authored scenarios.
 - D7-DIFF: NOT MET.
-- D7-MATRIX: PARTIAL — `us-federal/2023` and `us-federal/2024` coverage matrices authored.
+- D7-MATRIX: PARTIAL — `us-federal/2023`, `us-federal/2024`, and `us-federal/2025` coverage matrices authored.
 - D7-SIGNOFF: NOT MET — Tax Director signoff pending.
 
 ## Scaffold State
@@ -50,3 +50,12 @@ Only `SC-*.json` files are counted and executed by `rule-pack-test`.
 - Runner result after Directive 10: 50 PASS, 0 SKIP, 0 FAIL.
 - Key 2024 checks: ACTC cap $1,700 in `SC-2024-FED-00028`; Social Security wage base $168,600 in `SC-2024-FED-00013`.
 - Pending: Tax Director signoff on all 50 scenarios and commercial differential verification for `SC-2024-FED-00047` through `SC-2024-FED-00049`.
+
+## us-federal/2025 Batch 1
+
+- Branch: `test-us-federal-2025-scenarios-batch-1`
+- Files: `SC-2025-FED-00001.json` through `SC-2025-FED-00050.json`
+- State: expected outputs authored per Directive 11.
+- Runner result after Directive 11: 50 PASS, 0 SKIP, 0 FAIL.
+- Key 2025 checks: section 224 phase-out and MFS bar; Senior Bonus; CTC $2,200; ACTC cap $1,700; Social Security wage base $176,100; `AMB-2025-FED-SSTB` present in all 50 scenarios.
+- Pending: Tax Director signoff on all 50 scenarios and commercial differential verification for `SC-2025-FED-00047` through `SC-2025-FED-00049`.
