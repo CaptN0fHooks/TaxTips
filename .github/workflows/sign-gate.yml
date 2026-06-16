@@ -12,5 +12,18 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - run: npm ci
+      # Vault health check is a manual pre-ceremony step (Option A).
+      # Vault runs locally on the PE's WSL machine — not reachable from CI runners.
+      # Before any signing ceremony: run vault-migration-verify.sh locally to confirm
+      # Vault is healthy, storage=raft, sealed=false, all three keys present.
       - name: Verify rule pack signatures
-        run: echo "sign-gate stub — Phase 1 will implement"
+        env:
+          VAULT_ADDR: ${{ secrets.TAXTIPS_VAULT_ADDR }}
+          VAULT_TOKEN: ${{ secrets.TAXTIPS_VAULT_VERIFY_TOKEN }}
+        run: npm run rule-pack-validate -- --all --report sign-gate.report.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: sign-gate-report
+          path: sign-gate.report.json
