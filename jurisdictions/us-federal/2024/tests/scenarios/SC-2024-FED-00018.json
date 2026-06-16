@@ -1,0 +1,102 @@
+{
+  "scenario_id": "SC-2024-FED-00018",
+  "title": "Single - 33000 - one qualifying child - EITC phase-out range",
+  "tax_year": 2024,
+  "jurisdictions": [
+    "us-federal"
+  ],
+  "inputs": {
+    "filing_status": "single",
+    "dependents": [
+      {
+        "relationship": "child",
+        "age": 6,
+        "ssn_present": true
+      }
+    ],
+    "w2s": [
+      {
+        "w2_id": "w2-1",
+        "employer": "Non-tipped W-2 (caregiver)",
+        "box1": 33000,
+        "box2": 3300,
+        "box3": 33000,
+        "box4": 2046,
+        "box5": 33000,
+        "box6": 478.5,
+        "box7": 0,
+        "box8": 0,
+        "box12_codes": [],
+        "box14b_ttoc": null,
+        "box16": 0,
+        "box17": 0,
+        "box19": 0,
+        "tipped_toggle": false,
+        "ttoc_code": null
+      }
+    ],
+    "tipped_overlay": {},
+    "interview": {
+      "marketplace_coverage": false,
+      "advance_ptc_received": 0,
+      "hsa_contribution": 0,
+      "student_loan_interest": 0,
+      "charitable_cash": 0,
+      "retirement_contribution": 0,
+      "aotc_student_expenses": 0,
+      "ca_renter": false,
+      "ca_foster_youth": false,
+      "investment_income": 0,
+      "taxpayer_age": 35,
+      "spouse_age": null,
+      "dependent_status": false,
+      "allocated_tip_records_amount": null,
+      "itemized_deductions": {
+        "medical": 0,
+        "salt": 0,
+        "mortgage_interest": 0,
+        "charitable_cash": 0,
+        "misc": 0
+      }
+    }
+  },
+  "expected_outputs": {
+    "us-1040-2024/line-11": 33000,
+    "us-1040-2024/line-12": 14600,
+    "us-1040-2024/line-15": 18400,
+    "us-1040-2024/line-16": 1976,
+    "us-1040-2024/line-24": 0,
+    "us-1040-2024/line-25a": 3300,
+    "us-1040-2024/line-34": 7570,
+    "summary.federal_refund_or_owe": 7570,
+    "us-1040-2024/line-35a": 7570,
+    "us-1040-2024/line-27": 2570,
+    "us-1040-2024/line-28": 3676,
+    "us-1040-2024/line-37": 0
+  },
+  "expected_optimization_choices": {
+    "filing_status": "single",
+    "federal_deduction_choice": "standard"
+  },
+  "expected_ambiguity_dispositions": {},
+  "controlling_report_anchors": [
+    "CTR/A.2/2024/single",
+    "CTR/A.4/2024/rate-22-single-ceiling",
+    "CTR/A.9/2024/eitc-table",
+    "CTR/A.9/2024/eitc-earned-income",
+    "CTR/A.9/2024/ctc-amount",
+    "CTR/A.9/2024/ctc-actc-refundable-cap",
+    "CTR/A.9/2024/ctc-phase-out"
+  ],
+  "source_authority_citations": [
+    "IRC §1",
+    "Rev. Proc. 2023-34",
+    "IRC §32",
+    "IRC §24"
+  ],
+  "commercial_differential": null,
+  "tax_director_signoff": {
+    "name": "Tax Director",
+    "date": "2026-06-16"
+  }
+}

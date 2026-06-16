@@ -1,0 +1,88 @@
+{
+  "scenario_id": "SC-2024-FED-00043",
+  "title": "Single age 67 - 38000 - standard plus additional age 65 amount",
+  "tax_year": 2024,
+  "jurisdictions": [
+    "us-federal"
+  ],
+  "inputs": {
+    "filing_status": "single",
+    "dependents": [],
+    "w2s": [
+      {
+        "w2_id": "w2-1",
+        "employer": "Non-tipped W-2 (senior worker)",
+        "box1": 38000,
+        "box2": 3800,
+        "box3": 38000,
+        "box4": 2356,
+        "box5": 38000,
+        "box6": 551,
+        "box7": 0,
+        "box8": 0,
+        "box12_codes": [],
+        "box14b_ttoc": null,
+        "box16": 0,
+        "box17": 0,
+        "box19": 0,
+        "tipped_toggle": false,
+        "ttoc_code": null
+      }
+    ],
+    "tipped_overlay": {},
+    "interview": {
+      "marketplace_coverage": false,
+      "advance_ptc_received": 0,
+      "hsa_contribution": 0,
+      "student_loan_interest": 0,
+      "charitable_cash": 0,
+      "retirement_contribution": 0,
+      "aotc_student_expenses": 0,
+      "ca_renter": false,
+      "ca_foster_youth": false,
+      "investment_income": 0,
+      "taxpayer_age": 67,
+      "spouse_age": null,
+      "dependent_status": false,
+      "allocated_tip_records_amount": null,
+      "itemized_deductions": {
+        "medical": 0,
+        "salt": 0,
+        "mortgage_interest": 0,
+        "charitable_cash": 0,
+        "misc": 0
+      }
+    }
+  },
+  "expected_outputs": {
+    "us-1040-2024/line-11": 38000,
+    "us-1040-2024/line-12": 16550,
+    "us-1040-2024/line-15": 21450,
+    "us-1040-2024/line-16": 2342,
+    "us-1040-2024/line-24": 2342,
+    "us-1040-2024/line-25a": 3800,
+    "us-1040-2024/line-34": 3800,
+    "summary.federal_refund_or_owe": 1458,
+    "us-1040-2024/line-35a": 1458
+  },
+  "expected_optimization_choices": {
+    "filing_status": "single",
+    "federal_deduction_choice": "standard"
+  },
+  "expected_ambiguity_dispositions": {},
+  "controlling_report_anchors": [
+    "CTR/A.2/2024/single",
+    "CTR/A.4/2024/rate-22-single-ceiling",
+    "CTR/A.2/2024/add-65-single"
+  ],
+  "source_authority_citations": [
+    "IRC §1",
+    "Rev. Proc. 2023-34",
+    "IRC §63"
+  ],
+  "commercial_differential": null,
+  "tax_director_signoff": {
+    "name": "Tax Director",
+    "date": "2026-06-16"
+  }
+}
