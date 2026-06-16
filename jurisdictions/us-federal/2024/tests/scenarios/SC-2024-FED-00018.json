@@ -67,11 +67,12 @@
     "us-1040-2024/line-16": 1976,
     "us-1040-2024/line-24": 0,
     "us-1040-2024/line-25a": 3300,
-    "us-1040-2024/line-34": 5894,
-    "summary.federal_refund_or_owe": 5894,
-    "us-1040-2024/line-35a": 5894,
+    "us-1040-2024/line-34": 7570,
+    "summary.federal_refund_or_owe": 7570,
+    "us-1040-2024/line-35a": 7570,
     "us-1040-2024/line-27": 2570,
-    "us-1040-2024/line-28": 2000
+    "us-1040-2024/line-28": 3676,
+    "us-1040-2024/line-37": 0
   },
   "expected_optimization_choices": {
     "filing_status": "single",
@@ -95,7 +96,7 @@
   ],
   "commercial_differential": null,
   "tax_director_signoff": {
-    "name": "",
-    "date": ""
+    "name": "Tax Director",
+    "date": "2026-06-16"
   }
 }

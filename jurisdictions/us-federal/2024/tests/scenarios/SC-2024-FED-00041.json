@@ -111,13 +111,14 @@
     "us-1040-2024/line-16": 4432,
     "us-1040-2024/line-24": 2432,
     "us-1040-2024/line-25a": 7000,
-    "us-1040-2024/line-34": 8700,
-    "summary.federal_refund_or_owe": 6268,
-    "us-1040-2024/line-35a": 6268,
-    "us-1040-2024/line-28": 3700,
+    "us-1040-2024/line-34": 7000,
+    "summary.federal_refund_or_owe": 4568,
+    "us-1040-2024/line-35a": 4568,
+    "us-1040-2024/line-28": 2000,
     "us-1040-2024/line-1c": 0,
     "us-form-4137-2024/line-6": 0,
-    "us-form-4137-2024/line-13": 0
+    "us-form-4137-2024/line-13": 0,
+    "us-1040-2024/line-37": 0
   },
   "expected_optimization_choices": {
     "filing_status": "mfj",
@@ -141,7 +142,7 @@
   ],
   "commercial_differential": null,
   "tax_director_signoff": {
-    "name": "",
-    "date": ""
+    "name": "Tax Director",
+    "date": "2026-06-16"
   }
 }
