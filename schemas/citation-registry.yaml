@@ -2078,3 +2078,424 @@ citations:
     ctr_anchor: excess-ss-tax
     primary_authority: "IRC §31(b); Form 1040 instructions"
     description: "2025 excess SS tax recovery — max employee SS tax $10,918.20 ($176,100 x 6.2%); excess from multi-employer year on Schedule 3 Line 11"
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART A.2 — STANDARD DEDUCTION (2026)
+  # Authority: IRC §63(c); Rev. Proc. 2025-32
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/A.2/2026/single"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2026
+    ctr_anchor: single
+    primary_authority: "IRC §63(c); Rev. Proc. 2025-32"
+    description: "2026 standard deduction — Single / MFS filer ($16,100)"
+  - citation: "CTR/A.2/2026/mfs"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2026
+    ctr_anchor: mfs
+    primary_authority: "IRC §63(c); Rev. Proc. 2025-32"
+    description: "2026 standard deduction — Married Filing Separately ($16,100)"
+  - citation: "CTR/A.2/2026/hoh"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2026
+    ctr_anchor: hoh
+    primary_authority: "IRC §63(c); Rev. Proc. 2025-32"
+    description: "2026 standard deduction — Head of Household ($24,150)"
+  - citation: "CTR/A.2/2026/mfj"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2026
+    ctr_anchor: mfj
+    primary_authority: "IRC §63(c); Rev. Proc. 2025-32"
+    description: "2026 standard deduction — Married Filing Jointly ($32,200)"
+  - citation: "CTR/A.2/2026/qss"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2026
+    ctr_anchor: qss
+    primary_authority: "IRC §63(c); Rev. Proc. 2025-32"
+    description: "2026 standard deduction — Qualifying Surviving Spouse ($32,200)"
+  - citation: "CTR/A.2/2026/add-65-single"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2026
+    ctr_anchor: add-65-single
+    primary_authority: "IRC §63(f); Rev. Proc. 2025-32"
+    description: "2026 additional standard deduction age 65+/blind — Single or HoH ($2,050)"
+  - citation: "CTR/A.2/2026/add-65-mfj"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2026
+    ctr_anchor: add-65-mfj
+    primary_authority: "IRC §63(f); Rev. Proc. 2025-32"
+    description: "2026 additional standard deduction age 65+/blind — MFJ/MFS/QSS ($1,650)"
+  - citation: "CTR/A.2/2026/add-blind-single"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2026
+    ctr_anchor: add-blind-single
+    primary_authority: "IRC §63(f); Rev. Proc. 2025-32"
+    description: "2026 additional standard deduction blind — Single or HoH ($2,050)"
+  - citation: "CTR/A.2/2026/add-blind-mfj"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2026
+    ctr_anchor: add-blind-mfj
+    primary_authority: "IRC §63(f); Rev. Proc. 2025-32"
+    description: "2026 additional standard deduction blind — MFJ/MFS/QSS ($1,650)"
+  - citation: "CTR/A.2/2026/dependent"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2026
+    ctr_anchor: dependent
+    primary_authority: "IRC §63(c)(5); Rev. Proc. 2025-32"
+    description: "2026 dependent standard deduction — greater of $1,350 or earned income + $450, capped at regular standard deduction"
+  - citation: "CTR/A.2/2026/senior-bonus"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2026
+    ctr_anchor: senior-bonus
+    primary_authority: "OBBBA P.L. 119-21 §70103; IRC §224A"
+    description: "2026 OBBBA Senior Bonus Deduction — $6,000 for taxpayers age 65+ (not indexed; same as 2025)"
+  - citation: "CTR/A.2/2026/senior-bonus-phaseout-single"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2026
+    ctr_anchor: senior-bonus-phaseout-single
+    primary_authority: "OBBBA P.L. 119-21 §70103"
+    description: "2026 Senior Bonus phase-out — Single: $75,000–$175,000 MAGI; 6% reduction rate (same as 2025)"
+  - citation: "CTR/A.2/2026/senior-bonus-phaseout-mfj"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2026
+    ctr_anchor: senior-bonus-phaseout-mfj
+    primary_authority: "OBBBA P.L. 119-21 §70103"
+    description: "2026 Senior Bonus phase-out — MFJ: $150,000–$250,000 MAGI; 6% reduction rate (same as 2025)"
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART A.3 — ITEMIZED DEDUCTIONS (2026)
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/A.3/2026/medical"
+    ctr_part: A
+    ctr_section: 3
+    ctr_year: 2026
+    ctr_anchor: medical
+    primary_authority: "IRC §213"
+    description: "2026 medical expense deduction AGI floor — 7.5% (permanent)"
+  - citation: "CTR/A.3/2026/salt"
+    ctr_part: A
+    ctr_section: 3
+    ctr_year: 2026
+    ctr_anchor: salt
+    primary_authority: "IRC §164(b)(6); OBBBA §70120"
+    description: "2026 SALT cap — $40,400 (1% annual increase from $40,000 per OBBBA §70120)"
+  - citation: "CTR/A.3/2026/salt-mfs"
+    ctr_part: A
+    ctr_section: 3
+    ctr_year: 2026
+    ctr_anchor: salt-mfs
+    primary_authority: "IRC §164(b)(6); OBBBA §70120"
+    description: "2026 SALT cap MFS — $20,200"
+  - citation: "CTR/A.3/2026/charitable"
+    ctr_part: A
+    ctr_section: 3
+    ctr_year: 2026
+    ctr_anchor: charitable
+    primary_authority: "IRC §170; OBBBA §70106"
+    description: "2026 charitable deduction — 0.5% AGI floor on itemized charitable contributions (new per OBBBA §70106); above-the-line $1,000 single / $2,000 MFJ for non-itemizers"
+  - citation: "CTR/A.3/2026/charitable-floor"
+    ctr_part: A
+    ctr_section: 3
+    ctr_year: 2026
+    ctr_anchor: charitable-floor
+    primary_authority: "OBBBA §70106; IRC §170"
+    description: "2026 charitable 0.5% AGI floor — itemized charitable deduction limited to amounts ABOVE 0.5% of AGI; reduces deductibility for small donors who itemize"
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART A.4 — TAX BRACKETS (2026)
+  # Authority: IRC §1(j); Rev. Proc. 2025-32
+  # Note: 2026 brackets from Rev. Proc. 2025-32 (projected; flagged accordingly)
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/A.4/2026/rate-10-single-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2026
+    ctr_anchor: rate-10-single-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2026 federal bracket — 10% rate ceiling, Single ($12,150) [PROJECTED per Rev. Proc. 2025-32]"
+  - citation: "CTR/A.4/2026/rate-12-single-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2026
+    ctr_anchor: rate-12-single-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2026 federal bracket — 12% rate ceiling, Single ($49,450) [PROJECTED]"
+  - citation: "CTR/A.4/2026/rate-22-single-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2026
+    ctr_anchor: rate-22-single-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2026 federal bracket — 22% rate ceiling, Single ($105,400) [PROJECTED]"
+  - citation: "CTR/A.4/2026/rate-24-single-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2026
+    ctr_anchor: rate-24-single-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2026 federal bracket — 24% rate ceiling, Single ($201,050) [PROJECTED]"
+  - citation: "CTR/A.4/2026/rate-32-single-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2026
+    ctr_anchor: rate-32-single-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2026 federal bracket — 32% rate ceiling, Single ($255,550) [PROJECTED]"
+  - citation: "CTR/A.4/2026/rate-35-single-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2026
+    ctr_anchor: rate-35-single-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2026 federal bracket — 35% rate ceiling, Single ($638,750) [PROJECTED]"
+  - citation: "CTR/A.4/2026/rate-37-single"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2026
+    ctr_anchor: rate-37-single
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2026 federal bracket — 37% rate, Single (above $638,750) [PROJECTED]"
+  - citation: "CTR/A.4/2026/rate-10-mfj-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2026
+    ctr_anchor: rate-10-mfj-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2026 federal bracket — 10% rate ceiling, MFJ/QSS ($24,300) [PROJECTED]"
+  - citation: "CTR/A.4/2026/rate-12-mfj-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2026
+    ctr_anchor: rate-12-mfj-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2026 federal bracket — 12% rate ceiling, MFJ/QSS ($98,900) [PROJECTED]"
+  - citation: "CTR/A.4/2026/rate-22-mfj-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2026
+    ctr_anchor: rate-22-mfj-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2026 federal bracket — 22% rate ceiling, MFJ/QSS ($210,800) [PROJECTED]"
+  - citation: "CTR/A.4/2026/rate-24-mfj-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2026
+    ctr_anchor: rate-24-mfj-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2026 federal bracket — 24% rate ceiling, MFJ/QSS ($402,100) [PROJECTED]"
+  - citation: "CTR/A.4/2026/rate-32-mfj-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2026
+    ctr_anchor: rate-32-mfj-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2026 federal bracket — 32% rate ceiling, MFJ/QSS ($511,100) [PROJECTED]"
+  - citation: "CTR/A.4/2026/rate-35-mfj-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2026
+    ctr_anchor: rate-35-mfj-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2026 federal bracket — 35% rate ceiling, MFJ/QSS ($766,550) [PROJECTED]"
+  - citation: "CTR/A.4/2026/rate-37-mfj"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2026
+    ctr_anchor: rate-37-mfj
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2026 federal bracket — 37% rate, MFJ/QSS (above $766,550) [PROJECTED]"
+  - citation: "CTR/A.4/2026/mfs-equals-single"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2026
+    ctr_anchor: mfs-equals-single
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2026 MFS brackets — identical to Single at all rates [PROJECTED]"
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART A.9 — CREDITS (2026)
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/A.9/2026/eitc-table"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2026
+    ctr_anchor: eitc-table
+    primary_authority: "IRC §32; Rev. Proc. 2025-32"
+    description: "2026 EITC table — PROJECTED: ~$665 (0), ~$4,436 (1), ~$7,334 (2), ~$8,250 (3+) [pending IRS final announcement]"
+  - citation: "CTR/A.9/2026/eitc-investment-cap"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2026
+    ctr_anchor: eitc-investment-cap
+    primary_authority: "IRC §32(i); Rev. Proc. 2025-32"
+    description: "2026 EITC investment income cap — PROJECTED (~$12,200)"
+  - citation: "CTR/A.9/2026/eitc-earned-income"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2026
+    ctr_anchor: eitc-earned-income
+    primary_authority: "IRC §32(c)(2); OBBBA §70201"
+    description: "2026 EITC — tips in full in earned income; §224 deduction does NOT reduce EITC base"
+  - citation: "CTR/A.9/2026/ctc-amount"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2026
+    ctr_anchor: ctc-amount
+    primary_authority: "IRC §24; OBBBA §70151"
+    description: "2026 Child Tax Credit — $2,200+ (indexed from 2026 per OBBBA §70151) [PROJECTED; final amount pending IRS announcement]"
+  - citation: "CTR/A.9/2026/ctc-phase-out"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2026
+    ctr_anchor: ctc-phase-out
+    primary_authority: "IRC §24(b)"
+    description: "2026 CTC phase-out — $200,000 single / $400,000 MFJ (not indexed)"
+  - citation: "CTR/A.9/2026/ptc"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2026
+    ctr_anchor: ptc
+    primary_authority: "IRC §36B"
+    description: "2026 PTC — PROJECTED/AMBIGUOUS: ARPA/IRA cliff repeal expired after 2025; 400% FPL cliff applies unless extended; monitor for retroactive legislation (AMB-2026-FED-PTC)"
+  - citation: "CTR/A.9/2026/savers-credit"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2026
+    ctr_anchor: savers-credit
+    primary_authority: "IRC §25B; Rev. Proc. 2025-32"
+    description: "2026 Saver's Credit — 50/20/10% tiers [PROJECTED AGI thresholds pending IRS]"
+  - citation: "CTR/A.9/2026/aotc"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2026
+    ctr_anchor: aotc
+    primary_authority: "IRC §25A"
+    description: "2026 AOTC — max $2,500; 40% refundable; phase-out $80K–$90K single / $160K–$180K MFJ (not indexed)"
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART A.11 — FICA / SOCIAL SECURITY (2026)
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/A.11/2026/ss-wage-base"
+    ctr_part: A
+    ctr_section: 11
+    ctr_year: 2026
+    ctr_anchor: ss-wage-base
+    primary_authority: "IRC §3121(a)(1); SSA Fact Sheet Oct. 2025"
+    description: "2026 Social Security wage base ($184,500)"
+  - citation: "CTR/A.11/2026/max-ss-tax"
+    ctr_part: A
+    ctr_section: 11
+    ctr_year: 2026
+    ctr_anchor: max-ss-tax
+    primary_authority: "IRC §3101(a); SSA Fact Sheet Oct. 2025"
+    description: "2026 Maximum employee Social Security tax ($11,439.00 = $184,500 x 6.2%)"
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART A.12 — STANDARD MILEAGE RATES (2026)
+  # Authority: IRS Notice 2026-10
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/A.12/2026/business-rate"
+    ctr_part: A
+    ctr_section: 12
+    ctr_year: 2026
+    ctr_anchor: business-rate
+    primary_authority: "IRS Notice 2026-10"
+    description: "2026 standard mileage rate — business (72.5 cents per mile)"
+  - citation: "CTR/A.12/2026/medical-rate"
+    ctr_part: A
+    ctr_section: 12
+    ctr_year: 2026
+    ctr_anchor: medical-rate
+    primary_authority: "IRS Notice 2026-10"
+    description: "2026 standard mileage rate — medical and moving Armed Forces only (20.5 cents per mile)"
+  - citation: "CTR/A.12/2026/charitable-rate"
+    ctr_part: A
+    ctr_section: 12
+    ctr_year: 2026
+    ctr_anchor: charitable-rate
+    primary_authority: "IRC §170(i)"
+    description: "2026 standard mileage rate — charitable (14 cents per mile; statutory)"
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART A.13 — FEDERAL FORMS INVENTORY (2026)
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/A.13/2026/form-1040"
+    ctr_part: A
+    ctr_section: 13
+    ctr_year: 2026
+    ctr_anchor: form-1040
+    primary_authority: "IRS Form 1040 (Rev. 2026)"
+    description: "2026 Form 1040 — U.S. Individual Income Tax Return"
+  - citation: "CTR/A.13/2026/form-4137"
+    ctr_part: A
+    ctr_section: 13
+    ctr_year: 2026
+    ctr_anchor: form-4137
+    primary_authority: "IRS Form 4137 (Rev. 2026)"
+    description: "2026 Form 4137 — Social Security and Medicare Tax on Unreported Tip Income"
+  - citation: "CTR/A.13/2026/form-1040-schedule-1a"
+    ctr_part: A
+    ctr_section: 13
+    ctr_year: 2026
+    ctr_anchor: form-1040-schedule-1a
+    primary_authority: "IRS Schedule 1-A (Form 1040) (Rev. 2026); T.D. 10044"
+    description: "2026 Schedule 1-A — OBBBA Additional Deductions; Line 4 now uses W-2 Box 12 code TP (mandatory)"
+  - citation: "CTR/A.13/2026/mailing-address-federal-ca-resident"
+    ctr_part: A
+    ctr_section: 13
+    ctr_year: 2026
+    ctr_anchor: mailing-address-federal-ca-resident
+    primary_authority: "IRS Form 1040 instructions (2026), Where to File"
+    description: "2026 federal Form 1040 mailing addresses for California residents"
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART B — FEDERAL TIPPED-WAGE PARAMETERS (2026)
+  # Key 2026 change: mandatory W-2 Box 12 TP + Box 14b TTOC per T.D. 10044
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/B.1/2026/section-224-available"
+    ctr_part: B
+    ctr_section: 1
+    ctr_year: 2026
+    ctr_anchor: section-224-available
+    primary_authority: "IRC §224(a)(j); OBBBA P.L. 119-21"
+    description: "§224 available for 2026 (year 2 of 4; sunsets after 2028); same statutory parameters as 2025"
+  - citation: "CTR/B.1/2026/section-224-w2-box12-tp"
+    ctr_part: B
+    ctr_section: 1
+    ctr_year: 2026
+    ctr_anchor: section-224-w2-box12-tp
+    primary_authority: "T.D. 10044 (91 FR 19026, April 13, 2026); IRC §6051(a)(18); Treas. Reg. §1.224-1"
+    description: "2026 mandatory W-2 reporting — qualified tips in W-2 Box 12 code TP; qualified overtime in Box 12 code TT; TTOC in new Box 14b"
+  - citation: "CTR/B.1/2026/section-224-box14b-ttoc"
+    ctr_part: B
+    ctr_section: 1
+    ctr_year: 2026
+    ctr_anchor: section-224-box14b-ttoc
+    primary_authority: "T.D. 10044; 2026 Form W-2 instructions"
+    description: "2026 mandatory W-2 Box 14b — Treasury Tipped Occupation Code (TTOC); employer must report employee's TTOC"
+  - citation: "CTR/B.2/2026/section-225-overtime"
+    ctr_part: B
+    ctr_section: 2
+    ctr_year: 2026
+    ctr_anchor: section-225-overtime
+    primary_authority: "IRC §225; OBBBA P.L. 119-21 §70202"
+    description: "§225 Qualified Overtime Deduction — above-the-line deduction for W-2 overtime (FLSA §207); same cap/phase-out structure as §224; W-2 Box 12 code TT; OBBBA 2025+"
+  - citation: "CTR/B.6/2026/excess-ss-tax"
+    ctr_part: B
+    ctr_section: 6
+    ctr_year: 2026
+    ctr_anchor: excess-ss-tax
+    primary_authority: "IRC §31(b)"
+    description: "2026 excess SS tax recovery — max employee SS tax $11,439.00 ($184,500 x 6.2%); excess from multi-employer year on Schedule 3 Line 11"
+  - citation: "CTR/B.7/2026/ptc-ambiguity"
+    ctr_part: B
+    ctr_section: 7
+    ctr_year: 2026
+    ctr_anchor: ptc-ambiguity
+    primary_authority: "IRC §36B; CTR Part F (2026 mid-year changes tracker)"
+    description: "2026 PTC ESCALATE/AMBIGUITY — ARPA/IRA cliff repeal expired; pre-expansion §36B parameters apply absent legislation; AMB-2026-FED-PTC flagged"
