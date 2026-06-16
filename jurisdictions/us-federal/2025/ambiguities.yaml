@@ -1,0 +1,33 @@
+pack: us-federal/2025
+tax_year: 2025
+jurisdiction: us-federal
+
+ambiguities:
+  - ambiguity_id: AMB-2025-FED-SSTB
+    applicable: true
+    description: >
+      Whether §224 qualified tip deduction is available to tipped-occupation employees
+      whose employer is a Specified Service Trade or Business (SSTB) under §199A(d)(2).
+      Notice 2025-69 provides transition relief for 2025 allowing §224 in SSTB context,
+      but the final regulation (T.D. 10044) scope for ongoing years is ambiguous for
+      edge-case occupations. For 2025 the platform defaults to SSTB transition relief
+      per Notice 2025-69 (deduction available for TTOC occupations in SSTB context).
+    interpretations:
+      most_defensible:
+        description: "§224 available for TTOC-listed occupations in SSTB employer context per Notice 2025-69 transition relief for 2025"
+        recommended_default: true
+        forbidden: false
+      conservative:
+        description: "§224 denied for any tipped employee whose employer qualifies as SSTB, regardless of occupation"
+        recommended_default: false
+        forbidden: false
+      aggressive:
+        description: "§224 available without any SSTB restriction, ignoring potential statutory conflict"
+        recommended_default: false
+        forbidden: true
+    reevaluation_trigger: "Any Tax Court or district court decision construing §224 + SSTB interaction; quarterly research review required"
+    tax_director_signoff:
+      name: "Tax Director"
+      date: "2026-06-15"
+      confirmed: true
+

@@ -1,0 +1,43 @@
+pack: us-federal/2025
+tax_year: 2025
+jurisdiction: us-federal
+authority: "IRC §§63,67,68,163(h),164,170,213; OBBBA §§70106,70108,70120"
+
+medical:
+  agi_floor: 0.075
+  permanent: true
+  citation: "CTR/A.3/2025/medical"
+
+salt:
+  cap: 40000
+  cap_mfs: 20000
+  citation: "CTR/A.3/2025/salt"
+  mfs_citation: "CTR/A.3/2025/salt-mfs"
+  phase_down:
+    threshold_single: 500000
+    threshold_mfs: 250000
+    reduction_rate: 0.30
+    floor: 10000
+    citation: "CTR/A.3/2025/salt-phasedown"
+  note: "OBBBA §70120; $40K cap 2025-2029 with 1% annual increase; reverts to $10K in 2030"
+
+mortgage_interest:
+  acquisition_cap_post_dec_2017: 750000
+  acquisition_cap_post_dec_2017_mfs: 375000
+  acquisition_cap_pre_dec_2017: 1000000
+  heloc_acquisition_only: true
+  obbba_made_permanent: true
+  citation: "CTR/A.3/2025/mortgage"
+
+charitable:
+  cash_public_charity_agi_pct: 0.60
+  above_the_line_nonitemizer_single: 1000
+  above_the_line_nonitemizer_mfj: 2000
+  floor_begins_year: 2026
+  citation: "CTR/A.3/2025/charitable"
+
+misc_2pct_suspended: true
+misc_2pct_permanent: true
+misc_2pct_suspension_citation: "CTR/A.3/2025/misc-2pct-suspended"
+misc_2pct_note: "OBBBA §70120 made suspension permanent; CA does NOT conform"
+

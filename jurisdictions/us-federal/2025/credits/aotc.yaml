@@ -1,0 +1,25 @@
+pack: us-federal/2025
+tax_year: 2025
+jurisdiction: us-federal
+credit_type: aotc
+authority: "IRC §25A(b)(d)(g)"
+
+aotc:
+  max_credit_per_student: 2500
+  first_tier_expense_max: 2000
+  first_tier_rate: 1.00
+  second_tier_expense_max: 2000
+  second_tier_rate: 0.25
+  refundable_percentage: 0.40
+  max_refundable: 1000
+  max_years: 4
+  mfs_bar: true
+  mfs_bar_citation: "CTR/A.9/2025/aotc-mfs-bar"
+  citation: "CTR/A.9/2025/aotc"
+  phase_out:
+    start_single: 80000
+    complete_single: 90000
+    start_mfj: 160000
+    complete_mfj: 180000
+    indexed: false
+

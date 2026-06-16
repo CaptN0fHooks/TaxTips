@@ -1,0 +1,24 @@
+pack: us-federal/2025
+tax_year: 2025
+jurisdiction: us-federal
+credit_type: savers
+authority: "IRC §25B; Rev. Proc. 2025-32"
+
+savers_credit:
+  max_contribution_per_person: 2000
+  citation: "CTR/A.9/2025/savers-credit"
+  tiers:
+    rate_50pct:
+      agi_ceiling_single: 23750
+      agi_ceiling_hoh: 35625
+      agi_ceiling_mfj: 47500
+    rate_20pct:
+      agi_ceiling_single: 25750
+      agi_ceiling_hoh: 38625
+      agi_ceiling_mfj: 51500
+    rate_10pct:
+      agi_ceiling_single: 39500
+      agi_ceiling_hoh: 59250
+      agi_ceiling_mfj: 79000
+  above_ceiling: 0
+

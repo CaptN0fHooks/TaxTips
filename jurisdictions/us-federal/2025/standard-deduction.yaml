@@ -1,0 +1,64 @@
+pack: us-federal/2025
+tax_year: 2025
+jurisdiction: us-federal
+authority: "IRC §63(c)(f); OBBBA P.L. 119-21 §70102; Rev. Proc. 2025-32"
+
+base:
+  single:
+    amount: 15750
+    citation: "CTR/A.2/2025/single"
+  mfs:
+    amount: 15750
+    citation: "CTR/A.2/2025/mfs"
+  hoh:
+    amount: 23625
+    citation: "CTR/A.2/2025/hoh"
+  mfj:
+    amount: 31500
+    citation: "CTR/A.2/2025/mfj"
+  qss:
+    amount: 31500
+    citation: "CTR/A.2/2025/qss"
+
+additional:
+  age_65_plus:
+    single_or_hoh:
+      amount: 2000
+      citation: "CTR/A.2/2025/add-65-single"
+    mfj_mfs_qss:
+      amount: 1600
+      citation: "CTR/A.2/2025/add-65-mfj"
+  blind:
+    single_or_hoh:
+      amount: 2000
+      citation: "CTR/A.2/2025/add-blind-single"
+    mfj_mfs_qss:
+      amount: 1600
+      citation: "CTR/A.2/2025/add-blind-mfj"
+
+dependent_floor:
+  amount: 1300
+  earned_income_plus: 450
+  capped_at: "regular_standard_deduction"
+  citation: "CTR/A.2/2025/dependent"
+
+senior_bonus_obbba:
+  base_amount: 6000
+  mfj_both_65_plus_amount: 12000
+  citation: "CTR/A.2/2025/senior-bonus"
+  mfj_citation: "CTR/A.2/2025/senior-bonus-mfj"
+  phase_out:
+    single_start: 75000
+    single_complete: 175000
+    mfj_start: 150000
+    mfj_complete: 250000
+    rate: 0.06
+    single_citation: "CTR/A.2/2025/senior-bonus-phaseout-single"
+    mfj_citation: "CTR/A.2/2025/senior-bonus-phaseout-mfj"
+  mfs_eligible: false
+  ssn_required: true
+  indexed: false
+  available_years: [2025, 2026, 2027, 2028]
+  schedule_1a_part: V
+  schedule_1a_line: 37
+
