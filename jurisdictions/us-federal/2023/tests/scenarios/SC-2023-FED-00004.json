@@ -19,7 +19,7 @@
         "w2_id": "w2-1",
         "employer": "Non-tipped W-2 (household head)",
         "box1": 52000,
-        "box2": 11440,
+        "box2": 6200,
         "box3": 52000,
         "box4": 3224,
         "box5": 52000,
@@ -61,15 +61,19 @@
     }
   },
   "expected_outputs": {
-    "us-1040-2023/line-11": "SPECIALIST_MUST_AUTHOR",
-    "us-1040-2023/line-15": "SPECIALIST_MUST_AUTHOR",
-    "us-1040-2023/line-24": "SPECIALIST_MUST_AUTHOR",
-    "us-1040-2023/line-35a": "SPECIALIST_MUST_AUTHOR",
-    "summary.federal_refund_or_owe": "SPECIALIST_MUST_AUTHOR"
+    "us-1040-2023/line-11": 52000,
+    "us-1040-2023/line-12": 20800,
+    "us-1040-2023/line-15": 31200,
+    "us-1040-2023/line-16": 3430,
+    "us-1040-2023/line-24": 3430,
+    "us-1040-2023/line-25a": 6200,
+    "us-1040-2023/line-34": 6200,
+    "us-1040-2023/line-35a": 2770,
+    "summary.federal_refund_or_owe": 2770
   },
   "expected_optimization_choices": {
-    "filing_status": "SPECIALIST_MUST_AUTHOR",
-    "federal_deduction_choice": "SPECIALIST_MUST_AUTHOR"
+    "filing_status": "hoh",
+    "federal_deduction_choice": "standard"
   },
   "expected_ambiguity_dispositions": {},
   "controlling_report_anchors": [

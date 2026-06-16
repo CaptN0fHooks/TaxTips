@@ -13,12 +13,12 @@
         "w2_id": "w2-1",
         "employer": "Restaurant A (tipped, TTOC-102)",
         "box1": 38000,
-        "box2": 8360,
+        "box2": 4200,
         "box3": 38000,
         "box4": 2356,
         "box5": 38000,
         "box6": 551,
-        "box7": 6000,
+        "box7": 9000,
         "box8": 0,
         "box12_codes": [],
         "box14b_ttoc": null,
@@ -31,12 +31,12 @@
       {
         "w2_id": "w2-2",
         "employer": "Non-tipped W-2 (retail)",
-        "box1": 47000,
-        "box2": 10340,
-        "box3": 47000,
-        "box4": 2914,
-        "box5": 47000,
-        "box6": 681.5,
+        "box1": 45000,
+        "box2": 5500,
+        "box3": 45000,
+        "box4": 2790,
+        "box5": 45000,
+        "box6": 652.5,
         "box7": 0,
         "box8": 0,
         "box12_codes": [],
@@ -87,15 +87,19 @@
     }
   },
   "expected_outputs": {
-    "us-1040-2023/line-11": "SPECIALIST_MUST_AUTHOR",
-    "us-1040-2023/line-15": "SPECIALIST_MUST_AUTHOR",
-    "us-1040-2023/line-24": "SPECIALIST_MUST_AUTHOR",
-    "us-1040-2023/line-35a": "SPECIALIST_MUST_AUTHOR",
-    "summary.federal_refund_or_owe": "SPECIALIST_MUST_AUTHOR"
+    "us-1040-2023/line-11": 83000,
+    "us-1040-2023/line-12": 27700,
+    "us-1040-2023/line-15": 55300,
+    "us-1040-2023/line-16": 6196,
+    "us-1040-2023/line-24": 6196,
+    "us-1040-2023/line-25a": 9700,
+    "us-1040-2023/line-34": 9700,
+    "us-1040-2023/line-35a": 3504,
+    "summary.federal_refund_or_owe": 3504
   },
   "expected_optimization_choices": {
-    "filing_status": "SPECIALIST_MUST_AUTHOR",
-    "federal_deduction_choice": "SPECIALIST_MUST_AUTHOR"
+    "filing_status": "mfj",
+    "federal_deduction_choice": "standard"
   },
   "expected_ambiguity_dispositions": {},
   "controlling_report_anchors": [

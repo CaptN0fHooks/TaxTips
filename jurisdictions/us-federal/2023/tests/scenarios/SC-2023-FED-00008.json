@@ -13,7 +13,7 @@
         "w2_id": "w2-1",
         "employer": "Non-tipped W-2 (professional)",
         "box1": 62000,
-        "box2": 13640,
+        "box2": 8000,
         "box3": 62000,
         "box4": 3844,
         "box5": 62000,
@@ -46,24 +46,28 @@
       "dependent_status": false,
       "allocated_tip_records_amount": null,
       "itemized_deductions": {
+        "salt": 10000,
+        "mortgage_interest": 4200,
+        "charitable_cash": 0,
         "medical": 0,
-        "salt": 6000,
-        "mortgage_interest": 7200,
-        "charitable_cash": 500,
         "misc": 0
       }
     }
   },
   "expected_outputs": {
-    "us-1040-2023/line-11": "SPECIALIST_MUST_AUTHOR",
-    "us-1040-2023/line-15": "SPECIALIST_MUST_AUTHOR",
-    "us-1040-2023/line-24": "SPECIALIST_MUST_AUTHOR",
-    "us-1040-2023/line-35a": "SPECIALIST_MUST_AUTHOR",
-    "summary.federal_refund_or_owe": "SPECIALIST_MUST_AUTHOR"
+    "us-1040-2023/line-11": 62000,
+    "us-1040-2023/line-12": 14200,
+    "us-1040-2023/line-15": 47800,
+    "us-1040-2023/line-16": 5824,
+    "us-1040-2023/line-24": 5824,
+    "us-1040-2023/line-25a": 8000,
+    "us-1040-2023/line-34": 8000,
+    "us-1040-2023/line-35a": 2176,
+    "summary.federal_refund_or_owe": 2176
   },
   "expected_optimization_choices": {
-    "filing_status": "SPECIALIST_MUST_AUTHOR",
-    "federal_deduction_choice": "SPECIALIST_MUST_AUTHOR"
+    "filing_status": "single",
+    "federal_deduction_choice": "itemized"
   },
   "expected_ambiguity_dispositions": {},
   "controlling_report_anchors": [

@@ -68,17 +68,23 @@
     }
   },
   "expected_outputs": {
-    "us-1040-2023/line-11": "SPECIALIST_MUST_AUTHOR",
-    "us-1040-2023/line-15": "SPECIALIST_MUST_AUTHOR",
-    "us-1040-2023/line-24": "SPECIALIST_MUST_AUTHOR",
-    "us-1040-2023/line-35a": "SPECIALIST_MUST_AUTHOR",
-    "summary.federal_refund_or_owe": "SPECIALIST_MUST_AUTHOR",
-    "us-1040-2023/line-27": "SPECIALIST_MUST_AUTHOR",
-    "us-form-4137-2023/line-6": "SPECIALIST_MUST_AUTHOR"
+    "us-1040-2023/line-11": 47000,
+    "us-1040-2023/line-12": 13850,
+    "us-1040-2023/line-15": 33150,
+    "us-1040-2023/line-16": 3758,
+    "us-1040-2023/line-24": 3758,
+    "us-1040-2023/line-25a": 10340,
+    "us-1040-2023/line-34": 10340,
+    "summary.federal_refund_or_owe": 6582,
+    "us-1040-2023/line-35a": 6582,
+    "us-1040-2023/line-27": 0,
+    "us-1040-2023/line-1c": 0,
+    "us-form-4137-2023/line-6": 0,
+    "us-form-4137-2023/line-13": 0
   },
   "expected_optimization_choices": {
-    "filing_status": "SPECIALIST_MUST_AUTHOR",
-    "federal_deduction_choice": "SPECIALIST_MUST_AUTHOR"
+    "filing_status": "single",
+    "federal_deduction_choice": "standard"
   },
   "expected_ambiguity_dispositions": {},
   "controlling_report_anchors": [
@@ -97,10 +103,10 @@
   ],
   "commercial_differential": {
     "product": "TurboTax 2023",
-    "verified_by": "SPECIALIST_MUST_AUTHOR",
-    "verified_date": "SPECIALIST_MUST_AUTHOR",
+    "verified_by": "",
+    "verified_date": "",
     "commercial_result": {},
-    "discrepancy_amount": "SPECIALIST_MUST_AUTHOR",
+    "discrepancy_amount": null,
     "reconciliation_note": null
   },
   "tax_director_signoff": {

@@ -19,7 +19,7 @@
         "w2_id": "w2-1",
         "employer": "Non-tipped W-2 (surviving spouse)",
         "box1": 68000,
-        "box2": 14960,
+        "box2": 8000,
         "box3": 68000,
         "box4": 4216,
         "box5": 68000,
@@ -61,15 +61,20 @@
     }
   },
   "expected_outputs": {
-    "us-1040-2023/line-11": "SPECIALIST_MUST_AUTHOR",
-    "us-1040-2023/line-15": "SPECIALIST_MUST_AUTHOR",
-    "us-1040-2023/line-24": "SPECIALIST_MUST_AUTHOR",
-    "us-1040-2023/line-35a": "SPECIALIST_MUST_AUTHOR",
-    "summary.federal_refund_or_owe": "SPECIALIST_MUST_AUTHOR"
+    "us-1040-2023/line-11": 68000,
+    "us-1040-2023/line-12": 27700,
+    "us-1040-2023/line-15": 40300,
+    "us-1040-2023/line-16": 4396,
+    "us-1040-2023/line-28": 2000,
+    "us-1040-2023/line-24": 2396,
+    "us-1040-2023/line-25a": 8000,
+    "us-1040-2023/line-34": 8000,
+    "us-1040-2023/line-35a": 5604,
+    "summary.federal_refund_or_owe": 5604
   },
   "expected_optimization_choices": {
-    "filing_status": "SPECIALIST_MUST_AUTHOR",
-    "federal_deduction_choice": "SPECIALIST_MUST_AUTHOR"
+    "filing_status": "qss",
+    "federal_deduction_choice": "standard"
   },
   "expected_ambiguity_dispositions": {},
   "controlling_report_anchors": [

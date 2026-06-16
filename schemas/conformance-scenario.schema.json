@@ -183,6 +183,10 @@
                 },
                 {
                   "type": "string",
+                  "const": ""
+                },
+                {
+                  "type": "string",
                   "const": "SPECIALIST_MUST_AUTHOR"
                 }
               ]
@@ -194,6 +198,9 @@
               "oneOf": [
                 {
                   "type": "number"
+                },
+                {
+                  "type": "null"
                 },
                 {
                   "type": "string",

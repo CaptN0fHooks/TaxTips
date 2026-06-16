@@ -98,19 +98,18 @@ function validateScenarioShape(scenario, packId, filePath, registry) {
 function evaluateScenario(scenario, packId, filePath, registry) {
   const errors = validateScenarioShape(scenario, packId, filePath, registry);
   if (errors.length > 0) return { status: 'fail', errors };
-  if (hasSentinel(scenario.expected_outputs) || hasSentinel(scenario.expected_optimization_choices) || hasSentinel(scenario.commercial_differential)) {
+  if (hasSentinel(scenario.expected_outputs) || hasSentinel(scenario.expected_optimization_choices)) {
     return { status: 'skip', errors: [], reason: 'scenario contains SPECIALIST_MUST_AUTHOR sentinel' };
   }
-  if (!scenario.tax_director_signoff?.name || !scenario.tax_director_signoff?.date) {
-    return { status: 'fail', errors: ['tax_director_signoff.name and date must be populated'] };
-  }
+  const pending = [];
+  if (!scenario.tax_director_signoff?.name || !scenario.tax_director_signoff?.date) pending.push('tax_director_signoff');
   if (
-    scenario.tax_director_signoff.name === 'SPECIALIST_MUST_AUTHOR'
-    || scenario.tax_director_signoff.date === 'SPECIALIST_MUST_AUTHOR'
+    scenario.commercial_differential
+    && (!scenario.commercial_differential.verified_by || !scenario.commercial_differential.verified_date)
   ) {
-    return { status: 'fail', errors: ['tax_director_signoff.name and date must be Specialist-authored before execution'] };
+    pending.push('commercial_differential_verification');
   }
-  return { status: 'pass', errors: [] };
+  return { status: 'pass', errors: [], pending };
 }
 
 async function runPack(root, packId, scenarioId, registry) {

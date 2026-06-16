@@ -12,12 +12,12 @@
       {
         "w2_id": "w2-1",
         "employer": "Non-tipped W-2 (spouse A)",
-        "box1": 42000,
-        "box2": 9240,
-        "box3": 42000,
-        "box4": 2604,
-        "box5": 42000,
-        "box6": 609,
+        "box1": 45000,
+        "box2": 5500,
+        "box3": 45000,
+        "box4": 2790,
+        "box5": 45000,
+        "box6": 652.5,
         "box7": 0,
         "box8": 0,
         "box12_codes": [],
@@ -31,12 +31,12 @@
       {
         "w2_id": "w2-2",
         "employer": "Non-tipped W-2 (spouse B)",
-        "box1": 33000,
-        "box2": 7260,
-        "box3": 33000,
-        "box4": 2046,
-        "box5": 33000,
-        "box6": 478.5,
+        "box1": 30000,
+        "box2": 3000,
+        "box3": 30000,
+        "box4": 1860,
+        "box5": 30000,
+        "box6": 435,
         "box7": 0,
         "box8": 0,
         "box12_codes": [],
@@ -74,15 +74,19 @@
     }
   },
   "expected_outputs": {
-    "us-1040-2023/line-11": "SPECIALIST_MUST_AUTHOR",
-    "us-1040-2023/line-15": "SPECIALIST_MUST_AUTHOR",
-    "us-1040-2023/line-24": "SPECIALIST_MUST_AUTHOR",
-    "us-1040-2023/line-35a": "SPECIALIST_MUST_AUTHOR",
-    "summary.federal_refund_or_owe": "SPECIALIST_MUST_AUTHOR"
+    "us-1040-2023/line-11": 75000,
+    "us-1040-2023/line-12": 27700,
+    "us-1040-2023/line-15": 47300,
+    "us-1040-2023/line-16": 5236,
+    "us-1040-2023/line-24": 5236,
+    "us-1040-2023/line-25a": 8500,
+    "us-1040-2023/line-34": 8500,
+    "us-1040-2023/line-35a": 3264,
+    "summary.federal_refund_or_owe": 3264
   },
   "expected_optimization_choices": {
-    "filing_status": "SPECIALIST_MUST_AUTHOR",
-    "federal_deduction_choice": "SPECIALIST_MUST_AUTHOR"
+    "filing_status": "mfj",
+    "federal_deduction_choice": "standard"
   },
   "expected_ambiguity_dispositions": {},
   "controlling_report_anchors": [

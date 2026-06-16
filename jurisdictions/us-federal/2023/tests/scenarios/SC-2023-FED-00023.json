@@ -71,16 +71,21 @@
     }
   },
   "expected_outputs": {
-    "us-1040-2023/line-11": "SPECIALIST_MUST_AUTHOR",
-    "us-1040-2023/line-15": "SPECIALIST_MUST_AUTHOR",
-    "us-1040-2023/line-24": "SPECIALIST_MUST_AUTHOR",
-    "us-1040-2023/line-35a": "SPECIALIST_MUST_AUTHOR",
-    "summary.federal_refund_or_owe": "SPECIALIST_MUST_AUTHOR",
-    "us-1040-2023/line-27": "SPECIALIST_MUST_AUTHOR"
+    "us-1040-2023/line-11": 22000,
+    "us-1040-2023/line-12": 13850,
+    "us-1040-2023/line-15": 8150,
+    "us-1040-2023/line-16": 815,
+    "us-1040-2023/line-24": 0,
+    "us-1040-2023/line-25a": 4840,
+    "us-1040-2023/line-34": 15102,
+    "summary.federal_refund_or_owe": 15102,
+    "us-1040-2023/line-35a": 15102,
+    "us-1040-2023/line-27": 7337,
+    "us-1040-2023/line-28": 8925
   },
   "expected_optimization_choices": {
-    "filing_status": "SPECIALIST_MUST_AUTHOR",
-    "federal_deduction_choice": "SPECIALIST_MUST_AUTHOR"
+    "filing_status": "single",
+    "federal_deduction_choice": "standard"
   },
   "expected_ambiguity_dispositions": {},
   "controlling_report_anchors": [

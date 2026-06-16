@@ -13,7 +13,7 @@
         "w2_id": "w2-1",
         "employer": "Non-tipped W-2 (part-time)",
         "box1": 14000,
-        "box2": 3080,
+        "box2": 1200,
         "box3": 14000,
         "box4": 868,
         "box5": 14000,
@@ -55,16 +55,20 @@
     }
   },
   "expected_outputs": {
-    "us-1040-2023/line-11": "SPECIALIST_MUST_AUTHOR",
-    "us-1040-2023/line-15": "SPECIALIST_MUST_AUTHOR",
-    "us-1040-2023/line-24": "SPECIALIST_MUST_AUTHOR",
-    "us-1040-2023/line-35a": "SPECIALIST_MUST_AUTHOR",
-    "summary.federal_refund_or_owe": "SPECIALIST_MUST_AUTHOR",
-    "us-1040-2023/line-27": "SPECIALIST_MUST_AUTHOR"
+    "us-1040-2023/line-11": 14000,
+    "us-1040-2023/line-12": 13850,
+    "us-1040-2023/line-15": 150,
+    "us-1040-2023/line-16": 15,
+    "us-1040-2023/line-24": 0,
+    "us-1040-2023/line-25a": 1200,
+    "us-1040-2023/line-27": 279,
+    "us-1040-2023/line-34": 1479,
+    "us-1040-2023/line-35a": 1464,
+    "summary.federal_refund_or_owe": 1464
   },
   "expected_optimization_choices": {
-    "filing_status": "SPECIALIST_MUST_AUTHOR",
-    "federal_deduction_choice": "SPECIALIST_MUST_AUTHOR"
+    "filing_status": "single",
+    "federal_deduction_choice": "standard"
   },
   "expected_ambiguity_dispositions": {},
   "controlling_report_anchors": [

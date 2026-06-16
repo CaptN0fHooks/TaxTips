@@ -19,7 +19,7 @@
         "w2_id": "w2-1",
         "employer": "Non-tipped W-2 (caregiver)",
         "box1": 18000,
-        "box2": 3960,
+        "box2": 2200,
         "box3": 18000,
         "box4": 1116,
         "box5": 18000,
@@ -61,16 +61,21 @@
     }
   },
   "expected_outputs": {
-    "us-1040-2023/line-11": "SPECIALIST_MUST_AUTHOR",
-    "us-1040-2023/line-15": "SPECIALIST_MUST_AUTHOR",
-    "us-1040-2023/line-24": "SPECIALIST_MUST_AUTHOR",
-    "us-1040-2023/line-35a": "SPECIALIST_MUST_AUTHOR",
-    "summary.federal_refund_or_owe": "SPECIALIST_MUST_AUTHOR",
-    "us-1040-2023/line-27": "SPECIALIST_MUST_AUTHOR"
+    "us-1040-2023/line-11": 18000,
+    "us-1040-2023/line-12": 13850,
+    "us-1040-2023/line-15": 4150,
+    "us-1040-2023/line-16": 415,
+    "us-1040-2023/line-28": 2015,
+    "us-1040-2023/line-24": 0,
+    "us-1040-2023/line-25a": 2200,
+    "us-1040-2023/line-27": 3995,
+    "us-1040-2023/line-34": 7795,
+    "us-1040-2023/line-35a": 7795,
+    "summary.federal_refund_or_owe": 7795
   },
   "expected_optimization_choices": {
-    "filing_status": "SPECIALIST_MUST_AUTHOR",
-    "federal_deduction_choice": "SPECIALIST_MUST_AUTHOR"
+    "filing_status": "single",
+    "federal_deduction_choice": "standard"
   },
   "expected_ambiguity_dispositions": {},
   "controlling_report_anchors": [

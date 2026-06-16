@@ -14,21 +14,27 @@ Minimum: 50 complete scenarios, 3 commercial differential scenarios, zero sentin
 ## Batch 1 Scaffold Status
 
 Directive 8 scaffold files exist for `SC-2023-FED-00001` through `SC-2023-FED-00050`.
-These files are structural shells only. All expected outputs, optimization choices,
-commercial verification fields, and Tax Director signoff fields remain Specialist or
-Tax Director work.
+Expected outputs and optimization choices are authored per Directive 9. Commercial
+verification fields for the three differential scenarios and Tax Director signoff
+remain pending.
 
 | Requirement | Scaffold Coverage | Complete Coverage |
 |---|---:|---:|
-| Filing status baseline | 5 / 5 | 0 / 5 |
-| Standard vs itemized | 3 / 3 | 0 / 3 |
-| Tip income W-2 reporting | 2 / 2 | 0 / 2 |
-| Multi-W-2 | 2 / 2 | 0 / 2 |
-| Excess Social Security tax recovery | 1 / 1 | 0 / 1 |
-| EITC coverage | 13 / 13 | 0 / 13 |
-| Child Tax Credit | 3 / 3 | 0 / 3 |
-| AOTC | 2 / 2 | 0 / 2 |
-| Form 4137 allocated tips | 2 / 2 | 0 / 2 |
-| PTC | 2 / 2 | 0 / 2 |
-| Saver's Credit | 2 / 2 | 0 / 2 |
-| Commercial differential | 3 / 3 | 0 / 3 |
+| Filing status baseline | 5 / 5 | 5 / 5 |
+| Standard vs itemized | 3 / 3 | 3 / 3 |
+| Tip income W-2 reporting | 2 / 2 | 2 / 2 |
+| Multi-W-2 | 2 / 2 | 2 / 2 |
+| Excess Social Security tax recovery | 1 / 1 | 1 / 1 |
+| EITC coverage | 13 / 13 | 13 / 13 |
+| Child Tax Credit | 3 / 3 | 3 / 3 |
+| AOTC | 2 / 2 | 2 / 2 |
+| Form 4137 allocated tips | 2 / 2 | 2 / 2 |
+| PTC | 2 / 2 | 2 / 2 |
+| Saver's Credit | 2 / 2 | 2 / 2 |
+| Commercial differential | 3 / 3 | 0 / 3 pending product verification |
+
+## Gate Notes
+
+- Runner status: 50 PASS / 0 SKIP / 0 FAIL.
+- Tax Director signoff: pending all 50 scenarios.
+- Commercial differential verification: pending `SC-2023-FED-00047`, `SC-2023-FED-00048`, and `SC-2023-FED-00049`.

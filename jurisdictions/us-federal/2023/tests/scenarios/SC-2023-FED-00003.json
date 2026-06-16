@@ -13,7 +13,7 @@
         "w2_id": "w2-1",
         "employer": "Non-tipped W-2 (separate filer)",
         "box1": 35000,
-        "box2": 7700,
+        "box2": 3800,
         "box3": 35000,
         "box4": 2170,
         "box5": 35000,
@@ -55,15 +55,19 @@
     }
   },
   "expected_outputs": {
-    "us-1040-2023/line-11": "SPECIALIST_MUST_AUTHOR",
-    "us-1040-2023/line-15": "SPECIALIST_MUST_AUTHOR",
-    "us-1040-2023/line-24": "SPECIALIST_MUST_AUTHOR",
-    "us-1040-2023/line-35a": "SPECIALIST_MUST_AUTHOR",
-    "summary.federal_refund_or_owe": "SPECIALIST_MUST_AUTHOR"
+    "us-1040-2023/line-11": 35000,
+    "us-1040-2023/line-12": 13850,
+    "us-1040-2023/line-15": 21150,
+    "us-1040-2023/line-16": 2318,
+    "us-1040-2023/line-24": 2318,
+    "us-1040-2023/line-25a": 3800,
+    "us-1040-2023/line-34": 3800,
+    "us-1040-2023/line-35a": 1482,
+    "summary.federal_refund_or_owe": 1482
   },
   "expected_optimization_choices": {
-    "filing_status": "SPECIALIST_MUST_AUTHOR",
-    "federal_deduction_choice": "SPECIALIST_MUST_AUTHOR"
+    "filing_status": "mfs",
+    "federal_deduction_choice": "standard"
   },
   "expected_ambiguity_dispositions": {},
   "controlling_report_anchors": [
