@@ -546,3 +546,399 @@ citations:
     ctr_anchor: mailing-address-federal-ca-resident
     primary_authority: "IRS Form 1040 instructions (2023), Where to File"
     description: "2023 federal Form 1040 mailing addresses for California residents — with payment and without payment"
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART A.2 — STANDARD DEDUCTION (2024)
+  # Authority: IRC §63(c); Rev. Proc. 2023-34
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/A.2/2024/single"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2024
+    ctr_anchor: single
+    primary_authority: "IRC §63(c); Rev. Proc. 2023-34"
+    description: "2024 standard deduction — Single / MFS filer ($14,600)"
+  - citation: "CTR/A.2/2024/mfs"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2024
+    ctr_anchor: mfs
+    primary_authority: "IRC §63(c); Rev. Proc. 2023-34"
+    description: "2024 standard deduction — Married Filing Separately ($14,600)"
+  - citation: "CTR/A.2/2024/hoh"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2024
+    ctr_anchor: hoh
+    primary_authority: "IRC §63(c); Rev. Proc. 2023-34"
+    description: "2024 standard deduction — Head of Household ($21,900)"
+  - citation: "CTR/A.2/2024/mfj"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2024
+    ctr_anchor: mfj
+    primary_authority: "IRC §63(c); Rev. Proc. 2023-34"
+    description: "2024 standard deduction — Married Filing Jointly ($29,200)"
+  - citation: "CTR/A.2/2024/qss"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2024
+    ctr_anchor: qss
+    primary_authority: "IRC §63(c); Rev. Proc. 2023-34"
+    description: "2024 standard deduction — Qualifying Surviving Spouse ($29,200)"
+  - citation: "CTR/A.2/2024/add-65-single"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2024
+    ctr_anchor: add-65-single
+    primary_authority: "IRC §63(f); Rev. Proc. 2023-34"
+    description: "2024 additional standard deduction age 65+/blind — Single or HoH ($1,950)"
+  - citation: "CTR/A.2/2024/add-65-mfj"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2024
+    ctr_anchor: add-65-mfj
+    primary_authority: "IRC §63(f); Rev. Proc. 2023-34"
+    description: "2024 additional standard deduction age 65+/blind — MFJ/MFS/QSS ($1,550)"
+  - citation: "CTR/A.2/2024/add-blind-single"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2024
+    ctr_anchor: add-blind-single
+    primary_authority: "IRC §63(f); Rev. Proc. 2023-34"
+    description: "2024 additional standard deduction blind — Single or HoH ($1,950)"
+  - citation: "CTR/A.2/2024/add-blind-mfj"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2024
+    ctr_anchor: add-blind-mfj
+    primary_authority: "IRC §63(f); Rev. Proc. 2023-34"
+    description: "2024 additional standard deduction blind — MFJ/MFS/QSS ($1,550)"
+  - citation: "CTR/A.2/2024/dependent"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2024
+    ctr_anchor: dependent
+    primary_authority: "IRC §63(c)(5); Rev. Proc. 2023-34"
+    description: "2024 dependent standard deduction — greater of $1,300 or earned income + $450, capped at regular standard deduction"
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART A.3 — ITEMIZED DEDUCTIONS (2024)
+  # Authority: IRC §§63,67,68,163(h),164,170,213; TCJA
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/A.3/2024/medical"
+    ctr_part: A
+    ctr_section: 3
+    ctr_year: 2024
+    ctr_anchor: medical
+    primary_authority: "IRC §213"
+    description: "2024 medical expense deduction AGI floor — 7.5% (permanent)"
+  - citation: "CTR/A.3/2024/salt"
+    ctr_part: A
+    ctr_section: 3
+    ctr_year: 2024
+    ctr_anchor: salt
+    primary_authority: "IRC §164(b)(6); TCJA §11042"
+    description: "2024 SALT cap — $10,000 single/MFJ; $5,000 MFS (final TCJA year before OBBBA raises to $40,000 in 2025)"
+  - citation: "CTR/A.3/2024/salt-mfs"
+    ctr_part: A
+    ctr_section: 3
+    ctr_year: 2024
+    ctr_anchor: salt-mfs
+    primary_authority: "IRC §164(b)(6); TCJA §11042"
+    description: "2024 SALT cap MFS — $5,000"
+  - citation: "CTR/A.3/2024/mortgage"
+    ctr_part: A
+    ctr_section: 3
+    ctr_year: 2024
+    ctr_anchor: mortgage
+    primary_authority: "IRC §163(h)(3)"
+    description: "2024 mortgage interest — acquisition debt cap $750,000 post-12/15/2017; $1,000,000 pre-12/15/2017"
+  - citation: "CTR/A.3/2024/charitable"
+    ctr_part: A
+    ctr_section: 3
+    ctr_year: 2024
+    ctr_anchor: charitable
+    primary_authority: "IRC §170(b)"
+    description: "2024 charitable cash contribution AGI limit — 60% of AGI for public charities"
+  - citation: "CTR/A.3/2024/misc-2pct-suspended"
+    ctr_part: A
+    ctr_section: 3
+    ctr_year: 2024
+    ctr_anchor: misc-2pct-suspended
+    primary_authority: "IRC §67(g); TCJA §11045"
+    description: "2024 miscellaneous 2% itemized deductions — fully suspended (TCJA §67(g)); CA does NOT conform"
+  - citation: "CTR/A.3/2024/pease-suspended"
+    ctr_part: A
+    ctr_section: 3
+    ctr_year: 2024
+    ctr_anchor: pease-suspended
+    primary_authority: "IRC §68; TCJA §11046"
+    description: "2024 Pease overall limitation — suspended (TCJA)"
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART A.4 — TAX BRACKETS (2024)
+  # Authority: IRC §1; Rev. Proc. 2023-34
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/A.4/2024/rate-10-single-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2024
+    ctr_anchor: rate-10-single-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2023-34"
+    description: "2024 federal bracket — 10% rate ceiling, Single ($11,600)"
+  - citation: "CTR/A.4/2024/rate-12-single-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2024
+    ctr_anchor: rate-12-single-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2023-34"
+    description: "2024 federal bracket — 12% rate ceiling, Single ($47,150)"
+  - citation: "CTR/A.4/2024/rate-22-single-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2024
+    ctr_anchor: rate-22-single-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2023-34"
+    description: "2024 federal bracket — 22% rate ceiling, Single ($100,525)"
+  - citation: "CTR/A.4/2024/rate-24-single-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2024
+    ctr_anchor: rate-24-single-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2023-34"
+    description: "2024 federal bracket — 24% rate ceiling, Single ($191,950)"
+  - citation: "CTR/A.4/2024/rate-32-single-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2024
+    ctr_anchor: rate-32-single-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2023-34"
+    description: "2024 federal bracket — 32% rate ceiling, Single ($243,725)"
+  - citation: "CTR/A.4/2024/rate-35-single-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2024
+    ctr_anchor: rate-35-single-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2023-34"
+    description: "2024 federal bracket — 35% rate ceiling, Single ($609,350)"
+  - citation: "CTR/A.4/2024/rate-37-single"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2024
+    ctr_anchor: rate-37-single
+    primary_authority: "IRC §1(j); Rev. Proc. 2023-34"
+    description: "2024 federal bracket — 37% rate, Single (above $609,350)"
+  - citation: "CTR/A.4/2024/rate-10-mfj-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2024
+    ctr_anchor: rate-10-mfj-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2023-34"
+    description: "2024 federal bracket — 10% rate ceiling, MFJ/QSS ($23,200)"
+  - citation: "CTR/A.4/2024/rate-12-mfj-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2024
+    ctr_anchor: rate-12-mfj-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2023-34"
+    description: "2024 federal bracket — 12% rate ceiling, MFJ/QSS ($94,300)"
+  - citation: "CTR/A.4/2024/rate-22-mfj-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2024
+    ctr_anchor: rate-22-mfj-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2023-34"
+    description: "2024 federal bracket — 22% rate ceiling, MFJ/QSS ($201,050)"
+  - citation: "CTR/A.4/2024/rate-24-mfj-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2024
+    ctr_anchor: rate-24-mfj-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2023-34"
+    description: "2024 federal bracket — 24% rate ceiling, MFJ/QSS ($383,900)"
+  - citation: "CTR/A.4/2024/rate-32-mfj-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2024
+    ctr_anchor: rate-32-mfj-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2023-34"
+    description: "2024 federal bracket — 32% rate ceiling, MFJ/QSS ($487,450)"
+  - citation: "CTR/A.4/2024/rate-35-mfj-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2024
+    ctr_anchor: rate-35-mfj-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2023-34"
+    description: "2024 federal bracket — 35% rate ceiling, MFJ/QSS ($731,200)"
+  - citation: "CTR/A.4/2024/rate-37-mfj"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2024
+    ctr_anchor: rate-37-mfj
+    primary_authority: "IRC §1(j); Rev. Proc. 2023-34"
+    description: "2024 federal bracket — 37% rate, MFJ/QSS (above $731,200)"
+  - citation: "CTR/A.4/2024/mfs-equals-single"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2024
+    ctr_anchor: mfs-equals-single
+    primary_authority: "IRC §1(j); Rev. Proc. 2023-34"
+    description: "2024 MFS brackets — identical to Single brackets at all rates"
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART A.9 — CREDITS (2024)
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/A.9/2024/eitc-table"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2024
+    ctr_anchor: eitc-table
+    primary_authority: "IRC §32; Rev. Proc. 2023-34"
+    description: "2024 EITC table — max credits: $632 (0 children), $4,213 (1 child), $6,960 (2 children), $7,830 (3+ children)"
+  - citation: "CTR/A.9/2024/eitc-investment-cap"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2024
+    ctr_anchor: eitc-investment-cap
+    primary_authority: "IRC §32(i); Rev. Proc. 2023-34"
+    description: "2024 EITC investment income disqualification cap ($11,600)"
+  - citation: "CTR/A.9/2024/eitc-mfs-bar"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2024
+    ctr_anchor: eitc-mfs-bar
+    primary_authority: "IRC §32(d)"
+    description: "2024 EITC — MFS filers ineligible except under separated-spouse rule §32(d)"
+  - citation: "CTR/A.9/2024/eitc-earned-income"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2024
+    ctr_anchor: eitc-earned-income
+    primary_authority: "IRC §32(c)(2)"
+    description: "2024 EITC — tips included in full in earned income; §224 deduction N/A in 2024"
+  - citation: "CTR/A.9/2024/ctc-amount"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2024
+    ctr_anchor: ctc-amount
+    primary_authority: "IRC §24; Rev. Proc. 2023-34"
+    description: "2024 Child Tax Credit — $2,000 per qualifying child under 17; ACTC refundable cap $1,700"
+  - citation: "CTR/A.9/2024/ctc-actc-refundable-cap"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2024
+    ctr_anchor: ctc-actc-refundable-cap
+    primary_authority: "IRC §24(d); Rev. Proc. 2023-34"
+    description: "2024 Additional Child Tax Credit (ACTC) refundable cap — $1,700"
+  - citation: "CTR/A.9/2024/ctc-phase-out"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2024
+    ctr_anchor: ctc-phase-out
+    primary_authority: "IRC §24(b)"
+    description: "2024 CTC phase-out — begins at $200,000 single / $400,000 MFJ (not inflation-adjusted)"
+  - citation: "CTR/A.9/2024/odc"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2024
+    ctr_anchor: odc
+    primary_authority: "IRC §24(h)(4)"
+    description: "2024 Other Dependent Credit — $500 per qualifying non-child dependent"
+  - citation: "CTR/A.9/2024/aotc"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2024
+    ctr_anchor: aotc
+    primary_authority: "IRC §25A(b)"
+    description: "2024 AOTC — max $2,500 per student; 40% refundable; phase-out $80K–$90K single / $160K–$180K MFJ (not indexed)"
+  - citation: "CTR/A.9/2024/aotc-phase-out"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2024
+    ctr_anchor: aotc-phase-out
+    primary_authority: "IRC §25A(d)"
+    description: "2024 AOTC phase-out — $80,000–$90,000 single; $160,000–$180,000 MFJ (same as 2023; not indexed)"
+  - citation: "CTR/A.9/2024/aotc-mfs-bar"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2024
+    ctr_anchor: aotc-mfs-bar
+    primary_authority: "IRC §25A(g)(6)"
+    description: "2024 AOTC — MFS ineligible"
+  - citation: "CTR/A.9/2024/savers-credit"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2024
+    ctr_anchor: savers-credit
+    primary_authority: "IRC §25B; Rev. Proc. 2023-34"
+    description: "2024 Saver's Credit — 50/20/10% tiered nonrefundable credit on up to $2,000 retirement contributions"
+  - citation: "CTR/A.9/2024/ptc"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2024
+    ctr_anchor: ptc
+    primary_authority: "IRC §36B; IRA §12001 (cliff repeal through 2025)"
+    description: "2024 Premium Tax Credit — ARPA/IRA expansion in effect; no 400% FPL cliff"
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART A.11 — FICA / SOCIAL SECURITY (2024)
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/A.11/2024/ss-wage-base"
+    ctr_part: A
+    ctr_section: 11
+    ctr_year: 2024
+    ctr_anchor: ss-wage-base
+    primary_authority: "IRC §3121(a)(1); SSA Fact Sheet 2024"
+    description: "2024 Social Security wage base ($168,600)"
+  - citation: "CTR/A.11/2024/max-ss-tax"
+    ctr_part: A
+    ctr_section: 11
+    ctr_year: 2024
+    ctr_anchor: max-ss-tax
+    primary_authority: "IRC §3101(a); SSA Fact Sheet 2024"
+    description: "2024 Maximum employee Social Security tax ($10,453.20 = $168,600 x 6.2%)"
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART A.12 — STANDARD MILEAGE RATES (2024)
+  # Authority: IRS Notice 2024-08
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/A.12/2024/business-rate"
+    ctr_part: A
+    ctr_section: 12
+    ctr_year: 2024
+    ctr_anchor: business-rate
+    primary_authority: "IRS Notice 2024-08"
+    description: "2024 standard mileage rate — business (67 cents per mile)"
+  - citation: "CTR/A.12/2024/medical-rate"
+    ctr_part: A
+    ctr_section: 12
+    ctr_year: 2024
+    ctr_anchor: medical-rate
+    primary_authority: "IRS Notice 2024-08"
+    description: "2024 standard mileage rate — medical and moving Armed Forces only (21 cents per mile)"
+  - citation: "CTR/A.12/2024/charitable-rate"
+    ctr_part: A
+    ctr_section: 12
+    ctr_year: 2024
+    ctr_anchor: charitable-rate
+    primary_authority: "IRC §170(i)"
+    description: "2024 standard mileage rate — charitable (14 cents per mile; statutory, not indexed)"
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART A.13 — FEDERAL FORMS INVENTORY (2024)
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/A.13/2024/form-1040"
+    ctr_part: A
+    ctr_section: 13
+    ctr_year: 2024
+    ctr_anchor: form-1040
+    primary_authority: "IRS Form 1040 (Rev. 2024)"
+    description: "2024 Form 1040 — U.S. Individual Income Tax Return"
+  - citation: "CTR/A.13/2024/form-4137"
+    ctr_part: A
+    ctr_section: 13
+    ctr_year: 2024
+    ctr_anchor: form-4137
+    primary_authority: "IRS Form 4137 (Rev. 2024)"
+    description: "2024 Form 4137 — Social Security and Medicare Tax on Unreported Tip Income"
+  - citation: "CTR/A.13/2024/mailing-address-federal-ca-resident"
+    ctr_part: A
+    ctr_section: 13
+    ctr_year: 2024
+    ctr_anchor: mailing-address-federal-ca-resident
+    primary_authority: "IRS Form 1040 instructions (2024), Where to File"
+    description: "2024 federal Form 1040 mailing addresses for California residents"
