@@ -1,0 +1,367 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://taxtips.local/schemas/v1.0.0/conformance-scenario.schema.json",
+  "title": "Conformance Scenario",
+  "description": "SPEC.md §19.2 — D7 smoke/conformance scenario schema.",
+  "type": "object",
+  "required": [
+    "scenario_id",
+    "title",
+    "tax_year",
+    "jurisdictions",
+    "inputs",
+    "expected_outputs",
+    "expected_optimization_choices",
+    "expected_ambiguity_dispositions",
+    "controlling_report_anchors",
+    "source_authority_citations",
+    "commercial_differential",
+    "tax_director_signoff"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "scenario_id": {
+      "type": "string",
+      "pattern": "^SC-20(2[3-6])-(FED|CA)-[0-9]{5}$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "tax_year": {
+      "type": "integer",
+      "enum": [
+        2023,
+        2024,
+        2025,
+        2026
+      ]
+    },
+    "jurisdictions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "enum": [
+          "us-federal",
+          "california"
+        ]
+      }
+    },
+    "inputs": {
+      "type": "object",
+      "required": [
+        "filing_status",
+        "dependents",
+        "w2s",
+        "tipped_overlay",
+        "interview"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "filing_status": {
+          "type": "string",
+          "enum": [
+            "single",
+            "mfj",
+            "mfs",
+            "hoh",
+            "qss",
+            "FILL_IN"
+          ]
+        },
+        "dependents": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "w2s": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/w2",
+            "additionalProperties": false
+          }
+        },
+        "tipped_overlay": {
+          "type": "object",
+          "additionalProperties": false
+        },
+        "interview": {
+          "$ref": "#/$defs/interview",
+          "additionalProperties": false
+        }
+      }
+    },
+    "expected_outputs": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "oneOf": [
+          {
+            "type": "number"
+          },
+          {
+            "type": "string",
+            "const": "SPECIALIST_MUST_AUTHOR"
+          }
+        ]
+      }
+    },
+    "expected_optimization_choices": {
+      "type": "object",
+      "required": [
+        "filing_status",
+        "federal_deduction_choice"
+      ],
+      "additionalProperties": true,
+      "properties": {
+        "filing_status": {
+          "type": "string"
+        },
+        "federal_deduction_choice": {
+          "type": "string"
+        },
+        "california_deduction_choice": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "expected_ambiguity_dispositions": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "controlling_report_anchors": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^CTR/"
+      }
+    },
+    "source_authority_citations": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "commercial_differential": {
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "object",
+          "required": [
+            "product",
+            "verified_by",
+            "verified_date",
+            "commercial_result",
+            "discrepancy_amount",
+            "reconciliation_note"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "product": {
+              "type": "string"
+            },
+            "verified_by": {
+              "type": "string"
+            },
+            "verified_date": {
+              "type": "string",
+              "format": "date"
+            },
+            "commercial_result": {
+              "type": "object"
+            },
+            "discrepancy_amount": {
+              "type": "number"
+            },
+            "reconciliation_note": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "tax_director_signoff": {
+      "type": "object",
+      "required": [
+        "name",
+        "date"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "date": {
+          "oneOf": [
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "string",
+              "const": "SPECIALIST_MUST_AUTHOR"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "$defs": {
+    "w2": {
+      "type": "object",
+      "required": [
+        "w2_id",
+        "employer",
+        "box1",
+        "box2",
+        "box3",
+        "box4",
+        "box5",
+        "box6",
+        "box7",
+        "box8",
+        "box12_codes",
+        "box14b_ttoc",
+        "box16",
+        "box17",
+        "box19",
+        "tipped_toggle",
+        "ttoc_code"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "w2_id": {
+          "type": "string"
+        },
+        "employer": {
+          "type": "string"
+        },
+        "box1": {
+          "type": "number"
+        },
+        "box2": {
+          "type": "number"
+        },
+        "box3": {
+          "type": "number"
+        },
+        "box4": {
+          "type": "number"
+        },
+        "box5": {
+          "type": "number"
+        },
+        "box6": {
+          "type": "number"
+        },
+        "box7": {
+          "type": "number"
+        },
+        "box8": {
+          "type": "number"
+        },
+        "box12_codes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "code",
+              "amount"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "code": {
+                "type": "string"
+              },
+              "amount": {
+                "type": "number"
+              }
+            }
+          }
+        },
+        "box14b_ttoc": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "box16": {
+          "type": "number"
+        },
+        "box17": {
+          "type": "number"
+        },
+        "box19": {
+          "type": "number"
+        },
+        "tipped_toggle": {
+          "type": "boolean"
+        },
+        "ttoc_code": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        }
+      }
+    },
+    "interview": {
+      "type": "object",
+      "required": [
+        "marketplace_coverage",
+        "advance_ptc_received",
+        "hsa_contribution",
+        "student_loan_interest",
+        "charitable_cash",
+        "retirement_contribution",
+        "aotc_student_expenses",
+        "ca_renter",
+        "ca_foster_youth"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "marketplace_coverage": {
+          "type": "boolean"
+        },
+        "advance_ptc_received": {
+          "type": "number"
+        },
+        "hsa_contribution": {
+          "type": "number"
+        },
+        "student_loan_interest": {
+          "type": "number"
+        },
+        "charitable_cash": {
+          "type": "number"
+        },
+        "retirement_contribution": {
+          "type": "number"
+        },
+        "aotc_student_expenses": {
+          "type": "number"
+        },
+        "ca_renter": {
+          "type": "boolean"
+        },
+        "ca_foster_youth": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}
