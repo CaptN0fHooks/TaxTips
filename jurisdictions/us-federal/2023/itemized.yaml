@@ -1,0 +1,40 @@
+pack: us-federal/2023
+tax_year: 2023
+jurisdiction: us-federal
+authority: "IRC §§63,67,68,163(h),164,170,213; TCJA §§11042,11045,11046"
+
+# 2023 is a pre-OBBBA year. SALT cap is $10,000 (TCJA). No OBBBA SALT expansion.
+# Misc 2% itemized deductions are SUSPENDED (TCJA §67(g)).
+# Pease limitation is SUSPENDED (TCJA §68).
+# Critical for tipped workers: CA does NOT conform to the §67(g) suspension —
+# CA UEBE deductions are available on Schedule CA (540) Part II Line 19.
+
+medical:
+  agi_floor: 0.075
+  permanent: true
+  citation: "CTR/A.3/2023/medical"
+
+salt:
+  cap: 10000
+  cap_mfs: 5000
+  citation: "CTR/A.3/2023/salt"
+  mfs_citation: "CTR/A.3/2023/salt-mfs"
+  note: "TCJA §164(b)(6) cap; applies 2018–2024. OBBBA raises to $40,000 beginning 2025."
+
+mortgage_interest:
+  acquisition_cap_post_dec_2017: 750000
+  acquisition_cap_post_dec_2017_mfs: 375000
+  acquisition_cap_pre_dec_2017: 1000000
+  heloc_acquisition_only: true
+  citation: "CTR/A.3/2023/mortgage"
+
+charitable:
+  cash_public_charity_agi_pct: 0.60
+  citation: "CTR/A.3/2023/charitable"
+
+misc_2pct_suspended: true
+misc_2pct_suspension_citation: "CTR/A.3/2023/misc-2pct-suspended"
+misc_2pct_note: "TCJA §67(g) suspension through 2025; OBBBA made permanent. CA does NOT conform."
+
+pease_suspended: true
+pease_suspension_citation: "CTR/A.3/2023/pease-suspended"

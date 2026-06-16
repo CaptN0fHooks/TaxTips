@@ -1,0 +1,51 @@
+# Scenario Template — us-federal/2023
+# Copy this file, rename it to your test_id, and fill in all FILL_IN fields.
+# Delete this comment block before committing.
+
+test_id: "fed-2023-NNN-brief-slug"
+description: "Brief description of what this scenario tests"
+tax_year: 2023
+jurisdiction: us-federal
+filing_status: "single"  # single | mfj | mfs | hoh | qss
+
+inputs:
+  wages_w2_box1: FILL_IN          # Total W-2 Box 1 wages (integer USD)
+  tips_reported_w2_box7: FILL_IN  # Tips reported on W-2 Box 7
+  tips_allocated_w2_box8: 0       # Employer-allocated tips Box 8 (often 0)
+  tips_unreported: 0              # Unreported tips (triggers Form 4137)
+  federal_tax_withheld: FILL_IN   # W-2 Box 2
+  ss_tax_withheld: FILL_IN        # W-2 Box 4
+  medicare_tax_withheld: FILL_IN  # W-2 Box 6
+  employer_count: 1               # Number of W-2 employers
+  qualifying_children: 0          # Number of qualifying children for EITC/CTC
+  other_dependents: 0             # Non-child dependents (ODC)
+  age_65_or_older: false
+  blind: false
+  itemize: false                  # true = use Schedule A instead of standard deduction
+  itemized_salt: 0                # State/local taxes paid (capped at $10,000)
+  itemized_mortgage_interest: 0
+  itemized_charitable_cash: 0
+  itemized_medical: 0
+  education_expenses_aotc: 0      # Qualified education expenses for AOTC
+  retirement_contributions: 0     # For Saver's Credit
+  advance_ptc_received: 0         # Advance Premium Tax Credit from marketplace
+
+expected_outputs:
+  agi: FILL_IN                    # Adjusted Gross Income
+  taxable_income: FILL_IN
+  income_tax_before_credits: FILL_IN
+  eitc: FILL_IN
+  ctc_or_actc: FILL_IN
+  aotc_refundable: FILL_IN
+  total_tax: FILL_IN
+  total_payments_and_credits: FILL_IN
+  refund_or_balance_due: FILL_IN  # positive = refund, negative = balance due
+
+commercial_verification:
+  verified: false                 # Set true when verified against commercial product
+  product: null                   # "TurboTax" | "H&R Block" | "TaxAct"
+  commercial_result: null         # Refund/balance amount from commercial product
+  commercial_match: null          # true if within $1 of our expected output
+  reconciliation_note: null       # Required if discrepancy > $1
+
+notes: ""

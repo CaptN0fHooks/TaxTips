@@ -1,0 +1,59 @@
+pack: us-federal/2023
+tax_year: 2023
+jurisdiction: us-federal
+authority: "IRC §§61(a)(7),3101,3111,3121; IRS Pub. 531"
+
+# Tipped Wage Parameters — 2023 Federal
+# Pre-OBBBA year: NO §224 qualified tip deduction block.
+# NO ttoc block (TTOC reporting not yet required until 2026 W-2 box).
+# Tip reporting mechanics via Form 4137 and W-2 Box 8 (allocated tips).
+
+# ─── SECTION 224 ───────────────────────────────────────────────────────────
+# OMITTED — §224 (OBBBA Qualified Tip Deduction) does not exist in 2023.
+# Year-coherence validator enforces this absence.
+# ───────────────────────────────────────────────────────────────────────────
+
+tip_reporting:
+  all_tips_includible_in_income: true
+  cash_tips_reporting_threshold_per_month: 20
+  employer_allocated_tips:
+    box: "W-2 Box 8"
+    taxable: true
+    note: >
+      Allocated tips in Box 8 are included in income unless the employee
+      can prove actual tips were less (Form 4137 worksheet).
+  form_4137:
+    name: "Social Security and Medicare Tax on Unreported Tip Income"
+    purpose: >
+      Used to compute and pay SS/Medicare tax on tips not reported to employer.
+      Also triggers SS/Medicare credit on Schedule 3 for excess tips.
+    citation: "CTR/A.13/2023/form-4137"
+    lines:
+      - line: 1
+        description: "Total tips received during year (including allocated)"
+      - line: 2
+        description: "Tips reported to employer"
+      - line: 6
+        description: "Unreported tips subject to SS/Medicare"
+      - line: 9
+        description: "Social Security tax on unreported tips"
+      - line: 10
+        description: "Medicare tax on unreported tips"
+
+excess_social_security_tax:
+  applies: true
+  description: >
+    If a tipped employee worked for two or more employers and the combined
+    wages and tips exceeded the SS wage base ($160,200 in 2023), excess
+    SS tax withheld is recoverable as a refundable credit on Schedule 3 Line 11.
+  ss_wage_base: 160200
+  ss_rate: 0.062
+  max_ss_tax: 9932.40
+  schedule_3_line: 11
+  ss_wage_base_citation: "CTR/A.11/2023/ss-wage-base"
+  max_ss_tax_citation: "CTR/A.11/2023/max-ss-tax"
+
+# ─── TTOC ──────────────────────────────────────────────────────────────────
+# OMITTED — Box 14b TTOC mandatory W-2 reporting does not begin until 2026
+# (T.D. 10044). Not applicable for TY2023.
+# ───────────────────────────────────────────────────────────────────────────

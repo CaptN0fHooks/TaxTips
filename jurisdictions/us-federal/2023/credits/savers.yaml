@@ -1,0 +1,28 @@
+pack: us-federal/2023
+tax_year: 2023
+jurisdiction: us-federal
+credit_type: savers
+authority: "IRC §25B; Rev. Proc. 2022-38"
+
+# Saver's Credit (Retirement Savings Contributions Credit) — 2023
+# Nonrefundable. Based on eligible contributions to qualified retirement plans.
+# Maximum eligible contribution: $2,000 per person ($4,000 MFJ).
+# Three tiers based on AGI. Credit rate: 50%, 20%, or 10%.
+
+savers_credit:
+  max_contribution_per_person: 2000
+  citation: "CTR/A.9/2023/savers-credit"
+  tiers:
+    rate_50pct:
+      agi_ceiling_single: 21750
+      agi_ceiling_hoh: 32625
+      agi_ceiling_mfj: 43500
+    rate_20pct:
+      agi_ceiling_single: 23750
+      agi_ceiling_hoh: 35625
+      agi_ceiling_mfj: 47500
+    rate_10pct:
+      agi_ceiling_single: 36500
+      agi_ceiling_hoh: 54750
+      agi_ceiling_mfj: 73000
+  above_ceiling: 0

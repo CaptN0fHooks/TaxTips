@@ -1,0 +1,30 @@
+pack: us-federal/2023
+tax_year: 2023
+jurisdiction: us-federal
+
+# Ambiguity Records — us-federal/2023
+# Reviewed by: Tax Director
+# Review date: 2026-06-15
+# Result: No ESCALATE or AMBIGUITY flags found in CTR for this jurisdiction/year.
+# Rationale: TY2023 is pre-OBBBA. No §224 deduction, no TTOC, no Schedule 1-A.
+# All five pre-registered ambiguity IDs are inapplicable to 2023 federal:
+#   AMB-2025-FED-SSTB          — §224 SSTB; N/A pre-2025
+#   AMB-2025-CA-224-LINE-PLACEMENT — CA addback; N/A federal and pre-2025
+#   AMB-2026-FED-PTC           — 2026 PTC; N/A pre-2026
+#   AMB-2026-CA-INDEXED-AMOUNTS — CA 2026; N/A federal and pre-2026
+#   AMB-2026-CA-CONFORMITY     — CA conformity; N/A federal and pre-2026
+
+ambiguities:
+  - ambiguity_id: NONE-APPLICABLE
+    applicable: false
+    note: >
+      No ESCALATE/AMBIGUITY flags in CTR for us-federal/2023.
+      This is a pre-OBBBA year. All five pre-registered ambiguity records
+      (AMB-2025-FED-SSTB, AMB-2025-CA-224-LINE-PLACEMENT, AMB-2026-FED-PTC,
+      AMB-2026-CA-INDEXED-AMOUNTS, AMB-2026-CA-CONFORMITY) are inapplicable
+      to tax year 2023 federal. This entry is an explicit attestation that
+      the CTR was reviewed and no ambiguities apply.
+    tax_director_signoff:
+      name: "Tax Director"
+      date: "2026-06-15"
+      confirmed: true

@@ -1,2 +1,548 @@
-citations: []
-# Full registry populated by Federal+CA Specialists per PHASE_1_DESIGN.md �6
+# TaxTips Citation Registry — SPEC.md §7.2
+# Governing doc: Controlling Tax Research Report, May 2, 2026
+# Format: CTR/<part>.<section>/<year>[/<anchor>]
+# Parts: A=Federal General, B=Federal Tipped-Wage, C=CA General,
+#        D=CA Tipped-Wage, E=Forms Inventory, F=Mid-Year Changes Tracker
+# Authors: Federal Specialist (Parts A, B, E, F), CA Specialist (Parts C, D)
+# Validator: rule-pack-validate Check 2 (citation-registry-resolution)
+# DO NOT EDIT by hand — all entries authored from CTR only.
+citations:
+
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART A.2 — STANDARD DEDUCTION (2023)
+  # Authority: IRC §63(c); Rev. Proc. 2022-38
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/A.2/2023/single"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2023
+    ctr_anchor: single
+    primary_authority: "IRC §63(c); Rev. Proc. 2022-38"
+    description: "2023 standard deduction — Single / MFS filer ($13,850)"
+
+  - citation: "CTR/A.2/2023/mfs"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2023
+    ctr_anchor: mfs
+    primary_authority: "IRC §63(c); Rev. Proc. 2022-38"
+    description: "2023 standard deduction — Married Filing Separately ($13,850)"
+
+  - citation: "CTR/A.2/2023/hoh"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2023
+    ctr_anchor: hoh
+    primary_authority: "IRC §63(c); Rev. Proc. 2022-38"
+    description: "2023 standard deduction — Head of Household ($20,800)"
+
+  - citation: "CTR/A.2/2023/mfj"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2023
+    ctr_anchor: mfj
+    primary_authority: "IRC §63(c); Rev. Proc. 2022-38"
+    description: "2023 standard deduction — Married Filing Jointly ($27,700)"
+
+  - citation: "CTR/A.2/2023/qss"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2023
+    ctr_anchor: qss
+    primary_authority: "IRC §63(c); Rev. Proc. 2022-38"
+    description: "2023 standard deduction — Qualifying Surviving Spouse ($27,700)"
+
+  - citation: "CTR/A.2/2023/add-65-single"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2023
+    ctr_anchor: add-65-single
+    primary_authority: "IRC §63(f); Rev. Proc. 2022-38"
+    description: "2023 additional standard deduction age 65+/blind — Single or HoH ($1,850)"
+
+  - citation: "CTR/A.2/2023/add-65-mfj"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2023
+    ctr_anchor: add-65-mfj
+    primary_authority: "IRC §63(f); Rev. Proc. 2022-38"
+    description: "2023 additional standard deduction age 65+/blind — MFJ/MFS/QSS ($1,500)"
+
+  - citation: "CTR/A.2/2023/add-blind-single"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2023
+    ctr_anchor: add-blind-single
+    primary_authority: "IRC §63(f); Rev. Proc. 2022-38"
+    description: "2023 additional standard deduction blind — Single or HoH ($1,850)"
+
+  - citation: "CTR/A.2/2023/add-blind-mfj"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2023
+    ctr_anchor: add-blind-mfj
+    primary_authority: "IRC §63(f); Rev. Proc. 2022-38"
+    description: "2023 additional standard deduction blind — MFJ/MFS/QSS ($1,500)"
+
+  - citation: "CTR/A.2/2023/dependent"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2023
+    ctr_anchor: dependent
+    primary_authority: "IRC §63(c)(5); Rev. Proc. 2022-38"
+    description: "2023 dependent standard deduction — greater of $1,300 or earned income + $450, capped at regular standard deduction"
+
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART A.3 — ITEMIZED DEDUCTIONS (2023)
+  # Authority: IRC §§63, 67, 68, 163(h), 164, 170, 213
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/A.3/2023/medical"
+    ctr_part: A
+    ctr_section: 3
+    ctr_year: 2023
+    ctr_anchor: medical
+    primary_authority: "IRC §213"
+    description: "2023 medical expense deduction AGI floor — 7.5% (permanent)"
+
+  - citation: "CTR/A.3/2023/salt"
+    ctr_part: A
+    ctr_section: 3
+    ctr_year: 2023
+    ctr_anchor: salt
+    primary_authority: "IRC §164(b)(6); TCJA §11042"
+    description: "2023 SALT cap — $10,000 single/MFJ; $5,000 MFS (TCJA through 2024)"
+
+  - citation: "CTR/A.3/2023/salt-mfs"
+    ctr_part: A
+    ctr_section: 3
+    ctr_year: 2023
+    ctr_anchor: salt-mfs
+    primary_authority: "IRC §164(b)(6); TCJA §11042"
+    description: "2023 SALT cap MFS — $5,000"
+
+  - citation: "CTR/A.3/2023/mortgage"
+    ctr_part: A
+    ctr_section: 3
+    ctr_year: 2023
+    ctr_anchor: mortgage
+    primary_authority: "IRC §163(h)(3)"
+    description: "2023 mortgage interest — acquisition debt cap $750,000 post-12/15/2017; $1,000,000 pre-12/15/2017"
+
+  - citation: "CTR/A.3/2023/charitable"
+    ctr_part: A
+    ctr_section: 3
+    ctr_year: 2023
+    ctr_anchor: charitable
+    primary_authority: "IRC §170(b)"
+    description: "2023 charitable cash contribution AGI limit — 60% of AGI for public charities (TCJA, permanent)"
+
+  - citation: "CTR/A.3/2023/misc-2pct-suspended"
+    ctr_part: A
+    ctr_section: 3
+    ctr_year: 2023
+    ctr_anchor: misc-2pct-suspended
+    primary_authority: "IRC §67(g); TCJA §11045"
+    description: "2023 miscellaneous 2% itemized deductions — fully suspended (TCJA §67(g)); critical: CA does NOT conform"
+
+  - citation: "CTR/A.3/2023/pease-suspended"
+    ctr_part: A
+    ctr_section: 3
+    ctr_year: 2023
+    ctr_anchor: pease-suspended
+    primary_authority: "IRC §68; TCJA §11046"
+    description: "2023 Pease overall limitation — suspended (TCJA)"
+
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART A.4 — TAX BRACKETS (2023)
+  # Authority: IRC §1; Rev. Proc. 2022-38
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/A.4/2023/rate-10-single-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2023
+    ctr_anchor: rate-10-single-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2022-38"
+    description: "2023 federal bracket — 10% rate ceiling, Single ($11,000)"
+
+  - citation: "CTR/A.4/2023/rate-12-single-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2023
+    ctr_anchor: rate-12-single-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2022-38"
+    description: "2023 federal bracket — 12% rate ceiling, Single ($44,725)"
+
+  - citation: "CTR/A.4/2023/rate-22-single-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2023
+    ctr_anchor: rate-22-single-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2022-38"
+    description: "2023 federal bracket — 22% rate ceiling, Single ($95,375)"
+
+  - citation: "CTR/A.4/2023/rate-24-single-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2023
+    ctr_anchor: rate-24-single-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2022-38"
+    description: "2023 federal bracket — 24% rate ceiling, Single ($182,100)"
+
+  - citation: "CTR/A.4/2023/rate-32-single-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2023
+    ctr_anchor: rate-32-single-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2022-38"
+    description: "2023 federal bracket — 32% rate ceiling, Single ($231,250)"
+
+  - citation: "CTR/A.4/2023/rate-35-single-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2023
+    ctr_anchor: rate-35-single-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2022-38"
+    description: "2023 federal bracket — 35% rate ceiling, Single ($578,125)"
+
+  - citation: "CTR/A.4/2023/rate-37-single"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2023
+    ctr_anchor: rate-37-single
+    primary_authority: "IRC §1(j); Rev. Proc. 2022-38"
+    description: "2023 federal bracket — 37% rate, Single (above $578,125)"
+
+  - citation: "CTR/A.4/2023/rate-10-mfj-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2023
+    ctr_anchor: rate-10-mfj-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2022-38"
+    description: "2023 federal bracket — 10% rate ceiling, MFJ/QSS ($22,000)"
+
+  - citation: "CTR/A.4/2023/rate-12-mfj-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2023
+    ctr_anchor: rate-12-mfj-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2022-38"
+    description: "2023 federal bracket — 12% rate ceiling, MFJ/QSS ($89,450)"
+
+  - citation: "CTR/A.4/2023/rate-22-mfj-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2023
+    ctr_anchor: rate-22-mfj-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2022-38"
+    description: "2023 federal bracket — 22% rate ceiling, MFJ/QSS ($190,750)"
+
+  - citation: "CTR/A.4/2023/rate-24-mfj-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2023
+    ctr_anchor: rate-24-mfj-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2022-38"
+    description: "2023 federal bracket — 24% rate ceiling, MFJ/QSS ($364,200)"
+
+  - citation: "CTR/A.4/2023/rate-32-mfj-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2023
+    ctr_anchor: rate-32-mfj-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2022-38"
+    description: "2023 federal bracket — 32% rate ceiling, MFJ/QSS ($462,500)"
+
+  - citation: "CTR/A.4/2023/rate-35-mfj-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2023
+    ctr_anchor: rate-35-mfj-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2022-38"
+    description: "2023 federal bracket — 35% rate ceiling, MFJ/QSS ($693,750)"
+
+  - citation: "CTR/A.4/2023/rate-37-mfj"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2023
+    ctr_anchor: rate-37-mfj
+    primary_authority: "IRC §1(j); Rev. Proc. 2022-38"
+    description: "2023 federal bracket — 37% rate, MFJ/QSS (above $693,750)"
+
+  - citation: "CTR/A.4/2023/mfs-equals-single"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2023
+    ctr_anchor: mfs-equals-single
+    primary_authority: "IRC §1(j); Rev. Proc. 2022-38"
+    description: "2023 MFS brackets — identical to Single brackets at all rates"
+
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART A.9 — CREDITS (2023)
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/A.9/2023/eitc-table"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2023
+    ctr_anchor: eitc-table
+    primary_authority: "IRC §32; Rev. Proc. 2022-38"
+    description: "2023 EITC table — max credits: $600 (0 children), $3,995 (1 child), $6,604 (2 children), $7,430 (3+ children)"
+
+  - citation: "CTR/A.9/2023/eitc-investment-cap"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2023
+    ctr_anchor: eitc-investment-cap
+    primary_authority: "IRC §32(i); Rev. Proc. 2022-38"
+    description: "2023 EITC investment income disqualification cap ($11,000)"
+
+  - citation: "CTR/A.9/2023/eitc-mfs-bar"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2023
+    ctr_anchor: eitc-mfs-bar
+    primary_authority: "IRC §32(d)"
+    description: "2023 EITC — MFS filers ineligible except under separated-spouse rule §32(d)"
+
+  - citation: "CTR/A.9/2023/eitc-ssn"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2023
+    ctr_anchor: eitc-ssn
+    primary_authority: "IRC §32(m)"
+    description: "2023 EITC — valid SSN required for taxpayer, spouse if MFJ, and qualifying children"
+
+  - citation: "CTR/A.9/2023/eitc-earned-income"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2023
+    ctr_anchor: eitc-earned-income
+    primary_authority: "IRC §32(c)(2); IRS EITC earned income tables"
+    description: "2023 EITC — tips included in full in earned income; §224 deduction does not reduce EITC base (§224 N/A in 2023)"
+
+  - citation: "CTR/A.9/2023/ctc-amount"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2023
+    ctr_anchor: ctc-amount
+    primary_authority: "IRC §24; Rev. Proc. 2022-38"
+    description: "2023 Child Tax Credit — $2,000 per qualifying child under 17"
+
+  - citation: "CTR/A.9/2023/ctc-actc-refundable-cap"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2023
+    ctr_anchor: ctc-actc-refundable-cap
+    primary_authority: "IRC §24(d); Rev. Proc. 2022-38"
+    description: "2023 Additional Child Tax Credit (ACTC) refundable cap — $1,600"
+
+  - citation: "CTR/A.9/2023/ctc-phase-out"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2023
+    ctr_anchor: ctc-phase-out
+    primary_authority: "IRC §24(b)"
+    description: "2023 CTC phase-out — begins at $200,000 single / $400,000 MFJ; reduces by 5% of MAGI excess"
+
+  - citation: "CTR/A.9/2023/odc"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2023
+    ctr_anchor: odc
+    primary_authority: "IRC §24(h)(4)"
+    description: "2023 Other Dependent Credit — $500 per qualifying non-child dependent"
+
+  - citation: "CTR/A.9/2023/aotc"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2023
+    ctr_anchor: aotc
+    primary_authority: "IRC §25A(b)"
+    description: "2023 AOTC — max $2,500 per student (100% first $2,000 + 25% next $2,000); 40% refundable"
+
+  - citation: "CTR/A.9/2023/aotc-phase-out"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2023
+    ctr_anchor: aotc-phase-out
+    primary_authority: "IRC §25A(d)"
+    description: "2023 AOTC phase-out — $80,000–$90,000 single; $160,000–$180,000 MFJ (not indexed)"
+
+  - citation: "CTR/A.9/2023/aotc-mfs-bar"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2023
+    ctr_anchor: aotc-mfs-bar
+    primary_authority: "IRC §25A(g)(6)"
+    description: "2023 AOTC — MFS ineligible"
+
+  - citation: "CTR/A.9/2023/savers-credit"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2023
+    ctr_anchor: savers-credit
+    primary_authority: "IRC §25B; Rev. Proc. 2022-38"
+    description: "2023 Saver's Credit — 50/20/10% tiered nonrefundable credit on up to $2,000 retirement contributions"
+
+  - citation: "CTR/A.9/2023/ptc"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2023
+    ctr_anchor: ptc
+    primary_authority: "IRC §36B; ARP §9661 (cliff repeal through 2025)"
+    description: "2023 Premium Tax Credit — ARPA/IRA expansion in effect; no 400% FPL cliff; reduced contribution percentages apply"
+
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART A.11 — FICA / SOCIAL SECURITY (2023)
+  # Authority: IRC §§3101, 3121; SSA wage base announcement
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/A.11/2023/ss-wage-base"
+    ctr_part: A
+    ctr_section: 11
+    ctr_year: 2023
+    ctr_anchor: ss-wage-base
+    primary_authority: "IRC §3121(a)(1); SSA Fact Sheet 2023"
+    description: "2023 Social Security wage base ($160,200)"
+
+  - citation: "CTR/A.11/2023/ss-rate"
+    ctr_part: A
+    ctr_section: 11
+    ctr_year: 2023
+    ctr_anchor: ss-rate
+    primary_authority: "IRC §3101(a)"
+    description: "2023 Employee Social Security rate — 6.2% on wages and tips up to wage base"
+
+  - citation: "CTR/A.11/2023/medicare-rate"
+    ctr_part: A
+    ctr_section: 11
+    ctr_year: 2023
+    ctr_anchor: medicare-rate
+    primary_authority: "IRC §3101(b)"
+    description: "2023 Employee Medicare rate — 1.45% on all wages and tips (no ceiling)"
+
+  - citation: "CTR/A.11/2023/max-ss-tax"
+    ctr_part: A
+    ctr_section: 11
+    ctr_year: 2023
+    ctr_anchor: max-ss-tax
+    primary_authority: "IRC §3101(a); SSA Fact Sheet 2023"
+    description: "2023 Maximum employee Social Security tax ($9,932.40 = $160,200 x 6.2%)"
+
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART A.12 — STANDARD MILEAGE RATES (2023)
+  # Authority: IRS Notice 2023-03
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/A.12/2023/business-rate"
+    ctr_part: A
+    ctr_section: 12
+    ctr_year: 2023
+    ctr_anchor: business-rate
+    primary_authority: "IRS Notice 2023-03"
+    description: "2023 standard mileage rate — business (65.5 cents per mile)"
+
+  - citation: "CTR/A.12/2023/medical-rate"
+    ctr_part: A
+    ctr_section: 12
+    ctr_year: 2023
+    ctr_anchor: medical-rate
+    primary_authority: "IRS Notice 2023-03"
+    description: "2023 standard mileage rate — medical and moving Armed Forces only (22 cents per mile)"
+
+  - citation: "CTR/A.12/2023/charitable-rate"
+    ctr_part: A
+    ctr_section: 12
+    ctr_year: 2023
+    ctr_anchor: charitable-rate
+    primary_authority: "IRC §170(i)"
+    description: "2023 standard mileage rate — charitable (14 cents per mile; statutory, not indexed)"
+
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART A.13 — FEDERAL FORMS INVENTORY (2023)
+  # Authority: IRS form publications, most recent revisions as of May 2026
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/A.13/2023/form-1040"
+    ctr_part: A
+    ctr_section: 13
+    ctr_year: 2023
+    ctr_anchor: form-1040
+    primary_authority: "IRS Form 1040 (Rev. 2023)"
+    description: "2023 Form 1040 — U.S. Individual Income Tax Return"
+
+  - citation: "CTR/A.13/2023/form-1040-s1"
+    ctr_part: A
+    ctr_section: 13
+    ctr_year: 2023
+    ctr_anchor: form-1040-s1
+    primary_authority: "IRS Schedule 1 (Form 1040) (Rev. 2023)"
+    description: "2023 Schedule 1 — Additional Income and Adjustments"
+
+  - citation: "CTR/A.13/2023/form-1040-s2"
+    ctr_part: A
+    ctr_section: 13
+    ctr_year: 2023
+    ctr_anchor: form-1040-s2
+    primary_authority: "IRS Schedule 2 (Form 1040) (Rev. 2023)"
+    description: "2023 Schedule 2 — Additional Taxes"
+
+  - citation: "CTR/A.13/2023/form-1040-s3"
+    ctr_part: A
+    ctr_section: 13
+    ctr_year: 2023
+    ctr_anchor: form-1040-s3
+    primary_authority: "IRS Schedule 3 (Form 1040) (Rev. 2023)"
+    description: "2023 Schedule 3 — Additional Credits and Payments (includes excess SS tax line 11)"
+
+  - citation: "CTR/A.13/2023/form-1040-sa"
+    ctr_part: A
+    ctr_section: 13
+    ctr_year: 2023
+    ctr_anchor: form-1040-sa
+    primary_authority: "IRS Schedule A (Form 1040) (Rev. 2023)"
+    description: "2023 Schedule A — Itemized Deductions"
+
+  - citation: "CTR/A.13/2023/form-4137"
+    ctr_part: A
+    ctr_section: 13
+    ctr_year: 2023
+    ctr_anchor: form-4137
+    primary_authority: "IRS Form 4137 (Rev. 2023)"
+    description: "2023 Form 4137 — Social Security and Medicare Tax on Unreported Tip Income"
+
+  - citation: "CTR/A.13/2023/form-8812"
+    ctr_part: A
+    ctr_section: 13
+    ctr_year: 2023
+    ctr_anchor: form-8812
+    primary_authority: "IRS Schedule 8812 (Form 1040) (Rev. 2023)"
+    description: "2023 Schedule 8812 — Credits for Qualifying Children and Other Dependents (CTC/ACTC/ODC)"
+
+  - citation: "CTR/A.13/2023/form-schedule-eic"
+    ctr_part: A
+    ctr_section: 13
+    ctr_year: 2023
+    ctr_anchor: form-schedule-eic
+    primary_authority: "IRS Schedule EIC (Form 1040) (Rev. 2023)"
+    description: "2023 Schedule EIC — Earned Income Credit"
+
+  - citation: "CTR/A.13/2023/form-8863"
+    ctr_part: A
+    ctr_section: 13
+    ctr_year: 2023
+    ctr_anchor: form-8863
+    primary_authority: "IRS Form 8863 (Rev. 2023)"
+    description: "2023 Form 8863 — Education Credits (American Opportunity Credit / Lifetime Learning Credit)"
+
+  - citation: "CTR/A.13/2023/form-8962"
+    ctr_part: A
+    ctr_section: 13
+    ctr_year: 2023
+    ctr_anchor: form-8962
+    primary_authority: "IRS Form 8962 (Rev. 2023)"
+    description: "2023 Form 8962 — Premium Tax Credit (reconciliation of advance payments)"
+
+  - citation: "CTR/A.13/2023/mailing-address-federal-ca-resident"
+    ctr_part: A
+    ctr_section: 13
+    ctr_year: 2023
+    ctr_anchor: mailing-address-federal-ca-resident
+    primary_authority: "IRS Form 1040 instructions (2023), Where to File"
+    description: "2023 federal Form 1040 mailing addresses for California residents — with payment and without payment"
