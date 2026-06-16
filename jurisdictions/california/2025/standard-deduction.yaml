@@ -1,0 +1,29 @@
+pack: california/2025
+tax_year: 2025
+jurisdiction: california
+authority: "R&TC §17073.5; FTB 2023 Form 540 booklet"
+
+# CA standard deduction is much lower than federal — CA did not adopt TCJA doubling.
+# No additional deduction for age 65+ under standard deduction (use exemption credit instead).
+
+base:
+  single:
+    amount: 5706
+    citation: "CTR/C.2/2025/single"
+  mfs:
+    amount: 5706
+    citation: "CTR/C.2/2025/single"
+  mfj:
+    amount: 11412
+    citation: "CTR/C.2/2025/mfj"
+  hoh:
+    amount: 11412
+    citation: "CTR/C.2/2025/mfj"
+  qss:
+    amount: 11412
+    citation: "CTR/C.2/2025/mfj"
+
+personal_exemption_credits:
+  note: "CA uses exemption credits rather than additional standard deduction for age/blind"
+  see_credits: "ca-exemption"
+

@@ -1,0 +1,14 @@
+pack: california/2024
+tax_year: 2024
+jurisdiction: california
+credit_type: ca-renters
+authority: "R&TC §17053.5; FTB 2023 Form 540"
+
+renters_credit:
+  amount_single: 60
+  amount_mfj: 120
+  nonrefundable: true
+  agi_threshold_single: 49220
+  agi_threshold_mfj: 98440
+  citation: "CTR/C.9/2023/renters-credit"
+

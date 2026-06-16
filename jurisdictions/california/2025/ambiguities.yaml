@@ -1,0 +1,31 @@
+pack: california/2025
+tax_year: 2025
+jurisdiction: california
+
+ambiguities:
+  - ambiguity_id: AMB-2025-CA-224-LINE-PLACEMENT
+    applicable: true
+    description: >
+      The exact Schedule CA (540) line for the §224 addback is not yet confirmed by FTB
+      in published guidance as of CTR date. The CTR specifies Part I Section C Line 24z
+      (other adjustments) as the most defensible placement based on the Schedule CA
+      structure and FTB non-conformity statements. FTB has not issued a 2025 Schedule CA
+      Errata or explicit addback instruction as of May 2, 2026.
+    interpretations:
+      most_defensible:
+        description: "Report §224 addback on Schedule CA (540) Part I Section C Line 24z (other adjustments)"
+        recommended_default: true
+        forbidden: false
+      conservative:
+        description: "Same as most_defensible — use Line 24z with explicit description noting §224 federal deduction addback"
+        recommended_default: false
+        forbidden: false
+      aggressive:
+        description: "Omit §224 addback entirely on the basis that FTB has not explicitly required it"
+        recommended_default: false
+        forbidden: true
+    reevaluation_trigger: "FTB issues 2025 Schedule CA with explicit §224 addback line or errata; quarterly review required"
+    tax_director_signoff:
+      name: "Tax Director"
+      date: "2026-06-15"
+      confirmed: true

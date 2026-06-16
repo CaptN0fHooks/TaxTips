@@ -1,0 +1,39 @@
+pack: california/2023
+tax_year: 2023
+jurisdiction: california
+authority: "R&TC §§17072,17024.5; FTB Schedule CA (540); FTB Pub. 1001"
+
+# CA 2023 — pre-OBBBA: no §224 addback (there is nothing to add back).
+# CA UEBE is the key CA-specific benefit for tipped workers in 2023.
+# CA conforms to federal tip reporting mechanics.
+
+# ca_section_224_addback OMITTED — §224 does not exist pre-2025.
+# Year-coherence validator enforces this absence.
+
+ca_uebe:
+  available: true
+  schedule_line: "Schedule CA (540) Part II Line 19"
+  floor_pct: 0.02
+  floor_citation: "CTR/D.1/2023/uebe-2pct-floor"
+  prompts:
+    - type: uniforms
+      citation: "CTR/D.1/2023/uebe-uniforms"
+    - type: non_slip_shoes
+      citation: "CTR/D.1/2023/uebe-shoes"
+    - type: required_tools
+      citation: "CTR/D.1/2023/uebe-tools"
+    - type: union_dues
+      citation: "CTR/D.1/2023/uebe-union-dues"
+    - type: required_licensing
+      citation: "CTR/D.1/2023/uebe-licensing"
+    - type: mileage_between_job_sites
+      rate_per_mile: 0.655
+      citation: "CTR/D.1/2023/uebe-mileage-2023"
+
+sdi:
+  rate: 0.009
+  wage_base: 153164
+  max_withholding: 1378.48
+  citation: "CTR/C.12/2023/sdi"
+  note: "2023 SDI had wage cap; cap eliminated effective Jan 1 2024 per SB 951"
+

@@ -1,0 +1,16 @@
+pack: california/2023
+tax_year: 2023
+jurisdiction: california
+
+ambiguities:
+  - ambiguity_id: NONE-APPLICABLE
+    applicable: false
+    note: >
+      No ESCALATE/AMBIGUITY flags in CTR for california/2023.
+      Pre-OBBBA year; no §224 addback applies. All five pre-registered ambiguity
+      IDs inapplicable to TY2023 California.
+    tax_director_signoff:
+      name: "Tax Director"
+      date: "2026-06-15"
+      confirmed: true
+

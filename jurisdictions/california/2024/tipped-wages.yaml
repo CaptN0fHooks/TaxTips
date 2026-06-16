@@ -1,0 +1,29 @@
+pack: california/2024
+tax_year: 2024
+jurisdiction: california
+authority: "R&TC §§17072,17024.5; SB 951 (SDI no wage cap effective Jan 1 2024)"
+ca_uebe:
+  available: true
+  schedule_line: "Schedule CA (540) Part II Line 19"
+  floor_pct: 0.02
+  floor_citation: "CTR/D.1/2023/uebe-2pct-floor"
+  prompts:
+    - type: uniforms
+      citation: "CTR/D.1/2023/uebe-uniforms"
+    - type: non_slip_shoes
+      citation: "CTR/D.1/2023/uebe-shoes"
+    - type: required_tools
+      citation: "CTR/D.1/2023/uebe-tools"
+    - type: union_dues
+      citation: "CTR/D.1/2023/uebe-union-dues"
+    - type: required_licensing
+      citation: "CTR/D.1/2023/uebe-licensing"
+    - type: mileage_between_job_sites
+      rate_per_mile: 0.67
+      citation: "CTR/D.1/2024/uebe-mileage-2024"
+sdi:
+  rate: 0.011
+  wage_base: null
+  wage_cap_eliminated: true
+  citation: "CTR/C.12/2024/sdi"
+  note: "SB 951 eliminated SDI wage cap effective Jan 1 2024; 1.1% on ALL wages and tips"

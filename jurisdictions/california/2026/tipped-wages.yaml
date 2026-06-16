@@ -1,0 +1,51 @@
+pack: california/2026
+tax_year: 2026
+jurisdiction: california
+authority: "R&TC §§17072,17024.5; SB 711; FTB Schedule CA (540) Part I Section C Line 24z"
+projected: true
+
+ca_uebe:
+  available: true
+  schedule_line: "Schedule CA (540) Part II Line 19"
+  floor_pct: 0.02
+  floor_citation: "CTR/D.1/2023/uebe-2pct-floor"
+  prompts:
+    - type: uniforms
+      citation: "CTR/D.1/2023/uebe-uniforms"
+    - type: non_slip_shoes
+      citation: "CTR/D.1/2023/uebe-shoes"
+    - type: required_tools
+      citation: "CTR/D.1/2023/uebe-tools"
+    - type: union_dues
+      citation: "CTR/D.1/2023/uebe-union-dues"
+    - type: required_licensing
+      citation: "CTR/D.1/2023/uebe-licensing"
+    - type: mileage_between_job_sites
+      rate_per_mile: 0.725
+      citation: "CTR/D.1/2026/uebe-mileage-2026"
+
+section_224:
+  available_federal: true
+  ca_conforms: false
+  ca_addback_required: true
+  ca_addback_default_on: true
+  ca_addback_line: "Schedule CA (540) Part I Section C Line 24z"
+  ca_addback_citation: "CTR/D.3/2026/section-224-addback"
+  ambiguity_id: "AMB-2026-CA-CONFORMITY"
+  note: "CA does NOT conform to OBBBA §224 as of May 2 2026. AMB-2026-CA-CONFORMITY applies."
+
+ca_section_224_addback:
+  default_on: true
+  schedule_ca_line: "Part I Section C Line 24z"
+  citation: "CTR/D.3/2026/section-224-addback"
+  projected: true
+
+sdi:
+  rate: 0.011
+  wage_base: null
+  wage_cap_eliminated: true
+  citation: "CTR/C.12/2026/sdi"
+  projected: true
+
+reporting_2026:
+  note: "Federal W-2 Box 12 TP mandatory in 2026; CA return still shows federal-reported tips as CA income"

@@ -1,0 +1,16 @@
+pack: california/2025
+tax_year: 2025
+jurisdiction: california
+credit_type: ca-eitc
+authority: "R&TC §17052; FTB Form 3514"
+
+ca_eitc:
+  max_credit: 3756
+  earned_income_cap: 32901
+  investment_income_cap: 4814
+  itin_eligible: true
+  mfs_bar: true
+  form: "3514"
+  citation: "CTR/C.6/2025/caleitc"
+  note: "ITIN-eligible since TY2020 per AB 1876; CA earned income from W-2 Box 16"
+

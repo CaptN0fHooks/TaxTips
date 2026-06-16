@@ -1,0 +1,54 @@
+pack: california/2025
+tax_year: 2025
+jurisdiction: california
+authority: "FTB Form publications 2023"
+
+forms:
+  - form_id: "ca-540"
+    name: "Form 540 — California Resident Income Tax Return"
+    tax_year: 2025
+    official_url: "https://www.ftb.ca.gov/forms/2023/2023-540.pdf"
+    instructions_url: "https://www.ftb.ca.gov/forms/2023/2023-540-booklet.pdf"
+    citation: "CTR/C.13/2023/form-540"
+    line_definitions:
+      - line_id: "ca-540-2023/line-12"
+        description: "CA wages, salaries, tips from W-2 Box 16"
+        provenance: "W-2 Box 16"
+      - line_id: "ca-540-2023/line-17"
+        description: "CA AGI"
+        provenance: "computed"
+      - line_id: "ca-540-2023/line-18"
+        description: "Standard or itemized deduction"
+        provenance: "computed or Schedule CA (540)"
+      - line_id: "ca-540-2023/line-19"
+        description: "CA exemption credits"
+        provenance: "computed"
+      - line_id: "ca-540-2023/line-35"
+        description: "CA CalEITC (FTB 3514)"
+        provenance: "Form 3514"
+      - line_id: "ca-540-2023/line-75"
+        description: "SDI/VPDI withheld (W-2 Box 14 or Box 19)"
+        provenance: "W-2 Box 14 / Box 19"
+      - line_id: "ca-540-2023/line-95"
+        description: "Refund amount"
+        provenance: "computed"
+
+  - form_id: "ca-540-schedule-ca"
+    name: "Schedule CA (540) — California Adjustments"
+    tax_year: 2025
+    official_url: "https://www.ftb.ca.gov/forms/2023/2023-540-ca.pdf"
+    citation: "CTR/C.13/2023/schedule-ca"
+    line_definitions:
+      - line_id: "ca-540-sca-2023/part-2/line-19"
+        description: "Unreimbursed employee business expenses (UEBE) — CA only"
+        provenance: "taxpayer records"
+      - line_id: "ca-540-sca-2023/part-2/line-24"
+        description: "Total miscellaneous deductions subject to 2% CA-AGI floor"
+        provenance: "computed"
+
+  - form_id: "ca-ftb-3514"
+    name: "Form 3514 — California Earned Income Tax Credit"
+    tax_year: 2025
+    official_url: "https://www.ftb.ca.gov/forms/2023/2023-3514.pdf"
+    citation: "CTR/C.13/2023/form-3514"
+

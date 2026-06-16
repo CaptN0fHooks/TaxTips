@@ -1,0 +1,37 @@
+pack: california/2024
+tax_year: 2024
+jurisdiction: california
+authority: "R&TC §§17072,17072(a),17202,17077; FTB Schedule CA (540)"
+
+# CA itemized deductions follow pre-TCJA federal rules (R&TC incorporates pre-2018 IRC).
+# CRITICAL: CA does NOT conform to TCJA §67(g) suspension of misc 2% itemized deductions.
+# CRITICAL: CA does NOT conform to federal $10,000 SALT cap.
+# CA mortgage interest allows $1M acquisition + $100K home-equity.
+
+medical:
+  agi_floor: 0.075
+  note: "CA conforms to federal 7.5% floor"
+
+salt:
+  ca_no_federal_cap: true
+  note: "CA does NOT conform to federal SALT cap; however CA separately disallows state income tax deduction for CA purposes (Schedule CA Line 5a column B); property tax fully deductible"
+  citation: "CTR/C.3/2023/salt-no-cap"
+
+mortgage_interest:
+  acquisition_cap: 1000000
+  home_equity_cap: 100000
+  home_equity_any_purpose: true
+  citation: "CTR/C.3/2023/mortgage-pre-tcja"
+  note: "CA pre-TCJA ceiling; home-equity interest deductible for any purpose up to $100K"
+
+misc_2pct:
+  suspended_federal: true
+  ca_conforms_to_suspension: false
+  ca_allows_uebe: true
+  citation: "CTR/C.3/2023/misc-2pct-conforms"
+  note: "CA DOES NOT conform to TCJA §67(g); UEBE deductible on Schedule CA (540) Part II Line 19 subject to 2% CA-AGI floor"
+
+pease_ca:
+  applies: true
+  note: "CA maintains its own itemized-deduction phase-out under R&TC §17077"
+
