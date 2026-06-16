@@ -1,0 +1,42 @@
+{
+  "scenario_id": "SC-2026-FED-00000",
+  "title": "FILL_IN",
+  "tax_year": 2026,
+  "jurisdictions": ["us-federal"],
+  "inputs": {
+    "filing_status": "FILL_IN",
+    "dependents": [],
+    "w2s": [],
+    "tipped_overlay": {},
+    "interview": {
+      "marketplace_coverage": false,
+      "advance_ptc_received": 0,
+      "hsa_contribution": 0,
+      "student_loan_interest": 0,
+      "charitable_cash": 0,
+      "retirement_contribution": 0,
+      "aotc_student_expenses": 0,
+      "ca_renter": false,
+      "ca_foster_youth": false
+    }
+  },
+  "expected_outputs": {
+    "summary.federal_refund_or_owe": "SPECIALIST_MUST_AUTHOR"
+  },
+  "expected_optimization_choices": {
+    "filing_status": "FILL_IN",
+    "federal_deduction_choice": "FILL_IN",
+    "california_deduction_choice": null
+  },
+  "expected_ambiguity_dispositions": {
+    "AMB-2025-FED-SSTB": "SPECIALIST_MUST_AUTHOR",
+    "AMB-2026-FED-PTC": "SPECIALIST_MUST_AUTHOR"
+  },
+  "controlling_report_anchors": [],
+  "source_authority_citations": [],
+  "commercial_differential": null,
+  "tax_director_signoff": {
+    "name": "SPECIALIST_MUST_AUTHOR",
+    "date": "SPECIALIST_MUST_AUTHOR"
+  }
+}
