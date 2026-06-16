@@ -1,0 +1,59 @@
+pack: us-federal/2023
+tax_year: 2023
+jurisdiction: us-federal
+credit_type: eitc
+authority: "IRC §32; Rev. Proc. 2022-38"
+
+# Earned Income Tax Credit — 2023
+# Tips are included in full in earned income for EITC purposes.
+# §224 qualified tip deduction (OBBBA) does NOT reduce EITC earned income base.
+# §224 is N/A in 2023 — noted here for downstream year comparison only.
+# MFS filers are BARRED from EITC per IRC §32(d).
+# Valid SSN required for taxpayer, spouse (if MFJ), and all qualifying children.
+
+earned_income_definition:
+  includes_wages: true
+  includes_tips: true
+  includes_self_employment_net: true
+  qualified_tips_reduce_eitc_base: false
+  citation: "CTR/A.9/2023/eitc-earned-income"
+
+mfs_bar: true
+mfs_bar_citation: "CTR/A.9/2023/eitc-mfs-bar"
+
+ssn_required: true
+ssn_citation: "CTR/A.9/2023/eitc-ssn"
+
+investment_income_cap: 11000
+investment_income_cap_citation: "CTR/A.9/2023/eitc-investment-cap"
+
+table:
+  citation: "CTR/A.9/2023/eitc-table"
+  children_0:
+    max_credit: 600
+    max_earned_income: 7840
+    phase_out_start_single: 9800
+    phase_out_start_mfj: 16370
+    phase_out_complete_single: 17640
+    phase_out_complete_mfj: 24210
+  children_1:
+    max_credit: 3995
+    max_earned_income: 11750
+    phase_out_start_single: 21560
+    phase_out_start_mfj: 28120
+    phase_out_complete_single: 46560
+    phase_out_complete_mfj: 53120
+  children_2:
+    max_credit: 6604
+    max_earned_income: 16510
+    phase_out_start_single: 21560
+    phase_out_start_mfj: 28120
+    phase_out_complete_single: 52918
+    phase_out_complete_mfj: 59478
+  children_3_plus:
+    max_credit: 7430
+    max_earned_income: 16510
+    phase_out_start_single: 21560
+    phase_out_start_mfj: 28120
+    phase_out_complete_single: 56838
+    phase_out_complete_mfj: 63398

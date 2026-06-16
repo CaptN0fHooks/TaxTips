@@ -1,0 +1,26 @@
+pack: us-federal/2023
+tax_year: 2023
+jurisdiction: us-federal
+credit_type: ptc
+authority: "IRC §36B; ARP §9661; IRA §12001 (cliff repeal through 2025)"
+
+# Premium Tax Credit — 2023
+# ARPA/IRA expansion in effect for 2023: no 400% FPL cliff.
+# Contribution percentages reduced across all income levels.
+# Taxpayers with income above 400% FPL now eligible (extended through 2025).
+# MFS filers generally barred except under domestic abuse / spousal abandonment exception.
+# Reconciliation on Form 8962.
+
+ptc:
+  arpa_expansion_active: true
+  cliff_400pct_fpl_repealed: true
+  cliff_repeal_authority: "ARP §9661; IRA §12001"
+  citation: "CTR/A.9/2023/ptc"
+  mfs_bar_general: true
+  mfs_exception_domestic_abuse: true
+  form: "8962"
+  contribution_table_note: >
+    Applicable contribution percentages for 2023 are per IRS Rev. Proc. 2022-34
+    (Table 2). Percentages range from 0% at 100% FPL to 8.5% at 400%+ FPL.
+    Full table applied at runtime from IRS lookup; statutory structure per IRC §36B(b)(3).
+  projected: false

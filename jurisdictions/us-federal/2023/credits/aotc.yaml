@@ -1,0 +1,30 @@
+pack: us-federal/2023
+tax_year: 2023
+jurisdiction: us-federal
+credit_type: aotc
+authority: "IRC §25A(b)(d)(g); Rev. Proc. 2022-38"
+
+# American Opportunity Tax Credit — 2023
+# Available for first 4 years of post-secondary education.
+# 40% of credit is refundable (up to $1,000 refundable per student).
+# MFS filers are barred from claiming AOTC per IRC §25A(g)(6).
+
+aotc:
+  max_credit_per_student: 2500
+  first_tier_expense_max: 2000
+  first_tier_rate: 1.00
+  second_tier_expense_max: 2000
+  second_tier_rate: 0.25
+  refundable_percentage: 0.40
+  max_refundable: 1000
+  max_years: 4
+  mfs_bar: true
+  mfs_bar_citation: "CTR/A.9/2023/aotc-mfs-bar"
+  citation: "CTR/A.9/2023/aotc"
+  phase_out:
+    start_single: 80000
+    complete_single: 90000
+    start_mfj: 160000
+    complete_mfj: 180000
+    indexed: false
+    citation: "CTR/A.9/2023/aotc-phase-out"
