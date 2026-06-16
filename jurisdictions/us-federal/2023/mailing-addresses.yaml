@@ -1,0 +1,39 @@
+pack: us-federal/2023
+tax_year: 2023
+jurisdiction: us-federal
+authority: "IRS Form 1040 Instructions (2023), Where to File — Taxpayers Using a PO Box"
+citation: "CTR/A.13/2023/mailing-address-federal-ca-resident"
+
+# Mailing addresses for California residents filing federal Form 1040.
+# Verified against IRS.gov Where to File chart for TY2023.
+# Source: https://www.irs.gov/filing/where-to-file-paper-tax-returns-with-or-without-a-payment
+# Verification date: 2026-06-15
+# Note: IRS mailing addresses are subject to change; verify at IRS.gov before mailing.
+
+verification_date: "2026-06-15"
+verification_source: "https://www.irs.gov/filing/where-to-file-paper-tax-returns-with-or-without-a-payment"
+
+addresses:
+  with_payment:
+    recipient: "Internal Revenue Service"
+    street: "P.O. Box 7704"
+    city: "San Francisco"
+    state: "CA"
+    zip: "94120-7704"
+    note: "California residents enclosing a check or money order"
+
+  without_payment:
+    recipient: "Department of the Treasury"
+    street: "Internal Revenue Service"
+    city: "Ogden"
+    state: "UT"
+    zip: "84201-0002"
+    note: "California residents with refund or no balance due"
+
+  refund_or_no_balance:
+    recipient: "Department of the Treasury"
+    street: "Internal Revenue Service"
+    city: "Ogden"
+    state: "UT"
+    zip: "84201-0002"
+    note: "Same as without_payment for California residents"
