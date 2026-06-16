@@ -1,0 +1,58 @@
+pack: us-federal/2024
+tax_year: 2024
+jurisdiction: us-federal
+authority: "IRS Form publications, Rev. 2024"
+
+forms:
+  - form_id: "us-1040"
+    name: "U.S. Individual Income Tax Return"
+    tax_year: 2024
+    official_url: "https://www.irs.gov/pub/irs-pdf/f1040.pdf"
+    instructions_url: "https://www.irs.gov/pub/irs-pdf/i1040gi.pdf"
+    citation: "CTR/A.13/2024/form-1040"
+    line_definitions:
+      - line_id: "us-1040-2024/line-1a"
+        description: "Total wages, salaries, tips from W-2 Box 1"
+        provenance: "W-2 Box 1"
+      - line_id: "us-1040-2024/line-1c"
+        description: "Tip income not reported on W-2 (from Form 4137)"
+        provenance: "Form 4137 Line 6"
+      - line_id: "us-1040-2024/line-11"
+        description: "Adjusted Gross Income"
+        provenance: "computed"
+      - line_id: "us-1040-2024/line-12"
+        description: "Standard or itemized deduction"
+        provenance: "computed or Schedule A"
+      - line_id: "us-1040-2024/line-15"
+        description: "Taxable income"
+        provenance: "computed"
+      - line_id: "us-1040-2024/line-16"
+        description: "Tax"
+        provenance: "computed"
+      - line_id: "us-1040-2024/line-24"
+        description: "Total tax"
+        provenance: "computed"
+      - line_id: "us-1040-2024/line-25a"
+        description: "Federal income tax withheld from W-2"
+        provenance: "W-2 Box 2"
+      - line_id: "us-1040-2024/line-27"
+        description: "Earned Income Credit"
+        provenance: "Schedule EIC"
+      - line_id: "us-1040-2024/line-28"
+        description: "Additional Child Tax Credit"
+        provenance: "Schedule 8812"
+      - line_id: "us-1040-2024/line-35a"
+        description: "Refund amount"
+        provenance: "computed"
+      - line_id: "us-1040-2024/line-37"
+        description: "Amount owed"
+        provenance: "computed"
+
+  - form_id: "us-form-4137"
+    name: "Form 4137 — Social Security and Medicare Tax on Unreported Tip Income"
+    tax_year: 2024
+    official_url: "https://www.irs.gov/pub/irs-pdf/f4137.pdf"
+    instructions_url: "https://www.irs.gov/pub/irs-pdf/i4137.pdf"
+    citation: "CTR/A.13/2024/form-4137"
+    new_in_year: null
+

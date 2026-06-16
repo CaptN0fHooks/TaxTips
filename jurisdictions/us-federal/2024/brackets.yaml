@@ -1,0 +1,156 @@
+pack: us-federal/2024
+tax_year: 2024
+jurisdiction: us-federal
+authority: "IRC §1(j); Rev. Proc. 2023-34"
+
+brackets:
+  single:
+    - rate: 0.10
+      income_floor: 0
+      income_ceiling: 11600
+      citation: "CTR/A.4/2024/rate-10-single-ceiling"
+    - rate: 0.12
+      income_floor: 11601
+      income_ceiling: 47150
+      citation: "CTR/A.4/2024/rate-12-single-ceiling"
+    - rate: 0.22
+      income_floor: 47151
+      income_ceiling: 100525
+      citation: "CTR/A.4/2024/rate-22-single-ceiling"
+    - rate: 0.24
+      income_floor: 100526
+      income_ceiling: 191950
+      citation: "CTR/A.4/2024/rate-24-single-ceiling"
+    - rate: 0.32
+      income_floor: 191951
+      income_ceiling: 243725
+      citation: "CTR/A.4/2024/rate-32-single-ceiling"
+    - rate: 0.35
+      income_floor: 243726
+      income_ceiling: 609350
+      citation: "CTR/A.4/2024/rate-35-single-ceiling"
+    - rate: 0.37
+      income_floor: 609351
+      income_ceiling: null
+      citation: "CTR/A.4/2024/rate-37-single"
+
+  mfs:
+    - rate: 0.10
+      income_floor: 0
+      income_ceiling: 11600
+      citation: "CTR/A.4/2024/mfs-equals-single"
+    - rate: 0.12
+      income_floor: 11601
+      income_ceiling: 47150
+      citation: "CTR/A.4/2024/mfs-equals-single"
+    - rate: 0.22
+      income_floor: 47151
+      income_ceiling: 100525
+      citation: "CTR/A.4/2024/mfs-equals-single"
+    - rate: 0.24
+      income_floor: 100526
+      income_ceiling: 191950
+      citation: "CTR/A.4/2024/mfs-equals-single"
+    - rate: 0.32
+      income_floor: 191951
+      income_ceiling: 243725
+      citation: "CTR/A.4/2024/mfs-equals-single"
+    - rate: 0.35
+      income_floor: 243726
+      income_ceiling: 609350
+      citation: "CTR/A.4/2024/mfs-equals-single"
+    - rate: 0.37
+      income_floor: 609351
+      income_ceiling: null
+      citation: "CTR/A.4/2024/mfs-equals-single"
+
+  mfj:
+    - rate: 0.10
+      income_floor: 0
+      income_ceiling: 23200
+      citation: "CTR/A.4/2024/rate-10-mfj-ceiling"
+    - rate: 0.12
+      income_floor: 23201
+      income_ceiling: 94300
+      citation: "CTR/A.4/2024/rate-12-mfj-ceiling"
+    - rate: 0.22
+      income_floor: 94301
+      income_ceiling: 201050
+      citation: "CTR/A.4/2024/rate-22-mfj-ceiling"
+    - rate: 0.24
+      income_floor: 201051
+      income_ceiling: 383900
+      citation: "CTR/A.4/2024/rate-24-mfj-ceiling"
+    - rate: 0.32
+      income_floor: 383901
+      income_ceiling: 487450
+      citation: "CTR/A.4/2024/rate-32-mfj-ceiling"
+    - rate: 0.35
+      income_floor: 487451
+      income_ceiling: 731200
+      citation: "CTR/A.4/2024/rate-35-mfj-ceiling"
+    - rate: 0.37
+      income_floor: 731201
+      income_ceiling: null
+      citation: "CTR/A.4/2024/rate-37-mfj"
+
+  qss:
+    - rate: 0.10
+      income_floor: 0
+      income_ceiling: 23200
+      citation: "CTR/A.4/2024/rate-10-mfj-ceiling"
+    - rate: 0.12
+      income_floor: 23201
+      income_ceiling: 94300
+      citation: "CTR/A.4/2024/rate-12-mfj-ceiling"
+    - rate: 0.22
+      income_floor: 94301
+      income_ceiling: 201050
+      citation: "CTR/A.4/2024/rate-22-mfj-ceiling"
+    - rate: 0.24
+      income_floor: 201051
+      income_ceiling: 383900
+      citation: "CTR/A.4/2024/rate-24-mfj-ceiling"
+    - rate: 0.32
+      income_floor: 383901
+      income_ceiling: 487450
+      citation: "CTR/A.4/2024/rate-32-mfj-ceiling"
+    - rate: 0.35
+      income_floor: 487451
+      income_ceiling: 731200
+      citation: "CTR/A.4/2024/rate-35-mfj-ceiling"
+    - rate: 0.37
+      income_floor: 731201
+      income_ceiling: null
+      citation: "CTR/A.4/2024/rate-37-mfj"
+
+  hoh:
+    - rate: 0.10
+      income_floor: 0
+      income_ceiling: 16550
+      citation: "CTR/A.4/2024/rate-10-single-ceiling"
+    - rate: 0.12
+      income_floor: 16551
+      income_ceiling: 63100
+      citation: "CTR/A.4/2024/rate-12-single-ceiling"
+    - rate: 0.22
+      income_floor: 63101
+      income_ceiling: 100500
+      citation: "CTR/A.4/2024/rate-22-single-ceiling"
+    - rate: 0.24
+      income_floor: 100501
+      income_ceiling: 191950
+      citation: "CTR/A.4/2024/rate-24-single-ceiling"
+    - rate: 0.32
+      income_floor: 191951
+      income_ceiling: 243700
+      citation: "CTR/A.4/2024/rate-32-single-ceiling"
+    - rate: 0.35
+      income_floor: 243701
+      income_ceiling: 609350
+      citation: "CTR/A.4/2024/rate-35-single-ceiling"
+    - rate: 0.37
+      income_floor: 609351
+      income_ceiling: null
+      citation: "CTR/A.4/2024/rate-37-single"
+

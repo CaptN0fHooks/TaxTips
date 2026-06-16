@@ -1,0 +1,16 @@
+pack: us-federal/2024
+tax_year: 2024
+jurisdiction: us-federal
+
+ambiguities:
+  - ambiguity_id: NONE-APPLICABLE
+    applicable: false
+    note: >
+      No ESCALATE/AMBIGUITY flags in CTR for us-federal/2024.
+      Pre-OBBBA year. All five pre-registered ambiguity IDs inapplicable to TY2024 federal.
+      Tax Director attested 2026-06-15.
+    tax_director_signoff:
+      name: "Tax Director"
+      date: "2026-06-15"
+      confirmed: true
+

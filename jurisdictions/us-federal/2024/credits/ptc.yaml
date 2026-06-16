@@ -1,0 +1,16 @@
+pack: us-federal/2024
+tax_year: 2024
+jurisdiction: us-federal
+credit_type: ptc
+authority: "IRC §36B; IRA §12001 (cliff repeal through 2025)"
+
+ptc:
+  arpa_expansion_active: true
+  cliff_400pct_fpl_repealed: true
+  cliff_repeal_authority: "IRA §12001"
+  citation: "CTR/A.9/2024/ptc"
+  mfs_bar_general: true
+  mfs_exception_domestic_abuse: true
+  form: "8962"
+  projected: false
+
