@@ -1,0 +1,109 @@
+{
+  "scenario_id": "SC-2026-FED-00038",
+  "title": "MFJ — 85000 wages — standard deduction 32200 optimal over itemized",
+  "tax_year": 2026,
+  "jurisdictions": [
+    "us-federal"
+  ],
+  "projected": true,
+  "inputs": {
+    "filing_status": "mfj",
+    "dependents": [],
+    "w2s": [
+      {
+        "w2_id": "w2-1",
+        "employer": "Taxpayer employer",
+        "box1": 50000,
+        "box2": 5500,
+        "box3": 50000,
+        "box4": 3100,
+        "box5": 50000,
+        "box6": 725,
+        "box7": 0,
+        "box8": 0,
+        "box12_codes": [],
+        "box14b_ttoc": null,
+        "box16": 0,
+        "box17": 0,
+        "box19": 0,
+        "tipped_toggle": false,
+        "ttoc_code": null
+      },
+      {
+        "w2_id": "w2-2",
+        "employer": "Spouse employer",
+        "box1": 35000,
+        "box2": 4000,
+        "box3": 35000,
+        "box4": 2170,
+        "box5": 35000,
+        "box6": 508,
+        "box7": 0,
+        "box8": 0,
+        "box12_codes": [],
+        "box14b_ttoc": null,
+        "box16": 0,
+        "box17": 0,
+        "box19": 0,
+        "tipped_toggle": false,
+        "ttoc_code": null
+      }
+    ],
+    "tipped_overlay": {},
+    "interview": {
+      "marketplace_coverage": false,
+      "advance_ptc_received": 0,
+      "hsa_contribution": 0,
+      "student_loan_interest": 0,
+      "charitable_cash": 0,
+      "retirement_contribution": 0,
+      "aotc_student_expenses": 0,
+      "ca_renter": false,
+      "ca_foster_youth": false,
+      "investment_income": 0,
+      "taxpayer_age": 35,
+      "spouse_age": 37,
+      "dependent_status": false,
+      "allocated_tip_records_amount": null,
+      "itemized_deductions": {
+        "medical": 0,
+        "salt": 0,
+        "mortgage_interest": 0,
+        "charitable_cash": 0,
+        "misc": 0
+      }
+    }
+  },
+  "expected_outputs": {
+    "us-1040-2026/line-11": 85000,
+    "us-1040-2026/line-12": 32200,
+    "us-1040-2026/line-15": 52800,
+    "us-1040-2026/line-16": 5850,
+    "us-1040-2026/line-24": 5850,
+    "us-1040-2026/line-25a": 9500,
+    "us-1040-2026/line-34": 9500,
+    "us-1040-2026/line-35a": 3650,
+    "us-1040-2026/line-37": 0,
+    "summary.federal_refund_or_owe": 3650
+  },
+  "expected_optimization_choices": {
+    "filing_status": "mfj",
+    "federal_deduction_choice": "standard"
+  },
+  "expected_ambiguity_dispositions": {
+    "AMB-2026-FED-PTC": "not_applicable — taxpayer does not have marketplace coverage"
+  },
+  "controlling_report_anchors": [
+    "CTR/A.2/2026/mfj"
+  ],
+  "source_authority_citations": [
+    "IRC section 1",
+    "IRC section 63",
+    "Rev. Proc. 2025-32"
+  ],
+  "commercial_differential": null,
+  "tax_director_signoff": {
+    "name": "Tax Director",
+    "date": "2026-06-16"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "scenario_id": "SC-2026-FED-00043",
+  "title": "Single tipped — 16100 wages plus Box 12 TP 8000 — section 224 8000 reduces AGI to 16100 equals standard deduction — zero tax verify",
+  "tax_year": 2026,
+  "jurisdictions": [
+    "us-federal"
+  ],
+  "projected": true,
+  "inputs": {
+    "filing_status": "single",
+    "dependents": [],
+    "w2s": [
+      {
+        "w2_id": "w2-1",
+        "employer": "Restaurant A (tipped TTOC-102)",
+        "box1": 24100,
+        "box2": 1500,
+        "box3": 24100,
+        "box4": 1494,
+        "box5": 24100,
+        "box6": 349,
+        "box7": 0,
+        "box8": 0,
+        "box12_codes": [
+          {
+            "code": "TP",
+            "amount": 8000
+          }
+        ],
+        "box14b_ttoc": 102,
+        "box16": 0,
+        "box17": 0,
+        "box19": 0,
+        "tipped_toggle": true,
+        "ttoc_code": 102
+      }
+    ],
+    "tipped_overlay": {
+      "w2-1": {
+        "occupation": 102,
+        "unreported_cash_tips": 0,
+        "tip_pool": true,
+        "owns_pct_of_employer": 0,
+        "non_slip_shoes_cost": 0,
+        "uniforms_cost": 0,
+        "required_tools_cost": 0,
+        "union_dues": 0,
+        "licensing_fees": 0,
+        "mileage_between_jobs": 0
+      }
+    },
+    "interview": {
+      "marketplace_coverage": false,
+      "advance_ptc_received": 0,
+      "hsa_contribution": 0,
+      "student_loan_interest": 0,
+      "charitable_cash": 0,
+      "retirement_contribution": 0,
+      "aotc_student_expenses": 0,
+      "ca_renter": false,
+      "ca_foster_youth": false,
+      "investment_income": 0,
+      "taxpayer_age": 35,
+      "spouse_age": null,
+      "dependent_status": false,
+      "allocated_tip_records_amount": null,
+      "itemized_deductions": {
+        "medical": 0,
+        "salt": 0,
+        "mortgage_interest": 0,
+        "charitable_cash": 0,
+        "misc": 0
+      }
+    }
+  },
+  "expected_outputs": {
+    "us-1040-2026/line-11": 16100,
+    "us-1040-2026/line-12": 16100,
+    "us-1040-2026/line-13b": 8000,
+    "us-1040-2026/line-15": 0,
+    "us-1040-2026/line-16": 0,
+    "us-1040-2026/line-24": 0,
+    "us-1040-2026/line-25a": 1500,
+    "us-1040-2026/line-34": 1500,
+    "us-1040-2026/line-35a": 1500,
+    "us-1040-2026/line-37": 0,
+    "us-1040-s1a-2026/part-2/line-13": 8000,
+    "us-1040-s1a-2026/line-38": 8000,
+    "summary.federal_refund_or_owe": 1500
+  },
+  "expected_optimization_choices": {
+    "filing_status": "single",
+    "federal_deduction_choice": "standard"
+  },
+  "expected_ambiguity_dispositions": {
+    "AMB-2026-FED-PTC": "not_applicable — taxpayer does not have marketplace coverage"
+  },
+  "controlling_report_anchors": [
+    "CTR/A.2/2026/single",
+    "CTR/B.1/2026/section-224-w2-box12-tp"
+  ],
+  "source_authority_citations": [
+    "IRC section 1",
+    "IRC section 63",
+    "Rev. Proc. 2025-32",
+    "IRC section 224",
+    "T.D. 10044",
+    "OBBBA P.L. 119-21"
+  ],
+  "commercial_differential": null,
+  "tax_director_signoff": {
+    "name": "Tax Director",
+    "date": "2026-06-16"
+  }
+}

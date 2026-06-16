@@ -1,0 +1,97 @@
+{
+  "scenario_id": "SC-2026-FED-00004",
+  "title": "HoH \u2014 52000 W-2 \u2014 standard deduction 24150 \u2014 one dependent age 19",
+  "tax_year": 2026,
+  "jurisdictions": [
+    "us-federal"
+  ],
+  "projected": true,
+  "inputs": {
+    "filing_status": "hoh",
+    "dependents": [
+      {
+        "relationship": "dependent relative",
+        "age": 19,
+        "ssn_present": true
+      }
+    ],
+    "w2s": [
+      {
+        "w2_id": "w2-1",
+        "employer": "Non-tipped employer",
+        "box1": 52000,
+        "box2": 6200,
+        "box3": 52000,
+        "box4": 3224,
+        "box5": 52000,
+        "box6": 754,
+        "box7": 0,
+        "box8": 0,
+        "box12_codes": [],
+        "box14b_ttoc": null,
+        "box16": 0,
+        "box17": 0,
+        "box19": 0,
+        "tipped_toggle": false,
+        "ttoc_code": null
+      }
+    ],
+    "tipped_overlay": {},
+    "interview": {
+      "marketplace_coverage": false,
+      "advance_ptc_received": 0,
+      "hsa_contribution": 0,
+      "student_loan_interest": 0,
+      "charitable_cash": 0,
+      "retirement_contribution": 0,
+      "aotc_student_expenses": 0,
+      "ca_renter": false,
+      "ca_foster_youth": false,
+      "investment_income": 0,
+      "taxpayer_age": 35,
+      "spouse_age": null,
+      "dependent_status": false,
+      "allocated_tip_records_amount": null,
+      "itemized_deductions": {
+        "medical": 0,
+        "salt": 0,
+        "mortgage_interest": 0,
+        "charitable_cash": 0,
+        "misc": 0
+      }
+    }
+  },
+  "expected_outputs": {
+    "us-1040-2026/line-11": 52000,
+    "us-1040-2026/line-12": 24150,
+    "us-1040-2026/line-15": 27850,
+    "us-1040-2026/line-16": 2995,
+    "us-1040-2026/line-24": 2995,
+    "us-1040-2026/line-25a": 6200,
+    "us-1040-2026/line-34": 6200,
+    "us-1040-2026/line-35a": 3205,
+    "us-1040-2026/line-37": 0,
+    "summary.federal_refund_or_owe": 3205
+  },
+  "expected_optimization_choices": {
+    "filing_status": "hoh",
+    "federal_deduction_choice": "standard"
+  },
+  "expected_ambiguity_dispositions": {
+    "AMB-2026-FED-PTC": "not_applicable \u2014 taxpayer does not have marketplace coverage"
+  },
+  "controlling_report_anchors": [
+    "CTR/A.2/2026/hoh",
+    "CTR/A.4/2026/rate-12-single-ceiling"
+  ],
+  "source_authority_citations": [
+    "IRC section 1",
+    "IRC section 63",
+    "Rev. Proc. 2025-32"
+  ],
+  "commercial_differential": null,
+  "tax_director_signoff": {
+    "name": "Tax Director",
+    "date": "2026-06-16"
+  }
+}
