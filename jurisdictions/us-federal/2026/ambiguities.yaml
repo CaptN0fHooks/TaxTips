@@ -1,0 +1,33 @@
+pack: us-federal/2026
+tax_year: 2026
+jurisdiction: us-federal
+
+ambiguities:
+  - ambiguity_id: AMB-2026-FED-PTC
+    applicable: true
+    description: >
+      Whether the ACA Premium Tax Credit (PTC) cliff at 400% FPL applies in 2026.
+      ARPA §9661 and IRA §12001 repealed the 400% cliff for 2021-2025 only.
+      For 2026, absent Congressional extension, pre-expansion IRC §36B applies:
+      the 400% FPL cliff returns, making many marketplace enrollees ineligible for
+      PTC or subject to full repayment of advance PTC. Retroactive legislation
+      is possible but not enacted as of CTR date (May 2, 2026).
+    interpretations:
+      most_defensible:
+        description: "Apply pre-expansion §36B for 2026; flag 400% FPL cliff; use pre-ARPA contribution percentages; note PROVISIONAL status on all PTC scenarios"
+        recommended_default: true
+        forbidden: false
+      conservative:
+        description: "Same as most_defensible — treat cliff as restored; require full advance PTC repayment for 400%+ FPL households"
+        recommended_default: false
+        forbidden: false
+      aggressive:
+        description: "Assume Congressional extension of ARPA cliff repeal and apply expanded PTC rules for 2026 without legislative basis"
+        recommended_default: false
+        forbidden: true
+    reevaluation_trigger: "Any Congressional action extending ARPA/IRA PTC cliff repeal beyond 2025; monitor through filing season"
+    tax_director_signoff:
+      name: "Tax Director"
+      date: "2026-06-15"
+      confirmed: true
+

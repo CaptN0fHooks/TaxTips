@@ -1,0 +1,192 @@
+pack: us-federal/2026
+tax_year: 2026
+jurisdiction: us-federal
+authority: "IRC §1(j); Rev. Proc. 2025-32 [PROJECTED — final IRS announcement pending]"
+projected: true
+
+brackets:
+  single:
+    - rate: 0.10
+      income_floor: 0
+      income_ceiling: 12150
+      citation: "CTR/A.4/2026/rate-10-single-ceiling"
+      projected: true
+    - rate: 0.12
+      income_floor: 12151
+      income_ceiling: 49450
+      citation: "CTR/A.4/2026/rate-12-single-ceiling"
+      projected: true
+    - rate: 0.22
+      income_floor: 49451
+      income_ceiling: 105400
+      citation: "CTR/A.4/2026/rate-22-single-ceiling"
+      projected: true
+    - rate: 0.24
+      income_floor: 105401
+      income_ceiling: 201050
+      citation: "CTR/A.4/2026/rate-24-single-ceiling"
+      projected: true
+    - rate: 0.32
+      income_floor: 201051
+      income_ceiling: 255550
+      citation: "CTR/A.4/2026/rate-32-single-ceiling"
+      projected: true
+    - rate: 0.35
+      income_floor: 255551
+      income_ceiling: 638750
+      citation: "CTR/A.4/2026/rate-35-single-ceiling"
+      projected: true
+    - rate: 0.37
+      income_floor: 638751
+      income_ceiling: null
+      citation: "CTR/A.4/2026/rate-37-single"
+      projected: true
+
+  mfs:
+    - rate: 0.10
+      income_floor: 0
+      income_ceiling: 12150
+      citation: "CTR/A.4/2026/mfs-equals-single"
+      projected: true
+    - rate: 0.12
+      income_floor: 12151
+      income_ceiling: 49450
+      citation: "CTR/A.4/2026/mfs-equals-single"
+      projected: true
+    - rate: 0.22
+      income_floor: 49451
+      income_ceiling: 105400
+      citation: "CTR/A.4/2026/mfs-equals-single"
+      projected: true
+    - rate: 0.24
+      income_floor: 105401
+      income_ceiling: 201050
+      citation: "CTR/A.4/2026/mfs-equals-single"
+      projected: true
+    - rate: 0.32
+      income_floor: 201051
+      income_ceiling: 255550
+      citation: "CTR/A.4/2026/mfs-equals-single"
+      projected: true
+    - rate: 0.35
+      income_floor: 255551
+      income_ceiling: 638750
+      citation: "CTR/A.4/2026/mfs-equals-single"
+      projected: true
+    - rate: 0.37
+      income_floor: 638751
+      income_ceiling: null
+      citation: "CTR/A.4/2026/mfs-equals-single"
+      projected: true
+
+  mfj:
+    - rate: 0.10
+      income_floor: 0
+      income_ceiling: 24300
+      citation: "CTR/A.4/2026/rate-10-mfj-ceiling"
+      projected: true
+    - rate: 0.12
+      income_floor: 24301
+      income_ceiling: 98900
+      citation: "CTR/A.4/2026/rate-12-mfj-ceiling"
+      projected: true
+    - rate: 0.22
+      income_floor: 98901
+      income_ceiling: 210800
+      citation: "CTR/A.4/2026/rate-22-mfj-ceiling"
+      projected: true
+    - rate: 0.24
+      income_floor: 210801
+      income_ceiling: 402100
+      citation: "CTR/A.4/2026/rate-24-mfj-ceiling"
+      projected: true
+    - rate: 0.32
+      income_floor: 402101
+      income_ceiling: 511100
+      citation: "CTR/A.4/2026/rate-32-mfj-ceiling"
+      projected: true
+    - rate: 0.35
+      income_floor: 511101
+      income_ceiling: 766550
+      citation: "CTR/A.4/2026/rate-35-mfj-ceiling"
+      projected: true
+    - rate: 0.37
+      income_floor: 766551
+      income_ceiling: null
+      citation: "CTR/A.4/2026/rate-37-mfj"
+      projected: true
+
+  qss:
+    - rate: 0.10
+      income_floor: 0
+      income_ceiling: 24300
+      citation: "CTR/A.4/2026/rate-10-mfj-ceiling"
+      projected: true
+    - rate: 0.12
+      income_floor: 24301
+      income_ceiling: 98900
+      citation: "CTR/A.4/2026/rate-12-mfj-ceiling"
+      projected: true
+    - rate: 0.22
+      income_floor: 98901
+      income_ceiling: 210800
+      citation: "CTR/A.4/2026/rate-22-mfj-ceiling"
+      projected: true
+    - rate: 0.24
+      income_floor: 210801
+      income_ceiling: 402100
+      citation: "CTR/A.4/2026/rate-24-mfj-ceiling"
+      projected: true
+    - rate: 0.32
+      income_floor: 402101
+      income_ceiling: 511100
+      citation: "CTR/A.4/2026/rate-32-mfj-ceiling"
+      projected: true
+    - rate: 0.35
+      income_floor: 511101
+      income_ceiling: 766550
+      citation: "CTR/A.4/2026/rate-35-mfj-ceiling"
+      projected: true
+    - rate: 0.37
+      income_floor: 766551
+      income_ceiling: null
+      citation: "CTR/A.4/2026/rate-37-mfj"
+      projected: true
+
+  hoh:
+    - rate: 0.10
+      income_floor: 0
+      income_ceiling: 17350
+      citation: "CTR/A.4/2026/rate-10-single-ceiling"
+      projected: true
+    - rate: 0.12
+      income_floor: 17351
+      income_ceiling: 66150
+      citation: "CTR/A.4/2026/rate-12-single-ceiling"
+      projected: true
+    - rate: 0.22
+      income_floor: 66151
+      income_ceiling: 105400
+      citation: "CTR/A.4/2026/rate-22-single-ceiling"
+      projected: true
+    - rate: 0.24
+      income_floor: 105401
+      income_ceiling: 201050
+      citation: "CTR/A.4/2026/rate-24-single-ceiling"
+      projected: true
+    - rate: 0.32
+      income_floor: 201051
+      income_ceiling: 255550
+      citation: "CTR/A.4/2026/rate-32-single-ceiling"
+      projected: true
+    - rate: 0.35
+      income_floor: 255551
+      income_ceiling: 638750
+      citation: "CTR/A.4/2026/rate-35-single-ceiling"
+      projected: true
+    - rate: 0.37
+      income_floor: 638751
+      income_ceiling: null
+      citation: "CTR/A.4/2026/rate-37-single"
+      projected: true
+

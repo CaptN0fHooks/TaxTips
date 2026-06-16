@@ -1,0 +1,41 @@
+pack: us-federal/2026
+tax_year: 2026
+jurisdiction: us-federal
+authority: "IRC §§63,67,68,163(h),164,170,213; OBBBA §§70106,70108,70120"
+
+medical:
+  agi_floor: 0.075
+  citation: "CTR/A.3/2026/medical"
+
+salt:
+  cap: 40400
+  cap_mfs: 20200
+  citation: "CTR/A.3/2026/salt"
+  mfs_citation: "CTR/A.3/2026/salt-mfs"
+  phase_down:
+    threshold_single: 500000
+    threshold_mfs: 250000
+    reduction_rate: 0.30
+    floor: 10000
+  note: "OBBBA §70120; 1% annual increase from $40,000 base (2025); $40,400 for 2026"
+
+mortgage_interest:
+  acquisition_cap_post_dec_2017: 750000
+  acquisition_cap_post_dec_2017_mfs: 375000
+  acquisition_cap_pre_dec_2017: 1000000
+  heloc_acquisition_only: true
+  citation: "CTR/A.3/2026/charitable"
+
+charitable:
+  cash_public_charity_agi_pct: 0.60
+  agi_floor_new_2026: 0.005
+  above_the_line_nonitemizer_single: 1000
+  above_the_line_nonitemizer_mfj: 2000
+  citation: "CTR/A.3/2026/charitable"
+  floor_citation: "CTR/A.3/2026/charitable-floor"
+  note: "0.5% AGI floor on itemized charitable deductions begins 2026 per OBBBA §70106"
+
+misc_2pct_suspended: true
+misc_2pct_permanent: true
+misc_2pct_note: "Permanent per OBBBA §70120; CA does NOT conform"
+
