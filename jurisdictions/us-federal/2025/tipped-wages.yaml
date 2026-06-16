@@ -1,0 +1,98 @@
+pack: us-federal/2025
+tax_year: 2025
+jurisdiction: us-federal
+authority: "IRC §§61(a)(7),224,3101,3111,3121; OBBBA P.L. 119-21; Notice 2025-69; T.D. 10044"
+
+# OBBBA YEAR — §224 Qualified Tip Deduction is AVAILABLE for 2025.
+# Schedule 1-A is REQUIRED for any return claiming §224.
+# W-2 Box 12 code TP mandatory reporting begins 2026 — 2025 uses Box 7 per Notice 2025-69.
+
+tip_reporting:
+  all_tips_includible_in_income: true
+  cash_tips_reporting_threshold_per_month: 20
+  employer_allocated_tips:
+    box: "W-2 Box 8"
+    taxable: true
+  form_4137:
+    name: "Social Security and Medicare Tax on Unreported Tip Income"
+    citation: "CTR/A.13/2025/form-4137"
+    lines:
+      - line: 1
+        description: "Total tips received during year"
+      - line: 2
+        description: "Tips reported to employer"
+      - line: 4
+        description: "Unreported qualified tips (feeds Schedule 1-A Line 5)"
+      - line: 6
+        description: "Unreported tips subject to SS/Medicare"
+      - line: 9
+        description: "Social Security tax on unreported tips"
+      - line: 10
+        description: "Medicare tax on unreported tips"
+      - line: 13
+        description: "Total taxes — carries to Schedule 2 Line 17b"
+
+section_224:
+  available: true
+  cap_per_return: 25000
+  cap_citation: "CTR/B.1/2025/section-224-cap"
+  magi_definition: "AGI plus §911, §931, §933 add-backs"
+  magi_citation: "CTR/B.1/2025/section-224-magi-definition"
+  phase_out:
+    single_threshold: 150000
+    mfj_threshold: 300000
+    reduction_per_1000: 100
+    floor: 0
+    single_citation: "CTR/B.1/2025/section-224-phaseout-single"
+    mfj_citation: "CTR/B.1/2025/section-224-phaseout-mfj"
+  mfs_barred: true
+  mfs_citation: "CTR/B.1/2025/section-224-mfs-bar"
+  ssn_required: true
+  ssn_citation: "CTR/B.1/2025/section-224-ssn-required"
+  reduces_fica: false
+  reduces_eitc_base: false
+  fica_citation: "CTR/B.1/2025/section-224-fica-unchanged"
+  eitc_citation: "CTR/B.1/2025/section-224-eitc-unchanged"
+  enacted_citation: "CTR/B.1/2025/section-224-enacted"
+  schedule_1a_required: true
+  schedule_1a_line_4: "W-2 Box 7 SS tips (2025 default per Notice 2025-69)"
+  schedule_1a_line_5: "Form 4137 Line 4 unreported tips"
+  schedule_1a_line_7: "Total qualified tips (capped at $25,000)"
+  schedule_1a_line_13: "§224 deduction after phase-out → Form 1040 Line 13b"
+  schedule_1a_line_citations:
+    line_4: "CTR/B.4/2025/schedule-1a-line-4"
+    line_5: "CTR/B.4/2025/schedule-1a-line-5"
+    line_7: "CTR/B.4/2025/schedule-1a-line-7"
+    line_13: "CTR/B.4/2025/schedule-1a-line-13"
+  transition_relief_2025:
+    notice_2025_69: true
+    notice_2025_69_citation: "CTR/B.3/2025/transition-notice-2025-69"
+    notice_2025_62: true
+    notice_2025_62_citation: "CTR/B.3/2025/transition-notice-2025-62"
+    w2_box_default: "Box 7 Social Security Tips"
+    mandatory_box_12_tp: false
+  ttoc_required: true
+  ttoc_citation: "CTR/B.2/2025/ttoc-list"
+  ownership_rechar_pct: 0.05
+  ownership_rechar_citation: "CTR/B.2/2025/ttoc-ownership-rechar"
+  voluntariness_test_citation: "CTR/B.2/2025/ttoc-voluntariness"
+  sstb_transition_relief: true
+  sstb_citation: "CTR/B.5/2025/sstb-transition-relief"
+  sstb_ambiguity_id: "AMB-2025-FED-SSTB"
+
+excess_social_security_tax:
+  applies: true
+  ss_wage_base: 176100
+  ss_rate: 0.062
+  max_ss_tax: 10918.20
+  schedule_3_line: 11
+  ss_wage_base_citation: "CTR/A.11/2025/ss-wage-base"
+  max_ss_tax_citation: "CTR/A.11/2025/max-ss-tax"
+
+# TTOC block: Box 14b mandatory W-2 reporting begins 2026 per T.D. 10044.
+# For 2025: TTOC code collected in platform UI; not yet required on W-2.
+ttoc:
+  mandatory_w2_box_14b: false
+  mandatory_begins_year: 2026
+  platform_collects_ttoc_code: true
+

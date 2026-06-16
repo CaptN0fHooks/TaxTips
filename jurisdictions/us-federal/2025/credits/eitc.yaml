@@ -1,0 +1,51 @@
+pack: us-federal/2025
+tax_year: 2025
+jurisdiction: us-federal
+credit_type: eitc
+authority: "IRC §32; Rev. Proc. 2025-32; OBBBA §70201"
+
+earned_income_definition:
+  includes_wages: true
+  includes_tips: true
+  includes_self_employment_net: true
+  qualified_tips_reduce_eitc_base: false
+  citation: "CTR/A.9/2025/eitc-earned-income"
+  note: "OBBBA §70201 explicitly confirms §224 deduction does not reduce EITC earned income"
+
+mfs_bar: true
+mfs_bar_citation: "CTR/A.9/2025/eitc-mfs-bar"
+
+investment_income_cap: 11950
+investment_income_cap_citation: "CTR/A.9/2025/eitc-investment-cap"
+
+table:
+  citation: "CTR/A.9/2025/eitc-table"
+  children_0:
+    max_credit: 649
+    max_earned_income: 8490
+    phase_out_start_single: 10620
+    phase_out_start_mfj: 17730
+    phase_out_complete_single: 19104
+    phase_out_complete_mfj: 26214
+  children_1:
+    max_credit: 4328
+    max_earned_income: 12730
+    phase_out_start_single: 23350
+    phase_out_start_mfj: 30460
+    phase_out_complete_single: 50434
+    phase_out_complete_mfj: 57544
+  children_2:
+    max_credit: 7152
+    max_earned_income: 17880
+    phase_out_start_single: 23350
+    phase_out_start_mfj: 30460
+    phase_out_complete_single: 57310
+    phase_out_complete_mfj: 64420
+  children_3_plus:
+    max_credit: 8046
+    max_earned_income: 17880
+    phase_out_start_single: 23350
+    phase_out_start_mfj: 30460
+    phase_out_complete_single: 61555
+    phase_out_complete_mfj: 68665
+

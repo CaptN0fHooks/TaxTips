@@ -1,0 +1,156 @@
+pack: us-federal/2025
+tax_year: 2025
+jurisdiction: us-federal
+authority: "IRC §1(j); Rev. Proc. 2025-32; OBBBA P.L. 119-21 (TCJA rates made permanent)"
+
+brackets:
+  single:
+    - rate: 0.10
+      income_floor: 0
+      income_ceiling: 11925
+      citation: "CTR/A.4/2025/rate-10-single-ceiling"
+    - rate: 0.12
+      income_floor: 11926
+      income_ceiling: 48475
+      citation: "CTR/A.4/2025/rate-12-single-ceiling"
+    - rate: 0.22
+      income_floor: 48476
+      income_ceiling: 103350
+      citation: "CTR/A.4/2025/rate-22-single-ceiling"
+    - rate: 0.24
+      income_floor: 103351
+      income_ceiling: 197300
+      citation: "CTR/A.4/2025/rate-24-single-ceiling"
+    - rate: 0.32
+      income_floor: 197301
+      income_ceiling: 250525
+      citation: "CTR/A.4/2025/rate-32-single-ceiling"
+    - rate: 0.35
+      income_floor: 250526
+      income_ceiling: 626350
+      citation: "CTR/A.4/2025/rate-35-single-ceiling"
+    - rate: 0.37
+      income_floor: 626351
+      income_ceiling: null
+      citation: "CTR/A.4/2025/rate-37-single"
+
+  mfs:
+    - rate: 0.10
+      income_floor: 0
+      income_ceiling: 11925
+      citation: "CTR/A.4/2025/mfs-equals-single"
+    - rate: 0.12
+      income_floor: 11926
+      income_ceiling: 48475
+      citation: "CTR/A.4/2025/mfs-equals-single"
+    - rate: 0.22
+      income_floor: 48476
+      income_ceiling: 103350
+      citation: "CTR/A.4/2025/mfs-equals-single"
+    - rate: 0.24
+      income_floor: 103351
+      income_ceiling: 197300
+      citation: "CTR/A.4/2025/mfs-equals-single"
+    - rate: 0.32
+      income_floor: 197301
+      income_ceiling: 250525
+      citation: "CTR/A.4/2025/mfs-equals-single"
+    - rate: 0.35
+      income_floor: 250526
+      income_ceiling: 626350
+      citation: "CTR/A.4/2025/mfs-equals-single"
+    - rate: 0.37
+      income_floor: 626351
+      income_ceiling: null
+      citation: "CTR/A.4/2025/mfs-equals-single"
+
+  mfj:
+    - rate: 0.10
+      income_floor: 0
+      income_ceiling: 23850
+      citation: "CTR/A.4/2025/rate-10-mfj-ceiling"
+    - rate: 0.12
+      income_floor: 23851
+      income_ceiling: 96950
+      citation: "CTR/A.4/2025/rate-12-mfj-ceiling"
+    - rate: 0.22
+      income_floor: 96951
+      income_ceiling: 206700
+      citation: "CTR/A.4/2025/rate-22-mfj-ceiling"
+    - rate: 0.24
+      income_floor: 206701
+      income_ceiling: 394600
+      citation: "CTR/A.4/2025/rate-24-mfj-ceiling"
+    - rate: 0.32
+      income_floor: 394601
+      income_ceiling: 501050
+      citation: "CTR/A.4/2025/rate-32-mfj-ceiling"
+    - rate: 0.35
+      income_floor: 501051
+      income_ceiling: 751600
+      citation: "CTR/A.4/2025/rate-35-mfj-ceiling"
+    - rate: 0.37
+      income_floor: 751601
+      income_ceiling: null
+      citation: "CTR/A.4/2025/rate-37-mfj"
+
+  qss:
+    - rate: 0.10
+      income_floor: 0
+      income_ceiling: 23850
+      citation: "CTR/A.4/2025/rate-10-mfj-ceiling"
+    - rate: 0.12
+      income_floor: 23851
+      income_ceiling: 96950
+      citation: "CTR/A.4/2025/rate-12-mfj-ceiling"
+    - rate: 0.22
+      income_floor: 96951
+      income_ceiling: 206700
+      citation: "CTR/A.4/2025/rate-22-mfj-ceiling"
+    - rate: 0.24
+      income_floor: 206701
+      income_ceiling: 394600
+      citation: "CTR/A.4/2025/rate-24-mfj-ceiling"
+    - rate: 0.32
+      income_floor: 394601
+      income_ceiling: 501050
+      citation: "CTR/A.4/2025/rate-32-mfj-ceiling"
+    - rate: 0.35
+      income_floor: 501051
+      income_ceiling: 751600
+      citation: "CTR/A.4/2025/rate-35-mfj-ceiling"
+    - rate: 0.37
+      income_floor: 751601
+      income_ceiling: null
+      citation: "CTR/A.4/2025/rate-37-mfj"
+
+  hoh:
+    - rate: 0.10
+      income_floor: 0
+      income_ceiling: 17000
+      citation: "CTR/A.4/2025/rate-10-single-ceiling"
+    - rate: 0.12
+      income_floor: 17001
+      income_ceiling: 64850
+      citation: "CTR/A.4/2025/rate-12-single-ceiling"
+    - rate: 0.22
+      income_floor: 64851
+      income_ceiling: 103350
+      citation: "CTR/A.4/2025/rate-22-single-ceiling"
+    - rate: 0.24
+      income_floor: 103351
+      income_ceiling: 197300
+      citation: "CTR/A.4/2025/rate-24-single-ceiling"
+    - rate: 0.32
+      income_floor: 197301
+      income_ceiling: 250500
+      citation: "CTR/A.4/2025/rate-32-single-ceiling"
+    - rate: 0.35
+      income_floor: 250501
+      income_ceiling: 626350
+      citation: "CTR/A.4/2025/rate-35-single-ceiling"
+    - rate: 0.37
+      income_floor: 626351
+      income_ceiling: null
+      citation: "CTR/A.4/2025/rate-37-single"
+

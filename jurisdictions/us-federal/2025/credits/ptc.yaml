@@ -1,0 +1,18 @@
+pack: us-federal/2025
+tax_year: 2025
+jurisdiction: us-federal
+credit_type: ptc
+authority: "IRC §36B; IRA §12001 (final year of cliff repeal)"
+
+ptc:
+  arpa_expansion_active: true
+  cliff_400pct_fpl_repealed: true
+  cliff_repeal_final_year: true
+  cliff_repeal_authority: "IRA §12001 (expires after 2025; OBBBA did not extend)"
+  citation: "CTR/A.9/2025/ptc"
+  mfs_bar_general: true
+  mfs_exception_domestic_abuse: true
+  form: "8962"
+  projected: false
+  note: "2025 is the final year of ARPA/IRA cliff repeal; 400% FPL cliff returns in 2026 absent further legislation"
+
