@@ -1,0 +1,38 @@
+pack_id: us-federal/2026
+tax_year: 2026
+jurisdiction: us-federal
+version: 1.0.0
+spec_version: "1.0.0"
+effective_date: "2026-01-01"
+controlling_report_version: "2026-05-02"
+citation_count: 56
+ambiguity_count: 1
+projected: true
+sign_off_log: []
+files:
+  - path: brackets.yaml
+    sha256: eac40a25129c445583b554401425d89834e135f221ce40fcb08b7f43a0b14d88
+  - path: standard-deduction.yaml
+    sha256: 9ed3ea0d8b9e33e6d3234338193da30f256264a802bcc3e1aea4c022259ac111
+  - path: itemized.yaml
+    sha256: ad9b9233937c6f43e3b47d87e590a63bd5bce23710b730ef52649ce1ab0281c7
+  - path: tipped-wages.yaml
+    sha256: 56a4c14fb2f13a369ba78dd8d92e6bf14e0d73d155c2de1ea9189183452b42dd
+  - path: forms.yaml
+    sha256: e88174c6d374834a84c17f10944ccb497c8895302b562808fa26960356e88db0
+  - path: mailing-addresses.yaml
+    sha256: 290bab6a731ae3ceb15e265610bdef9c948893bd810f8c9359659daa87702394
+  - path: ambiguities.yaml
+    sha256: 4ceabfc1cc3338d7ee8cbcefdb993a369832570c902ea690020ad46442c3d638
+  - path: CHANGELOG.md
+    sha256: 3eccaf11f235e6379869a23e90c6bd76d8d6557aabb05a8a26b913b29d74b309
+  - path: credits/eitc.yaml
+    sha256: 49f3da0f7df585fd721d2eed1e89065c770cb2f5099d78bb11bdca5b19b1382f
+  - path: credits/ctc.yaml
+    sha256: 28039a3cd682dc96054276f10211a9cf96d1848344626fdd95630c69ea581310
+  - path: credits/aotc.yaml
+    sha256: 67c7ea7470390d4589bc4b614bc543fd47c58c4873f37c1434a5b4134c810514
+  - path: credits/savers.yaml
+    sha256: 434418f3b9f4492ef34799ae8a8cb7766baa10c8e6dd01bb5b8ac041fac1d7bd
+  - path: credits/ptc.yaml
+    sha256: 3a007266578c32717dd32ed416bcf0958a69917126bc1cbe1aac5c2f1288f9d1

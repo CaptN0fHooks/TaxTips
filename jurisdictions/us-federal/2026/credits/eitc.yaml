@@ -1,0 +1,49 @@
+pack: us-federal/2026
+tax_year: 2026
+jurisdiction: us-federal
+credit_type: eitc
+authority: "IRC §32; Rev. Proc. 2025-32 [PROJECTED amounts]"
+projected: true
+
+earned_income_definition:
+  includes_wages: true
+  includes_tips: true
+  qualified_tips_reduce_eitc_base: false
+  citation: "CTR/A.9/2026/eitc-earned-income"
+
+investment_income_cap: 12200
+investment_income_cap_citation: "CTR/A.9/2026/eitc-investment-cap"
+investment_income_cap_projected: true
+
+table:
+  citation: "CTR/A.9/2026/eitc-table"
+  projected: true
+  children_0:
+    max_credit: 665
+    max_earned_income: 8700
+    phase_out_start_single: 10900
+    phase_out_start_mfj: 18200
+    phase_out_complete_single: 19600
+    phase_out_complete_mfj: 26900
+  children_1:
+    max_credit: 4436
+    max_earned_income: 13050
+    phase_out_start_single: 23950
+    phase_out_start_mfj: 31250
+    phase_out_complete_single: 51720
+    phase_out_complete_mfj: 59020
+  children_2:
+    max_credit: 7334
+    max_earned_income: 18350
+    phase_out_start_single: 23950
+    phase_out_start_mfj: 31250
+    phase_out_complete_single: 58790
+    phase_out_complete_mfj: 66090
+  children_3_plus:
+    max_credit: 8250
+    max_earned_income: 18350
+    phase_out_start_single: 23950
+    phase_out_start_mfj: 31250
+    phase_out_complete_single: 63130
+    phase_out_complete_mfj: 70430
+

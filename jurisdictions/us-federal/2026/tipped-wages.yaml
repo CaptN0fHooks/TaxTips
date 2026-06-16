@@ -1,0 +1,84 @@
+pack: us-federal/2026
+tax_year: 2026
+jurisdiction: us-federal
+authority: "IRC §§61(a)(7),224,225,3101,3111,3121; T.D. 10044; OBBBA P.L. 119-21"
+
+# 2026: MANDATORY W-2 Box 12 code TP + Box 14b TTOC per T.D. 10044.
+# §225 Qualified Overtime Deduction also available (above-the-line).
+# No transition relief — Box 12 TP is the required reporting method.
+
+tip_reporting:
+  all_tips_includible_in_income: true
+  cash_tips_reporting_threshold_per_month: 20
+  employer_allocated_tips:
+    box: "W-2 Box 8"
+    taxable: true
+  form_4137:
+    citation: "CTR/A.13/2026/form-4137"
+    lines:
+      - line: 4
+        description: "Unreported qualified tips (feeds Schedule 1-A Line 5)"
+      - line: 6
+        description: "Unreported tips subject to SS/Medicare"
+      - line: 13
+        description: "Total taxes — Schedule 2 Line 17b"
+
+section_224:
+  available: true
+  cap_per_return: 25000
+  cap_citation: "CTR/B.1/2025/section-224-cap"
+  phase_out:
+    single_threshold: 150000
+    mfj_threshold: 300000
+    reduction_per_1000: 100
+    floor: 0
+    single_citation: "CTR/B.1/2025/section-224-phaseout-single"
+    mfj_citation: "CTR/B.1/2025/section-224-phaseout-mfj"
+  mfs_barred: true
+  mfs_citation: "CTR/B.1/2025/section-224-mfs-bar"
+  ssn_required: true
+  reduces_fica: false
+  reduces_eitc_base: false
+  enacted_citation: "CTR/B.1/2026/section-224-available"
+  schedule_1a_required: true
+  schedule_1a_line_4: "W-2 Box 12 code TP (mandatory 2026 per T.D. 10044)"
+  schedule_1a_line_5: "Form 4137 Line 4 unreported tips"
+  schedule_1a_line_7: "Total qualified tips (capped at $25,000)"
+  schedule_1a_line_13: "§224 deduction after phase-out → Form 1040 Line 13b"
+  mandatory_w2_reporting_2026:
+    box_12_tp: true
+    box_12_tt: true
+    box_14b_ttoc: true
+    citation: "CTR/B.1/2026/section-224-w2-box12-tp"
+    box_14b_citation: "CTR/B.1/2026/section-224-box14b-ttoc"
+
+section_225:
+  available: true
+  description: "§225 Qualified Overtime Deduction — FLSA §207 overtime W-2 employees"
+  citation: "CTR/B.2/2026/section-225-overtime"
+  w2_box_12_code: "TT"
+  schedule_1a_part: 3
+  note: "Same cap/phase-out structure as §224; MFS bar applies; SSN required"
+
+excess_social_security_tax:
+  applies: true
+  ss_wage_base: 184500
+  ss_rate: 0.062
+  max_ss_tax: 11439.00
+  schedule_3_line: 11
+  ss_wage_base_citation: "CTR/A.11/2026/ss-wage-base"
+  max_ss_tax_citation: "CTR/A.11/2026/max-ss-tax"
+
+ttoc:
+  mandatory_w2_box_14b: true
+  citation: "CTR/B.1/2026/section-224-box14b-ttoc"
+  platform_collects_ttoc_code: true
+  validate_box_14b_match: true
+  note: "If W-2 Box 14b TTOC and platform-selected occupation mismatch: warn user"
+
+
+reporting_2026:
+  box_12_tp_required: true
+  box_12_tt_required: true
+  box_14b_ttoc_required: true
+  citation: "CTR/B.1/2026/section-224-w2-box12-tp"

@@ -1,0 +1,28 @@
+pack: us-federal/2026
+verification_date: "2026-06-15"
+verification_source: "https://www.irs.gov/filing/where-to-file-paper-tax-returns-with-or-without-a-payment"
+projected: true
+
+destinations:
+  - destination_id: "ca-resident-with-payment"
+    condition: "California resident enclosing check or money order"
+    citation: "CTR/A.13/2026/mailing-address-federal-ca-resident"
+    address:
+      recipient: "Internal Revenue Service"
+      street: "P.O. Box 7704"
+      city: "San Francisco"
+      state: "CA"
+      zip: "94120-7704"
+    note: "PROJECTED — IRS mailing addresses subject to annual update; verify at IRS.gov before filing"
+
+  - destination_id: "ca-resident-without-payment"
+    condition: "California resident with refund or no balance due"
+    citation: "CTR/A.13/2026/mailing-address-federal-ca-resident"
+    address:
+      recipient: "Department of the Treasury"
+      street: "Internal Revenue Service"
+      city: "Ogden"
+      state: "UT"
+      zip: "84201-0002"
+    note: "PROJECTED"
+

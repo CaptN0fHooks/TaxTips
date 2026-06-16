@@ -1,0 +1,64 @@
+pack: us-federal/2026
+tax_year: 2026
+jurisdiction: us-federal
+authority: "IRS Form publications, Rev. 2026; T.D. 10044"
+
+forms:
+  - form_id: "us-1040"
+    name: "U.S. Individual Income Tax Return"
+    tax_year: 2026
+    official_url: "https://www.irs.gov/pub/irs-pdf/f1040.pdf"
+    instructions_url: "https://www.irs.gov/pub/irs-pdf/i1040gi.pdf"
+    citation: "CTR/A.13/2026/form-1040"
+    line_definitions:
+      - line_id: "us-1040-2026/line-1a"
+        description: "Total wages, salaries, tips from W-2 Box 1"
+        provenance: "W-2 Box 1"
+      - line_id: "us-1040-2026/line-1c"
+        description: "Tip income not reported on W-2 (Form 4137)"
+        provenance: "Form 4137 Line 6"
+      - line_id: "us-1040-2026/line-11"
+        description: "Adjusted Gross Income"
+        provenance: "computed"
+      - line_id: "us-1040-2026/line-12"
+        description: "Standard or itemized deduction"
+        provenance: "computed or Schedule A"
+      - line_id: "us-1040-2026/line-13b"
+        description: "§224 + §225 deductions (Schedule 1-A Line 38)"
+        provenance: "Schedule 1-A Line 38"
+      - line_id: "us-1040-2026/line-15"
+        description: "Taxable income"
+        provenance: "computed"
+      - line_id: "us-1040-2026/line-35a"
+        description: "Refund amount"
+        provenance: "computed"
+
+  - form_id: "us-1040-schedule-1a"
+    name: "Schedule 1-A — OBBBA Additional Deductions"
+    tax_year: 2026
+    new_in_year: 2025
+    official_url: "https://www.irs.gov/pub/irs-pdf/f1040s1a.pdf"
+    instructions_url: "https://www.irs.gov/pub/irs-pdf/i1040s1a.pdf"
+    citation: "CTR/A.13/2026/form-1040-schedule-1a"
+    line_definitions:
+      - line_id: "us-1040-s1a-2026/part-2/line-4"
+        description: "Qualified tips from W-2 Box 12 code TP (mandatory 2026)"
+        provenance: "W-2 Box 12 code TP"
+      - line_id: "us-1040-s1a-2026/part-2/line-5"
+        description: "Qualified tips from Form 4137 Line 4"
+        provenance: "Form 4137 Line 4"
+      - line_id: "us-1040-s1a-2026/part-2/line-13"
+        description: "§224 qualified tip deduction after phase-out"
+        provenance: "computed"
+      - line_id: "us-1040-s1a-2026/part-3/line-25"
+        description: "§225 qualified overtime deduction"
+        provenance: "W-2 Box 12 code TT"
+
+  - form_id: "us-form-4137"
+    name: "Form 4137 — Social Security and Medicare Tax on Unreported Tip Income"
+    tax_year: 2026
+    official_url: "https://www.irs.gov/pub/irs-pdf/f4137.pdf"
+    instructions_url: "https://www.irs.gov/pub/irs-pdf/i4137.pdf"
+    citation: "CTR/A.13/2026/form-4137"
+    new_in_year: null
+

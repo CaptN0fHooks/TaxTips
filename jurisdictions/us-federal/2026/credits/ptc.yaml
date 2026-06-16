@@ -1,0 +1,22 @@
+pack: us-federal/2026
+tax_year: 2026
+jurisdiction: us-federal
+credit_type: ptc
+authority: "IRC §36B"
+projected: true
+
+ptc:
+  arpa_expansion_active: false
+  cliff_400pct_fpl_active: true
+  cliff_repeal_expired: true
+  citation: "CTR/A.9/2026/ptc"
+  ambiguity_id: "AMB-2026-FED-PTC"
+  projected: true
+  mfs_bar_general: true
+  form: "8962"
+  note: >
+    ARPA/IRA cliff repeal expired after 2025. Pre-expansion IRC §36B applies in 2026
+    unless Congress enacts retroactive extension. Platform flags 2026 PTC scenarios
+    as PROVISIONAL pending legislative action. Tax Director disposition required
+    per AMB-2026-FED-PTC.
+
