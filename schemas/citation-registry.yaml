@@ -942,3 +942,1139 @@ citations:
     ctr_anchor: mailing-address-federal-ca-resident
     primary_authority: "IRS Form 1040 instructions (2024), Where to File"
     description: "2024 federal Form 1040 mailing addresses for California residents"
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART A.2 — STANDARD DEDUCTION (2025)
+  # Authority: IRC §63(c); OBBBA §70102; Rev. Proc. 2025-32
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/A.2/2025/single"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2025
+    ctr_anchor: single
+    primary_authority: "IRC §63(c); OBBBA §70102; Rev. Proc. 2025-32"
+    description: "2025 standard deduction — Single / MFS filer ($15,750)"
+  - citation: "CTR/A.2/2025/mfs"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2025
+    ctr_anchor: mfs
+    primary_authority: "IRC §63(c); OBBBA §70102; Rev. Proc. 2025-32"
+    description: "2025 standard deduction — Married Filing Separately ($15,750)"
+  - citation: "CTR/A.2/2025/hoh"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2025
+    ctr_anchor: hoh
+    primary_authority: "IRC §63(c); OBBBA §70102; Rev. Proc. 2025-32"
+    description: "2025 standard deduction — Head of Household ($23,625)"
+  - citation: "CTR/A.2/2025/mfj"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2025
+    ctr_anchor: mfj
+    primary_authority: "IRC §63(c); OBBBA §70102; Rev. Proc. 2025-32"
+    description: "2025 standard deduction — Married Filing Jointly ($31,500)"
+  - citation: "CTR/A.2/2025/qss"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2025
+    ctr_anchor: qss
+    primary_authority: "IRC §63(c); OBBBA §70102; Rev. Proc. 2025-32"
+    description: "2025 standard deduction — Qualifying Surviving Spouse ($31,500)"
+  - citation: "CTR/A.2/2025/add-65-single"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2025
+    ctr_anchor: add-65-single
+    primary_authority: "IRC §63(f); Rev. Proc. 2025-32"
+    description: "2025 additional standard deduction age 65+/blind — Single or HoH ($2,000)"
+  - citation: "CTR/A.2/2025/add-65-mfj"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2025
+    ctr_anchor: add-65-mfj
+    primary_authority: "IRC §63(f); Rev. Proc. 2025-32"
+    description: "2025 additional standard deduction age 65+/blind — MFJ/MFS/QSS ($1,600)"
+  - citation: "CTR/A.2/2025/add-blind-single"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2025
+    ctr_anchor: add-blind-single
+    primary_authority: "IRC §63(f); Rev. Proc. 2025-32"
+    description: "2025 additional standard deduction blind — Single or HoH ($2,000)"
+  - citation: "CTR/A.2/2025/add-blind-mfj"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2025
+    ctr_anchor: add-blind-mfj
+    primary_authority: "IRC §63(f); Rev. Proc. 2025-32"
+    description: "2025 additional standard deduction blind — MFJ/MFS/QSS ($1,600)"
+  - citation: "CTR/A.2/2025/dependent"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2025
+    ctr_anchor: dependent
+    primary_authority: "IRC §63(c)(5); Rev. Proc. 2025-32"
+    description: "2025 dependent standard deduction — greater of $1,300 or earned income + $450, capped at regular standard deduction"
+  - citation: "CTR/A.2/2025/senior-bonus"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2025
+    ctr_anchor: senior-bonus
+    primary_authority: "OBBBA P.L. 119-21 §70103; IRC §224A (Senior Bonus); Rev. Proc. 2025-32"
+    description: "2025 OBBBA Senior Bonus Deduction — $6,000 for taxpayers age 65+; stackable with standard deduction; Schedule 1-A Part V Line 37"
+  - citation: "CTR/A.2/2025/senior-bonus-mfj"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2025
+    ctr_anchor: senior-bonus-mfj
+    primary_authority: "OBBBA P.L. 119-21 §70103; Rev. Proc. 2025-32"
+    description: "2025 OBBBA Senior Bonus Deduction MFJ — $12,000 if BOTH spouses age 65+"
+  - citation: "CTR/A.2/2025/senior-bonus-phaseout-single"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2025
+    ctr_anchor: senior-bonus-phaseout-single
+    primary_authority: "OBBBA P.L. 119-21 §70103"
+    description: "2025 Senior Bonus phase-out — Single: begins $75,000 MAGI, fully phased out at $175,000; rate 6% of MAGI over threshold"
+  - citation: "CTR/A.2/2025/senior-bonus-phaseout-mfj"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2025
+    ctr_anchor: senior-bonus-phaseout-mfj
+    primary_authority: "OBBBA P.L. 119-21 §70103"
+    description: "2025 Senior Bonus phase-out — MFJ: begins $150,000 MAGI, fully phased out at $250,000; rate 6% of MAGI over threshold"
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART A.3 — ITEMIZED DEDUCTIONS (2025)
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/A.3/2025/medical"
+    ctr_part: A
+    ctr_section: 3
+    ctr_year: 2025
+    ctr_anchor: medical
+    primary_authority: "IRC §213"
+    description: "2025 medical expense deduction AGI floor — 7.5% (permanent)"
+  - citation: "CTR/A.3/2025/salt"
+    ctr_part: A
+    ctr_section: 3
+    ctr_year: 2025
+    ctr_anchor: salt
+    primary_authority: "IRC §164(b)(6); OBBBA §70120"
+    description: "2025 SALT cap — $40,000 single/MFJ ($20,000 MFS); phase-down: cap reduced by 30% of MAGI over $500,000 (floor $10,000)"
+  - citation: "CTR/A.3/2025/salt-mfs"
+    ctr_part: A
+    ctr_section: 3
+    ctr_year: 2025
+    ctr_anchor: salt-mfs
+    primary_authority: "IRC §164(b)(6); OBBBA §70120"
+    description: "2025 SALT cap MFS — $20,000"
+  - citation: "CTR/A.3/2025/salt-phasedown"
+    ctr_part: A
+    ctr_section: 3
+    ctr_year: 2025
+    ctr_anchor: salt-phasedown
+    primary_authority: "OBBBA §70120"
+    description: "2025 SALT phase-down — cap reduced by 30% of MAGI in excess of $500,000 ($250,000 MFS); never below $10,000 floor"
+  - citation: "CTR/A.3/2025/mortgage"
+    ctr_part: A
+    ctr_section: 3
+    ctr_year: 2025
+    ctr_anchor: mortgage
+    primary_authority: "IRC §163(h)(3); OBBBA §70108"
+    description: "2025 mortgage interest — acquisition debt cap $750,000 post-12/15/2017; $1,000,000 pre-12/15/2017; OBBBA made permanent"
+  - citation: "CTR/A.3/2025/charitable"
+    ctr_part: A
+    ctr_section: 3
+    ctr_year: 2025
+    ctr_anchor: charitable
+    primary_authority: "IRC §170(b); OBBBA §70106"
+    description: "2025 charitable cash AGI limit — 60% of AGI; above-the-line $1,000 single / $2,000 MFJ for non-itemizers (cash to public charities only); 0.5% floor begins 2026"
+  - citation: "CTR/A.3/2025/misc-2pct-suspended"
+    ctr_part: A
+    ctr_section: 3
+    ctr_year: 2025
+    ctr_anchor: misc-2pct-suspended
+    primary_authority: "IRC §67(g); OBBBA §70120 (made permanent)"
+    description: "2025 miscellaneous 2% itemized deductions — permanently suspended (OBBBA §70120 made TCJA §67(g) permanent); CA does NOT conform"
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART A.4 — TAX BRACKETS (2025)
+  # Authority: IRC §1(j); Rev. Proc. 2024-40; Rev. Proc. 2025-32
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/A.4/2025/rate-10-single-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2025
+    ctr_anchor: rate-10-single-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2025 federal bracket — 10% rate ceiling, Single ($11,925)"
+  - citation: "CTR/A.4/2025/rate-12-single-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2025
+    ctr_anchor: rate-12-single-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2025 federal bracket — 12% rate ceiling, Single ($48,475)"
+  - citation: "CTR/A.4/2025/rate-22-single-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2025
+    ctr_anchor: rate-22-single-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2025 federal bracket — 22% rate ceiling, Single ($103,350)"
+  - citation: "CTR/A.4/2025/rate-24-single-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2025
+    ctr_anchor: rate-24-single-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2025 federal bracket — 24% rate ceiling, Single ($197,300)"
+  - citation: "CTR/A.4/2025/rate-32-single-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2025
+    ctr_anchor: rate-32-single-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2025 federal bracket — 32% rate ceiling, Single ($250,525)"
+  - citation: "CTR/A.4/2025/rate-35-single-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2025
+    ctr_anchor: rate-35-single-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2025 federal bracket — 35% rate ceiling, Single ($626,350)"
+  - citation: "CTR/A.4/2025/rate-37-single"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2025
+    ctr_anchor: rate-37-single
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2025 federal bracket — 37% rate, Single (above $626,350)"
+  - citation: "CTR/A.4/2025/rate-10-mfj-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2025
+    ctr_anchor: rate-10-mfj-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2025 federal bracket — 10% rate ceiling, MFJ/QSS ($23,850)"
+  - citation: "CTR/A.4/2025/rate-12-mfj-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2025
+    ctr_anchor: rate-12-mfj-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2025 federal bracket — 12% rate ceiling, MFJ/QSS ($96,950)"
+  - citation: "CTR/A.4/2025/rate-22-mfj-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2025
+    ctr_anchor: rate-22-mfj-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2025 federal bracket — 22% rate ceiling, MFJ/QSS ($206,700)"
+  - citation: "CTR/A.4/2025/rate-24-mfj-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2025
+    ctr_anchor: rate-24-mfj-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2025 federal bracket — 24% rate ceiling, MFJ/QSS ($394,600)"
+  - citation: "CTR/A.4/2025/rate-32-mfj-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2025
+    ctr_anchor: rate-32-mfj-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2025 federal bracket — 32% rate ceiling, MFJ/QSS ($501,050)"
+  - citation: "CTR/A.4/2025/rate-35-mfj-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2025
+    ctr_anchor: rate-35-mfj-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2025 federal bracket — 35% rate ceiling, MFJ/QSS ($751,600)"
+  - citation: "CTR/A.4/2025/rate-37-mfj"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2025
+    ctr_anchor: rate-37-mfj
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2025 federal bracket — 37% rate, MFJ/QSS (above $751,600)"
+  - citation: "CTR/A.4/2025/mfs-equals-single"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2025
+    ctr_anchor: mfs-equals-single
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2025 MFS brackets — identical to Single brackets at all rates"
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART A.9 — CREDITS (2025)
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/A.9/2025/eitc-table"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2025
+    ctr_anchor: eitc-table
+    primary_authority: "IRC §32; Rev. Proc. 2025-32"
+    description: "2025 EITC table — max credits: $649 (0 children), $4,328 (1 child), $7,152 (2 children), $8,046 (3+ children)"
+  - citation: "CTR/A.9/2025/eitc-investment-cap"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2025
+    ctr_anchor: eitc-investment-cap
+    primary_authority: "IRC §32(i); Rev. Proc. 2025-32"
+    description: "2025 EITC investment income disqualification cap ($11,950)"
+  - citation: "CTR/A.9/2025/eitc-earned-income"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2025
+    ctr_anchor: eitc-earned-income
+    primary_authority: "IRC §32(c)(2); OBBBA §70201"
+    description: "2025 EITC — tips included in full in earned income; §224 deduction does NOT reduce EITC earned income base (OBBBA §70201 explicit)"
+  - citation: "CTR/A.9/2025/eitc-mfs-bar"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2025
+    ctr_anchor: eitc-mfs-bar
+    primary_authority: "IRC §32(d)"
+    description: "2025 EITC — MFS filers ineligible"
+  - citation: "CTR/A.9/2025/ctc-amount"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2025
+    ctr_anchor: ctc-amount
+    primary_authority: "IRC §24; OBBBA §70151; Rev. Proc. 2025-32"
+    description: "2025 Child Tax Credit — $2,200 per qualifying child under 17 (OBBBA raised from $2,000)"
+  - citation: "CTR/A.9/2025/ctc-actc-refundable-cap"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2025
+    ctr_anchor: ctc-actc-refundable-cap
+    primary_authority: "IRC §24(d); OBBBA §70151"
+    description: "2025 Additional Child Tax Credit (ACTC) refundable cap — $1,700"
+  - citation: "CTR/A.9/2025/ctc-phase-out"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2025
+    ctr_anchor: ctc-phase-out
+    primary_authority: "IRC §24(b)"
+    description: "2025 CTC phase-out — begins at $200,000 single / $400,000 MFJ"
+  - citation: "CTR/A.9/2025/odc"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2025
+    ctr_anchor: odc
+    primary_authority: "IRC §24(h)(4)"
+    description: "2025 Other Dependent Credit — $500 per qualifying non-child dependent"
+  - citation: "CTR/A.9/2025/aotc"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2025
+    ctr_anchor: aotc
+    primary_authority: "IRC §25A(b)"
+    description: "2025 AOTC — max $2,500; 40% refundable; phase-out $80K–$90K single / $160K–$180K MFJ"
+  - citation: "CTR/A.9/2025/aotc-mfs-bar"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2025
+    ctr_anchor: aotc-mfs-bar
+    primary_authority: "IRC §25A(g)(6)"
+    description: "2025 AOTC — MFS ineligible"
+  - citation: "CTR/A.9/2025/savers-credit"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2025
+    ctr_anchor: savers-credit
+    primary_authority: "IRC §25B; Rev. Proc. 2025-32"
+    description: "2025 Saver's Credit — 50/20/10% tiered nonrefundable credit on up to $2,000 retirement contributions"
+  - citation: "CTR/A.9/2025/ptc"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2025
+    ctr_anchor: ptc
+    primary_authority: "IRC §36B; IRA §12001 (cliff repeal through 2025)"
+    description: "2025 Premium Tax Credit — ARPA/IRA cliff repeal final year; no 400% FPL cliff; OBBBA did not extend beyond 2025"
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART A.11 — FICA / SOCIAL SECURITY (2025)
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/A.11/2025/ss-wage-base"
+    ctr_part: A
+    ctr_section: 11
+    ctr_year: 2025
+    ctr_anchor: ss-wage-base
+    primary_authority: "IRC §3121(a)(1); SSA Fact Sheet 2025"
+    description: "2025 Social Security wage base ($176,100)"
+  - citation: "CTR/A.11/2025/max-ss-tax"
+    ctr_part: A
+    ctr_section: 11
+    ctr_year: 2025
+    ctr_anchor: max-ss-tax
+    primary_authority: "IRC §3101(a); SSA Fact Sheet 2025"
+    description: "2025 Maximum employee Social Security tax ($10,918.20 = $176,100 x 6.2%)"
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART A.12 — STANDARD MILEAGE RATES (2025)
+  # Authority: IRS Notice 2025-5
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/A.12/2025/business-rate"
+    ctr_part: A
+    ctr_section: 12
+    ctr_year: 2025
+    ctr_anchor: business-rate
+    primary_authority: "IRS Notice 2025-5"
+    description: "2025 standard mileage rate — business (70 cents per mile)"
+  - citation: "CTR/A.12/2025/medical-rate"
+    ctr_part: A
+    ctr_section: 12
+    ctr_year: 2025
+    ctr_anchor: medical-rate
+    primary_authority: "IRS Notice 2025-5"
+    description: "2025 standard mileage rate — medical and moving Armed Forces only (21 cents per mile)"
+  - citation: "CTR/A.12/2025/charitable-rate"
+    ctr_part: A
+    ctr_section: 12
+    ctr_year: 2025
+    ctr_anchor: charitable-rate
+    primary_authority: "IRC §170(i)"
+    description: "2025 standard mileage rate — charitable (14 cents per mile; statutory)"
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART A.13 — FEDERAL FORMS INVENTORY (2025)
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/A.13/2025/form-1040"
+    ctr_part: A
+    ctr_section: 13
+    ctr_year: 2025
+    ctr_anchor: form-1040
+    primary_authority: "IRS Form 1040 (Rev. 2025)"
+    description: "2025 Form 1040 — U.S. Individual Income Tax Return"
+  - citation: "CTR/A.13/2025/form-4137"
+    ctr_part: A
+    ctr_section: 13
+    ctr_year: 2025
+    ctr_anchor: form-4137
+    primary_authority: "IRS Form 4137 (Rev. 2025)"
+    description: "2025 Form 4137 — Social Security and Medicare Tax on Unreported Tip Income"
+  - citation: "CTR/A.13/2025/form-1040-schedule-1a"
+    ctr_part: A
+    ctr_section: 13
+    ctr_year: 2025
+    ctr_anchor: form-1040-schedule-1a
+    primary_authority: "IRS Schedule 1-A (Form 1040) (first issued TY2025); OBBBA P.L. 119-21"
+    description: "2025 Schedule 1-A — OBBBA Additional Deductions (new form; first issued for TY2025); Line 13 = §224 qualified tip deduction"
+  - citation: "CTR/A.13/2025/mailing-address-federal-ca-resident"
+    ctr_part: A
+    ctr_section: 13
+    ctr_year: 2025
+    ctr_anchor: mailing-address-federal-ca-resident
+    primary_authority: "IRS Form 1040 instructions (2025), Where to File"
+    description: "2025 federal Form 1040 mailing addresses for California residents"
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART B — FEDERAL TIPPED-WAGE PARAMETERS (2025)
+  # Authority: IRC §224; OBBBA P.L. 119-21; Notice 2025-69; Notice 2025-62;
+  #            T.D. 10044; REG-110032-25; Treas. Reg. §1.224-1
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/B.1/2025/section-224-enacted"
+    ctr_part: B
+    ctr_section: 1
+    ctr_year: 2025
+    ctr_anchor: section-224-enacted
+    primary_authority: "IRC §224; OBBBA P.L. 119-21 §70201; T.D. 10044"
+    description: "§224 Qualified Tip Deduction — enacted July 4, 2025 (OBBBA); effective tax years beginning after Dec 31, 2024; sunsets after Dec 31, 2028"
+  - citation: "CTR/B.1/2025/section-224-cap"
+    ctr_part: B
+    ctr_section: 1
+    ctr_year: 2025
+    ctr_anchor: section-224-cap
+    primary_authority: "IRC §224(b)(1); Treas. Reg. §1.224-1(b)"
+    description: "§224 cap — $25,000 per return regardless of filing status; not indexed for inflation"
+  - citation: "CTR/B.1/2025/section-224-magi-definition"
+    ctr_part: B
+    ctr_section: 1
+    ctr_year: 2025
+    ctr_anchor: section-224-magi-definition
+    primary_authority: "IRC §224(c)(2); Treas. Reg. §1.224-1(c)"
+    description: "§224 MAGI definition — AGI plus §911, §931, §933 add-backs; same as §86 MAGI"
+  - citation: "CTR/B.1/2025/section-224-phaseout-single"
+    ctr_part: B
+    ctr_section: 1
+    ctr_year: 2025
+    ctr_anchor: section-224-phaseout-single
+    primary_authority: "IRC §224(c)(1); Treas. Reg. §1.224-1(c)"
+    description: "§224 MAGI phase-out — Single/HoH/QSS: $100 reduction per $1,000 (or fraction) of MAGI above $150,000; floor at $0"
+  - citation: "CTR/B.1/2025/section-224-phaseout-mfj"
+    ctr_part: B
+    ctr_section: 1
+    ctr_year: 2025
+    ctr_anchor: section-224-phaseout-mfj
+    primary_authority: "IRC §224(c)(1); Treas. Reg. §1.224-1(c)"
+    description: "§224 MAGI phase-out — MFJ: $100 reduction per $1,000 (or fraction) of MAGI above $300,000; floor at $0"
+  - citation: "CTR/B.1/2025/section-224-mfs-bar"
+    ctr_part: B
+    ctr_section: 1
+    ctr_year: 2025
+    ctr_anchor: section-224-mfs-bar
+    primary_authority: "IRC §224(f)"
+    description: "§224 MFS bar — Married Filing Separately filers categorically barred; deduction is $0 regardless of tip income"
+  - citation: "CTR/B.1/2025/section-224-ssn-required"
+    ctr_part: B
+    ctr_section: 1
+    ctr_year: 2025
+    ctr_anchor: section-224-ssn-required
+    primary_authority: "IRC §224(e)"
+    description: "§224 SSN requirement — valid SSN required; ITIN-only taxpayers ineligible"
+  - citation: "CTR/B.1/2025/section-224-fica-unchanged"
+    ctr_part: B
+    ctr_section: 1
+    ctr_year: 2025
+    ctr_anchor: section-224-fica-unchanged
+    primary_authority: "IRC §3121; KPMG TaxNewsFlash Notice 2025-69; Treas. Reg. §1.224-1"
+    description: "§224 deduction does NOT reduce FICA wages — SS/Medicare tax continues on all tips; §224 reduces income tax only"
+  - citation: "CTR/B.1/2025/section-224-eitc-unchanged"
+    ctr_part: B
+    ctr_section: 1
+    ctr_year: 2025
+    ctr_anchor: section-224-eitc-unchanged
+    primary_authority: "IRC §224; OBBBA §70201; IRC §32(c)(2)"
+    description: "§224 deduction does NOT reduce EITC earned income base — tips count in full for EITC purposes regardless of §224 deduction"
+  - citation: "CTR/B.2/2025/ttoc-list"
+    ctr_part: B
+    ctr_section: 2
+    ctr_year: 2025
+    ctr_anchor: ttoc-list
+    primary_authority: "T.D. 10044 (91 FR 19026, April 13, 2026); REG-110032-25; Treas. Reg. §1.224-1(d)"
+    description: "TTOC — Treasury Tipped Occupation Code list; ~70 closed occupations qualifying for §224 per T.D. 10044 final regulations"
+  - citation: "CTR/B.2/2025/ttoc-voluntariness"
+    ctr_part: B
+    ctr_section: 2
+    ctr_year: 2025
+    ctr_anchor: ttoc-voluntariness
+    primary_authority: "IRC §224(d)(2)(A); Treas. Reg. §1.224-1(d)"
+    description: "§224 voluntariness test — service charges and mandatory gratuities are wages, NOT qualified tips; fail §224(d)(2)(A)"
+  - citation: "CTR/B.2/2025/ttoc-ownership-rechar"
+    ctr_part: B
+    ctr_section: 2
+    ctr_year: 2025
+    ctr_anchor: ttoc-ownership-rechar
+    primary_authority: "Treas. Reg. §1.224-1(d)(3)"
+    description: "§224 ownership recharacterization — employee who owns ≥5% of payor entity: tips are disqualified (irrebuttable per final reg)"
+  - citation: "CTR/B.3/2025/transition-notice-2025-69"
+    ctr_part: B
+    ctr_section: 3
+    ctr_year: 2025
+    ctr_anchor: transition-notice-2025-69
+    primary_authority: "IRS Notice 2025-69 (IRB 2025-50, Nov. 21, 2025)"
+    description: "2025 transition relief — Notice 2025-69: W-2 Box 7 SS tips as default qualified tip amount for 2025; reasonable approximation methods accepted; SSTB transition relief"
+  - citation: "CTR/B.3/2025/transition-notice-2025-62"
+    ctr_part: B
+    ctr_section: 3
+    ctr_year: 2025
+    ctr_anchor: transition-notice-2025-62
+    primary_authority: "IRS Notice 2025-62 (IRB 2025-48, Nov. 5, 2025)"
+    description: "2025 transition relief — Notice 2025-62: penalty relief under §6721/§6722 for information-return failures related to §224 for 2025"
+  - citation: "CTR/B.4/2025/schedule-1a-line-4"
+    ctr_part: B
+    ctr_section: 4
+    ctr_year: 2025
+    ctr_anchor: schedule-1a-line-4
+    primary_authority: "IRS Schedule 1-A (Form 1040), TY2025; Notice 2025-69"
+    description: "Schedule 1-A Line 4 — Qualified tips from W-2 Box 7 SS tips (2025 default per Notice 2025-69 transition relief)"
+  - citation: "CTR/B.4/2025/schedule-1a-line-5"
+    ctr_part: B
+    ctr_section: 4
+    ctr_year: 2025
+    ctr_anchor: schedule-1a-line-5
+    primary_authority: "IRS Schedule 1-A (Form 1040), TY2025"
+    description: "Schedule 1-A Line 5 — Qualified tips from Form 4137 Line 4 (unreported tips)"
+  - citation: "CTR/B.4/2025/schedule-1a-line-7"
+    ctr_part: B
+    ctr_section: 4
+    ctr_year: 2025
+    ctr_anchor: schedule-1a-line-7
+    primary_authority: "IRS Schedule 1-A (Form 1040), TY2025"
+    description: "Schedule 1-A Line 7 — Total qualified tips (Lines 4+5+6); capped at $25,000"
+  - citation: "CTR/B.4/2025/schedule-1a-line-13"
+    ctr_part: B
+    ctr_section: 4
+    ctr_year: 2025
+    ctr_anchor: schedule-1a-line-13
+    primary_authority: "IRS Schedule 1-A (Form 1040), TY2025; IRC §224"
+    description: "Schedule 1-A Line 13 — §224 qualified tip deduction after phase-out; flows to Form 1040 Line 13b"
+  - citation: "CTR/B.5/2025/sstb-transition-relief"
+    ctr_part: B
+    ctr_section: 5
+    ctr_year: 2025
+    ctr_anchor: sstb-transition-relief
+    primary_authority: "IRS Notice 2025-69; IRC §199A(d)(2)"
+    description: "SSTB transition relief (AMB-2025-FED-SSTB) — Notice 2025-69 allows §224 for TTOC occupations even in SSTB context for 2025; final treatment under final regs (T.D. 10044) is ambiguous for edge cases; Tax Director disposition required"
+  - citation: "CTR/B.6/2025/excess-ss-tax"
+    ctr_part: B
+    ctr_section: 6
+    ctr_year: 2025
+    ctr_anchor: excess-ss-tax
+    primary_authority: "IRC §31(b); Form 1040 instructions"
+    description: "2025 excess SS tax recovery — max employee SS tax $10,918.20 ($176,100 x 6.2%); excess from multi-employer year on Schedule 3 Line 11"
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART A.2 — STANDARD DEDUCTION (2025)
+  # Authority: IRC §63(c); OBBBA §70102; Rev. Proc. 2025-32
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/A.2/2025/single"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2025
+    ctr_anchor: single
+    primary_authority: "IRC §63(c); OBBBA §70102; Rev. Proc. 2025-32"
+    description: "2025 standard deduction — Single / MFS filer ($15,750)"
+  - citation: "CTR/A.2/2025/mfs"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2025
+    ctr_anchor: mfs
+    primary_authority: "IRC §63(c); OBBBA §70102; Rev. Proc. 2025-32"
+    description: "2025 standard deduction — Married Filing Separately ($15,750)"
+  - citation: "CTR/A.2/2025/hoh"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2025
+    ctr_anchor: hoh
+    primary_authority: "IRC §63(c); OBBBA §70102; Rev. Proc. 2025-32"
+    description: "2025 standard deduction — Head of Household ($23,625)"
+  - citation: "CTR/A.2/2025/mfj"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2025
+    ctr_anchor: mfj
+    primary_authority: "IRC §63(c); OBBBA §70102; Rev. Proc. 2025-32"
+    description: "2025 standard deduction — Married Filing Jointly ($31,500)"
+  - citation: "CTR/A.2/2025/qss"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2025
+    ctr_anchor: qss
+    primary_authority: "IRC §63(c); OBBBA §70102; Rev. Proc. 2025-32"
+    description: "2025 standard deduction — Qualifying Surviving Spouse ($31,500)"
+  - citation: "CTR/A.2/2025/add-65-single"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2025
+    ctr_anchor: add-65-single
+    primary_authority: "IRC §63(f); Rev. Proc. 2025-32"
+    description: "2025 additional standard deduction age 65+/blind — Single or HoH ($2,000)"
+  - citation: "CTR/A.2/2025/add-65-mfj"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2025
+    ctr_anchor: add-65-mfj
+    primary_authority: "IRC §63(f); Rev. Proc. 2025-32"
+    description: "2025 additional standard deduction age 65+/blind — MFJ/MFS/QSS ($1,600)"
+  - citation: "CTR/A.2/2025/add-blind-single"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2025
+    ctr_anchor: add-blind-single
+    primary_authority: "IRC §63(f); Rev. Proc. 2025-32"
+    description: "2025 additional standard deduction blind — Single or HoH ($2,000)"
+  - citation: "CTR/A.2/2025/add-blind-mfj"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2025
+    ctr_anchor: add-blind-mfj
+    primary_authority: "IRC §63(f); Rev. Proc. 2025-32"
+    description: "2025 additional standard deduction blind — MFJ/MFS/QSS ($1,600)"
+  - citation: "CTR/A.2/2025/dependent"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2025
+    ctr_anchor: dependent
+    primary_authority: "IRC §63(c)(5); Rev. Proc. 2025-32"
+    description: "2025 dependent standard deduction — greater of $1,300 or earned income + $450, capped at regular standard deduction"
+  - citation: "CTR/A.2/2025/senior-bonus"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2025
+    ctr_anchor: senior-bonus
+    primary_authority: "OBBBA P.L. 119-21 §70103; IRC §224A (Senior Bonus); Rev. Proc. 2025-32"
+    description: "2025 OBBBA Senior Bonus Deduction — $6,000 for taxpayers age 65+; stackable with standard deduction; Schedule 1-A Part V Line 37"
+  - citation: "CTR/A.2/2025/senior-bonus-mfj"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2025
+    ctr_anchor: senior-bonus-mfj
+    primary_authority: "OBBBA P.L. 119-21 §70103; Rev. Proc. 2025-32"
+    description: "2025 OBBBA Senior Bonus Deduction MFJ — $12,000 if BOTH spouses age 65+"
+  - citation: "CTR/A.2/2025/senior-bonus-phaseout-single"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2025
+    ctr_anchor: senior-bonus-phaseout-single
+    primary_authority: "OBBBA P.L. 119-21 §70103"
+    description: "2025 Senior Bonus phase-out — Single: begins $75,000 MAGI, fully phased out at $175,000; rate 6% of MAGI over threshold"
+  - citation: "CTR/A.2/2025/senior-bonus-phaseout-mfj"
+    ctr_part: A
+    ctr_section: 2
+    ctr_year: 2025
+    ctr_anchor: senior-bonus-phaseout-mfj
+    primary_authority: "OBBBA P.L. 119-21 §70103"
+    description: "2025 Senior Bonus phase-out — MFJ: begins $150,000 MAGI, fully phased out at $250,000; rate 6% of MAGI over threshold"
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART A.3 — ITEMIZED DEDUCTIONS (2025)
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/A.3/2025/medical"
+    ctr_part: A
+    ctr_section: 3
+    ctr_year: 2025
+    ctr_anchor: medical
+    primary_authority: "IRC §213"
+    description: "2025 medical expense deduction AGI floor — 7.5% (permanent)"
+  - citation: "CTR/A.3/2025/salt"
+    ctr_part: A
+    ctr_section: 3
+    ctr_year: 2025
+    ctr_anchor: salt
+    primary_authority: "IRC §164(b)(6); OBBBA §70120"
+    description: "2025 SALT cap — $40,000 single/MFJ ($20,000 MFS); phase-down: cap reduced by 30% of MAGI over $500,000 (floor $10,000)"
+  - citation: "CTR/A.3/2025/salt-mfs"
+    ctr_part: A
+    ctr_section: 3
+    ctr_year: 2025
+    ctr_anchor: salt-mfs
+    primary_authority: "IRC §164(b)(6); OBBBA §70120"
+    description: "2025 SALT cap MFS — $20,000"
+  - citation: "CTR/A.3/2025/salt-phasedown"
+    ctr_part: A
+    ctr_section: 3
+    ctr_year: 2025
+    ctr_anchor: salt-phasedown
+    primary_authority: "OBBBA §70120"
+    description: "2025 SALT phase-down — cap reduced by 30% of MAGI in excess of $500,000 ($250,000 MFS); never below $10,000 floor"
+  - citation: "CTR/A.3/2025/mortgage"
+    ctr_part: A
+    ctr_section: 3
+    ctr_year: 2025
+    ctr_anchor: mortgage
+    primary_authority: "IRC §163(h)(3); OBBBA §70108"
+    description: "2025 mortgage interest — acquisition debt cap $750,000 post-12/15/2017; $1,000,000 pre-12/15/2017; OBBBA made permanent"
+  - citation: "CTR/A.3/2025/charitable"
+    ctr_part: A
+    ctr_section: 3
+    ctr_year: 2025
+    ctr_anchor: charitable
+    primary_authority: "IRC §170(b); OBBBA §70106"
+    description: "2025 charitable cash AGI limit — 60% of AGI; above-the-line $1,000 single / $2,000 MFJ for non-itemizers (cash to public charities only); 0.5% floor begins 2026"
+  - citation: "CTR/A.3/2025/misc-2pct-suspended"
+    ctr_part: A
+    ctr_section: 3
+    ctr_year: 2025
+    ctr_anchor: misc-2pct-suspended
+    primary_authority: "IRC §67(g); OBBBA §70120 (made permanent)"
+    description: "2025 miscellaneous 2% itemized deductions — permanently suspended (OBBBA §70120 made TCJA §67(g) permanent); CA does NOT conform"
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART A.4 — TAX BRACKETS (2025)
+  # Authority: IRC §1(j); Rev. Proc. 2024-40; Rev. Proc. 2025-32
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/A.4/2025/rate-10-single-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2025
+    ctr_anchor: rate-10-single-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2025 federal bracket — 10% rate ceiling, Single ($11,925)"
+  - citation: "CTR/A.4/2025/rate-12-single-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2025
+    ctr_anchor: rate-12-single-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2025 federal bracket — 12% rate ceiling, Single ($48,475)"
+  - citation: "CTR/A.4/2025/rate-22-single-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2025
+    ctr_anchor: rate-22-single-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2025 federal bracket — 22% rate ceiling, Single ($103,350)"
+  - citation: "CTR/A.4/2025/rate-24-single-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2025
+    ctr_anchor: rate-24-single-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2025 federal bracket — 24% rate ceiling, Single ($197,300)"
+  - citation: "CTR/A.4/2025/rate-32-single-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2025
+    ctr_anchor: rate-32-single-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2025 federal bracket — 32% rate ceiling, Single ($250,525)"
+  - citation: "CTR/A.4/2025/rate-35-single-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2025
+    ctr_anchor: rate-35-single-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2025 federal bracket — 35% rate ceiling, Single ($626,350)"
+  - citation: "CTR/A.4/2025/rate-37-single"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2025
+    ctr_anchor: rate-37-single
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2025 federal bracket — 37% rate, Single (above $626,350)"
+  - citation: "CTR/A.4/2025/rate-10-mfj-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2025
+    ctr_anchor: rate-10-mfj-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2025 federal bracket — 10% rate ceiling, MFJ/QSS ($23,850)"
+  - citation: "CTR/A.4/2025/rate-12-mfj-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2025
+    ctr_anchor: rate-12-mfj-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2025 federal bracket — 12% rate ceiling, MFJ/QSS ($96,950)"
+  - citation: "CTR/A.4/2025/rate-22-mfj-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2025
+    ctr_anchor: rate-22-mfj-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2025 federal bracket — 22% rate ceiling, MFJ/QSS ($206,700)"
+  - citation: "CTR/A.4/2025/rate-24-mfj-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2025
+    ctr_anchor: rate-24-mfj-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2025 federal bracket — 24% rate ceiling, MFJ/QSS ($394,600)"
+  - citation: "CTR/A.4/2025/rate-32-mfj-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2025
+    ctr_anchor: rate-32-mfj-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2025 federal bracket — 32% rate ceiling, MFJ/QSS ($501,050)"
+  - citation: "CTR/A.4/2025/rate-35-mfj-ceiling"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2025
+    ctr_anchor: rate-35-mfj-ceiling
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2025 federal bracket — 35% rate ceiling, MFJ/QSS ($751,600)"
+  - citation: "CTR/A.4/2025/rate-37-mfj"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2025
+    ctr_anchor: rate-37-mfj
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2025 federal bracket — 37% rate, MFJ/QSS (above $751,600)"
+  - citation: "CTR/A.4/2025/mfs-equals-single"
+    ctr_part: A
+    ctr_section: 4
+    ctr_year: 2025
+    ctr_anchor: mfs-equals-single
+    primary_authority: "IRC §1(j); Rev. Proc. 2025-32"
+    description: "2025 MFS brackets — identical to Single brackets at all rates"
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART A.9 — CREDITS (2025)
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/A.9/2025/eitc-table"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2025
+    ctr_anchor: eitc-table
+    primary_authority: "IRC §32; Rev. Proc. 2025-32"
+    description: "2025 EITC table — max credits: $649 (0 children), $4,328 (1 child), $7,152 (2 children), $8,046 (3+ children)"
+  - citation: "CTR/A.9/2025/eitc-investment-cap"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2025
+    ctr_anchor: eitc-investment-cap
+    primary_authority: "IRC §32(i); Rev. Proc. 2025-32"
+    description: "2025 EITC investment income disqualification cap ($11,950)"
+  - citation: "CTR/A.9/2025/eitc-earned-income"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2025
+    ctr_anchor: eitc-earned-income
+    primary_authority: "IRC §32(c)(2); OBBBA §70201"
+    description: "2025 EITC — tips included in full in earned income; §224 deduction does NOT reduce EITC earned income base (OBBBA §70201 explicit)"
+  - citation: "CTR/A.9/2025/eitc-mfs-bar"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2025
+    ctr_anchor: eitc-mfs-bar
+    primary_authority: "IRC §32(d)"
+    description: "2025 EITC — MFS filers ineligible"
+  - citation: "CTR/A.9/2025/ctc-amount"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2025
+    ctr_anchor: ctc-amount
+    primary_authority: "IRC §24; OBBBA §70151; Rev. Proc. 2025-32"
+    description: "2025 Child Tax Credit — $2,200 per qualifying child under 17 (OBBBA raised from $2,000)"
+  - citation: "CTR/A.9/2025/ctc-actc-refundable-cap"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2025
+    ctr_anchor: ctc-actc-refundable-cap
+    primary_authority: "IRC §24(d); OBBBA §70151"
+    description: "2025 Additional Child Tax Credit (ACTC) refundable cap — $1,700"
+  - citation: "CTR/A.9/2025/ctc-phase-out"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2025
+    ctr_anchor: ctc-phase-out
+    primary_authority: "IRC §24(b)"
+    description: "2025 CTC phase-out — begins at $200,000 single / $400,000 MFJ"
+  - citation: "CTR/A.9/2025/odc"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2025
+    ctr_anchor: odc
+    primary_authority: "IRC §24(h)(4)"
+    description: "2025 Other Dependent Credit — $500 per qualifying non-child dependent"
+  - citation: "CTR/A.9/2025/aotc"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2025
+    ctr_anchor: aotc
+    primary_authority: "IRC §25A(b)"
+    description: "2025 AOTC — max $2,500; 40% refundable; phase-out $80K–$90K single / $160K–$180K MFJ"
+  - citation: "CTR/A.9/2025/aotc-mfs-bar"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2025
+    ctr_anchor: aotc-mfs-bar
+    primary_authority: "IRC §25A(g)(6)"
+    description: "2025 AOTC — MFS ineligible"
+  - citation: "CTR/A.9/2025/savers-credit"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2025
+    ctr_anchor: savers-credit
+    primary_authority: "IRC §25B; Rev. Proc. 2025-32"
+    description: "2025 Saver's Credit — 50/20/10% tiered nonrefundable credit on up to $2,000 retirement contributions"
+  - citation: "CTR/A.9/2025/ptc"
+    ctr_part: A
+    ctr_section: 9
+    ctr_year: 2025
+    ctr_anchor: ptc
+    primary_authority: "IRC §36B; IRA §12001 (cliff repeal through 2025)"
+    description: "2025 Premium Tax Credit — ARPA/IRA cliff repeal final year; no 400% FPL cliff; OBBBA did not extend beyond 2025"
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART A.11 — FICA / SOCIAL SECURITY (2025)
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/A.11/2025/ss-wage-base"
+    ctr_part: A
+    ctr_section: 11
+    ctr_year: 2025
+    ctr_anchor: ss-wage-base
+    primary_authority: "IRC §3121(a)(1); SSA Fact Sheet 2025"
+    description: "2025 Social Security wage base ($176,100)"
+  - citation: "CTR/A.11/2025/max-ss-tax"
+    ctr_part: A
+    ctr_section: 11
+    ctr_year: 2025
+    ctr_anchor: max-ss-tax
+    primary_authority: "IRC §3101(a); SSA Fact Sheet 2025"
+    description: "2025 Maximum employee Social Security tax ($10,918.20 = $176,100 x 6.2%)"
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART A.12 — STANDARD MILEAGE RATES (2025)
+  # Authority: IRS Notice 2025-5
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/A.12/2025/business-rate"
+    ctr_part: A
+    ctr_section: 12
+    ctr_year: 2025
+    ctr_anchor: business-rate
+    primary_authority: "IRS Notice 2025-5"
+    description: "2025 standard mileage rate — business (70 cents per mile)"
+  - citation: "CTR/A.12/2025/medical-rate"
+    ctr_part: A
+    ctr_section: 12
+    ctr_year: 2025
+    ctr_anchor: medical-rate
+    primary_authority: "IRS Notice 2025-5"
+    description: "2025 standard mileage rate — medical and moving Armed Forces only (21 cents per mile)"
+  - citation: "CTR/A.12/2025/charitable-rate"
+    ctr_part: A
+    ctr_section: 12
+    ctr_year: 2025
+    ctr_anchor: charitable-rate
+    primary_authority: "IRC §170(i)"
+    description: "2025 standard mileage rate — charitable (14 cents per mile; statutory)"
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART A.13 — FEDERAL FORMS INVENTORY (2025)
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/A.13/2025/form-1040"
+    ctr_part: A
+    ctr_section: 13
+    ctr_year: 2025
+    ctr_anchor: form-1040
+    primary_authority: "IRS Form 1040 (Rev. 2025)"
+    description: "2025 Form 1040 — U.S. Individual Income Tax Return"
+  - citation: "CTR/A.13/2025/form-4137"
+    ctr_part: A
+    ctr_section: 13
+    ctr_year: 2025
+    ctr_anchor: form-4137
+    primary_authority: "IRS Form 4137 (Rev. 2025)"
+    description: "2025 Form 4137 — Social Security and Medicare Tax on Unreported Tip Income"
+  - citation: "CTR/A.13/2025/form-1040-schedule-1a"
+    ctr_part: A
+    ctr_section: 13
+    ctr_year: 2025
+    ctr_anchor: form-1040-schedule-1a
+    primary_authority: "IRS Schedule 1-A (Form 1040) (first issued TY2025); OBBBA P.L. 119-21"
+    description: "2025 Schedule 1-A — OBBBA Additional Deductions (new form; first issued for TY2025); Line 13 = §224 qualified tip deduction"
+  - citation: "CTR/A.13/2025/mailing-address-federal-ca-resident"
+    ctr_part: A
+    ctr_section: 13
+    ctr_year: 2025
+    ctr_anchor: mailing-address-federal-ca-resident
+    primary_authority: "IRS Form 1040 instructions (2025), Where to File"
+    description: "2025 federal Form 1040 mailing addresses for California residents"
+  # ─────────────────────────────────────────────────────────────────────────
+  # CTR PART B — FEDERAL TIPPED-WAGE PARAMETERS (2025)
+  # Authority: IRC §224; OBBBA P.L. 119-21; Notice 2025-69; Notice 2025-62;
+  #            T.D. 10044; REG-110032-25; Treas. Reg. §1.224-1
+  # ─────────────────────────────────────────────────────────────────────────
+  - citation: "CTR/B.1/2025/section-224-enacted"
+    ctr_part: B
+    ctr_section: 1
+    ctr_year: 2025
+    ctr_anchor: section-224-enacted
+    primary_authority: "IRC §224; OBBBA P.L. 119-21 §70201; T.D. 10044"
+    description: "§224 Qualified Tip Deduction — enacted July 4, 2025 (OBBBA); effective tax years beginning after Dec 31, 2024; sunsets after Dec 31, 2028"
+  - citation: "CTR/B.1/2025/section-224-cap"
+    ctr_part: B
+    ctr_section: 1
+    ctr_year: 2025
+    ctr_anchor: section-224-cap
+    primary_authority: "IRC §224(b)(1); Treas. Reg. §1.224-1(b)"
+    description: "§224 cap — $25,000 per return regardless of filing status; not indexed for inflation"
+  - citation: "CTR/B.1/2025/section-224-magi-definition"
+    ctr_part: B
+    ctr_section: 1
+    ctr_year: 2025
+    ctr_anchor: section-224-magi-definition
+    primary_authority: "IRC §224(c)(2); Treas. Reg. §1.224-1(c)"
+    description: "§224 MAGI definition — AGI plus §911, §931, §933 add-backs; same as §86 MAGI"
+  - citation: "CTR/B.1/2025/section-224-phaseout-single"
+    ctr_part: B
+    ctr_section: 1
+    ctr_year: 2025
+    ctr_anchor: section-224-phaseout-single
+    primary_authority: "IRC §224(c)(1); Treas. Reg. §1.224-1(c)"
+    description: "§224 MAGI phase-out — Single/HoH/QSS: $100 reduction per $1,000 (or fraction) of MAGI above $150,000; floor at $0"
+  - citation: "CTR/B.1/2025/section-224-phaseout-mfj"
+    ctr_part: B
+    ctr_section: 1
+    ctr_year: 2025
+    ctr_anchor: section-224-phaseout-mfj
+    primary_authority: "IRC §224(c)(1); Treas. Reg. §1.224-1(c)"
+    description: "§224 MAGI phase-out — MFJ: $100 reduction per $1,000 (or fraction) of MAGI above $300,000; floor at $0"
+  - citation: "CTR/B.1/2025/section-224-mfs-bar"
+    ctr_part: B
+    ctr_section: 1
+    ctr_year: 2025
+    ctr_anchor: section-224-mfs-bar
+    primary_authority: "IRC §224(f)"
+    description: "§224 MFS bar — Married Filing Separately filers categorically barred; deduction is $0 regardless of tip income"
+  - citation: "CTR/B.1/2025/section-224-ssn-required"
+    ctr_part: B
+    ctr_section: 1
+    ctr_year: 2025
+    ctr_anchor: section-224-ssn-required
+    primary_authority: "IRC §224(e)"
+    description: "§224 SSN requirement — valid SSN required; ITIN-only taxpayers ineligible"
+  - citation: "CTR/B.1/2025/section-224-fica-unchanged"
+    ctr_part: B
+    ctr_section: 1
+    ctr_year: 2025
+    ctr_anchor: section-224-fica-unchanged
+    primary_authority: "IRC §3121; KPMG TaxNewsFlash Notice 2025-69; Treas. Reg. §1.224-1"
+    description: "§224 deduction does NOT reduce FICA wages — SS/Medicare tax continues on all tips; §224 reduces income tax only"
+  - citation: "CTR/B.1/2025/section-224-eitc-unchanged"
+    ctr_part: B
+    ctr_section: 1
+    ctr_year: 2025
+    ctr_anchor: section-224-eitc-unchanged
+    primary_authority: "IRC §224; OBBBA §70201; IRC §32(c)(2)"
+    description: "§224 deduction does NOT reduce EITC earned income base — tips count in full for EITC purposes regardless of §224 deduction"
+  - citation: "CTR/B.2/2025/ttoc-list"
+    ctr_part: B
+    ctr_section: 2
+    ctr_year: 2025
+    ctr_anchor: ttoc-list
+    primary_authority: "T.D. 10044 (91 FR 19026, April 13, 2026); REG-110032-25; Treas. Reg. §1.224-1(d)"
+    description: "TTOC — Treasury Tipped Occupation Code list; ~70 closed occupations qualifying for §224 per T.D. 10044 final regulations"
+  - citation: "CTR/B.2/2025/ttoc-voluntariness"
+    ctr_part: B
+    ctr_section: 2
+    ctr_year: 2025
+    ctr_anchor: ttoc-voluntariness
+    primary_authority: "IRC §224(d)(2)(A); Treas. Reg. §1.224-1(d)"
+    description: "§224 voluntariness test — service charges and mandatory gratuities are wages, NOT qualified tips; fail §224(d)(2)(A)"
+  - citation: "CTR/B.2/2025/ttoc-ownership-rechar"
+    ctr_part: B
+    ctr_section: 2
+    ctr_year: 2025
+    ctr_anchor: ttoc-ownership-rechar
+    primary_authority: "Treas. Reg. §1.224-1(d)(3)"
+    description: "§224 ownership recharacterization — employee who owns ≥5% of payor entity: tips are disqualified (irrebuttable per final reg)"
+  - citation: "CTR/B.3/2025/transition-notice-2025-69"
+    ctr_part: B
+    ctr_section: 3
+    ctr_year: 2025
+    ctr_anchor: transition-notice-2025-69
+    primary_authority: "IRS Notice 2025-69 (IRB 2025-50, Nov. 21, 2025)"
+    description: "2025 transition relief — Notice 2025-69: W-2 Box 7 SS tips as default qualified tip amount for 2025; reasonable approximation methods accepted; SSTB transition relief"
+  - citation: "CTR/B.3/2025/transition-notice-2025-62"
+    ctr_part: B
+    ctr_section: 3
+    ctr_year: 2025
+    ctr_anchor: transition-notice-2025-62
+    primary_authority: "IRS Notice 2025-62 (IRB 2025-48, Nov. 5, 2025)"
+    description: "2025 transition relief — Notice 2025-62: penalty relief under §6721/§6722 for information-return failures related to §224 for 2025"
+  - citation: "CTR/B.4/2025/schedule-1a-line-4"
+    ctr_part: B
+    ctr_section: 4
+    ctr_year: 2025
+    ctr_anchor: schedule-1a-line-4
+    primary_authority: "IRS Schedule 1-A (Form 1040), TY2025; Notice 2025-69"
+    description: "Schedule 1-A Line 4 — Qualified tips from W-2 Box 7 SS tips (2025 default per Notice 2025-69 transition relief)"
+  - citation: "CTR/B.4/2025/schedule-1a-line-5"
+    ctr_part: B
+    ctr_section: 4
+    ctr_year: 2025
+    ctr_anchor: schedule-1a-line-5
+    primary_authority: "IRS Schedule 1-A (Form 1040), TY2025"
+    description: "Schedule 1-A Line 5 — Qualified tips from Form 4137 Line 4 (unreported tips)"
+  - citation: "CTR/B.4/2025/schedule-1a-line-7"
+    ctr_part: B
+    ctr_section: 4
+    ctr_year: 2025
+    ctr_anchor: schedule-1a-line-7
+    primary_authority: "IRS Schedule 1-A (Form 1040), TY2025"
+    description: "Schedule 1-A Line 7 — Total qualified tips (Lines 4+5+6); capped at $25,000"
+  - citation: "CTR/B.4/2025/schedule-1a-line-13"
+    ctr_part: B
+    ctr_section: 4
+    ctr_year: 2025
+    ctr_anchor: schedule-1a-line-13
+    primary_authority: "IRS Schedule 1-A (Form 1040), TY2025; IRC §224"
+    description: "Schedule 1-A Line 13 — §224 qualified tip deduction after phase-out; flows to Form 1040 Line 13b"
+  - citation: "CTR/B.5/2025/sstb-transition-relief"
+    ctr_part: B
+    ctr_section: 5
+    ctr_year: 2025
+    ctr_anchor: sstb-transition-relief
+    primary_authority: "IRS Notice 2025-69; IRC §199A(d)(2)"
+    description: "SSTB transition relief (AMB-2025-FED-SSTB) — Notice 2025-69 allows §224 for TTOC occupations even in SSTB context for 2025; final treatment under final regs (T.D. 10044) is ambiguous for edge cases; Tax Director disposition required"
+  - citation: "CTR/B.6/2025/excess-ss-tax"
+    ctr_part: B
+    ctr_section: 6
+    ctr_year: 2025
+    ctr_anchor: excess-ss-tax
+    primary_authority: "IRC §31(b); Form 1040 instructions"
+    description: "2025 excess SS tax recovery — max employee SS tax $10,918.20 ($176,100 x 6.2%); excess from multi-employer year on Schedule 3 Line 11"
