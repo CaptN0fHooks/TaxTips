@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://taxtips.local/schemas/v1.0.0/standard-deduction.schema.json",
+  "title": "Standard Deduction",
+  "description": "SPEC.md §6.3 — standard-deduction.yaml schema. Structural only; tax values remain in YAML.",
+  "type": "object",
+  "required": ["pack", "base"],
+  "additionalProperties": false,
+  "properties": {
+    "pack": { "type": "string" },
+    "base": { "$ref": "#/$defs/citedMap" },
+    "additional": { "type": "object" },
+    "dependent_floor": { "type": "object" },
+    "senior_bonus_obbba": { "type": "object" }
+  },
+  "$defs": {
+    "citedAmount": {
+      "type": "object",
+      "required": ["amount", "citation"],
+      "properties": {
+        "amount": { "type": "number" },
+        "citation": { "type": "string", "pattern": "^CTR/" }
+      }
+    },
+    "citedMap": {
+      "type": "object",
+      "additionalProperties": { "$ref": "#/$defs/citedAmount" }
+    }
+  }
+}

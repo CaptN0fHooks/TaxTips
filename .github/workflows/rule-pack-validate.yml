@@ -13,4 +13,11 @@ jobs:
         with:
           node-version: '22'
       - name: Run rule-pack-validate
-        run: echo "rule-pack-validate stub — Phase 1 will implement"
+        run: |
+          npm ci
+          npm run rule-pack-validate -- --all --report rule-pack-validate.report.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: rule-pack-validate-report
+          path: rule-pack-validate.report.json

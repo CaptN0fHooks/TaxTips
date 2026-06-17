@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://taxtips.local/schemas/v1.0.0/ambiguities.schema.json",
+  "title": "Ambiguities",
+  "description": "SPEC.md §11 — ambiguities.yaml schema.",
+  "type": "object",
+  "required": ["pack", "ambiguities"],
+  "additionalProperties": false,
+  "properties": {
+    "pack": { "type": "string" },
+    "ambiguities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["ambiguity_id", "title", "controlling_report_citation", "interpretations", "recommended_default", "next_check_by"],
+        "additionalProperties": true,
+        "properties": {
+          "ambiguity_id": { "type": "string", "pattern": "^AMB-" },
+          "title": { "type": "string" },
+          "controlling_report_citation": { "type": "string", "pattern": "^CTR/" },
+          "interpretations": {
+            "type": "object",
+            "required": ["most_defensible", "conservative", "aggressive"],
+            "additionalProperties": false,
+            "properties": {
+              "most_defensible": { "$ref": "#/$defs/interpretation" },
+              "conservative": { "$ref": "#/$defs/interpretation" },
+              "aggressive": { "$ref": "#/$defs/interpretation" }
+            }
+          },
+          "recommended_default": { "type": "string" },
+          "next_check_by": { "type": "string", "format": "date" }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "interpretation": {
+      "type": "object",
+      "required": ["description", "recommended_default", "forbidden"],
+      "additionalProperties": false,
+      "properties": {
+        "description": { "type": "string" },
+        "rationale": { "type": "string" },
+        "recommended_default": { "type": "boolean" },
+        "forbidden": { "type": "boolean" }
+      }
+    }
+  }
+}

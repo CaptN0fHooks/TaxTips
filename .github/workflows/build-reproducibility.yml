@@ -9,4 +9,11 @@ jobs:
         with:
           node-version: '22'
       - name: Build twice and diff
-        run: echo "build-reproducibility stub — Phase 2 will implement"
+        run: |
+          npm ci
+          npm run rule-pack-validate -- --all --report /tmp/rule-pack-validate-1.json
+          npm run rule-pack-test -- --all --report /tmp/rule-pack-test-1.json
+          npm run rule-pack-validate -- --all --report /tmp/rule-pack-validate-2.json
+          npm run rule-pack-test -- --all --report /tmp/rule-pack-test-2.json
+          cmp /tmp/rule-pack-validate-1.json /tmp/rule-pack-validate-2.json
+          cmp /tmp/rule-pack-test-1.json /tmp/rule-pack-test-2.json

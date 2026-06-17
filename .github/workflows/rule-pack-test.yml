@@ -13,4 +13,11 @@ jobs:
         with:
           node-version: '22'
       - name: Run rule-pack-test
-        run: echo "rule-pack-test stub — Phase 1 will implement"
+        run: |
+          npm ci
+          npm run rule-pack-test -- --all --report rule-pack-test.report.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: rule-pack-test-report
+          path: rule-pack-test.report.json

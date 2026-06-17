@@ -1,0 +1,6 @@
+algorithm: Ed25519
+role: federal-specialist
+vault_key: taxtips-federal-specialist
+message: sha256(manifest.yaml)
+message_sha256: c13f767b373d22be14bc9be78bc47229ef4f9dd531ba92e24dc2f4610fd8d9c4
+signature: vault:v1:iKpczTfGWrYn5S/fFG7VRlHqAJHs8/9U201ztYTrLI9SIqj2o9gDoDYMyvyCdbKuIVpKtHo6IYIC82TgqenDCw==

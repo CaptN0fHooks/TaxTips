@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://taxtips.local/schemas/v1.0.0/ttr-bundle.schema.json",
+  "title": "Portable Export Bundle",
+  "description": "SPEC.md §18 — .ttr.json export bundle skeleton for downstream phases.",
+  "type": "object",
+  "required": ["bundle_version", "return", "artifacts"],
+  "additionalProperties": false,
+  "properties": {
+    "bundle_version": { "type": "string" },
+    "return": { "$ref": "tax-return-object.schema.json" },
+    "artifacts": { "type": "array" },
+    "manifest": { "type": "object" }
+  }
+}

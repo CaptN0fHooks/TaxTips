@@ -15,3 +15,4 @@ jobs:
       - run: npm install --no-audit --no-fund
       - run: npm run lint
       - run: npm test
+      - run: npm run test:coverage

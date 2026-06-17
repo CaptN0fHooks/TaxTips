@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://taxtips.local/schemas/v1.0.0/itemized.schema.json",
+  "title": "Itemized Deductions",
+  "description": "SPEC.md §6.4 — itemized.yaml schema. Structural only; tax values remain in YAML.",
+  "type": "object",
+  "required": ["pack"],
+  "additionalProperties": false,
+  "properties": {
+    "pack": { "type": "string" },
+    "medical": { "type": "object" },
+    "salt": { "type": "object" },
+    "mortgage_interest": { "type": "object" },
+    "casualty": { "type": "object" },
+    "top_bracket_benefit_cap": { "type": "object" },
+    "misc_2pct_suspended": { "type": "boolean" },
+    "misc_2pct_suspension_citation": { "type": "string", "pattern": "^CTR/" },
+    "pease_repealed": { "type": "boolean" },
+    "pease_repeal_citation": { "type": "string", "pattern": "^CTR/" },
+    "misc_2pct_floor": { "type": "number" },
+    "misc_2pct_citation": { "type": "string", "pattern": "^CTR/" },
+    "salt_cap": { "type": ["number", "null"] },
+    "salt_addback_state_income_tax": { "type": "boolean" },
+    "salt_addback_citation": { "type": "string", "pattern": "^CTR/" },
+    "mortgage_interest_acquisition_cap": { "type": "number" },
+    "home_equity_cap": { "type": "number" },
+    "mortgage_citation": { "type": "string", "pattern": "^CTR/" }
+  }
+}

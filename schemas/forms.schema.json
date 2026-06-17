@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://taxtips.local/schemas/v1.0.0/forms.schema.json",
+  "title": "Forms Inventory",
+  "description": "SPEC.md §6.7 and §10 — forms.yaml schema. Structural only; form lines and citations remain in YAML.",
+  "type": "object",
+  "required": ["pack", "forms"],
+  "additionalProperties": false,
+  "properties": {
+    "pack": { "type": "string" },
+    "forms": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["form_id", "name", "lines"],
+        "additionalProperties": true,
+        "properties": {
+          "form_id": { "type": "string" },
+          "name": { "type": "string" },
+          "lines": { "type": "array" }
+        }
+      }
+    }
+  }
+}

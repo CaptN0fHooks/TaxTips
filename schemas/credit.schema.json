@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://taxtips.local/schemas/v1.0.0/credit.schema.json",
+  "title": "Credit",
+  "description": "SPEC.md §6.5 — credits/*.yaml schema. Structural only; tax values remain in YAML.",
+  "type": "object",
+  "required": ["pack", "credit_id", "refundable"],
+  "additionalProperties": false,
+  "properties": {
+    "pack": { "type": "string" },
+    "credit_id": { "type": "string" },
+    "form": { "type": ["string", "null"] },
+    "schedule_3_line": { "type": ["integer", "null"] },
+    "form_1040_line": { "type": ["integer", "null"] },
+    "refundable": { "type": "boolean" },
+    "parameters_citation": { "type": "string", "pattern": "^CTR/" },
+    "filing_status_eligible": { "type": "array", "items": { "type": "string" } },
+    "filing_status_citation": { "type": "string", "pattern": "^CTR/" },
+    "ssn_required": { "type": "array", "items": { "type": "string" } },
+    "ssn_citation": { "type": "string", "pattern": "^CTR/" },
+    "investment_income_cap": { "type": "number" },
+    "investment_income_citation": { "type": "string", "pattern": "^CTR/" },
+    "parameters_by_qualifying_children": { "type": "object" },
+    "earned_income_definition": { "type": "object" }
+  }
+}
