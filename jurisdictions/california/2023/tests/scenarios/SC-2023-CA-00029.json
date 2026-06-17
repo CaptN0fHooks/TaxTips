@@ -1,0 +1,109 @@
+{
+  "scenario_id": "SC-2023-CA-00029",
+  "title": "Single tipped sommelier — income 0,000 in CA 9.3% bracket — SDI 0.9% below wage base",
+  "tax_year": 2023,
+  "jurisdictions": [
+    "california"
+  ],
+  "inputs": {
+    "filing_status": "single",
+    "dependents": [],
+    "w2s": [
+      {
+        "w2_id": "w2-1",
+        "employer": "Fine Dining LA (tipped TTOC-102)",
+        "box1": 90000,
+        "box2": 8000,
+        "box3": 90000,
+        "box4": 5580,
+        "box5": 90000,
+        "box6": 1305,
+        "box7": 8000,
+        "box8": 0,
+        "box12_codes": [],
+        "box14b_ttoc": 102,
+        "box16": 90000,
+        "box17": 8000,
+        "box19": 810,
+        "tipped_toggle": true,
+        "ttoc_code": 102
+      }
+    ],
+    "tipped_overlay": {
+      "w2-1": {
+        "occupation": 102,
+        "unreported_cash_tips": 0,
+        "tip_pool": true,
+        "owns_pct_of_employer": 0,
+        "non_slip_shoes_cost": 0,
+        "uniforms_cost": 0,
+        "required_tools_cost": 0,
+        "union_dues": 0,
+        "licensing_fees": 0,
+        "mileage_between_jobs": 0
+      }
+    },
+    "interview": {
+      "marketplace_coverage": false,
+      "advance_ptc_received": 0,
+      "hsa_contribution": 0,
+      "student_loan_interest": 0,
+      "charitable_cash": 0,
+      "retirement_contribution": 0,
+      "aotc_student_expenses": 0,
+      "ca_renter": false,
+      "ca_foster_youth": false,
+      "investment_income": 0,
+      "taxpayer_age": 38,
+      "spouse_age": null,
+      "dependent_status": false,
+      "allocated_tip_records_amount": null,
+      "itemized_deductions": {
+        "medical": 0,
+        "salt": 0,
+        "mortgage_interest": 0,
+        "charitable_cash": 0,
+        "misc": 0,
+        "ca_uebe_uniforms": 0,
+        "ca_uebe_shoes": 0,
+        "ca_uebe_tools": 0,
+        "ca_uebe_union_dues": 0,
+        "ca_uebe_licensing": 0,
+        "ca_uebe_mileage_miles": 0
+      }
+    }
+  },
+  "expected_outputs": {
+    "ca-540-2023/line-17": 90000,
+    "ca-540-2023/line-19": 84637,
+    "ca-540-2023/line-31": 4524,
+    "ca-540-2023/line-40": 144,
+    "ca-540-2023/line-48": 4380,
+    "ca-540-2023/line-74": 810,
+    "ca-540-2023/line-75": 0,
+    "ca-540-2023/line-83": 8810,
+    "ca-540-2023/line-93": 4430,
+    "ca-540-2023/line-101": 0,
+    "summary.california_refund_or_owe": 4430
+  },
+  "expected_optimization_choices": {
+    "filing_status": "single",
+    "federal_deduction_choice": "standard",
+    "california_deduction_choice": "standard"
+  },
+  "expected_ambiguity_dispositions": {},
+  "controlling_report_anchors": [
+    "CTR/C.2/2023/single",
+    "CTR/C.4/2025/brackets-single",
+    "CTR/C.12/2023/sdi"
+  ],
+  "source_authority_citations": [
+    "R&TC §17041",
+    "R&TC §17073.5"
+  ],
+  "commercial_differential": null,
+  "tax_director_signoff": {
+    "name": "Tax Director",
+    "date": "2026-06-16"
+  }
+}

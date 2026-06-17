@@ -1,0 +1,120 @@
+{
+  "scenario_id": "SC-2023-CA-00017",
+  "title": "Single tipped waitress — 1 child under 6 — CalEITC max and YCTC max — low income",
+  "tax_year": 2023,
+  "jurisdictions": [
+    "california"
+  ],
+  "inputs": {
+    "filing_status": "single",
+    "dependents": [
+      {
+        "dependent_id": "dep-1",
+        "age": 3,
+        "relationship": "child",
+        "ssn_on_file": true
+      }
+    ],
+    "w2s": [
+      {
+        "w2_id": "w2-1",
+        "employer": "Sunrise Cafe (tipped TTOC-102)",
+        "box1": 12000,
+        "box2": 120,
+        "box3": 12000,
+        "box4": 744,
+        "box5": 12000,
+        "box6": 174,
+        "box7": 2500,
+        "box8": 0,
+        "box12_codes": [],
+        "box14b_ttoc": 102,
+        "box16": 12000,
+        "box17": 150,
+        "box19": 108,
+        "tipped_toggle": true,
+        "ttoc_code": 102
+      }
+    ],
+    "tipped_overlay": {
+      "w2-1": {
+        "occupation": 102,
+        "unreported_cash_tips": 0,
+        "tip_pool": true,
+        "owns_pct_of_employer": 0,
+        "non_slip_shoes_cost": 0,
+        "uniforms_cost": 0,
+        "required_tools_cost": 0,
+        "union_dues": 0,
+        "licensing_fees": 0,
+        "mileage_between_jobs": 0
+      }
+    },
+    "interview": {
+      "marketplace_coverage": false,
+      "advance_ptc_received": 0,
+      "hsa_contribution": 0,
+      "student_loan_interest": 0,
+      "charitable_cash": 0,
+      "retirement_contribution": 0,
+      "aotc_student_expenses": 0,
+      "ca_renter": false,
+      "ca_foster_youth": false,
+      "investment_income": 0,
+      "taxpayer_age": 35,
+      "spouse_age": null,
+      "dependent_status": false,
+      "allocated_tip_records_amount": null,
+      "itemized_deductions": {
+        "medical": 0,
+        "salt": 0,
+        "mortgage_interest": 0,
+        "charitable_cash": 0,
+        "misc": 0,
+        "ca_uebe_uniforms": 0,
+        "ca_uebe_shoes": 0,
+        "ca_uebe_tools": 0,
+        "ca_uebe_union_dues": 0,
+        "ca_uebe_licensing": 0,
+        "ca_uebe_mileage_miles": 0
+      }
+    }
+  },
+  "expected_outputs": {
+    "ca-540-2023/line-17": 12000,
+    "ca-540-2023/line-19": 6637,
+    "ca-540-2023/line-31": 66,
+    "ca-540-2023/line-40": 577,
+    "ca-540-2023/line-48": 0,
+    "ca-540-2023/line-74": 108,
+    "ca-540-2023/line-75": 3529,
+    "ca-540-2023/line-76": 1117,
+    "ca-540-2023/line-83": 4904,
+    "ca-540-2023/line-93": 4904,
+    "ca-540-2023/line-101": 0,
+    "summary.california_refund_or_owe": 4904
+  },
+  "expected_optimization_choices": {
+    "filing_status": "single",
+    "federal_deduction_choice": "standard",
+    "california_deduction_choice": "standard"
+  },
+  "expected_ambiguity_dispositions": {},
+  "controlling_report_anchors": [
+    "CTR/C.2/2023/single",
+    "CTR/C.4/2025/brackets-single",
+    "CTR/C.6/2023/caleitc",
+    "CTR/C.7/2023/yctc"
+  ],
+  "source_authority_citations": [
+    "R&TC §17041",
+    "R&TC §17052",
+    "R&TC §17052.1",
+    "R&TC §17073.5"
+  ],
+  "commercial_differential": null,
+  "tax_director_signoff": {
+    "name": "Tax Director",
+    "date": "2026-06-16"
+  }
+}
