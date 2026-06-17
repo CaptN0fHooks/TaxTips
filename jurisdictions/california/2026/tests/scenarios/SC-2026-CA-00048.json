@@ -123,7 +123,14 @@
     "R&TC §17052",
     "R&TC §13009.5"
   ],
-  "commercial_differential": null,
+  "commercial_differential": {
+    "software": "TaxAct",
+    "tax_year": 2026,
+    "status": "phase3_product_reverification_required",
+    "owner": "Tax Director",
+    "disposition_date": "2026-06-17",
+    "notes": "Inside the 400-scenario Phase 1 smoke corpus; external commercial-product re-verification accepted as Phase 3 conformance residual per PHASE_1_REPORT.md."
+  },
   "tax_director_signoff": {
     "name": "Tax Director",
     "date": "2026-06-16"

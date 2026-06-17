@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { mkdtemp, readFile, writeFile } from 'node:fs/promises';
+import { mkdir, mkdtemp, readFile, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import {
@@ -13,6 +13,7 @@ import {
   checkAmbiguities,
   checkCitationRegistry,
   checkManifestHashes,
+  checkSchemaShape,
   checkSignatures,
   checkYearCoherence,
   findKey,
@@ -157,6 +158,19 @@ describe('rule-pack-validate CLI module', () => {
     expect(JSON.parse(await readFile(reportPath, 'utf8')).status).toBe('pass');
   });
 
+  it('supports non-YAML file-level validation without schema expansion', async () => {
+    const { report } = await runValidateCli([
+      'node',
+      'cli',
+      '--pack',
+      'us-federal/2026',
+      '--file',
+      'CHANGELOG.md',
+    ]);
+    expect(report.status).toBe('pass');
+    expect(report.packs[0].checks).toEqual([{ name: 'file_exists', status: 'pass', errors: [] }]);
+  });
+
   it('collects CTR citations and finds nested keys', () => {
     expect(collectCitations({ a: 'CTR/A/2025|CTR/B/2025/detail' })).toEqual(['CTR/A/2025', 'CTR/B/2025/detail']);
     expect(findKey({ a: [{ b: { section_224: true } }] }, 'section_224')).toBe(true);
@@ -217,6 +231,42 @@ describe('rule-pack-validate CLI module', () => {
     await writeFile(join(dir, 'file.yaml'), 'content\n');
     const mismatch = await checkManifestHashes(pack, { 'manifest.yaml': { files: [{ path: 'file.yaml', sha256: 'abc' }] } });
     expect(mismatch.errors).toEqual(['sha256 mismatch: file.yaml']);
+  });
+
+  it('reports invalid manifest schema and malformed signature material', async () => {
+    const dir = await mkdtemp(join(tmpdir(), 'taxtips-signature-errors-'));
+    await mkdir(join(dir, 'signatures'));
+    const pack = { id: 'us-federal/2099', jurisdiction: 'us-federal', year: '2099', dir };
+    await writeFile(join(dir, 'manifest.yaml'), 'pack_id: us-federal/2099\nversion: bad\n');
+    await writeFile(
+      join(dir, 'signatures', 'federal-specialist.sig'),
+      [
+        'algorithm: Ed25519',
+        'message: sha256(manifest.yaml)',
+        'message_sha256: mismatch',
+        'signature: ""',
+        '',
+      ].join('\n'),
+    );
+    await writeFile(
+      join(dir, 'signatures', 'tax-director.sig'),
+      [
+        'algorithm: Ed25519',
+        'message: sha256(manifest.yaml)',
+        'message_sha256: mismatch',
+        `signature: vault:v1:${Buffer.alloc(64).toString('base64')}`,
+        '',
+      ].join('\n'),
+    );
+
+    const schema = await checkSchemaShape(pack);
+    expect(schema.status).toBe('fail');
+    expect(schema.errors).toContain('manifest version must be SemVer');
+
+    const signatures = await checkSignatures(pack);
+    expect(signatures.status).toBe('fail');
+    expect(signatures.errors).toContain('federal-specialist.sig missing signature material');
+    expect(signatures.errors).toContain('tax-director.sig Ed25519 verification failed');
   });
 
   it('reports missing required signature files', async () => {
