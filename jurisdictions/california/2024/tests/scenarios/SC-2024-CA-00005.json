@@ -1,0 +1,133 @@
+{
+  "scenario_id": "SC-2024-CA-00005",
+  "title": "QSS tipped server — 1 qualifying child age 4 — combined federal and CA 2024",
+  "tax_year": 2024,
+  "jurisdictions": [
+    "us-federal",
+    "california"
+  ],
+  "inputs": {
+    "filing_status": "qss",
+    "dependents": [
+      {
+        "dependent_id": "dep-1",
+        "age": 4,
+        "relationship": "child",
+        "ssn_on_file": true
+      }
+    ],
+    "w2s": [
+      {
+        "w2_id": "w2-1",
+        "employer": "Sunset Grille 2024 (tipped)",
+        "box1": 50000,
+        "box2": 5000,
+        "box3": 50000,
+        "box4": 3100,
+        "box5": 50000,
+        "box6": 725,
+        "box7": 5000,
+        "box8": 0,
+        "box12_codes": [],
+        "box14b_ttoc": 102,
+        "box16": 50000,
+        "box17": 1500,
+        "box19": 550,
+        "tipped_toggle": true,
+        "ttoc_code": 102
+      }
+    ],
+    "tipped_overlay": {
+      "w2-1": {
+        "occupation": 102,
+        "unreported_cash_tips": 0,
+        "tip_pool": true,
+        "owns_pct_of_employer": 0,
+        "non_slip_shoes_cost": 0,
+        "uniforms_cost": 0,
+        "required_tools_cost": 0,
+        "union_dues": 0,
+        "licensing_fees": 0,
+        "mileage_between_jobs": 0
+      }
+    },
+    "interview": {
+      "marketplace_coverage": false,
+      "advance_ptc_received": 0,
+      "hsa_contribution": 0,
+      "student_loan_interest": 0,
+      "charitable_cash": 0,
+      "retirement_contribution": 0,
+      "aotc_student_expenses": 0,
+      "ca_renter": false,
+      "ca_foster_youth": false,
+      "investment_income": 0,
+      "taxpayer_age": 28,
+      "spouse_age": null,
+      "dependent_status": false,
+      "allocated_tip_records_amount": null,
+      "itemized_deductions": {
+        "medical": 0,
+        "salt": 0,
+        "mortgage_interest": 0,
+        "charitable_cash": 0,
+        "misc": 0,
+        "ca_uebe_uniforms": 0,
+        "ca_uebe_shoes": 0,
+        "ca_uebe_tools": 0,
+        "ca_uebe_union_dues": 0,
+        "ca_uebe_licensing": 0,
+        "ca_uebe_mileage_miles": 0
+      }
+    }
+  },
+  "expected_outputs": {
+    "us-1040-2024/line-11": 50000,
+    "us-1040-2024/line-12": 29200,
+    "us-1040-2024/line-15": 20800,
+    "us-1040-2024/line-16": 2080,
+    "us-1040-2024/line-24": 2080,
+    "us-1040-2024/line-25a": 5000,
+    "us-1040-2024/line-34": 5000,
+    "us-1040-2024/line-35a": 2920,
+    "us-1040-2024/line-37": 0,
+    "summary.federal_refund_or_owe": 2920,
+    "ca-540-2024/line-17": 50000,
+    "ca-540-2024/line-19": 38920,
+    "ca-540-2024/line-31": 570,
+    "ca-540-2024/line-40": 721,
+    "ca-540-2024/line-48": 0,
+    "ca-540-2024/line-74": 550,
+    "ca-540-2024/line-75": 0,
+    "ca-540-2024/line-83": 2050,
+    "ca-540-2024/line-93": 2050,
+    "ca-540-2024/line-101": 0,
+    "summary.california_refund_or_owe": 2050
+  },
+  "expected_optimization_choices": {
+    "filing_status": "qss",
+    "federal_deduction_choice": "standard",
+    "california_deduction_choice": "standard"
+  },
+  "expected_ambiguity_dispositions": {},
+  "controlling_report_anchors": [
+    "CTR/A.2/2024/qss",
+    "CTR/A.4/2024/rate-12-mfj-ceiling",
+    "CTR/C.2/2024/mfj",
+    "CTR/C.4/2025/brackets-mfj",
+    "CTR/C.6/2024/caleitc",
+    "CTR/C.12/2024/sdi"
+  ],
+  "source_authority_citations": [
+    "IRC §1",
+    "IRC §63",
+    "R&TC §17041",
+    "R&TC §17052",
+    "R&TC §13009.5"
+  ],
+  "commercial_differential": null,
+  "tax_director_signoff": {
+    "name": "Tax Director",
+    "date": "2026-06-16"
+  }
+}

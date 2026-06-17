@@ -1,0 +1,145 @@
+{
+  "scenario_id": "SC-2024-CA-00049",
+  "title": "Single foster youth — 1 child under 6 — combined 2024 federal+CA — CalEITC+YCTC+FYTC — commercial differential",
+  "tax_year": 2024,
+  "jurisdictions": [
+    "us-federal",
+    "california"
+  ],
+  "inputs": {
+    "filing_status": "single",
+    "dependents": [
+      {
+        "dependent_id": "dep-1",
+        "age": 1,
+        "relationship": "child",
+        "ssn_on_file": true
+      }
+    ],
+    "w2s": [
+      {
+        "w2_id": "w2-1",
+        "employer": "Family Cafe 2024 (tipped TTOC-102)",
+        "box1": 11500,
+        "box2": 200,
+        "box3": 11500,
+        "box4": 713,
+        "box5": 11500,
+        "box6": 167,
+        "box7": 2000,
+        "box8": 0,
+        "box12_codes": [],
+        "box14b_ttoc": 102,
+        "box16": 11500,
+        "box17": 115,
+        "box19": 126,
+        "tipped_toggle": true,
+        "ttoc_code": 102
+      }
+    ],
+    "tipped_overlay": {
+      "w2-1": {
+        "occupation": 102,
+        "unreported_cash_tips": 0,
+        "tip_pool": true,
+        "owns_pct_of_employer": 0,
+        "non_slip_shoes_cost": 0,
+        "uniforms_cost": 0,
+        "required_tools_cost": 0,
+        "union_dues": 0,
+        "licensing_fees": 0,
+        "mileage_between_jobs": 0
+      }
+    },
+    "interview": {
+      "marketplace_coverage": false,
+      "advance_ptc_received": 0,
+      "hsa_contribution": 0,
+      "student_loan_interest": 0,
+      "charitable_cash": 0,
+      "retirement_contribution": 0,
+      "aotc_student_expenses": 0,
+      "ca_renter": false,
+      "ca_foster_youth": true,
+      "investment_income": 0,
+      "taxpayer_age": 21,
+      "spouse_age": null,
+      "dependent_status": false,
+      "allocated_tip_records_amount": null,
+      "itemized_deductions": {
+        "medical": 0,
+        "salt": 0,
+        "mortgage_interest": 0,
+        "charitable_cash": 0,
+        "misc": 0,
+        "ca_uebe_uniforms": 0,
+        "ca_uebe_shoes": 0,
+        "ca_uebe_tools": 0,
+        "ca_uebe_union_dues": 0,
+        "ca_uebe_licensing": 0,
+        "ca_uebe_mileage_miles": 0
+      }
+    }
+  },
+  "expected_outputs": {
+    "us-1040-2024/line-11": 11500,
+    "us-1040-2024/line-12": 14600,
+    "us-1040-2024/line-15": 0,
+    "us-1040-2024/line-16": 0,
+    "us-1040-2024/line-27": 632,
+    "us-1040-2024/line-24": 0,
+    "us-1040-2024/line-25a": 200,
+    "us-1040-2024/line-34": 832,
+    "us-1040-2024/line-35a": 832,
+    "us-1040-2024/line-37": 0,
+    "summary.federal_refund_or_owe": 832,
+    "ca-540-2024/line-17": 11500,
+    "ca-540-2024/line-19": 5960,
+    "ca-540-2024/line-31": 60,
+    "ca-540-2024/line-40": 577,
+    "ca-540-2024/line-48": 0,
+    "ca-540-2024/line-74": 126,
+    "ca-540-2024/line-75": 3644,
+    "ca-540-2024/line-76": 1154,
+    "ca-540-2024/line-77": 1117,
+    "ca-540-2024/line-83": 6156,
+    "ca-540-2024/line-93": 6156,
+    "ca-540-2024/line-101": 0,
+    "summary.california_refund_or_owe": 6156
+  },
+  "expected_optimization_choices": {
+    "filing_status": "single",
+    "federal_deduction_choice": "standard",
+    "california_deduction_choice": "standard"
+  },
+  "expected_ambiguity_dispositions": {},
+  "controlling_report_anchors": [
+    "CTR/A.2/2024/single",
+    "CTR/A.9/2024/eitc-table",
+    "CTR/C.2/2024/single",
+    "CTR/C.4/2025/brackets-single",
+    "CTR/C.6/2024/caleitc",
+    "CTR/C.7/2024/yctc",
+    "CTR/C.8/2025/fytc",
+    "CTR/C.12/2024/sdi"
+  ],
+  "source_authority_citations": [
+    "IRC §1",
+    "IRC §32",
+    "R&TC §17041",
+    "R&TC §17052",
+    "R&TC §17052.1",
+    "R&TC §17052.2",
+    "R&TC §13009.5"
+  ],
+  "commercial_differential": {
+    "federal_refund_or_owe": 832,
+    "california_refund_or_owe": 6156,
+    "combined_total_owed": 0,
+    "combined_total_refund": 6988
+  },
+  "tax_director_signoff": {
+    "name": "Tax Director",
+    "date": "2026-06-16"
+  }
+}
