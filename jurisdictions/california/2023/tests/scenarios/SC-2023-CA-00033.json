@@ -1,0 +1,110 @@
+{
+  "scenario_id": "SC-2023-CA-00033",
+  "title": "Single ultra-high-income tipped executive — .2M income — BHST 1% surcharge applies above M",
+  "tax_year": 2023,
+  "jurisdictions": [
+    "california"
+  ],
+  "inputs": {
+    "filing_status": "single",
+    "dependents": [],
+    "w2s": [
+      {
+        "w2_id": "w2-1",
+        "employer": "Luxury Resort Tips (tipped TTOC-102)",
+        "box1": 1200000,
+        "box2": 130000,
+        "box3": 1200000,
+        "box4": 74400,
+        "box5": 1200000,
+        "box6": 17400,
+        "box7": 50000,
+        "box8": 0,
+        "box12_codes": [],
+        "box14b_ttoc": 102,
+        "box16": 1200000,
+        "box17": 130000,
+        "box19": 1378,
+        "tipped_toggle": true,
+        "ttoc_code": 102
+      }
+    ],
+    "tipped_overlay": {
+      "w2-1": {
+        "occupation": 102,
+        "unreported_cash_tips": 0,
+        "tip_pool": true,
+        "owns_pct_of_employer": 0,
+        "non_slip_shoes_cost": 0,
+        "uniforms_cost": 0,
+        "required_tools_cost": 0,
+        "union_dues": 0,
+        "licensing_fees": 0,
+        "mileage_between_jobs": 0
+      }
+    },
+    "interview": {
+      "marketplace_coverage": false,
+      "advance_ptc_received": 0,
+      "hsa_contribution": 0,
+      "student_loan_interest": 0,
+      "charitable_cash": 0,
+      "retirement_contribution": 0,
+      "aotc_student_expenses": 0,
+      "ca_renter": false,
+      "ca_foster_youth": false,
+      "investment_income": 0,
+      "taxpayer_age": 50,
+      "spouse_age": null,
+      "dependent_status": false,
+      "allocated_tip_records_amount": null,
+      "itemized_deductions": {
+        "medical": 0,
+        "salt": 0,
+        "mortgage_interest": 0,
+        "charitable_cash": 0,
+        "misc": 0,
+        "ca_uebe_uniforms": 0,
+        "ca_uebe_shoes": 0,
+        "ca_uebe_tools": 0,
+        "ca_uebe_union_dues": 0,
+        "ca_uebe_licensing": 0,
+        "ca_uebe_mileage_miles": 0
+      }
+    }
+  },
+  "expected_outputs": {
+    "ca-540-2023/line-17": 1200000,
+    "ca-540-2023/line-19": 1194637,
+    "ca-540-2023/line-31": 109700,
+    "ca-540-2023/line-40": 144,
+    "ca-540-2023/line-48": 109556,
+    "ca-540-2023/line-74": 1378,
+    "ca-540-2023/line-75": 0,
+    "ca-540-2023/line-83": 131378,
+    "ca-540-2023/line-93": 21822,
+    "ca-540-2023/line-101": 0,
+    "summary.california_refund_or_owe": 21822
+  },
+  "expected_optimization_choices": {
+    "filing_status": "single",
+    "federal_deduction_choice": "standard",
+    "california_deduction_choice": "standard"
+  },
+  "expected_ambiguity_dispositions": {},
+  "controlling_report_anchors": [
+    "CTR/C.2/2023/single",
+    "CTR/C.4/2025/brackets-single",
+    "CTR/C.12/2023/sdi"
+  ],
+  "source_authority_citations": [
+    "R&TC §17041",
+    "R&TC §17043",
+    "R&TC §17073.5"
+  ],
+  "commercial_differential": null,
+  "tax_director_signoff": {
+    "name": "Tax Director",
+    "date": "2026-06-16"
+  }
+}
