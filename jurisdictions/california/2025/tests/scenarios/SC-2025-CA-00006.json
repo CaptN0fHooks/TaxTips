@@ -1,0 +1,120 @@
+{
+  "scenario_id": "SC-2025-CA-00006",
+  "title": "Single tipped server — CA itemized mortgage+UEBE — §224 addback zero — CA-only return 2025",
+  "tax_year": 2025,
+  "jurisdictions": [
+    "california"
+  ],
+  "inputs": {
+    "filing_status": "single",
+    "dependents": [],
+    "w2s": [
+      {
+        "w2_id": "w2-1",
+        "employer": "Downtown Bistro 2025 (tipped)",
+        "box1": 57000,
+        "box2": 5700,
+        "box3": 57000,
+        "box4": 3534,
+        "box5": 57000,
+        "box6": 827,
+        "box7": 8000,
+        "box8": 0,
+        "box12_codes": [],
+        "box14b_ttoc": 102,
+        "box16": 57000,
+        "box17": 1710,
+        "box19": 627,
+        "tipped_toggle": true,
+        "ttoc_code": 102
+      }
+    ],
+    "tipped_overlay": {
+      "w2-1": {
+        "occupation": 102,
+        "unreported_cash_tips": 0,
+        "tip_pool": true,
+        "owns_pct_of_employer": 0,
+        "non_slip_shoes_cost": 0,
+        "uniforms_cost": 0,
+        "required_tools_cost": 0,
+        "union_dues": 0,
+        "licensing_fees": 0,
+        "mileage_between_jobs": 0
+      }
+    },
+    "interview": {
+      "marketplace_coverage": false,
+      "advance_ptc_received": 0,
+      "hsa_contribution": 0,
+      "student_loan_interest": 0,
+      "charitable_cash": 0,
+      "retirement_contribution": 0,
+      "aotc_student_expenses": 0,
+      "ca_renter": false,
+      "ca_foster_youth": false,
+      "investment_income": 0,
+      "taxpayer_age": 35,
+      "spouse_age": null,
+      "dependent_status": false,
+      "allocated_tip_records_amount": null,
+      "itemized_deductions": {
+        "medical": 0,
+        "salt": 0,
+        "mortgage_interest": 7000,
+        "charitable_cash": 0,
+        "misc": 0,
+        "ca_uebe_uniforms": 600,
+        "ca_uebe_shoes": 200,
+        "ca_uebe_tools": 0,
+        "ca_uebe_union_dues": 400,
+        "ca_uebe_licensing": 200,
+        "ca_uebe_mileage_miles": 0
+      }
+    }
+  },
+  "expected_outputs": {
+    "ca-540-2025/line-17": 57000,
+    "ca-540-2025/line-19": 49740,
+    "ca-540-sca-2025/part-1/sec-c/line-24z": 0,
+    "ca-540-2025/line-31": 1607,
+    "ca-540-2025/line-40": 153,
+    "ca-540-2025/line-48": 1454,
+    "ca-540-2025/line-74": 627,
+    "ca-540-2025/line-75": 0,
+    "ca-540-2025/line-83": 2337,
+    "ca-540-2025/line-93": 883,
+    "ca-540-2025/line-101": 0,
+    "ca-540-sca-2025/part-2/line-19": 260,
+    "summary.california_refund_or_owe": 883
+  },
+  "expected_optimization_choices": {
+    "filing_status": "single",
+    "federal_deduction_choice": "standard",
+    "california_deduction_choice": "itemized"
+  },
+  "expected_ambiguity_dispositions": {
+    "AMB-2025-CA-224-LINE-PLACEMENT": {
+      "disposition": "most_defensible",
+      "notes": "§224 line placement ambiguity acknowledged — CTR/D.3/2025/section-224-addback recommends Schedule CA Part I Section C Line 24z; no contrary FTB guidance as of 2026-06-16"
+    }
+  },
+  "controlling_report_anchors": [
+    "CTR/C.2/2025/single",
+    "CTR/C.4/2025/brackets-single",
+    "CTR/C.12/2025/sdi",
+    "CTR/D.1/2023/uebe-2pct-floor",
+    "CTR/D.1/2023/uebe-uniforms",
+    "CTR/D.3/2025/section-224-addback"
+  ],
+  "source_authority_citations": [
+    "R&TC §17041",
+    "R&TC §17072",
+    "R&TC §13009.5"
+  ],
+  "commercial_differential": null,
+  "tax_director_signoff": {
+    "name": "Tax Director",
+    "date": "2026-06-16"
+  }
+}

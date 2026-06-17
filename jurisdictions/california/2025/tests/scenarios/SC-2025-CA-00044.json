@@ -1,0 +1,136 @@
+{
+  "scenario_id": "SC-2025-CA-00044",
+  "title": "Single — §224 addback ,000 — AMB-2025-CA-224-LINE-PLACEMENT most_defensible Line 24z disposition explicit — 2025",
+  "tax_year": 2025,
+  "jurisdictions": [
+    "us-federal",
+    "california"
+  ],
+  "inputs": {
+    "filing_status": "single",
+    "dependents": [],
+    "w2s": [
+      {
+        "w2_id": "w2-1",
+        "employer": "Restaurant 2025 (tipped)",
+        "box1": 45000,
+        "box2": 3500,
+        "box3": 45000,
+        "box4": 2790,
+        "box5": 45000,
+        "box6": 653,
+        "box7": 10000,
+        "box8": 0,
+        "box12_codes": [
+          {
+            "code": "TP",
+            "amount": 10000
+          }
+        ],
+        "box14b_ttoc": 102,
+        "box16": 45000,
+        "box17": 1350,
+        "box19": 540,
+        "tipped_toggle": true,
+        "ttoc_code": 102
+      }
+    ],
+    "tipped_overlay": {
+      "w2-1": {
+        "occupation": 102,
+        "unreported_cash_tips": 0,
+        "tip_pool": true,
+        "owns_pct_of_employer": 0,
+        "non_slip_shoes_cost": 0,
+        "uniforms_cost": 0,
+        "required_tools_cost": 0,
+        "union_dues": 0,
+        "licensing_fees": 0,
+        "mileage_between_jobs": 0
+      }
+    },
+    "interview": {
+      "marketplace_coverage": false,
+      "advance_ptc_received": 0,
+      "hsa_contribution": 0,
+      "student_loan_interest": 0,
+      "charitable_cash": 0,
+      "retirement_contribution": 0,
+      "aotc_student_expenses": 0,
+      "ca_renter": false,
+      "ca_foster_youth": false,
+      "investment_income": 0,
+      "taxpayer_age": 32,
+      "spouse_age": null,
+      "dependent_status": false,
+      "allocated_tip_records_amount": null,
+      "itemized_deductions": {
+        "medical": 0,
+        "salt": 0,
+        "mortgage_interest": 0,
+        "charitable_cash": 0,
+        "misc": 0,
+        "ca_uebe_uniforms": 0,
+        "ca_uebe_shoes": 0,
+        "ca_uebe_tools": 0,
+        "ca_uebe_union_dues": 0,
+        "ca_uebe_licensing": 0,
+        "ca_uebe_mileage_miles": 0
+      }
+    }
+  },
+  "expected_outputs": {
+    "us-1040-2025/line-11": 35000,
+    "us-1040-2025/line-12": 15000,
+    "us-1040-2025/line-15": 20000,
+    "us-1040-2025/line-16": 2002,
+    "us-1040-2025/line-24": 2002,
+    "us-1040-2025/line-25a": 3500,
+    "us-1040-2025/line-35a": 1498,
+    "summary.federal_refund_or_owe": 1498,
+    "ca-540-2025/line-17": 45000,
+    "ca-540-2025/line-19": 39294,
+    "ca-540-sca-2025/part-1/sec-c/line-24z": 10000,
+    "ca-540-2025/line-31": 981,
+    "ca-540-2025/line-40": 153,
+    "ca-540-2025/line-48": 828,
+    "ca-540-2025/line-74": 540,
+    "ca-540-2025/line-75": 0,
+    "ca-540-2025/line-83": 1890,
+    "ca-540-2025/line-93": 1062,
+    "ca-540-2025/line-101": 0,
+    "summary.california_refund_or_owe": 1062
+  },
+  "expected_optimization_choices": {
+    "filing_status": "single",
+    "federal_deduction_choice": "standard",
+    "california_deduction_choice": "standard"
+  },
+  "expected_ambiguity_dispositions": {
+    "AMB-2025-CA-224-LINE-PLACEMENT": {
+      "disposition": "most_defensible",
+      "notes": "Most defensible placement: Schedule CA (540) Part I Section C Line 24z — per R&TC §17041 non-conformity and CTR/D.3/2025/section-224-addback; FTB has not published contrary guidance as of 2026-06-16; this is the defensible line for OBBBA §224 addback"
+    }
+  },
+  "controlling_report_anchors": [
+    "CTR/A.2/2025/single",
+    "CTR/C.2/2025/single",
+    "CTR/C.4/2025/brackets-single",
+    "CTR/C.12/2025/sdi",
+    "CTR/D.3/2025/section-224-addback",
+    "CTR/D.3/2025/section-224-addback",
+    "CTR/D.3/2025/sb711-conformity"
+  ],
+  "source_authority_citations": [
+    "IRC §1",
+    "IRC §224",
+    "R&TC §17041",
+    "R&TC §13009.5",
+    "SB 711"
+  ],
+  "commercial_differential": null,
+  "tax_director_signoff": {
+    "name": "Tax Director",
+    "date": "2026-06-16"
+  }
+}
