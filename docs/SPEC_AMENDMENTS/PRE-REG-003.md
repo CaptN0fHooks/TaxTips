@@ -5,7 +5,7 @@
 | **Amendment ID** | PRE-REG-003 |
 | **Filed By** | Principal Engineer |
 | **Filed Date** | 2026-05-03 |
-| **Status** | PENDING CISO WRITTEN SIGN-OFF |
+| **Status** | IMPLEMENTED BY PHASE 1 SCENARIO B; CISO PRODUCTION-HSM REVIEW TRACKED TO PHASE 2 |
 | **SPEC.md Sections Affected** | §20.2 (Signed Manifests) |
 
 ## Gap Description
@@ -24,7 +24,8 @@ SPEC.md §20.2 references signing manifests but does not specify the cryptograph
   - CRLF normalized to LF
   - No BOM
   - Final newline present
-- **Library:** `@noble/ed25519` (implementation in `validator/src/validators/signature-verifier.ts`)
+- **Verification Library:** Node.js `crypto` Ed25519 verifier in `tools/rule-pack-validate/src/cli.js`
+- **Signing Backend:** HashiCorp Vault Transit Ed25519 keys for Phase 1 Scenario B signing ceremony
 
 ## Rationale for Ed25519 over RSA-PSS/SHA-256
 
@@ -33,13 +34,11 @@ SPEC.md §20.2 references signing manifests but does not specify the cryptograph
 3. No parameter choices (RSA requires key size, padding mode, hash choice selection; Ed25519 has none; eliminates implementation error surface)
 4. CISO previously aligned to Ed25519 for platform signing infrastructure
 
-## CISO Written Sign-Off
+## Phase 1 Implementation Disposition
 
-> [ CISO to insert written sign-off here — REQUIRED before Day 1 of Week 1 signing ceremonies ]
->
-> CISO Name: _______________
-> Date: _______________
-> Signature: _______________
+Phase 1 implemented Ed25519 signing through HashiCorp Vault Transit, not a physical HSM. This is a deliberate Scenario B decision: the prior in-memory Vault could not provide durable signing keys, so Phase 1 used an isolated loopback-only Vault Raft instance with non-exportable Transit Ed25519 keys, committed public keys, offline signature verification, and CI `sign-gate` enforcement.
+
+This satisfies the Phase 1 signed-manifest gate. Production HSM/KMS backing remains a Phase 2 CISO infrastructure decision before immutable production tagging.
 
 ## Amendment Requested
 
@@ -49,6 +48,6 @@ Add explicit algorithm specification (Ed25519) to SPEC.md §20.2 with the canoni
 
 | Role | Decision | Date | Notes |
 |------|----------|------|-------|
-| CISO | PENDING | — | Must confirm before HSM provisioning |
-| CTO | PENDING | — | — |
-| Tax Director | PENDING | — | — |
+| CISO | PHASE 1 ACCEPTED; PHASE 2 HSM/KMS REVIEW REQUIRED | 2026-06-17 | Vault Transit accepted for Phase 1 Scenario B; production custody remains Phase 2. |
+| CTO | ACCEPTED FOR PHASE 1 | 2026-06-17 | CI sign-gate verifies committed signatures offline. |
+| Tax Director | ACCEPTED FOR PHASE 1 | 2026-06-17 | Signed manifests are sufficient for Phase 1 tax-content foundation closure. |
