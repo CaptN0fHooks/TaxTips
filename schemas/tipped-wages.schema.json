@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://taxtips.local/schemas/v1.0.0/tipped-wages.schema.json",
+  "title": "Tipped Wages",
+  "description": "SPEC.md §6.6 and §9 — tipped-wages.yaml schema. Structural only; tax values remain in YAML.",
+  "type": "object",
+  "required": ["pack", "form_4137", "excess_ss_recovery"],
+  "additionalProperties": false,
+  "properties": {
+    "pack": { "type": "string" },
+    "form_4137": {
+      "type": "object",
+      "required": ["form_id", "applicable_when", "worksheet_lines", "citation"],
+      "additionalProperties": true,
+      "properties": {
+        "form_id": { "type": "string" },
+        "applicable_when": { "type": "array", "items": { "type": "string" } },
+        "worksheet_lines": { "type": "array" },
+        "citation": { "type": "string", "pattern": "^CTR/" }
+      }
+    },
+    "excess_ss_recovery": {
+      "type": "object",
+      "required": ["applies_when", "schedule_3_line", "citation"],
+      "additionalProperties": true,
+      "properties": {
+        "applies_when": { "type": "string" },
+        "schedule_3_line": { "type": "integer" },
+        "citation": { "type": "string", "pattern": "^CTR/" }
+      }
+    },
+    "section_224": {
+      "type": "object",
+      "required": [
+        "available",
+        "available_years",
+        "cap_per_return",
+        "cap_citation",
+        "phase_out",
+        "magi_definition",
+        "magi_citation",
+        "filing_status_bars",
+        "filing_status_citation",
+        "ssn_required",
+        "ssn_citation",
+        "reporting"
+      ],
+      "additionalProperties": true,
+      "properties": {
+        "available": { "type": "boolean" },
+        "available_years": { "type": "array", "items": { "type": "integer" } },
+        "cap_per_return": { "type": "number" },
+        "cap_citation": { "type": "string", "pattern": "^CTR/" },
+        "phase_out": { "type": "object" },
+        "magi_definition": { "type": "string" },
+        "magi_citation": { "type": "string", "pattern": "^CTR/" },
+        "filing_status_bars": { "type": "array", "items": { "type": "string" } },
+        "filing_status_citation": { "type": "string", "pattern": "^CTR/" },
+        "ssn_required": { "type": "array", "items": { "type": "string" } },
+        "ssn_citation": { "type": "string", "pattern": "^CTR/" },
+        "ownership_recharacterization": { "type": "object" },
+        "managerial_tip_pool_exclusion": { "type": "boolean" },
+        "managerial_citation": { "type": "string", "pattern": "^CTR/" },
+        "sstb_transition_relief": { "type": "object" },
+        "reporting": { "type": "object" },
+        "reduces_fica": { "type": "boolean" },
+        "reduces_eitc_earned_income": { "type": "boolean" },
+        "reduces_additional_medicare_tax_base": { "type": "boolean" },
+        "fica_eitc_citation": { "type": "string", "pattern": "^CTR/" },
+        "schedule_1a_part": { "type": "integer" },
+        "flow_to_form_1040_line": { "type": "string" }
+      }
+    },
+    "phase4_contract_fields": {
+      "type": "object",
+      "required": ["section_224_eligible", "ttoc_code", "tip_reporting_method"],
+      "additionalProperties": false,
+      "properties": {
+        "section_224_eligible": { "type": "boolean" },
+        "ttoc_code": { "type": "string" },
+        "tip_reporting_method": { "type": "string" }
+      }
+    },
+    "ttoc": {
+      "type": "object",
+      "required": ["source", "source_citation", "categories"],
+      "additionalProperties": true,
+      "properties": {
+        "source": { "type": "string" },
+        "source_citation": { "type": "string", "pattern": "^CTR/" },
+        "categories": { "type": "array" }
+      }
+    },
+    "service_charge_discrimination": { "type": "object" },
+    "section_45b": { "type": "object" },
+    "standard_mileage": { "type": "object" },
+    "ca_uebe": { "type": "object" },
+    "ca_section_224_addback": { "type": "object" }
+  }
+}

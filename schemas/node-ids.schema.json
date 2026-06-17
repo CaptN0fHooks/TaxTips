@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://taxtips.local/schemas/v1.0.0/node-ids.schema.json",
+  "title": "Computation Graph Node IDs",
+  "description": "SPEC.md §8 — node-ids.yaml schema scaffold for Phase 3.",
+  "type": "object",
+  "required": ["nodes"],
+  "additionalProperties": false,
+  "properties": {
+    "nodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["node_id", "owner", "description"],
+        "additionalProperties": true,
+        "properties": {
+          "node_id": { "type": "string" },
+          "owner": { "type": "string" },
+          "description": { "type": "string" },
+          "citation_required": { "type": "boolean" }
+        }
+      }
+    }
+  }
+}

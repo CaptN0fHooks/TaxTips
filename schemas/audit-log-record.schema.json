@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://taxtips.local/schemas/v1.0.0/audit-log-record.schema.json",
+  "title": "Audit Log Record",
+  "description": "SPEC.md §15 — append-only audit log record skeleton.",
+  "type": "object",
+  "required": ["event_id", "event_type", "actor", "subject", "hash", "previous_hash"],
+  "additionalProperties": false,
+  "properties": {
+    "event_id": { "type": "string" },
+    "event_type": { "type": "string" },
+    "actor": { "type": "object" },
+    "subject": { "type": "object" },
+    "hash": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "previous_hash": { "type": ["string", "null"], "pattern": "^[a-f0-9]{64}$" },
+    "payload": { "type": "object" },
+    "signature": { "type": "string" }
+  }
+}

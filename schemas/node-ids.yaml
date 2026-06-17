@@ -1,0 +1,577 @@
+nodes:
+  - node_id: ca-540-2023/line-101
+    owner: California Tax Engine
+    description: ca-540-2023 computation output node line-101.
+    citation_required: true
+  - node_id: ca-540-2023/line-17
+    owner: California Tax Engine
+    description: ca-540-2023 computation output node line-17.
+    citation_required: true
+  - node_id: ca-540-2023/line-19
+    owner: California Tax Engine
+    description: ca-540-2023 computation output node line-19.
+    citation_required: true
+  - node_id: ca-540-2023/line-31
+    owner: California Tax Engine
+    description: ca-540-2023 computation output node line-31.
+    citation_required: true
+  - node_id: ca-540-2023/line-40
+    owner: California Tax Engine
+    description: ca-540-2023 computation output node line-40.
+    citation_required: true
+  - node_id: ca-540-2023/line-46
+    owner: California Tax Engine
+    description: ca-540-2023 computation output node line-46.
+    citation_required: true
+  - node_id: ca-540-2023/line-48
+    owner: California Tax Engine
+    description: ca-540-2023 computation output node line-48.
+    citation_required: true
+  - node_id: ca-540-2023/line-74
+    owner: California Tax Engine
+    description: ca-540-2023 computation output node line-74.
+    citation_required: true
+  - node_id: ca-540-2023/line-75
+    owner: California Tax Engine
+    description: ca-540-2023 computation output node line-75.
+    citation_required: true
+  - node_id: ca-540-2023/line-76
+    owner: California Tax Engine
+    description: ca-540-2023 computation output node line-76.
+    citation_required: true
+  - node_id: ca-540-2023/line-77
+    owner: California Tax Engine
+    description: ca-540-2023 computation output node line-77.
+    citation_required: true
+  - node_id: ca-540-2023/line-83
+    owner: California Tax Engine
+    description: ca-540-2023 computation output node line-83.
+    citation_required: true
+  - node_id: ca-540-2023/line-93
+    owner: California Tax Engine
+    description: ca-540-2023 computation output node line-93.
+    citation_required: true
+  - node_id: ca-540-2024/line-101
+    owner: California Tax Engine
+    description: ca-540-2024 computation output node line-101.
+    citation_required: true
+  - node_id: ca-540-2024/line-17
+    owner: California Tax Engine
+    description: ca-540-2024 computation output node line-17.
+    citation_required: true
+  - node_id: ca-540-2024/line-19
+    owner: California Tax Engine
+    description: ca-540-2024 computation output node line-19.
+    citation_required: true
+  - node_id: ca-540-2024/line-31
+    owner: California Tax Engine
+    description: ca-540-2024 computation output node line-31.
+    citation_required: true
+  - node_id: ca-540-2024/line-40
+    owner: California Tax Engine
+    description: ca-540-2024 computation output node line-40.
+    citation_required: true
+  - node_id: ca-540-2024/line-46
+    owner: California Tax Engine
+    description: ca-540-2024 computation output node line-46.
+    citation_required: true
+  - node_id: ca-540-2024/line-48
+    owner: California Tax Engine
+    description: ca-540-2024 computation output node line-48.
+    citation_required: true
+  - node_id: ca-540-2024/line-74
+    owner: California Tax Engine
+    description: ca-540-2024 computation output node line-74.
+    citation_required: true
+  - node_id: ca-540-2024/line-75
+    owner: California Tax Engine
+    description: ca-540-2024 computation output node line-75.
+    citation_required: true
+  - node_id: ca-540-2024/line-76
+    owner: California Tax Engine
+    description: ca-540-2024 computation output node line-76.
+    citation_required: true
+  - node_id: ca-540-2024/line-77
+    owner: California Tax Engine
+    description: ca-540-2024 computation output node line-77.
+    citation_required: true
+  - node_id: ca-540-2024/line-83
+    owner: California Tax Engine
+    description: ca-540-2024 computation output node line-83.
+    citation_required: true
+  - node_id: ca-540-2024/line-93
+    owner: California Tax Engine
+    description: ca-540-2024 computation output node line-93.
+    citation_required: true
+  - node_id: ca-540-2025/ca-amt
+    owner: California Tax Engine
+    description: ca-540-2025 computation output node ca-amt.
+    citation_required: true
+  - node_id: ca-540-2025/fytc
+    owner: California Tax Engine
+    description: ca-540-2025 computation output node fytc.
+    citation_required: true
+  - node_id: ca-540-2025/line-101
+    owner: California Tax Engine
+    description: ca-540-2025 computation output node line-101.
+    citation_required: true
+  - node_id: ca-540-2025/line-17
+    owner: California Tax Engine
+    description: ca-540-2025 computation output node line-17.
+    citation_required: true
+  - node_id: ca-540-2025/line-19
+    owner: California Tax Engine
+    description: ca-540-2025 computation output node line-19.
+    citation_required: true
+  - node_id: ca-540-2025/line-31
+    owner: California Tax Engine
+    description: ca-540-2025 computation output node line-31.
+    citation_required: true
+  - node_id: ca-540-2025/line-40
+    owner: California Tax Engine
+    description: ca-540-2025 computation output node line-40.
+    citation_required: true
+  - node_id: ca-540-2025/line-48
+    owner: California Tax Engine
+    description: ca-540-2025 computation output node line-48.
+    citation_required: true
+  - node_id: ca-540-2025/line-74
+    owner: California Tax Engine
+    description: ca-540-2025 computation output node line-74.
+    citation_required: true
+  - node_id: ca-540-2025/line-75
+    owner: California Tax Engine
+    description: ca-540-2025 computation output node line-75.
+    citation_required: true
+  - node_id: ca-540-2025/line-77
+    owner: California Tax Engine
+    description: ca-540-2025 computation output node line-77.
+    citation_required: true
+  - node_id: ca-540-2025/line-83
+    owner: California Tax Engine
+    description: ca-540-2025 computation output node line-83.
+    citation_required: true
+  - node_id: ca-540-2025/line-93
+    owner: California Tax Engine
+    description: ca-540-2025 computation output node line-93.
+    citation_required: true
+  - node_id: ca-540-2025/renters_credit
+    owner: California Tax Engine
+    description: ca-540-2025 computation output node renters_credit.
+    citation_required: true
+  - node_id: ca-540-2026/ca-amt
+    owner: California Tax Engine
+    description: ca-540-2026 computation output node ca-amt.
+    citation_required: true
+  - node_id: ca-540-2026/fytc
+    owner: California Tax Engine
+    description: ca-540-2026 computation output node fytc.
+    citation_required: true
+  - node_id: ca-540-2026/line-101
+    owner: California Tax Engine
+    description: ca-540-2026 computation output node line-101.
+    citation_required: true
+  - node_id: ca-540-2026/line-17
+    owner: California Tax Engine
+    description: ca-540-2026 computation output node line-17.
+    citation_required: true
+  - node_id: ca-540-2026/line-19
+    owner: California Tax Engine
+    description: ca-540-2026 computation output node line-19.
+    citation_required: true
+  - node_id: ca-540-2026/line-31
+    owner: California Tax Engine
+    description: ca-540-2026 computation output node line-31.
+    citation_required: true
+  - node_id: ca-540-2026/line-40
+    owner: California Tax Engine
+    description: ca-540-2026 computation output node line-40.
+    citation_required: true
+  - node_id: ca-540-2026/line-48
+    owner: California Tax Engine
+    description: ca-540-2026 computation output node line-48.
+    citation_required: true
+  - node_id: ca-540-2026/line-74
+    owner: California Tax Engine
+    description: ca-540-2026 computation output node line-74.
+    citation_required: true
+  - node_id: ca-540-2026/line-75
+    owner: California Tax Engine
+    description: ca-540-2026 computation output node line-75.
+    citation_required: true
+  - node_id: ca-540-2026/line-77
+    owner: California Tax Engine
+    description: ca-540-2026 computation output node line-77.
+    citation_required: true
+  - node_id: ca-540-2026/line-83
+    owner: California Tax Engine
+    description: ca-540-2026 computation output node line-83.
+    citation_required: true
+  - node_id: ca-540-2026/line-93
+    owner: California Tax Engine
+    description: ca-540-2026 computation output node line-93.
+    citation_required: true
+  - node_id: ca-540-sca-2023/part-2/line-19
+    owner: California Tax Engine
+    description: ca-540-sca-2023 computation output node part-2/line-19.
+    citation_required: true
+  - node_id: ca-540-sca-2024/part-2/line-19
+    owner: California Tax Engine
+    description: ca-540-sca-2024 computation output node part-2/line-19.
+    citation_required: true
+  - node_id: ca-540-sca-2025/part-1/sec-c/line-13
+    owner: California Tax Engine
+    description: ca-540-sca-2025 computation output node part-1/sec-c/line-13.
+    citation_required: true
+  - node_id: ca-540-sca-2025/part-1/sec-c/line-24z
+    owner: California Tax Engine
+    description: ca-540-sca-2025 computation output node part-1/sec-c/line-24z.
+    citation_required: true
+  - node_id: ca-540-sca-2025/part-2/line-19
+    owner: California Tax Engine
+    description: ca-540-sca-2025 computation output node part-2/line-19.
+    citation_required: true
+  - node_id: ca-540-sca-2026/part-1/sec-c/line-13
+    owner: California Tax Engine
+    description: ca-540-sca-2026 computation output node part-1/sec-c/line-13.
+    citation_required: true
+  - node_id: ca-540-sca-2026/part-1/sec-c/line-24z
+    owner: California Tax Engine
+    description: ca-540-sca-2026 computation output node part-1/sec-c/line-24z.
+    citation_required: true
+  - node_id: ca-540-sca-2026/part-2/line-19
+    owner: California Tax Engine
+    description: ca-540-sca-2026 computation output node part-2/line-19.
+    citation_required: true
+  - node_id: summary.california_refund_or_owe
+    owner: Phase 3 Tax Engine
+    description: Summary output node summary.california_refund_or_owe.
+    citation_required: true
+  - node_id: summary.eitc_earned_income_base
+    owner: Phase 3 Tax Engine
+    description: Summary output node summary.eitc_earned_income_base.
+    citation_required: true
+  - node_id: summary.federal_refund_or_owe
+    owner: Phase 3 Tax Engine
+    description: Summary output node summary.federal_refund_or_owe.
+    citation_required: true
+  - node_id: summary.ptc_amount
+    owner: Phase 3 Tax Engine
+    description: Summary output node summary.ptc_amount.
+    citation_required: true
+  - node_id: summary.ptc_repayment
+    owner: Phase 3 Tax Engine
+    description: Summary output node summary.ptc_repayment.
+    citation_required: true
+  - node_id: summary.ptc_status
+    owner: Phase 3 Tax Engine
+    description: Summary output node summary.ptc_status.
+    citation_required: true
+  - node_id: us-1040-2023/line-11
+    owner: Federal Tax Engine
+    description: us-1040-2023 computation output node line-11.
+    citation_required: true
+  - node_id: us-1040-2023/line-12
+    owner: Federal Tax Engine
+    description: us-1040-2023 computation output node line-12.
+    citation_required: true
+  - node_id: us-1040-2023/line-15
+    owner: Federal Tax Engine
+    description: us-1040-2023 computation output node line-15.
+    citation_required: true
+  - node_id: us-1040-2023/line-16
+    owner: Federal Tax Engine
+    description: us-1040-2023 computation output node line-16.
+    citation_required: true
+  - node_id: us-1040-2023/line-1c
+    owner: Federal Tax Engine
+    description: us-1040-2023 computation output node line-1c.
+    citation_required: true
+  - node_id: us-1040-2023/line-24
+    owner: Federal Tax Engine
+    description: us-1040-2023 computation output node line-24.
+    citation_required: true
+  - node_id: us-1040-2023/line-25a
+    owner: Federal Tax Engine
+    description: us-1040-2023 computation output node line-25a.
+    citation_required: true
+  - node_id: us-1040-2023/line-27
+    owner: Federal Tax Engine
+    description: us-1040-2023 computation output node line-27.
+    citation_required: true
+  - node_id: us-1040-2023/line-28
+    owner: Federal Tax Engine
+    description: us-1040-2023 computation output node line-28.
+    citation_required: true
+  - node_id: us-1040-2023/line-29
+    owner: Federal Tax Engine
+    description: us-1040-2023 computation output node line-29.
+    citation_required: true
+  - node_id: us-1040-2023/line-31
+    owner: Federal Tax Engine
+    description: us-1040-2023 computation output node line-31.
+    citation_required: true
+  - node_id: us-1040-2023/line-34
+    owner: Federal Tax Engine
+    description: us-1040-2023 computation output node line-34.
+    citation_required: true
+  - node_id: us-1040-2023/line-35a
+    owner: Federal Tax Engine
+    description: us-1040-2023 computation output node line-35a.
+    citation_required: true
+  - node_id: us-1040-2023/line-37
+    owner: Federal Tax Engine
+    description: us-1040-2023 computation output node line-37.
+    citation_required: true
+  - node_id: us-1040-2024/line-11
+    owner: Federal Tax Engine
+    description: us-1040-2024 computation output node line-11.
+    citation_required: true
+  - node_id: us-1040-2024/line-12
+    owner: Federal Tax Engine
+    description: us-1040-2024 computation output node line-12.
+    citation_required: true
+  - node_id: us-1040-2024/line-15
+    owner: Federal Tax Engine
+    description: us-1040-2024 computation output node line-15.
+    citation_required: true
+  - node_id: us-1040-2024/line-16
+    owner: Federal Tax Engine
+    description: us-1040-2024 computation output node line-16.
+    citation_required: true
+  - node_id: us-1040-2024/line-1c
+    owner: Federal Tax Engine
+    description: us-1040-2024 computation output node line-1c.
+    citation_required: true
+  - node_id: us-1040-2024/line-24
+    owner: Federal Tax Engine
+    description: us-1040-2024 computation output node line-24.
+    citation_required: true
+  - node_id: us-1040-2024/line-25a
+    owner: Federal Tax Engine
+    description: us-1040-2024 computation output node line-25a.
+    citation_required: true
+  - node_id: us-1040-2024/line-27
+    owner: Federal Tax Engine
+    description: us-1040-2024 computation output node line-27.
+    citation_required: true
+  - node_id: us-1040-2024/line-28
+    owner: Federal Tax Engine
+    description: us-1040-2024 computation output node line-28.
+    citation_required: true
+  - node_id: us-1040-2024/line-29
+    owner: Federal Tax Engine
+    description: us-1040-2024 computation output node line-29.
+    citation_required: true
+  - node_id: us-1040-2024/line-31
+    owner: Federal Tax Engine
+    description: us-1040-2024 computation output node line-31.
+    citation_required: true
+  - node_id: us-1040-2024/line-34
+    owner: Federal Tax Engine
+    description: us-1040-2024 computation output node line-34.
+    citation_required: true
+  - node_id: us-1040-2024/line-35a
+    owner: Federal Tax Engine
+    description: us-1040-2024 computation output node line-35a.
+    citation_required: true
+  - node_id: us-1040-2024/line-37
+    owner: Federal Tax Engine
+    description: us-1040-2024 computation output node line-37.
+    citation_required: true
+  - node_id: us-1040-2025/line-11
+    owner: Federal Tax Engine
+    description: us-1040-2025 computation output node line-11.
+    citation_required: true
+  - node_id: us-1040-2025/line-12
+    owner: Federal Tax Engine
+    description: us-1040-2025 computation output node line-12.
+    citation_required: true
+  - node_id: us-1040-2025/line-13b
+    owner: Federal Tax Engine
+    description: us-1040-2025 computation output node line-13b.
+    citation_required: true
+  - node_id: us-1040-2025/line-15
+    owner: Federal Tax Engine
+    description: us-1040-2025 computation output node line-15.
+    citation_required: true
+  - node_id: us-1040-2025/line-16
+    owner: Federal Tax Engine
+    description: us-1040-2025 computation output node line-16.
+    citation_required: true
+  - node_id: us-1040-2025/line-1c
+    owner: Federal Tax Engine
+    description: us-1040-2025 computation output node line-1c.
+    citation_required: true
+  - node_id: us-1040-2025/line-24
+    owner: Federal Tax Engine
+    description: us-1040-2025 computation output node line-24.
+    citation_required: true
+  - node_id: us-1040-2025/line-25a
+    owner: Federal Tax Engine
+    description: us-1040-2025 computation output node line-25a.
+    citation_required: true
+  - node_id: us-1040-2025/line-27
+    owner: Federal Tax Engine
+    description: us-1040-2025 computation output node line-27.
+    citation_required: true
+  - node_id: us-1040-2025/line-28
+    owner: Federal Tax Engine
+    description: us-1040-2025 computation output node line-28.
+    citation_required: true
+  - node_id: us-1040-2025/line-29
+    owner: Federal Tax Engine
+    description: us-1040-2025 computation output node line-29.
+    citation_required: true
+  - node_id: us-1040-2025/line-31
+    owner: Federal Tax Engine
+    description: us-1040-2025 computation output node line-31.
+    citation_required: true
+  - node_id: us-1040-2025/line-34
+    owner: Federal Tax Engine
+    description: us-1040-2025 computation output node line-34.
+    citation_required: true
+  - node_id: us-1040-2025/line-35a
+    owner: Federal Tax Engine
+    description: us-1040-2025 computation output node line-35a.
+    citation_required: true
+  - node_id: us-1040-2025/line-37
+    owner: Federal Tax Engine
+    description: us-1040-2025 computation output node line-37.
+    citation_required: true
+  - node_id: us-1040-2026/line-11
+    owner: Federal Tax Engine
+    description: us-1040-2026 computation output node line-11.
+    citation_required: true
+  - node_id: us-1040-2026/line-12
+    owner: Federal Tax Engine
+    description: us-1040-2026 computation output node line-12.
+    citation_required: true
+  - node_id: us-1040-2026/line-13b
+    owner: Federal Tax Engine
+    description: us-1040-2026 computation output node line-13b.
+    citation_required: true
+  - node_id: us-1040-2026/line-15
+    owner: Federal Tax Engine
+    description: us-1040-2026 computation output node line-15.
+    citation_required: true
+  - node_id: us-1040-2026/line-16
+    owner: Federal Tax Engine
+    description: us-1040-2026 computation output node line-16.
+    citation_required: true
+  - node_id: us-1040-2026/line-24
+    owner: Federal Tax Engine
+    description: us-1040-2026 computation output node line-24.
+    citation_required: true
+  - node_id: us-1040-2026/line-25a
+    owner: Federal Tax Engine
+    description: us-1040-2026 computation output node line-25a.
+    citation_required: true
+  - node_id: us-1040-2026/line-27
+    owner: Federal Tax Engine
+    description: us-1040-2026 computation output node line-27.
+    citation_required: true
+  - node_id: us-1040-2026/line-28
+    owner: Federal Tax Engine
+    description: us-1040-2026 computation output node line-28.
+    citation_required: true
+  - node_id: us-1040-2026/line-29
+    owner: Federal Tax Engine
+    description: us-1040-2026 computation output node line-29.
+    citation_required: true
+  - node_id: us-1040-2026/line-34
+    owner: Federal Tax Engine
+    description: us-1040-2026 computation output node line-34.
+    citation_required: true
+  - node_id: us-1040-2026/line-35a
+    owner: Federal Tax Engine
+    description: us-1040-2026 computation output node line-35a.
+    citation_required: true
+  - node_id: us-1040-2026/line-37
+    owner: Federal Tax Engine
+    description: us-1040-2026 computation output node line-37.
+    citation_required: true
+  - node_id: us-1040-s1a-2025/line-38
+    owner: Federal Tax Engine
+    description: us-1040-s1a-2025 computation output node line-38.
+    citation_required: true
+  - node_id: us-1040-s1a-2025/part-2/line-13
+    owner: Federal Tax Engine
+    description: us-1040-s1a-2025 computation output node part-2/line-13.
+    citation_required: true
+  - node_id: us-1040-s1a-2025/part-2/line-7
+    owner: Federal Tax Engine
+    description: us-1040-s1a-2025 computation output node part-2/line-7.
+    citation_required: true
+  - node_id: us-1040-s1a-2025/part-5/line-37
+    owner: Federal Tax Engine
+    description: us-1040-s1a-2025 computation output node part-5/line-37.
+    citation_required: true
+  - node_id: us-1040-s1a-2026/line-38
+    owner: Federal Tax Engine
+    description: us-1040-s1a-2026 computation output node line-38.
+    citation_required: true
+  - node_id: us-1040-s1a-2026/part-2/line-13
+    owner: Federal Tax Engine
+    description: us-1040-s1a-2026 computation output node part-2/line-13.
+    citation_required: true
+  - node_id: us-1040-s1a-2026/part-3/line-25
+    owner: Federal Tax Engine
+    description: us-1040-s1a-2026 computation output node part-3/line-25.
+    citation_required: true
+  - node_id: us-1040-s1a-2026/part-5/line-37
+    owner: Federal Tax Engine
+    description: us-1040-s1a-2026 computation output node part-5/line-37.
+    citation_required: true
+  - node_id: us-1040-s3-2023/line-11
+    owner: Federal Tax Engine
+    description: us-1040-s3-2023 computation output node line-11.
+    citation_required: true
+  - node_id: us-1040-s3-2024/line-11
+    owner: Federal Tax Engine
+    description: us-1040-s3-2024 computation output node line-11.
+    citation_required: true
+  - node_id: us-1040-s3-2025/line-11
+    owner: Federal Tax Engine
+    description: us-1040-s3-2025 computation output node line-11.
+    citation_required: true
+  - node_id: us-1040-s3-2026/line-11
+    owner: Federal Tax Engine
+    description: us-1040-s3-2026 computation output node line-11.
+    citation_required: true
+  - node_id: us-1040-s3-2026/line-4
+    owner: Federal Tax Engine
+    description: us-1040-s3-2026 computation output node line-4.
+    citation_required: true
+  - node_id: us-form-4137-2023/line-13
+    owner: Phase 3 Tax Engine
+    description: us-form-4137-2023 computation output node line-13.
+    citation_required: true
+  - node_id: us-form-4137-2023/line-6
+    owner: Phase 3 Tax Engine
+    description: us-form-4137-2023 computation output node line-6.
+    citation_required: true
+  - node_id: us-form-4137-2024/line-13
+    owner: Phase 3 Tax Engine
+    description: us-form-4137-2024 computation output node line-13.
+    citation_required: true
+  - node_id: us-form-4137-2024/line-6
+    owner: Phase 3 Tax Engine
+    description: us-form-4137-2024 computation output node line-6.
+    citation_required: true
+  - node_id: us-form-4137-2025/line-13
+    owner: Phase 3 Tax Engine
+    description: us-form-4137-2025 computation output node line-13.
+    citation_required: true
+  - node_id: us-form-4137-2025/line-6
+    owner: Phase 3 Tax Engine
+    description: us-form-4137-2025 computation output node line-6.
+    citation_required: true
+  - node_id: us-form-4137-2026/line-4
+    owner: Phase 3 Tax Engine
+    description: us-form-4137-2026 computation output node line-4.
+    citation_required: true
+  - node_id: us-form-8962-2026/line-29
+    owner: Phase 3 Tax Engine
+    description: us-form-8962-2026 computation output node line-29.
+    citation_required: true

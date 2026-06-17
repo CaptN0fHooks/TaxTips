@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://taxtips.local/schemas/v1.0.0/mailing-addresses.schema.json",
+  "title": "Mailing Addresses",
+  "description": "SPEC.md §6.8 and §10 — mailing-addresses.yaml schema. Structural only.",
+  "type": "object",
+  "required": ["pack", "destinations"],
+  "additionalProperties": false,
+  "properties": {
+    "pack": { "type": "string" },
+    "destinations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["destination_id", "address", "citation"],
+        "additionalProperties": true,
+        "properties": {
+          "destination_id": { "type": "string" },
+          "address": { "type": "object" },
+          "citation": { "type": "string", "pattern": "^CTR/" }
+        }
+      }
+    }
+  }
+}

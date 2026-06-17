@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://taxtips.local/schemas/v1.0.0/tax-return-object.schema.json",
+  "title": "Tax Return Object",
+  "description": "SPEC.md §5 — Canonical Tax Return Object skeleton for downstream phases.",
+  "type": "object",
+  "required": ["tro_version", "tax_year", "jurisdiction", "forms"],
+  "additionalProperties": false,
+  "properties": {
+    "tro_version": { "type": "string" },
+    "tax_year": { "type": "integer" },
+    "jurisdiction": { "type": "string" },
+    "forms": { "type": "array" },
+    "citations": { "type": "array" },
+    "metadata": { "type": "object" }
+  }
+}

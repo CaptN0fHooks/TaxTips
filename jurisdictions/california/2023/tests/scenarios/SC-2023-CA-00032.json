@@ -1,0 +1,140 @@
+{
+  "scenario_id": "SC-2023-CA-00032",
+  "title": "MFJ high-income tipped couple — 50,000 — CA 9.3% top bracket — below BHST threshold",
+  "tax_year": 2023,
+  "jurisdictions": [
+    "california"
+  ],
+  "inputs": {
+    "filing_status": "mfj",
+    "dependents": [],
+    "w2s": [
+      {
+        "w2_id": "w2-1",
+        "employer": "Michelin Star LA (tipped TTOC-102)",
+        "box1": 250000,
+        "box2": 40000,
+        "box3": 250000,
+        "box4": 15500,
+        "box5": 250000,
+        "box6": 3625,
+        "box7": 20000,
+        "box8": 0,
+        "box12_codes": [],
+        "box14b_ttoc": 102,
+        "box16": 250000,
+        "box17": 20000,
+        "box19": 1378,
+        "tipped_toggle": true,
+        "ttoc_code": 102
+      },
+      {
+        "w2_id": "w2-2",
+        "employer": "Catering Empire (tipped TTOC-102)",
+        "box1": 200000,
+        "box2": 20000,
+        "box3": 200000,
+        "box4": 12400,
+        "box5": 200000,
+        "box6": 2900,
+        "box7": 15000,
+        "box8": 0,
+        "box12_codes": [],
+        "box14b_ttoc": 102,
+        "box16": 200000,
+        "box17": 20000,
+        "box19": 1378,
+        "tipped_toggle": true,
+        "ttoc_code": 102
+      }
+    ],
+    "tipped_overlay": {
+      "w2-1": {
+        "occupation": 102,
+        "unreported_cash_tips": 0,
+        "tip_pool": true,
+        "owns_pct_of_employer": 0,
+        "non_slip_shoes_cost": 0,
+        "uniforms_cost": 0,
+        "required_tools_cost": 0,
+        "union_dues": 0,
+        "licensing_fees": 0,
+        "mileage_between_jobs": 0
+      },
+      "w2-2": {
+        "occupation": 102,
+        "unreported_cash_tips": 0,
+        "tip_pool": true,
+        "owns_pct_of_employer": 0,
+        "non_slip_shoes_cost": 0,
+        "uniforms_cost": 0,
+        "required_tools_cost": 0,
+        "union_dues": 0,
+        "licensing_fees": 0,
+        "mileage_between_jobs": 0
+      }
+    },
+    "interview": {
+      "marketplace_coverage": false,
+      "advance_ptc_received": 0,
+      "hsa_contribution": 0,
+      "student_loan_interest": 0,
+      "charitable_cash": 0,
+      "retirement_contribution": 0,
+      "aotc_student_expenses": 0,
+      "ca_renter": false,
+      "ca_foster_youth": false,
+      "investment_income": 0,
+      "taxpayer_age": 35,
+      "spouse_age": 40,
+      "dependent_status": false,
+      "allocated_tip_records_amount": null,
+      "itemized_deductions": {
+        "medical": 0,
+        "salt": 0,
+        "mortgage_interest": 0,
+        "charitable_cash": 0,
+        "misc": 0,
+        "ca_uebe_uniforms": 0,
+        "ca_uebe_shoes": 0,
+        "ca_uebe_tools": 0,
+        "ca_uebe_union_dues": 0,
+        "ca_uebe_licensing": 0,
+        "ca_uebe_mileage_miles": 0
+      }
+    }
+  },
+  "expected_outputs": {
+    "ca-540-2023/line-17": 450000,
+    "ca-540-2023/line-19": 439274,
+    "ca-540-2023/line-31": 34158,
+    "ca-540-2023/line-40": 288,
+    "ca-540-2023/line-48": 33870,
+    "ca-540-2023/line-74": 2756,
+    "ca-540-2023/line-75": 0,
+    "ca-540-2023/line-83": 42756,
+    "ca-540-2023/line-93": 8886,
+    "ca-540-2023/line-101": 0,
+    "summary.california_refund_or_owe": 8886
+  },
+  "expected_optimization_choices": {
+    "filing_status": "mfj",
+    "federal_deduction_choice": "standard",
+    "california_deduction_choice": "standard"
+  },
+  "expected_ambiguity_dispositions": {},
+  "controlling_report_anchors": [
+    "CTR/C.2/2023/mfj",
+    "CTR/C.4/2025/brackets-mfj",
+    "CTR/C.12/2023/sdi"
+  ],
+  "source_authority_citations": [
+    "R&TC §17041",
+    "R&TC §17073.5"
+  ],
+  "commercial_differential": null,
+  "tax_director_signoff": {
+    "name": "Tax Director",
+    "date": "2026-06-16"
+  }
+}

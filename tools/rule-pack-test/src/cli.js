@@ -2,6 +2,7 @@
 import { readdir, readFile, stat, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import process from 'node:process';
+import { pathToFileURL } from 'node:url';
 import yaml from 'js-yaml';
 
 const JURISDICTIONS = ['us-federal', 'california'];
@@ -134,9 +135,8 @@ async function runPack(root, packId, scenarioId, registry) {
   };
 }
 
-async function main() {
-  const root = process.cwd();
-  const args = parseArgs(process.argv);
+async function runCli(argv = process.argv, root = process.cwd()) {
+  const args = parseArgs(argv);
   const packIds = args.all
     ? JURISDICTIONS.flatMap((jurisdiction) => YEARS.map((year) => `${jurisdiction}/${year}`))
     : [args.pack].filter(Boolean);
@@ -152,12 +152,33 @@ async function main() {
   };
   const output = `${JSON.stringify(report, null, 2)}\n`;
   if (args.reportPath) await writeFile(args.reportPath, output);
+  return { report, output };
+}
+
+/* c8 ignore start */
+async function main() {
+  const { report, output } = await runCli();
   process.stdout.write(output);
   process.exit(report.status === 'pass' ? 0 : 1);
 }
 
-main().catch((error) => {
-  const report = { tool: 'rule-pack-test', status: 'error', error: error.message };
-  process.stdout.write(`${JSON.stringify(report, null, 2)}\n`);
-  process.exit(1);
-});
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  main().catch((error) => {
+    const report = { tool: 'rule-pack-test', status: 'error', error: error.message };
+    process.stdout.write(`${JSON.stringify(report, null, 2)}\n`);
+    process.exit(1);
+  });
+}
+/* c8 ignore stop */
+
+export {
+  evaluateScenario,
+  hasSentinel,
+  loadRegistry,
+  parseArgs,
+  readScenario,
+  runCli,
+  runPack,
+  scenarioFiles,
+  validateScenarioShape,
+};

@@ -1,0 +1,133 @@
+{
+  "scenario_id": "SC-2023-CA-00047",
+  "title": "Single tipped server — combined federal and CA — Renter's Credit 0 on CA — income 7,000",
+  "tax_year": 2023,
+  "jurisdictions": [
+    "us-federal",
+    "california"
+  ],
+  "inputs": {
+    "filing_status": "single",
+    "dependents": [],
+    "w2s": [
+      {
+        "w2_id": "w2-1",
+        "employer": "Central Diner (tipped TTOC-102)",
+        "box1": 27000,
+        "box2": 2700,
+        "box3": 27000,
+        "box4": 1674,
+        "box5": 27000,
+        "box6": 392,
+        "box7": 5000,
+        "box8": 0,
+        "box12_codes": [],
+        "box14b_ttoc": 102,
+        "box16": 27000,
+        "box17": 810,
+        "box19": 243,
+        "tipped_toggle": true,
+        "ttoc_code": 102
+      }
+    ],
+    "tipped_overlay": {
+      "w2-1": {
+        "occupation": 102,
+        "unreported_cash_tips": 0,
+        "tip_pool": true,
+        "owns_pct_of_employer": 0,
+        "non_slip_shoes_cost": 0,
+        "uniforms_cost": 0,
+        "required_tools_cost": 0,
+        "union_dues": 0,
+        "licensing_fees": 0,
+        "mileage_between_jobs": 0
+      }
+    },
+    "interview": {
+      "marketplace_coverage": false,
+      "advance_ptc_received": 0,
+      "hsa_contribution": 0,
+      "student_loan_interest": 0,
+      "charitable_cash": 0,
+      "retirement_contribution": 0,
+      "aotc_student_expenses": 0,
+      "ca_renter": true,
+      "ca_foster_youth": false,
+      "investment_income": 0,
+      "taxpayer_age": 35,
+      "spouse_age": null,
+      "dependent_status": false,
+      "allocated_tip_records_amount": null,
+      "itemized_deductions": {
+        "medical": 0,
+        "salt": 0,
+        "mortgage_interest": 0,
+        "charitable_cash": 0,
+        "misc": 0,
+        "ca_uebe_uniforms": 0,
+        "ca_uebe_shoes": 0,
+        "ca_uebe_tools": 0,
+        "ca_uebe_union_dues": 0,
+        "ca_uebe_licensing": 0,
+        "ca_uebe_mileage_miles": 0
+      }
+    }
+  },
+  "expected_outputs": {
+    "us-1040-2023/line-11": 27000,
+    "us-1040-2023/line-12": 13850,
+    "us-1040-2023/line-15": 13150,
+    "us-1040-2023/line-16": 1358,
+    "us-1040-2023/line-24": 1358,
+    "us-1040-2023/line-25a": 2700,
+    "us-1040-2023/line-34": 2700,
+    "us-1040-2023/line-35a": 1342,
+    "us-1040-2023/line-37": 0,
+    "summary.federal_refund_or_owe": 1342,
+    "ca-540-2023/line-17": 27000,
+    "ca-540-2023/line-19": 21637,
+    "ca-540-2023/line-31": 329,
+    "ca-540-2023/line-40": 144,
+    "ca-540-2023/line-46": 60,
+    "ca-540-2023/line-48": 125,
+    "ca-540-2023/line-74": 243,
+    "ca-540-2023/line-75": 2535,
+    "ca-540-2023/line-83": 3588,
+    "ca-540-2023/line-93": 3463,
+    "ca-540-2023/line-101": 0,
+    "summary.california_refund_or_owe": 3463
+  },
+  "expected_optimization_choices": {
+    "filing_status": "single",
+    "federal_deduction_choice": "standard",
+    "california_deduction_choice": "standard"
+  },
+  "expected_ambiguity_dispositions": {},
+  "controlling_report_anchors": [
+    "CTR/A.2/2023/single",
+    "CTR/A.4/2023/rate-12-single-ceiling",
+    "CTR/C.2/2023/single",
+    "CTR/C.4/2025/brackets-single",
+    "CTR/C.6/2023/caleitc",
+    "CTR/C.9/2023/renters-credit"
+  ],
+  "source_authority_citations": [
+    "IRC §1",
+    "IRC §63",
+    "R&TC §17041",
+    "R&TC §17052",
+    "R&TC §17053.5",
+    "R&TC §17073.5"
+  ],
+  "commercial_differential": {
+    "federal_refund_or_owe": 1342,
+    "california_refund_or_owe": 3463,
+    "combined_total_owed": 0,
+    "combined_total_refund": 4805
+  },
+  "tax_director_signoff": {
+    "name": "Tax Director",
+    "date": "2026-06-16"
+  }
+}

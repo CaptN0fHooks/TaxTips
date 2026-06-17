@@ -1,0 +1,39 @@
+{
+  "checked_at": "2026-06-15T01:34:38-07:00",
+  "status": "COMPLETE",
+  "canonical_schema_count": 14,
+  "api_interface_count": 1,
+  "present_schema_count": 14,
+  "present_api_interface_count": 1,
+  "missing": [],
+  "surplus": [],
+  "prime_rule_schema_findings": [
+    {
+      "file": "manifest.schema.json",
+      "finding": "const/enum usage is structural only: SPEC version, supported tax years, jurisdictions, and signer roles. No tax parameter defaults, thresholds, rates, caps, or dollar values."
+    },
+    {
+      "file": "ambiguities.schema.json",
+      "finding": "Named most_defensible, conservative, and aggressive interpretation objects require boolean forbidden fields inside each interpretation."
+    }
+  ],
+  "schemas": [
+    { "file": "manifest.schema.json", "spec": "§6.1", "status": "PASS" },
+    { "file": "brackets.schema.json", "spec": "§6.2", "status": "PASS" },
+    { "file": "standard-deduction.schema.json", "spec": "§6.3", "status": "PASS" },
+    { "file": "itemized.schema.json", "spec": "§6.4", "status": "PASS" },
+    { "file": "credit.schema.json", "spec": "§6.5", "status": "PASS" },
+    { "file": "tipped-wages.schema.json", "spec": "§6.6 / §9", "status": "PASS" },
+    { "file": "forms.schema.json", "spec": "§6.7 / §10", "status": "PASS" },
+    { "file": "mailing-addresses.schema.json", "spec": "§6.8 / §10.2", "status": "PASS" },
+    { "file": "ambiguities.schema.json", "spec": "§6.9 / §11", "status": "PASS" },
+    { "file": "tax-return-object.schema.json", "spec": "§5", "status": "PASS" },
+    { "file": "ttr-bundle.schema.json", "spec": "§18", "status": "PASS" },
+    { "file": "audit-log-record.schema.json", "spec": "§15", "status": "PASS" },
+    { "file": "citation-registry.schema.json", "spec": "§7", "status": "PASS" },
+    { "file": "node-ids.schema.json", "spec": "§8", "status": "PASS" }
+  ],
+  "api_interfaces": [
+    { "file": "api/tax-year-loader.interface.ts", "spec": "§12", "status": "PASS" }
+  ]
+}

@@ -1,0 +1,6 @@
+algorithm: Ed25519
+role: tax-director
+vault_key: taxtips-tax-director
+message: sha256(manifest.yaml)
+message_sha256: 3a9835a15a0a994cb3fa9a0784add9ea254e1963487b750cf48b9220637e0b8e
+signature: vault:v1:To2C8KM9ZrckFvZqaPUN5SrTOeihEXFGdlhcWNhY6HWO2lW3FjpPC325Y0+DFcok0ClCBD1I475vPdUu75AbAQ==

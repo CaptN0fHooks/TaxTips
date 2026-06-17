@@ -13,4 +13,11 @@ jobs:
         with:
           node-version: '22'
       - name: Check citation drift
-        run: echo "citation-drift stub — Phase 1 will implement"
+        run: |
+          npm ci
+          npm run rule-pack-validate -- --all --report citation-drift.report.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: citation-drift-report
+          path: citation-drift.report.json

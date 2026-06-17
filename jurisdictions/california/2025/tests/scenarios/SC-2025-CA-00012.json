@@ -1,0 +1,151 @@
+{
+  "scenario_id": "SC-2025-CA-00012",
+  "title": "MFJ both tipped — combined UEBE ,600 — 2% floor — net UEBE below CA std ded — §224 zero — 2025",
+  "tax_year": 2025,
+  "jurisdictions": [
+    "california"
+  ],
+  "inputs": {
+    "filing_status": "mfj",
+    "dependents": [],
+    "w2s": [
+      {
+        "w2_id": "w2-1",
+        "employer": "Bistro 2025 (tipped)",
+        "box1": 42000,
+        "box2": 0,
+        "box3": 42000,
+        "box4": 2604,
+        "box5": 42000,
+        "box6": 609,
+        "box7": 10000,
+        "box8": 0,
+        "box12_codes": [],
+        "box14b_ttoc": 102,
+        "box16": 42000,
+        "box17": 1260,
+        "box19": 504,
+        "tipped_toggle": true,
+        "ttoc_code": 102
+      },
+      {
+        "w2_id": "w2-2",
+        "employer": "Mixology Bar 2025 (tipped)",
+        "box1": 35000,
+        "box2": 0,
+        "box3": 35000,
+        "box4": 2170,
+        "box5": 35000,
+        "box6": 508,
+        "box7": 8000,
+        "box8": 0,
+        "box12_codes": [],
+        "box14b_ttoc": 102,
+        "box16": 35000,
+        "box17": 1050,
+        "box19": 420,
+        "tipped_toggle": true,
+        "ttoc_code": 102
+      }
+    ],
+    "tipped_overlay": {
+      "w2-1": {
+        "occupation": 102,
+        "unreported_cash_tips": 0,
+        "tip_pool": true,
+        "owns_pct_of_employer": 0,
+        "non_slip_shoes_cost": 350,
+        "uniforms_cost": 200,
+        "required_tools_cost": 0,
+        "union_dues": 0,
+        "licensing_fees": 0,
+        "mileage_between_jobs": 0
+      },
+      "w2-2": {
+        "occupation": 102,
+        "unreported_cash_tips": 0,
+        "tip_pool": true,
+        "owns_pct_of_employer": 0,
+        "non_slip_shoes_cost": 0,
+        "uniforms_cost": 0,
+        "required_tools_cost": 1800,
+        "union_dues": 0,
+        "licensing_fees": 250,
+        "mileage_between_jobs": 0
+      }
+    },
+    "interview": {
+      "marketplace_coverage": false,
+      "advance_ptc_received": 0,
+      "hsa_contribution": 0,
+      "student_loan_interest": 0,
+      "charitable_cash": 0,
+      "retirement_contribution": 0,
+      "aotc_student_expenses": 0,
+      "ca_renter": false,
+      "ca_foster_youth": false,
+      "investment_income": 0,
+      "taxpayer_age": 33,
+      "spouse_age": 31,
+      "dependent_status": false,
+      "allocated_tip_records_amount": null,
+      "itemized_deductions": {
+        "medical": 0,
+        "salt": 0,
+        "mortgage_interest": 0,
+        "charitable_cash": 0,
+        "misc": 0,
+        "ca_uebe_uniforms": 200,
+        "ca_uebe_shoes": 350,
+        "ca_uebe_tools": 1800,
+        "ca_uebe_union_dues": 0,
+        "ca_uebe_licensing": 250,
+        "ca_uebe_mileage_miles": 0
+      }
+    }
+  },
+  "expected_outputs": {
+    "ca-540-2025/line-17": 77000,
+    "ca-540-2025/line-19": 65588,
+    "ca-540-sca-2025/part-1/sec-c/line-24z": 0,
+    "ca-540-2025/line-31": 1428,
+    "ca-540-2025/line-40": 307,
+    "ca-540-2025/line-48": 1121,
+    "ca-540-2025/line-74": 924,
+    "ca-540-2025/line-75": 0,
+    "ca-540-2025/line-83": 3234,
+    "ca-540-2025/line-93": 2113,
+    "ca-540-2025/line-101": 0,
+    "ca-540-sca-2025/part-2/line-19": 1060,
+    "summary.california_refund_or_owe": 2113
+  },
+  "expected_optimization_choices": {
+    "filing_status": "mfj",
+    "federal_deduction_choice": "standard",
+    "california_deduction_choice": "standard"
+  },
+  "expected_ambiguity_dispositions": {
+    "AMB-2025-CA-224-LINE-PLACEMENT": {
+      "disposition": "not_applicable",
+      "notes": "not_applicable — no federal §224 deduction on this return"
+    }
+  },
+  "controlling_report_anchors": [
+    "CTR/C.2/2025/mfj",
+    "CTR/C.4/2025/brackets-mfj",
+    "CTR/C.12/2025/sdi",
+    "CTR/D.3/2025/section-224-addback",
+    "CTR/D.1/2023/uebe-2pct-floor",
+    "CTR/D.1/2025/uebe-mileage-2025"
+  ],
+  "source_authority_citations": [
+    "R&TC §17041",
+    "R&TC §17072",
+    "R&TC §13009.5"
+  ],
+  "commercial_differential": null,
+  "tax_director_signoff": {
+    "name": "Tax Director",
+    "date": "2026-06-16"
+  }
+}

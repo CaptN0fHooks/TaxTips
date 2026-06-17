@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://taxtips.local/schemas/v1.0.0/citation-registry.schema.json",
+  "title": "Citation Registry",
+  "description": "SPEC.md §7.2 — citation-registry.yaml schema.",
+  "type": "object",
+  "required": ["citations"],
+  "additionalProperties": false,
+  "properties": {
+    "citations": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          { "type": "string", "pattern": "^CTR/" },
+          {
+            "type": "object",
+            "required": ["anchor"],
+            "additionalProperties": true,
+            "properties": {
+              "anchor": { "type": "string", "pattern": "^CTR/" },
+              "source": { "type": "string" }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
